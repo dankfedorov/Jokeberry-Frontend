@@ -1,0 +1,10 @@
+.footer{
+    background-color: rgb(79, 79, 102);
+  
+   
+  background-image: linear-gradient(45deg, rgb(0, 0, 0),
+    rgba(136, 45, 197, 0.685), rgb(0, 0, 0)); 
+}
+.footer__text {
+    color: aliceblue;
+}

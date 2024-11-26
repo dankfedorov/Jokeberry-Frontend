@@ -1,0 +1,39 @@
+
+body {
+  background: rgb(38,84,98);
+  background: radial-gradient(circle, rgb(175, 175, 175) 0%, rgb(196, 196, 197) 100%);
+
+}
+.container{
+  gap: 25px;
+  flex-direction: column;
+}
+.block{
+  background-color:rgba(226, 226, 226, 0.822);
+  text-align: center;
+  border-radius: 8px;
+  border-color: rgb(112, 111, 111);
+  font-size: 14px;
+  /* max-width: 320px;  */
+  width: 100%;
+  
+}
+.card input{
+  background-color: rgba(190, 190, 190, 0.26);
+  border-color: rgba(112, 112, 112, 0.534);
+  transition: 0.3s;
+}
+.card input:focus{
+  background-color: rgba(255, 255, 255, 0.986);
+ 
+}
+.form-floating label{
+  font-size: 0;
+  font-size: 14px;
+  min-width: 50px;
+  color: rgb(44, 43, 43);
+}
+.form-floating label:focus{
+  font-size: 12px;
+  color: blue;
+}
