@@ -38,7 +38,7 @@ const DataDisplay = () => {
     <div >
       {/* <p className='small'>https://jsonplaceholder.typicode.com/posts</p> */}
       {/* <p className="small"><pre>{JSON.stringify(data, null, 2)}</pre></p> */}
-      <h3 className='weather small'>API Weather</h3>
+      <h4 className='p-1' aria-label='API Weather'>API Weather</h4>
       {array.map(item => (
           <span className='weather' key={item.id}>
             <p className='p-0'>Город: {item.location.name}<br></br>

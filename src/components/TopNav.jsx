@@ -4,14 +4,17 @@ import "../assets/styles/topnav.css"
 function TopNav() {
   return (
 
-     <nav className="header-nav-link ms-auto">
+    <nav className="header-nav-link ms-auto" aria-label='Меню'>    
       <ul className="d-flex align-items-center">
-         <li ><i class="bi bi-house-door-fill"></i><a href="/"></a></li>
-         <li ><i class="bi bi-people-fill"></i> <a href="/user"></a></li>
-         <li ><i class="bi bi-gear"></i><a href="/admin"></a></li>
+         {/* <li ><a href="/"><i className="bi bi-house-door-fill"></i> Home</a></li> */}
+         <li ><a href="/user"><i className="bi bi-people-fill"></i> Users</a></li>
+         {/* <li ><a href="/admin"><i className="bi bi-gear"></i> Settings</a></li> */}
          
       </ul>
-    </nav> )
+    </nav> 
+   
+   
+    )
 }
 
 export default TopNav

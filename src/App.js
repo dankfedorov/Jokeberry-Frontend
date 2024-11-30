@@ -7,18 +7,17 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 import "./App.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import LandPage from "pages/LandPage";
-
-
+import LoginPage from "pages/LoginPage";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Header />
-      <LandPage />   
-     </>
-
-     
+      {/* <LandPage /> */}
+      <Footer />
+    </div>
   );
 }
 

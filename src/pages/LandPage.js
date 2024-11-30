@@ -4,8 +4,6 @@ import robot1 from "../assets/images/robot1.png";
 import robot2 from "../assets/images/robot2.png";
 import robot3 from "../assets/images/robot3.png";
 import robot4 from "../assets/images/robot4.png";
-import robot5 from "../assets/images/robot5.png";
-import robot6 from "../assets/images/robot6.png";
 import qr from "../assets/images/qr.png";
 import draw from "../assets/images/Drawio.png";
 import figma from "../assets/images/Figma.png";
@@ -15,38 +13,37 @@ import reactimg from "../assets/images/React.png";
 import npmimg from "../assets/images/Npm.png";
 import hirobby from "../assets/images/hirobby.png";
 
-import Footer from "../components/Footer";
-import WeatherAPI from "../components/WeatherAPI";
-import RatesAPI from "../components/RatesAPI";
 
 function LandPage() {
   return (
     <>
       {/* <!-- Hero Section  vh-100 --> */}
-      <section id="hero" class="text-white text-center hero ">
-        <div class="container hero__container ">
-          <div class="row d-flex align-items-center justify-content-between">
-            <div class="col-md-5">
-              <h1 class="display-4">Создаем сайт, который работает для нас</h1>
-              <p class="hero__descr">
+      <section id="hero" className="text-white text-center hero ">
+        <div className="container hero__container ">
+          <div className="row d-flex align-items-center justify-content-between">
+            <div className="col-md-5">
+              <h1 className="display-4">Создаем сайт, который работает для нас</h1>
+              <p className="hero__descr">
                 современные решения <br></br> для ваших задач
               </p>
-              {/* <a href="/" class="btn btn-light btn-lg hero__btn">
+              {/* <a href="/" className="btn btn-light btn-lg hero__btn">
                 Получить доступ
               </a> */}
             </div>
 
-            <div class="col-md-3">
+            <div className="col-md-3">
               <img src={robot2} alt="" />
             </div>
 
-            <div class="col-md-4">
+            <div className="col-md-4">
               <img src={qr} alt="qr link" />
               <h2 className=" container_h2">SCAN ME NOW</h2>
             </div>
           </div>
         </div>
       </section>
+
+    
 
       <main>
         <section id="intro" className="intro">
@@ -97,24 +94,24 @@ function LandPage() {
         </section>
 
         {/* <!-- Features Section --> */}
-        <section id="features" class="features p-1">
-          <div class="container features__container">
-            <h2 class="text-center mb-4">Ключевые этапы и технологии</h2>
+        <section id="features" className="features p-1">
+          <div className="container features__container">
+            <h2 className="text-center mb-4">Ключевые этапы и технологии</h2>
             <p className="small">Разделение работ на этапы</p>
-            <div class="row">
+            <div className="row">
               {/* <!-- Feature 1 --> */}
-              <div class="col-md-4">
-                <div class="card shadow-sm">
-                  <div class="card-body">
-                    <h5 class="card-title">
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <div className="card-body">
+                    <h5 className="card-title">
                       <i className="bi bi-1-square"></i> Анализ целевой
                       аудитории
                     </h5>
-                    <p class="card-text mb-2">
+                    <p className="card-text mb-2">
                       Необходимо определить кто является основной целевой
                       аудиторией сайта.
                     </p>
-                    <p class="card-text mb-2">
+                    <p className="card-text mb-2">
                       Определить что должно быть на сайте (каталог товаров,
                       разделы, блоки, контактные формы).
                     </p>
@@ -122,18 +119,18 @@ function LandPage() {
                 </div>
               </div>
               {/* <!-- Feature 2 --> */}
-              <div class="col-md-4">
-                <div class="card shadow-sm">
-                  <div class="card-body">
-                    <h5 class="card-title">
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <div className="card-body">
+                    <h5 className="card-title">
                       {" "}
                       <i className="bi bi-2-square"></i> Архитектура проекта
                     </h5>
-                    <p class="card-text mb-2">
+                    <p className="card-text mb-2">
                       Разработайте структуру контента, навигация, учитывая
                       важность разделов и их взаимосвязь.
                     </p>
-                    <p class="card-text mb-2">
+                    <p className="card-text mb-2">
                       Определите подходящие технологии (например, CMS или
                       фреймворки).
                     </p>
@@ -141,19 +138,19 @@ function LandPage() {
                 </div>
               </div>
               {/* <!-- Feature 3 --> */}
-              <div class="col-md-4">
-                <div class="card shadow-sm">
-                  <div class="card-body">
-                    <h5 class="card-title">
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <div className="card-body">
+                    <h5 className="card-title">
                       {" "}
                       <i className="bi bi-3-square"></i> Проектирование <br />
                       (UX/UI дизайн)
                     </h5>
-                    <p class="card-text mb-2">
+                    <p className="card-text mb-2">
                       UX-дизайн (User Experience) позволяет нам сделать сайт
                       удобным и интуитивно понятным для пользователей.
                     </p>
-                    <p class="card-text mb-2">
+                    <p className="card-text mb-2">
                       UI-дизайн (User Interface) - визуальная часть сайта.
                     </p>
                   </div>
@@ -334,7 +331,7 @@ function LandPage() {
         </section>
 
         {/* <!-- Frontend --> */}
-        <section id="about" class="bg-light py-5 about">
+        <section id="about" className="bg-light py-5 about">
           <div className="container about__container">
             <h2 className="text-center mb-4">РАБОТА С FRONTEND</h2>
             <p className="display-10">Технологии и инструменты</p>
@@ -352,9 +349,7 @@ function LandPage() {
                       <li>WEB online</li>
                     </ul>
                     <a href="https://www.drawio.com">Подробнее </a>
-                    {/* <a href="https://www.drawio.com" className="text-muted">
-                      Перейти
-                    </a> */}
+                    
                   </div>
                 </div>
               </div>
@@ -433,7 +428,7 @@ function LandPage() {
                       <li>для создания приложений</li>
                     </ul>
 
-                    <a href="https://ru.react.dev/" class="text-muted">
+                    <a href="https://ru.react.dev/" className="text-muted">
                       Перейти
                     </a>
                   </div>
@@ -450,7 +445,7 @@ function LandPage() {
                       <li>Бесплатно</li>
                       <li>пакетный менеджер для React, библиотеки,модули </li>
                     </ul>
-                    <a href="https://www.npmjs.com/" class="text-muted">
+                    <a href="https://www.npmjs.com/" className="text-muted">
                       Перейти
                     </a>
                   </div>
@@ -461,7 +456,7 @@ function LandPage() {
         </section>
         {/* <!-- Backend --> */}
 
-        <section id="about-back" class="bg-light py-5 about-back">
+        <section id="about-back" className="bg-light py-5 about-back">
           <div className="container about__container">
             <h2 className="text-center mb-4">РАБОТА С BACKEND</h2>
             <p className="display-10">Технологии и инструменты</p>
@@ -479,7 +474,7 @@ function LandPage() {
                         разработки.
                       </li>
                     </ul>
-                    <a href="https://nodejs.org" class="text-muted">
+                    <a href="https://nodejs.org" className="text-muted">
                       Перейти
                     </a>
                   </div>
@@ -579,53 +574,12 @@ function LandPage() {
           </div>
         </section>
 
-        <section id="font-back" className="font-back">
-          <div className="container mt-5">
-            <h2 className="text-center mb-4"></h2>
-
-            <div className="row">
-              <div className="col-md-3">
-                <div className="p-3">
-                  <p className="text-center">
-                    <img src={robot5} alt="qr link" />
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-3">
-                <div className="p-3">
-                  <p className="p-2 text-center">
-                    <i class="bi bi-usd"></i> <RatesAPI />
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-3">
-                <div className="p-3">
-                  <p className="text-center"></p>
-                  <p className="p-2 text-center">
-                    <WeatherAPI />{" "}
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-3">
-                <div className="p-3">
-                  <p className="p-2 text-center">
-                    <img src={qr} alt="qr link" />
-                    <p className="text-center">Пользоватлей в системе:</p>
-                    <i class="bi bi-people-fill"></i> 48
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+ 
       </main>
 
       {/* <!-- Footer Section --> */}
 
-      <Footer />
+ 
     </>
   );
 }

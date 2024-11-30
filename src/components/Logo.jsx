@@ -14,8 +14,8 @@ function Logo() {
         <img src={logo} alt="Логотип Аналитика" aria-label="Аналитика" />
         <span className="d-none d-lg-block"> ROBBY <b>AI</b></span>
       </a>
-{/*       
-      <i
+      
+      {/* <i
         className="bi bi-list toggle-sidebar-btn"
         onClick={handleToggleSideBar}
       ></i> */}

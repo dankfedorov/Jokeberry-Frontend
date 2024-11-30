@@ -36,10 +36,8 @@ const RatesDisplay = () => {
 
   return (
     <div >
-      {/* <p className='small'>https://jsonplaceholder.typicode.com/posts</p> */}
-      {/* <p className="small"><pre>{JSON.stringify(data, null, 2)}</pre></p> */}
-      <h3 className='weather small'>API данные - курсы валют ЦБ РФ</h3>
-      <p className='small'>только забрал с <a href='https://www.cbr-xml-daily.ru/daily_json.js'>cbr</a></p>
+      <h4 className='p-1' aria-label='API данные - курсы валют ЦБ РФ'>API Курсы</h4>
+      <p className=''>данные с сайта <a href='https://www.cbr-xml-daily.ru/daily_json.js'>cbr</a> </p>
       {array.map(item => (
           <span className='rates' key={item.id}>
             <p className='p-0'>USd: {item.Valute.USD.Value} </p>

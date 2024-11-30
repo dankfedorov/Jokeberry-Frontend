@@ -1,6 +1,6 @@
 /* header */
 .header {
-    position: sticky;
+    /* position: sticky; */
     background-color: rgb(231, 231, 231);
     gap: 10px;
     transition: all 0.5s;

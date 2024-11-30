@@ -47,8 +47,9 @@ img {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #bebebe;
-  background: var(--light);
+  color: rgb(90, 90, 90);
+  background: var(--gray-dark);
+  /* overflow-x:hidden; */
 }
 a {
   color: var(--primary);
