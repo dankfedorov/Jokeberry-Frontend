@@ -6,7 +6,7 @@ function FromApi() {
 
   // Получение данных с сервера
   useEffect(() => {
-    axios.get('http://localhost:5000/api/items')
+    axios.get('http://188.130.154.26:5000/api/items')
       .then(response => {
         setItems(response.data);
       })
@@ -16,7 +16,8 @@ function FromApi() {
   }, []);
 
   return (
-    <div className="">
+    <div className="small">
+      <span>Получаем данные:</span>
         {items.map((item) => (
           <p key={item._id}>Имя:{item.username} status:{item.roles}</p>
         ))}

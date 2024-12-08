@@ -1,32 +1,51 @@
 
 body {
   background: rgb(38,84,98);
-  background: radial-gradient(circle, rgb(175, 175, 175) 0%, rgb(196, 196, 197) 100%);
+  background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
 
 }
 .container{
   gap: 25px;
   flex-direction: column;
 }
+.card-block{
+  min-width: 320px;
+  background-color:rgb(243, 243, 243);
+  padding: 15px;
+  border-radius: 12px;
+  color: rgb(102, 102, 102);
+}
 .block{
-  background-color:rgba(226, 226, 226, 0.822);
+  background-color:rgb(226, 226, 226);
   text-align: center;
   border-radius: 8px;
-  border-color: rgb(112, 111, 111);
+  border-color: rgb(51, 51, 51);
   font-size: 14px;
   /* max-width: 320px;  */
-  width: 100%;
-  
+  width: 100%; 
 }
-.card input{
-  background-color: rgba(190, 190, 190, 0.26);
+.card-block input{
+  background-color: rgba(255, 255, 255, 0.849);
   border-color: rgba(112, 112, 112, 0.534);
   transition: 0.3s;
 }
-.card input:focus{
+.card-block input:focus{
   background-color: rgba(255, 255, 255, 0.986);
  
 }
+
+.card-block button{
+  padding:15px 39px;
+  border-radius: 5px;
+  border-color: #00AEEF;
+  color:  #00AEEF;
+  transition: 0.3s;
+}
+.card-block button:hover{
+  background-color:#00AEEF;
+  color: #ffffff;
+}
+
 .form-floating label{
   font-size: 0;
   font-size: 14px;
@@ -36,4 +55,7 @@ body {
 .form-floating label:focus{
   font-size: 12px;
   color: blue;
+}
+.small{
+  color: rgb(122, 122, 122);
 }

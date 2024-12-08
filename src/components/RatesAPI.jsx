@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../assets/styles/weatherapi.css'
+import '../assets/styles/ratesapi.css'
 
 const RatesDisplay = () => {
   // Состояние для хранения данных и состояния загрузки
@@ -36,15 +36,14 @@ const RatesDisplay = () => {
 
   return (
     <div >
-      <h4 className='p-1' aria-label='API данные - курсы валют ЦБ РФ'>API Курсы</h4>
-      <p className=''>данные с сайта <a href='https://www.cbr-xml-daily.ru/daily_json.js'>cbr</a> </p>
+      <p className=''>данные с сайта <a href='https://www.cbr-xml-daily.ru/daily_json.js'><b>CBR</b></a> </p>
       {array.map(item => (
-          <span className='rates' key={item.id}>
+          <div className='rates' key={item.id}>
             <p className='p-0'>USd: {item.Valute.USD.Value} </p>
             <p className='p-0'>EUR: {item.Valute.EUR.Value} </p>
             <p className='p-0'>CNY: {item.Valute.CNY.Value} </p>
             <p className='p-0'>GBR: {item.Valute.GBP.Value} </p>
-          </span>
+          </div>
         ))}
      
     </div>

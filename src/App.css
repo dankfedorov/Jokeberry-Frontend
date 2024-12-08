@@ -46,9 +46,10 @@ img {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: rgb(90, 90, 90);
-  background: var(--gray-dark);
+  font-family: "Robot", sans-serif;
+  color: rgb(19, 18, 18);
+  background: #ffffff;
+  font-size: 18px;
   /* overflow-x:hidden; */
 }
 a {
@@ -111,7 +112,7 @@ ul {
 .dropdown-menu .dropdown-header,
 .dropdown-menu .dropdown-footer {
   text-align: left;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px 25px;
 }
 .dropdown-menu .dropdown-footer a {

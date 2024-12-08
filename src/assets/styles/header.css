@@ -1,16 +1,16 @@
 /* header */
 .header {
-    /* position: sticky; */
-    background-color: rgb(231, 231, 231);
-    gap: 10px;
+    position: relative;
+    background-color: rgba(243, 243, 243, 0.945);
+    gap: 3px;
     transition: all 0.5s;
     z-index: 998;
     height: 60px;
-    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    box-shadow: 0px 2px 20px rgba(33, 1, 73, 0.1);
+   
     padding-left: 15px;
     padding-right: 15px;
     z-index: 999;
-  
   }
   /* Search bar */
   /* Toogle Sidebar button */
@@ -19,5 +19,6 @@
       padding-left: 10px;
       cursor: pointer;
       color: #012970;
+      outline: 1px solid #00AEEF;
   }
   

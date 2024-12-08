@@ -11,7 +11,11 @@ import vs from "../assets/images/VS.png";
 import bootst from "../assets/images/Bootstrap.png";
 import reactimg from "../assets/images/React.png";
 import npmimg from "../assets/images/Npm.png";
-import hirobby from "../assets/images/hirobby.png";
+import node from "../assets/images/Node.png";
+import mongo from "../assets/images/MongoDB.png";
+import postman from "../assets/images/Postman.png";
+import deploy from "../assets/images/Deploy.png";
+import phones from "../assets/images/phones.png";
 
 
 function LandPage() {
@@ -19,48 +23,57 @@ function LandPage() {
     <>
       {/* <!-- Hero Section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
-        <div className="container hero__container ">
+        <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between">
-            <div className="col-md-5">
-              <h1 className="display-4">Создаем сайт, который работает для нас</h1>
-              <p className="hero__descr">
-                современные решения <br></br> для ваших задач
+            <div className="col-md-6 mb-2">
+              <img src={phones} alt="jokeberry" />
+            </div>
+
+            <div className="col-md-6">
+              <h1 className="mb-3 p-2">
+                Создание современного сайта.</h1>
+              <p className="hero__descr mb-2">адаптивная верстка 320*1920px </p>
+              <p className="hero__descr mb-4">
+                {" "}
+                HTML, React, Nodejs, MongoDB
               </p>
-              {/* <a href="/" className="btn btn-light btn-lg hero__btn">
-                Получить доступ
-              </a> */}
+              <button
+                className="p-2 mb-2 hero__btn  tg-link"
+                target="https://t.me/JokeBerry_Bot"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-telegram"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                </svg>{" "}
+                Telegram Bot
+              </button>
             </div>
 
-            <div className="col-md-3">
+            {/* <div className="col-md-1">
               <img src={robot2} alt="" />
-            </div>
-
-            <div className="col-md-4">
-              <img src={qr} alt="qr link" />
-              <h2 className=" container_h2">SCAN ME NOW</h2>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
-    
-
       <main>
-        <section id="intro" className="intro">
-          <div className="container mt-5 container__intro">
+        <section id="intro" className="intro bg__img">
+          <div className="container container__intro">
             <h2 className="text-center mb-4"></h2>
-            <div className="row d-flex align-items-center justify-content-between">
+            <div className="row d-flex align-items-center justify-content-between">            
+            
+            <div className="col-md-3"></div>
+      
               <div className="col-md-3">
                 <div className="p-3">
                   <p className="text-center">
-                    <img src={hirobby} alt="" />
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="p-3">
-                  <p className="text-center">
-                    <img src={robot1} alt="" />
+                    <img src={robot2} alt="" />
                   </p>
                 </div>
               </div>
@@ -68,20 +81,21 @@ function LandPage() {
               <div className="col-md-6">
                 <div className="p-3">
                   <span className="p-2">
+                    
                     <h2 className="mb-4">Добро пожаловать!</h2>
                     <p className="mb-4">
                       Этот сайт создан, чтобы стать вашим надежным помощником в
                       работе по созданию <b>собственных проектов</b>
                     </p>
-                    <p className="mb-4">
-                      Здесь вы найдете все необходимое для упрощения рабочих
-                      процессов, организации задач и повышения продуктивности.
-                    </p>
+
                     <p className="mb-4">
                       Этот сайт создан в формате презентации, где шаг за шагом
-                      подробно разбирается структура создания веб-сайта. Мы
-                      тщательно проработали каждый этап, чтобы сделать процесс
-                      понятным и доступным даже для начинающих.
+                      подробно разбирается структура создания веб-сайта.
+                    </p>
+
+                    <p className="mb-4">
+                      Мы тщательно проработали каждый этап, чтобы сделать
+                      процесс понятным и доступным даже для начинающих.
                     </p>
                     <p className="mb-4">
                       Спасибо, что доверяете нам — вместе мы добьемся большего!
@@ -91,11 +105,9 @@ function LandPage() {
               </div>
             </div>
           </div>
-        </section>
 
-        {/* <!-- Features Section --> */}
-        <section id="features" className="features p-1">
           <div className="container features__container">
+            <p className="small text-muted">( кратко о важном )</p>
             <h2 className="text-center mb-4">Ключевые этапы и технологии</h2>
             <p className="small">Разделение работ на этапы</p>
             <div className="row">
@@ -218,10 +230,38 @@ function LandPage() {
               </div>
             </div>
           </div>
+         
+        </section>
+         {/* pIC BLOCK */}
+        <section id="nav-block" className="nav-block">
+          <div className="container">
+            <div className="row d-flex align-items-center justify-content-center">
+              
+              <div className="col-md-6 text-center">
+                <span className="nav-block__h2 mb-3">QR переход на сайт</span>
+              </div>
+              
+              <div className="col-md-6">
+                <ul className="nav-blcok__group">
+                  <li className="nav-block__link">
+                    <a href="#" className="">
+                      <div className="shadow-sm mb-4">
+                        <div className="card__body">
+                          <img src={qr} alt="qr link" />
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <section id="font-back" className="font-back">
+        <section id="font-back" className="front-back">
           <div className="container mt-5">
+            <p className="small">( кратко фронтэнд )</p>
             <h2 className="text-center mb-4">FRONTEND - ВАШ БРАУЗЕР</h2>
 
             <div className="row ">
@@ -240,14 +280,7 @@ function LandPage() {
                     {" "}
                     <b>HTML</b> (структура страницы)
                   </p>
-                  <p className="p-2 small">
-                    Незабываем про
-                    <b> БЭМ структуру кода.</b> Блок, Элемент, Модификатор — это
-                    методология разработки и организации кода, которая помогает
-                    создавать структурированный, модульный и переиспользуемый
-                    код. Она часто используется в веб-разработке для именования
-                    классов CSS и организации файлов.
-                  </p>
+
                   <p className="p-2">
                     {" "}
                     <b>CSS</b> (стилизация и оформление) + добавим немного{" "}
@@ -258,7 +291,6 @@ function LandPage() {
                     <b>JavaScript</b> (динамическое поведение){" "}
                     <b> ... ну а тут МАГИЯ</b>
                   </p>
-
                   <p className="p-2 ">
                     Frontend-разработчик работает над тем, чтобы сайт был
                     визуально привлекательным, функциональным и удобным для
@@ -278,6 +310,7 @@ function LandPage() {
 
         <section id="font-back" className="font-back">
           <div className="container mt-5">
+            <p className="small text-muted">( кратко бэкэнд )</p>
             <h2 className="text-center mb-4">BACKEND - СЕРВЕР</h2>
 
             <div className="row ">
@@ -299,25 +332,20 @@ function LandPage() {
                   <p className="p-2">
                     Языки программирования: Javascript и библиотеки...
                   </p>
-                  <p className="p-2 small">
-                    Бывает даже добавляют язык старичков типа <b>Php</b> или
-                    какой нибудь другой молодежный язык типа <b>Python</b>
-                  </p>
+
                   <p className="p-2">
                     {" "}
-                    <b>Серверы:</b> Тут "надо почитать"...
-                    Ubuntu.
+                    <b>Серверы:</b> Тут "надо почитать"... Ubuntu.
                   </p>
-                  <p className="p-2 small">
-                    <b>Linux:</b> наиболее популярная платформа, благодаря
-                    безопасности, стабильности и гибкости. Примеры: Ubuntu
-                    Server CentOS / Rocky Linux Debian.
-                  </p>
-                  <p className="p-2 small">
-                    <b>Ubuntu</b> — одна из самых популярных Linux-дистрибутивов, разработанная Canonical. Используется как для настольных компьютеров, так и для серверов.
+
+                  <p className="p-2 ">
+                    <b>Linux Ubuntu:</b> наиболее популярная платформа.
+                    Linux-дистрибутивов. Используется как для настольных
+                    компьютеров, так и для серверов.
                   </p>
                   <p className="p-2">
-                    Базы данных: MySQL, PostgreSQL, <b>берем MongoDB</b> и поехали...
+                    Базы данных: MySQL, PostgreSQL, <b>берем MongoDB</b> и
+                    поехали...
                   </p>
                   <p className="p-2 ">
                     Backend-разработчик занимается созданием API,
@@ -333,253 +361,241 @@ function LandPage() {
         {/* <!-- Frontend --> */}
         <section id="about" className="bg-light py-5 about">
           <div className="container about__container">
+            <p className="small text-muted">( инструментарий )</p>
             <h2 className="text-center mb-4">РАБОТА С FRONTEND</h2>
             <p className="display-10">Технологии и инструменты</p>
             <div className="row text-center">
               {/* <!-- Plan 1 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <img src={draw} alt="qr link" />
-                    <h5 className="card-title">www.drawio.com</h5>
-                    <p className="display-6">Архитектура</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>проектируем архитектуру сайта</li>
-                      <li>WEB online</li>
-                    </ul>
-                    <a href="https://www.drawio.com">Подробнее </a>
-                    
+                <a href="https://www.drawio.com">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={draw} alt="qr link" />
+                      <h5 className="card-title">www.drawio.com</h5>
+                      <p className="display-6">Архитектура</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>проектируем архитектуру сайта</li>
+                        <li>WEB online</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               {/* <!-- Plan 2 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <img src={figma} alt="qr link" />
-                    <h5 className="card-title">www.figma.com</h5>
-                    <p className="display-6">Структура сайта</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>создаем структуру и дизайн</li>
-                      <li>WEB online</li>
-                    </ul>
-
-                    <a href="https://www.figma.com" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://www.figma.com" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={figma} alt="qr link" />
+                      <h5 className="card-title">www.figma.com</h5>
+                      <p className="display-6">Структура сайта</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>создаем структуру и дизайн</li>
+                        <li>WEB online</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               {/* <!-- Plan 3 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <img src={vs} alt="qr link" />
-                    <h5 className="card-title">
-                      Visual studio от microsoft.com
-                    </h5>
-                    <p className="display-6">Редактор кода</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>HTML + CSS + JS</li>
-                      <li>WEB online</li>
-                    </ul>
-                    <a
-                      href="https://visualstudio.microsoft.com/ru/"
-                      className="text-muted"
-                    >
-                      Перейти
-                    </a>
+                <a
+                  href="https://visualstudio.microsoft.com/ru/"
+                  className="text-muted"
+                >
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={vs} alt="qr link" />
+                      <h5 className="card-title">
+                        Visual studio от microsoft.com
+                      </h5>
+                      <p className="display-6">Редактор кода</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>HTML + CSS + JS</li>
+                        <li>WEB online</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               {/* <!-- Plan 1 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <img src={bootst} alt="qr link" />
-                    <h5 className="card-title">www.getbootstrap.com</h5>
-                    <p className="display-6">Bootstrap</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>
-                        фреймворк стилей CSS для быстрой пользовательского
-                        интерейса
-                      </li>
-                    </ul>
-                    <a href="https://getbootstrap.com" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://getbootstrap.com" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={bootst} alt="qr link" />
+                      <h5 className="card-title">www.getbootstrap.com</h5>
+                      <p className="display-6">Bootstrap</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>фреймворк стилей CSS </li>
+                        <li>для быстрой пользовательского интерейса</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
+
               {/* <!-- Plan 2 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <img src={reactimg} alt="qr link" />
-                    <h5 className="card-title">www.react.dev</h5>
-                    <p className="display-6">REACT </p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>WEB библиотека</li>
-                      <li>для создания приложений</li>
-                    </ul>
-
-                    <a href="https://ru.react.dev/" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://ru.react.dev/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={reactimg} alt="qr link" />
+                      <h5 className="card-title">www.react.dev</h5>
+                      <p className="display-6">REACT </p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>WEB библиотека</li>
+                        <li>для создания приложений</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
+
               {/* <!-- Plan 3 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <img src={npmimg} alt="qr link" />
-                    <h5 className="card-title">www.npmjs.com</h5>
-                    <p className="display-6">NPM модули</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>пакетный менеджер для React, библиотеки,модули </li>
-                    </ul>
-                    <a href="https://www.npmjs.com/" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://www.npmjs.com/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={npmimg} alt="qr link" />
+                      <h5 className="card-title">www.npmjs.com</h5>
+                      <p className="display-6">NPM модули</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>пакетный менеджер для React </li>
+                        <li>библиотеки,модули</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
         </section>
-        {/* <!-- Backend --> */}
 
-        <section id="about-back" className="bg-light py-5 about-back">
+        {/* <!-- Backend --> */}
+        <section id="about" className="bg-light py-5 about">
           <div className="container about__container">
+            <p className="small text-muted">( инструментарий )</p>
             <h2 className="text-center mb-4">РАБОТА С BACKEND</h2>
             <p className="display-10">Технологии и инструменты</p>
             <div className="row text-center">
               {/* <!-- Plan 1 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <h5 className="card-title">Node.js</h5>
-                    <p className="display-6">Cерверная часть</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>
-                        платформа, использует JavaScript для серверной
-                        разработки.
-                      </li>
-                    </ul>
-                    <a href="https://nodejs.org" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://nodejs.org">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={node} alt="qr link" />
+                      <h5 className="card-title">https://nodejs.org</h5>
+                      <p className="display-6">NODE.JS</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>среда выполнения JavaScript</li>
+                        <li>JavaScript-код на стороне сервера</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               {/* <!-- Plan 2 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <h5 className="card-title">MongoDB</h5>
-                    <p className="display-6">База данных</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>хранения данных BSON, JSON</li>
-                      <li>WEB online</li>
-                    </ul>
-
-                    <a href="https://www.mongodb.com" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://www.mongodb.com/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={mongo} alt="qr link" />
+                      <h5 className="card-title">www.mongodb.com</h5>
+                      <p className="display-6">MongoDB</p>
+                      <ul className="list-unstyled">
+                        <li>База данных</li>
+                        <li>создаем структуру и дизайн</li>
+                        <li>Данные хранятся в формате JSON</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
-              </div>
-              {/* <!-- Plan 3 --> */}
-              <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <h5 className="card-title">www.npmjs.com</h5>
-                    <p className="display-6">NPM модули</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>пакетный менеджер для React, библиотеки,модули </li>
-                    </ul>
-                    <a href="https://www.npmjs.com/" className="text-muted">
-                      Перейти
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* <!-- Plan 1 --> */}
-              <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <h5 className="card-title">Postman agent</h5>
-                    <p className="display-6"> Тестирования</p>
-                    <ul className="list-unstyled">
-                      <li>Бесплатно</li>
-                      <li>
-                        Работа с HTTP-запросы (GET, POST, PUT, DELETE и других)
-                        на сервер.
-                      </li>
-                    </ul>
-                    <a href="https://www.postman.com/" className="text-muted">
-                      Перейти
-                    </a>
-                  </div>
-                </div>
+                </a>
               </div>
               {/* <!-- Plan 2 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <h5 className="card-title">Хостинг</h5>
-                    <p className="display-6">Размещение</p>
-                    <ul className="list-unstyled">
-                      <li>Серверная часть</li>
-                      <li>Клиентская часть</li>
-                      <li>Получение домена</li>
-                    </ul>
-
-                    <a href="http://localhost:3000/" className="">
-                      Перейти
-                    </a>
+                <a href="https://ru.react.dev/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={reactimg} alt="qr link" />
+                      <h5 className="card-title">www.react.dev</h5>
+                      <p className="display-6">REACT </p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>WEB библиотека</li>
+                        <li>для создания приложений</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
+
               {/* <!-- Plan 3 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm mb-4">
-                  <div className="card-body">
-                    <h5 className="card-title">Тестирование</h5>
-                    <p className="display-6">Отладка</p>
-                    <ul className="list-unstyled">
-                      <li>
-                        Поиск и устранение ошибок в коде веб-сайта. Работа с{" "}
-                        <b>фронтендом</b>(клиентская часть), <b>бэкендом</b>
-                        (серверная часть).
-                      </li>
-                    </ul>
-                    <a href="https://www.npmjs.com/" className="text-muted">
-                      Перейти
-                    </a>
+                <a href="https://www.npmjs.com/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={npmimg} alt="qr link" />
+                      <h5 className="card-title">www.npmjs.com</h5>
+                      <p className="display-6">NPM модули</p>
+                      <ul className="list-unstyled">
+                        <li>Бесплатно</li>
+                        <li>пакетный менеджер для React </li>
+                        <li>библиотеки,модули</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
+              </div>
+
+              {/* <!-- Plan 2 --> */}
+              <div className="col-md-4">
+                <a href="https://www.postman.com/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={postman} alt="postman link" />
+                      <h5 className="card-title">www.postman.com</h5>
+                      <p className="display-6">Postman Agent</p>
+                      <ul className="list-unstyled">
+                        <li>инструмент для разработки</li>
+                        <li>тестирования и работа с API</li>
+                        <li>типы запросов: GET, POST, PUT, DELETE</li>
+                      </ul>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              {/* <!-- Plan 3 --> */}
+              <div className="col-md-4">
+                <a href="https://www.netlify.com/" className="text-muted">
+                  <div className="card shadow-sm mb-4">
+                    <div className="card__body">
+                      <img src={deploy} alt="deploy link" />
+                      <h5 className="card-title">Deploy (деплой)</h5>
+                      <p className="display-6">Развертывание</p>
+                      <ul className="list-unstyled">
+                        <li>это процесс развертывания приложения</li>
+                        <li>подключение Frontend + Backend</li>
+                        <li>взаимодействие с MongoDB</li>
+                      </ul>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </section>
-
- 
       </main>
 
       {/* <!-- Footer Section --> */}
-
- 
     </>
   );
 }

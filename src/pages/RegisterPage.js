@@ -7,6 +7,7 @@ const MyForm = () => {
     username: "",
     password: "",
   });
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,7 +18,7 @@ const MyForm = () => {
     e.preventDefault(); // предотвращаем перезагрузку страницы
     
     try {
-      const response = await fetch("http://localhost:5000/auth/registration", {
+      const response = await fetch("http://188.130.154.26:5000/api/registration", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -27,68 +28,80 @@ const MyForm = () => {
       console.console.log("Отправили");
       if (!response.ok) {
         throw new Error("Ошибка отправки данных");
-      }
-     
+      }     
       const result = await response.json();
       console.log("Успех:", result);
-    
-  } catch (error) {
-      console.error("Ошибка, сервер наверное не Алё", error);
+      setIsSuccess(true); // Успех регистрации
+      alert("Регистрация прошла успешно.Спасибо.");    
+    } catch (error) {
+      console.log(error)
     }
   };
 
+
   return (
+    <div className="container container__login d-flex justify-content-center align-items-center vh-100">
+      <div className="row ">
+        <div className="col-md-4 mb-1 text-center"></div>
 
-    <div className="container d-flex justify-content-center align-items-center vh-100">
-      
-      <div className="card p-4" >
-      <h6 >Добро пожаловать!</h6>
-      <p className="mt-1 mb-3 text-muted">JOKEBERRY &copy; 2025</p>
-        <form onSubmit={handleSubmit}>
-          <p className="text-center mb-4"> Если у вас уже есть аккаунт, то вы можете
-          <a href="/login"> войти </a> используя свой логин и пароль.
-          </p>
+        <div className="col-md-4 text-center card-block">
+          <div className="p-0">
+            <h6>Добро пожаловать!</h6>
+            
+            <form onSubmit={handleSubmit}>
+              <p className="mb-0">Есть аккаунта? </p>
+              <p className="small mb-2">
+                {" "}
+                Вы можете
+                <a href="/login">
+                  <b> войти на сайт.</b>
+                </a>
+              </p>
+
+              <div className="form-floating">
+                <input
+                  type="text"
+                  name="username"
+                  className="form-control mb-2 text-muted"
+                  placeholder="Ваш логин"
+                  value={formData.username}
+                  onChange={handleChange}
+                />
+                <label>Username</label>
+              </div>
+
+              <div className="form-floating">
+                <input
+                  type="password"
+                  className="form-control mb-2"
+                  name="password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  placeholder="Password"
+                />
+                <label>Password</label>
+              </div>
+
+              <button className="w-100 btn mb-2" type="submit">
+                Войти
+              </button>
+              <p className="text-center mb-4 ">
+                {" "}
+                Вернуться назад /<a href="/"> back to home </a>
+              </p>
+            </form>
+
+            <p className="mt-0 mb-0 small">JOKEBERRY &copy; 2025</p>
+            <a className="btn mb-2" href="/admin">
+            === ДЕМО ВХОД ===
+          </a>
           
-
-          <div className="form-floating">
-            <input
-              type="text"
-              name="username"
-              className="form-control mb-2 text-muted"
-              placeholder="Ваш логин"
-              value={formData.username}
-            onChange={handleChange}
-            />
-            <label >Username</label>
           </div>
+        </div>
 
-          <div className="form-floating">
-            <input
-              type="password"
-              className="form-control mb-2"
-             name="password"
-            value={formData.password}
-            onChange={handleChange}
-              placeholder="Password"
-            />
-            <label>Password</label>
-          </div>
+        <div className="col-md-4"></div>
 
-          <button className="w-100 btn btn-lg btn-primary mb-2" type="submit">
-            Регистрация
-          </button>
-          <p className="text-center mb-4 small"> Вернуться назад /   
-          <a href="/">  back to home </a> 
-          </p>
-          <p className="small"> Сейсая я все проверю... а есть ли вы в базе? 
-            пойду на сервер и потом посмотрю вас в базе данных <code>MongoDB</code></p>
-          
-                  
-        </form>
       </div>
-
-
-
     </div>
   );
 };

@@ -1,37 +1,109 @@
 /* header nav */
-.header-nav {
-  position: relative;
-  margin-right: 9px;
-  text-decoration: none;
-}
 .header-nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  text-transform: uppercase;
-}
-
-.header-nav a {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 12px;
-  margin-bottom: 0;
-  font-weight: 600;
-  color: #161616;
-}
-
-.header-nav li {
-  outline: 1px solid rgb(100, 100, 100);
-  border-radius: 3px;
-  font-weight: 600;
-  padding: 5px 18px;
-  transition: 0.3s;
-}
-.header-nav li:hover {
-  outline: 1px solid rgb(100, 100, 100);
-  background-color: #69696913;
-  border-radius: 5px;
-  padding: 5px 18px;
-}
+    list-style: none;
+  }
+  .header-nav > ul {
+    margin: 0;
+    padding: 0;
+  }
+    
+  .header-nav .nav-icon {
+    font-size: 18px;
+    color: #012970;
+    margin-right: 25px;
+    position: relative;
+  }
+    .header-nav .nav-profile {
+    color: #012970;
+  }
+  .header-nav .nav-profile img {
+    max-height: 36px;
+  }
+  
+  .header-nav .nav-profile span{
+      font-size: 12px;
+      font-weight: 600;
+  }
+  
+  .header-nav .badge-number{
+      position: absolute;
+      inset: -2px -5px auto auto;
+      font-weight: normal;
+      font-size: 10px;
+      padding: 3px 6px;   
+  }
+  .header-nav .notifications {
+      inset: 8px -15px auto auto !important;
+  }
+  .nav-item img{
+    outline: 1px solid rgb(38, 8, 148);
+    padding: 2px;
+    max-width: 30px;
+  }
+  /* * */
+  .header-nav .notifications .notification-item {
+      display: flex;
+      align-items: center;
+      padding: 5px 5px;
+      transition: 0.3s;
+  }
+  .header-nav .notifications .notification-item i{
+      margin: 0 20px 0 10px;
+      font-size: 14px;
+  }
+  .header-nav .notifications .notification-item h4{
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 3px;
+  }
+  .header-nav .notifications .notification-item p{
+      font-size: 14px;
+      margin-bottom: 3px;
+      color: #919191;
+  }
+  .header-nav .notifications .notification-item:hover {
+      background-color: #7f8796;
+  }
+  /* message-item */
+  .header-nav .notifications .message-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    transition: 0.3s;
+  }
+  .header-nav .notifications .message-item i{
+    margin: 0 20px 0 10px;
+    font-size: 14px;
+   
+  }
+  .header-nav .notifications .message-item h4{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .header-nav .notifications .message-item p{
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #919191;
+  }
+  .header-nav .notifications .message-item:hover {
+    background-color: #9ea1a8;
+  }
+  .header-nav .profile{
+    min-width: 220px;
+    padding-bottom: 0;
+    top: 8px !important;
+  }
+  .header-nav .profile .dropdown-header h6 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #444444;
+  }
+  .header-nav .profile a {
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 200;
+    color: #444444;
+  }
+  
