@@ -1,5 +1,4 @@
 import React from "react";
-import userImg from "../assets/images/userimg.png";
 import menu from "../assets/images/menu.png";
 import adminicon from "../assets/images/admin.gif";
 import "../assets/styles/nav.css";
