@@ -27,8 +27,8 @@ function NavAvatar() {
             alt="Profile"
             className="admin-img text-center"
           />
-          <h6>user: Superuser</h6>
-          <span>ID:3216546</span>
+          <h6>user: Гость</h6>
+          <span>ID:*******</span>
         </li>
         <li>
           <hr className="dropdown-divider" />
@@ -60,6 +60,13 @@ function NavAvatar() {
         <li>
           <hr className="dropdown-divider" />
         </li>
+        <li>
+          <a href="/video" className="dropdown-item d-flex align-items-center">
+            <i className="bi bi-question-circle"></i>
+            <span>Video Blog</span>
+          </a>
+        </li>
+        <li>
         <li>
           <a href="#" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-question-circle"></i>
