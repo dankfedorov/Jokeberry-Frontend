@@ -22,7 +22,7 @@ function VidePage() {
           <div className="row d-flex align-items-center justify-content-between ">
           <h2 className="mb-2 h2__video">1.DRAW.IO Создание архитектуры проекта.</h2>
           <div className='container container__video'>
-          <iframe width="100%" height="580" src="https://rutube.ru/video/private/1aace2c5def29e36a03f4f7736942b39/?p=adeW8Pz-_icqy-jNp063bw" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <iframe width="100%" height="580" src="https://rutube.ru/video/private/f1e2bd72fcb35fe0c3651e147274d7df/?p=9UnSH6HLPsc1ye0H-7MJRg" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
          </div>      
           </div>
         </div>
