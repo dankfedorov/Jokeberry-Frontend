@@ -3,16 +3,22 @@ const navList = [
         _id: 1,
         name: 'Профиль',
         icon: 'bi bi-person',
-        link: '#link1'
+        link: '/user-profile.html'
     },
     {
         _id: 2,
+        name: 'Пользователи',
+        icon: 'bi bi-box-arrow-right',
+        link: '#users'
+    },
+    {
+        _id: 3,
         name: 'Регистрация',
         icon: 'bi bi-card-list',
         link: '/register'
     },
     {
-        _id: 3,
+        _id: 4,
         name: 'Login',
         icon: 'bi bi-box-arrow-in-right',
         link: '/login'
@@ -22,6 +28,12 @@ const navList = [
         name: 'Выход',
         icon: 'bi bi-box-arrow-right',
         link: '/'
+    },
+    {
+        _id: 6,
+        name: 'Free Design App',
+        icon: 'bi bi bi-image',
+        link: '#'
     },
     
 ];

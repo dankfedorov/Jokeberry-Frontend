@@ -14,53 +14,60 @@ const MyForm = () => {
   };
 
   const handleSubmit = async (e) => {
+    
     e.preventDefault(); // предотвращаем перезагрузку страницы
 
     try {
-      const response = await fetch(
-        "http://188.130.154.26:5000/api/registration",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData), // передаем данные формы
-        }
-      );
-      console.console.log("Отправили");
+      
+      const response = await fetch("http://localhost:5000/api/login", {
+      // const response = await fetch("https://188.130.154.26:5000/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData), // передаем данные формы
+      });
+      
+      console.log("Отправили");
       if (!response.ok) {
         throw new Error("Ошибка отправки данных");
       }
       const result = await response.json();
       console.log("Успех:", result);
-      setIsSuccess(true); // Успех регистрации
+
+      const token = {result};
+      localStorage.setItem('authToken', JSON.stringify(token));
+      
+      const username = JSON.parse(localStorage.getItem('token'));
+      localStorage.setItem('id', JSON.stringify(result.id));
+      localStorage.setItem('username', JSON.stringify(result.username));
+      
+      setIsSuccess(true); // Успех регистрации -- тут не понятно нужен ли этот вариант
+      // console.log(setIsSuccess);
       setTimeout(() => {
         window.location.reload(); // Перезагрузка страницы
+        // alert("Авторизация прошла успешно! Спасибо.");
+        // window.location = "/dashboard";
+        window.location = "/dashboard";
       }, 100);
-      alert("Регистрация прошла успешно.Спасибо.");
     } catch (error) {
-      alert("Произошла ошибка при регистрации. Попробуйте еще раз.");
+      window.location.reload(); // Перезагрузка страницы
+      alert("Авторизоваться не удалось. Некорректный идентификатор доступа.\n Пожалуйста, проверьте ваши данный <<< Имя или пароль >>>");
     }
   };
 
   return (
-    <div className="container container__login d-flex justify-content-center align-items-center vh-100">
-      <div className="row ">
-        <div className="col-md-4 mb-1 text-center"></div>
+    <div className="container container__login d-flex ">
+      <div className="row text-center">
+        <div className="col-md-4 mb-1 "></div>
 
-        <div className="col-md-4 text-center card-block">
+        <div className="col-md-4 card-block">
           <div className="p-0">
-            <h6>Добро пожаловать!</h6>
-            
+            <h4>ВХОД В АККАУНТ</h4>
+            <p className="small mb-1">Введите свои учётные данные<br></br> для доступа к аккаунту.</p>
+
             <form onSubmit={handleSubmit}>
-              <p className="mb-0">Нет аккаунта? </p>
-              <p className="small mb-2">
-                {" "}
-                Вы можете
-                <a href="/register">
-                  <b> пройти регистрацию.</b>
-                </a>
-              </p>
+             
 
               <div className="form-floating">
                 <input
@@ -71,7 +78,7 @@ const MyForm = () => {
                   value={formData.username}
                   onChange={handleChange}
                 />
-                <label>Username</label>
+                <label className="form__label">Имя или email</label>
               </div>
 
               <div className="form-floating">
@@ -83,28 +90,29 @@ const MyForm = () => {
                   onChange={handleChange}
                   placeholder="Password"
                 />
-                <label>Password</label>
+                <label className="form__label">Password</label>
               </div>
 
-              <button className="w-100 btn mb-2" type="submit">
+              <button className="w-100 btn mb-1" type="submit">
                 Войти
               </button>
-              <p className="text-center mb-4 ">
-                {" "}
-                Вернуться назад /<a href="/"> back to home </a>
-              </p>
             </form>
 
-            <p className="mt-0 mb-0 small">JOKEBERRY &copy; 2025</p>
-            <a className="btn mb-2" href="/admin">
-            === ДЕМО ВХОД ===
-          </a>
-          
+            <p className="mb-0">Нет аккаунта? </p>
+              <p className="small mb-1">
+                {" "}
+                Создайте учётную запись,
+                <a href="/register">
+                  <b> чтобы продолжить.</b>
+                </a>
+              </p>
+
+            <p className="mt-0 mb-2 small">JOKEBERRY &copy; 2025</p>
+            {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД</a> */}
           </div>
         </div>
 
         <div className="col-md-4"></div>
-
       </div>
     </div>
   );

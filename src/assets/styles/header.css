@@ -1,6 +1,6 @@
 /* header */
 .header {
-    position: relative;
+    position: fixed;
     background-color: rgba(243, 243, 243, 0.945);
     gap: 3px;
     transition: all 0.5s;
@@ -21,4 +21,6 @@
       color: #012970;
       outline: 1px solid #00AEEF;
   }
-  
+  .container__header{
+    flex-direction:row-reverse;
+  }

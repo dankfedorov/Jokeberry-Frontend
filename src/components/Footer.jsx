@@ -12,7 +12,7 @@ function Footer() {
       <div className="container">
         <div className="row footer__background flex">
  
-          <div className="col-md-2 footer__block">
+          <div className="col-md-3 footer__block">
           <a href="/Dashboard" className="logo d-flex align-items-center p-1">
             <img src={footerlogo} />
             <span className="d-lg-block">JOKEBERRY</span>
@@ -27,17 +27,20 @@ function Footer() {
               Представленная на&nbsp;сайте информация носит справочный характер
               и&nbsp;не&nbsp;является публичной офертой
             </p>
-          </div>
-          <div className="col-md-2  footer__block mb-2">
-            <RatesAPI />
-          </div>
-
-          <div className="col-md-2  footer__block mb-2">
+          </div>     
+          <div className="col-md-2 footer__block">
+            <p>Клиентам</p>
+            <ul class="footer__block link_box">
+              <li><a href="/"  class="footer-link">Главная</a></li>
+              <li><a href="#intro"  class="footer-link">О проекте</a></li>
+              <li><a href="/dashboard"  class="footer-link">Админ часть</a></li>
+              <li><a href="#"  class="footer-link">Контаты</a></li>
+            </ul>
            
           </div>
-          
           <div className="col-md-2 footer__block">
-            <ul class="footer__block right-block">
+          <p>Связь с нами</p>
+          <ul class="footer__block right-block">
               <li>
                 <a
                   href="https://t.me/JokeBerry_Bot"
@@ -56,7 +59,6 @@ function Footer() {
                   </svg>
                 </a>
               </li>
-
               <li>
                 <a href="#" target="_blank" class="footer-link">
                   <svg
@@ -72,8 +74,10 @@ function Footer() {
                 </a>
               </li>
             </ul>
-            <img src={robot5} alt="robot" />
+ 
+            <img src={robot5} className="" />
           </div>
+        
         </div>
       </div>
     </footer>

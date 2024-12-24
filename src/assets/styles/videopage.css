@@ -1,0 +1,9 @@
+.video-blog{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,31,135,1) 100%);
+}
+.h2__video{
+    color: rgb(190, 190, 190);
+}

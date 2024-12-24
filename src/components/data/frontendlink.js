@@ -1,45 +1,45 @@
 const frontendlink = [
     {
         _id: 1,
-        name: 'Dashboard проекта',
+        name: 'Preview Video',
         icon: 'bi bi-house-door',
         link: '/dashboard'
     },
     {
         _id: 2,
-        name: 'Архитектура проекта',
+        name: 'Архитектура',
         icon: 'bi bi-file-text',
-        link: '#'
+        link: '#architect'
     },
     {
         _id: 3,
         name: 'Дизайн макета',
         icon: 'bi bi-file-text',
-        link: '#'
+        link: '/f3'
     },
     {
         _id: 4,
         name: 'Верстка HTML',
         icon: 'bi bi-robot',
-        link: '#'
+        link: '/f4'
     },
     {
         _id: 5,
-        name: 'Стили Bootstrap',
+        name: 'Стили CSS',
         icon: 'bi bi-robot',
-        link: '#'
+        link: '/f5'
     },
     {
         _id: 6,
         name: 'Интеграция React',
         icon: 'bi bi-robot',
-        link: '#'
+        link: '/f6'
     },
     {
         _id: 7,
         name: 'NPM Библиотеки',
         icon: 'bi bi-robot',
-        link: '#'
+        link: '/f7'
     },
 
     

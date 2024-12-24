@@ -1,16 +1,18 @@
 
 body {
-  background: rgb(38,84,98);
+  /* background: rgb(38,84,98); */
   background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
 
 }
 .container{
-  gap: 25px;
   flex-direction: column;
+}
+.container__login{
+  padding-top: 70px;
 }
 .card-block{
   min-width: 320px;
-  background-color:rgb(243, 243, 243);
+  background-color:rgba(243, 243, 243, 0.658);
   padding: 15px;
   border-radius: 12px;
   color: rgb(102, 102, 102);
@@ -35,17 +37,28 @@ body {
 }
 
 .card-block button{
-  padding:15px 39px;
+  padding:12px 39px;
   border-radius: 5px;
   border-color: #00AEEF;
   color:  #00AEEF;
   transition: 0.3s;
-}
+  min-width: 220px; }
+
 .card-block button:hover{
   background-color:#00AEEF;
   color: #ffffff;
 }
-
+.card-block__btn-link{
+  outline: 1px solid #00AEEF;
+  padding:12px 39px;
+  min-width: 220px;
+  color: #00AEEF;
+}
+.card-block__btn-link:hover{
+  background: #00AEEF;
+  padding:12px 39px;
+  color: #ffffff;
+}
 .form-floating label{
   font-size: 0;
   font-size: 14px;
@@ -56,6 +69,10 @@ body {
   font-size: 12px;
   color: blue;
 }
+.form__label{
+  text-transform: uppercase;
+}
 .small{
+  font-size: 14px;
   color: rgb(122, 122, 122);
 }

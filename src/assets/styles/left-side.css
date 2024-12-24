@@ -1,7 +1,8 @@
 /* sideBar */
 
 .sidebar {
-  position: fixed;
+  position: absolute;
+  height: 100%;
   top: 60px;
   left: 0px;
   bottom: 0;

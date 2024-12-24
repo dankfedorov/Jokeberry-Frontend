@@ -7,7 +7,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-// import { HashRouter as Router, Route,Routes } from 'react-router-dom';
+
 
 import "./App.css";
 import Header from "./components/Header";
@@ -15,13 +15,23 @@ import Footer from "./components/Footer";
 import LandPage from "pages/LandPage";
 import LoginPage from "pages/LoginPage";
 import Dashboard from "pages/Dashboard";
-import ToggleBtn from "components/ToggleBtn";
+
 import ProtectedRoute from "./components/ProtectedRoute";
 import RegisterPage from "./pages/RegisterPage";
+import Smallfooter from "components/Smallfooter";
+import VideoStart from "components/VideoStart";
+import VideoBlog from "../src/pages/VideoBlog";
+
+
 
 // Компоненты страниц
 const Home = () => {
-  return (
+  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
+  // Тернарный оператор
+  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  console.log("Авторизация " + status);
+
+   return (
     <div>
       <Header/>
       <LandPage />
@@ -31,11 +41,12 @@ const Home = () => {
 };
 
 const Dash = () => {
+  // (Protected:)
   return (
     <div>
       <Header/>
       <Dashboard />
-      <Footer/>
+      <Smallfooter />
     </div>
   );
 };
@@ -55,8 +66,17 @@ const Register = () => {
     </div>
   );
 };
+const VideoPage = () => {
+  return (
+    <div>
+       <Header/>
+       <VideoBlog />
+      
+    </div>
+  );
+};
 
-const Statistic = () => {
+const ErrorAuth = () => {
   return (
     <div className="">
       <Header />
@@ -69,13 +89,19 @@ const Statistic = () => {
 
 const App = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
+  // console.log("Авторизирация:", isAuthenticated);
+  // Тернарный оператор
+  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  console.log("Авторизация " + status);
+  
   return (
     <Router>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/login" Component={Login} />
         <Route path="/register" Component={Register} />
-        <Route path="/admin" Component={Dash} />        
+        <Route path="/video" Component={VideoPage} />        
+        {/* <Route path="/users" Component={Dash} />         */}
         
       
        
@@ -83,7 +109,9 @@ const App = () => {
           path="/dashboard"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
-              {Dash}
+               <Header/>
+               <Dashboard />
+               <Smallfooter />
             </ProtectedRoute>
           }
         />

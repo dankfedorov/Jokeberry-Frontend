@@ -16,30 +16,48 @@ import mongo from "../assets/images/MongoDB.png";
 import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
 import phones from "../assets/images/phones.png";
-
+import OwlCarousel from "components/OwlCarousel";
+import VideoStart from "components/VideoStart";
+import Snow from "components/Snow";
 
 function LandPage() {
+  const anchors = document.querySelectorAll('.link_box a[href*="#"]');
+  for (let anchor of anchors) {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const blockID = anchor.getAttribute("href").substr(1);
+      document.getElementById(blockID).scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
+  }
+
+  // remove all Обнуляем все
+  localStorage.clear();
+  console.log("ID has been cleared success.");
+  <Snow />
+
+  //
   return (
     <>
       {/* <!-- Hero Section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
-        <div className="container container__hero ">
-          <div className="row d-flex align-items-center justify-content-between">
+        <div className="container container__hero  ">
+          <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-6 mb-2">
               <img src={phones} alt="jokeberry" />
             </div>
 
             <div className="col-md-6">
-              <h1 className="mb-3 p-2">
-                Создание современного сайта.</h1>
+              <h1 className="mb-3 p-2">Технологии для Вашего сайта.</h1>
               <p className="hero__descr mb-2">адаптивная верстка 320*1920px </p>
-              <p className="hero__descr mb-4">
-                {" "}
-                HTML, React, Nodejs, MongoDB
-              </p>
-              <button
-                className="p-2 mb-2 hero__btn  tg-link"
-                target="https://t.me/JokeBerry_Bot"
+              <p className="hero__descr mb-4"> HTML, React, Javascript, Nodejs, MongoDB</p>
+
+              <a
+                href="https://t.me/JokeBerry_Bot"
+                target="_blank"
+                class="tg-link"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -50,9 +68,9 @@ function LandPage() {
                   viewBox="0 0 16 16"
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
-                </svg>{" "}
-                Telegram Bot
-              </button>
+                </svg>
+                Telegram
+              </a>
             </div>
 
             {/* <div className="col-md-1">
@@ -66,10 +84,9 @@ function LandPage() {
         <section id="intro" className="intro bg__img">
           <div className="container container__intro">
             <h2 className="text-center mb-4"></h2>
-            <div className="row d-flex align-items-center justify-content-between">            
-            
-            <div className="col-md-3"></div>
-      
+            <div className="row d-flex align-items-center justify-content-between">
+              <div className="col-md-3"></div>
+
               <div className="col-md-3">
                 <div className="p-3">
                   <p className="text-center">
@@ -81,24 +98,24 @@ function LandPage() {
               <div className="col-md-6">
                 <div className="p-3">
                   <span className="p-2">
-                    
                     <h2 className="mb-4">Добро пожаловать!</h2>
                     <p className="mb-4">
                       Этот сайт создан, чтобы стать вашим надежным помощником в
-                      работе по созданию <b>собственных проектов</b>
+                      работе по созданию <b>собственных проектов/</b>
                     </p>
 
                     <p className="mb-4">
-                      Этот сайт создан в формате презентации, где шаг за шагом
-                      подробно разбирается структура создания веб-сайта.
+                      Я постарался сделать сайт в формате guide презентации, где шаг за шагом
+                      подробно разбирается структура создания простого веб-сайта, пойдем путем
+                      от простого к сложному.
                     </p>
 
                     <p className="mb-4">
-                      Мы тщательно проработали каждый этап, чтобы сделать
+                      Тщательно проработал каждый этап, чтобы сделать
                       процесс понятным и доступным даже для начинающих.
                     </p>
                     <p className="mb-4">
-                      Спасибо, что доверяете нам — вместе мы добьемся большего!
+                      Спасибо, что обратили внимание на мой проект — вместе мы добьемся большего!
                     </p>
                   </span>
                 </div>
@@ -109,11 +126,11 @@ function LandPage() {
           <div className="container features__container">
             <p className="small text-muted">( кратко о важном )</p>
             <h2 className="text-center mb-4">Ключевые этапы и технологии</h2>
-            <p className="small">Разделение работ на этапы</p>
+            <p className="small">Необходимо разделить все работы на этапы</p>
             <div className="row">
               {/* <!-- Feature 1 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm">
+                <div className="card shadow-sm green">
                   <div className="card-body">
                     <h5 className="card-title">
                       <i className="bi bi-1-square"></i> Анализ целевой
@@ -123,8 +140,9 @@ function LandPage() {
                       Необходимо определить кто является основной целевой
                       аудиторией сайта.
                     </p>
+                    <br></br>
                     <p className="card-text mb-2">
-                      Определить что должно быть на сайте (каталог товаров,
+                      Понять что должно быть на сайте (каталог товаров,
                       разделы, блоки, контактные формы).
                     </p>
                   </div>
@@ -132,7 +150,7 @@ function LandPage() {
               </div>
               {/* <!-- Feature 2 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm">
+                <div className="card shadow-sm green">
                   <div className="card-body">
                     <h5 className="card-title">
                       {" "}
@@ -142,26 +160,28 @@ function LandPage() {
                       Разработайте структуру контента, навигация, учитывая
                       важность разделов и их взаимосвязь.
                     </p>
+                    <br></br>
                     <p className="card-text mb-2">
-                      Определите подходящие технологии (например, CMS или
-                      фреймворки).
+                      Определите подходящие технологии (например, чистый html или уже готовое пакетное решение 
+                      такое как Tilda, Bitrix или фреймворки).
                     </p>
                   </div>
                 </div>
               </div>
               {/* <!-- Feature 3 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm">
+                <div className="card shadow-sm green">
                   <div className="card-body">
                     <h5 className="card-title">
                       {" "}
                       <i className="bi bi-3-square"></i> Проектирование <br />
-                      (UX/UI дизайн)
+                      (UX /UI дизайн)
                     </h5>
                     <p className="card-text mb-2">
                       UX-дизайн (User Experience) позволяет нам сделать сайт
                       удобным и интуитивно понятным для пользователей.
                     </p>
+                    <br></br>
                     <p className="card-text mb-2">
                       UI-дизайн (User Interface) - визуальная часть сайта.
                     </p>
@@ -170,17 +190,18 @@ function LandPage() {
               </div>
               {/* <!-- Feature 5 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm">
+                <div className="card shadow-sm green">
                   <div className="card-body">
                     <h5 className="card-title">
                       {" "}
                       <i className="bi bi-4-square"></i> Разработка сайта
                     </h5>
                     <p className="card-text mb-2">
-                      Выбор технологии: HTML, CSS, JavaScript.
+                      Кодинг - верстка: HTML, CSS, JavaScript.
                     </p>
+                    <br></br>
                     <p className="card-text mb-2">
-                      Фреймворки и библиотеки: React, Angular, Vue.js, Bootstrap
+                      Выбрать фреймворки и библиотеки: React, Angular, Vue.js, Bootstrap
                       для ускорения разработки.
                     </p>
                     <p className="card-text mb-2">
@@ -191,7 +212,7 @@ function LandPage() {
               </div>
               {/* <!-- Feature 6 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm">
+                <div className="card shadow-sm green">
                   <div className="card-body">
                     <h5 className="card-title">
                       {" "}
@@ -203,44 +224,44 @@ function LandPage() {
                       видимость сайта в запросах.
                     </p>
                     <p className="card-text mb-2">
+                      Работа с адаптивностью сайта на разных устройствах.
                       Тестирование: Проверка работоспособности (кроссбраузерное
-                      тестирование, тестирование на мобильных устройствах).
+                        тестирование).
                     </p>
+                    
                   </div>
                 </div>
               </div>
               {/* <!-- Feature 3 --> */}
               <div className="col-md-4">
-                <div className="card shadow-sm">
+                <div className="card shadow-sm green">
                   <div className="card-body">
                     <h5 className="card-title">
                       {" "}
-                      <i className="bi bi-6-square"></i> Запуск сайта
+                      <i className="bi bi-6-square"></i> Зарузка и запуск сайта
                     </h5>
                     <p className="card-text mb-2">
-                      Хостинг и домен: Выбор подходящего хостинга и регистрация
+                      Выбор подходящего хостинга и регистрация
                       доменного имени.
                     </p>
                     <p className="card-text mb-2">
-                      <b>Загрузка файлов на сервер:</b> Провекра сайта на
-                      загрузку в интернет.
+                      <b>Загрузка файлов на сервер и тестирование.</b>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-         
         </section>
-         {/* pIC BLOCK */}
-        <section id="nav-block" className="nav-block">
-          <div className="container">
+
+        {/* pIC BLOCK */}
+        <section id="nav-block" className="nav-block ">
+          <div className="container ">
             <div className="row d-flex align-items-center justify-content-center">
-              
-              <div className="col-md-6 text-center">
+              <div className="col-md-6 text-center ">
                 <span className="nav-block__h2 mb-3">QR переход на сайт</span>
               </div>
-              
+
               <div className="col-md-6">
                 <ul className="nav-blcok__group">
                   <li className="nav-block__link">
@@ -252,13 +273,12 @@ function LandPage() {
                       </div>
                     </a>
                   </li>
-                
                 </ul>
               </div>
             </div>
           </div>
         </section>
-
+{/* 
         <section id="font-back" className="front-back">
           <div className="container mt-5">
             <p className="small">( кратко фронтэнд )</p>
@@ -267,7 +287,7 @@ function LandPage() {
             <div className="row ">
               <div className="col-md-6">
                 <div className="p-3 ">
-                  {/* <h2 className="text-center">Ключевые моменты:</h2> */}
+                 
                   <p className="p-2">
                     это все, что видит и с чем{" "}
                     <b>взаимодействует пользователь</b> на сайте. Он включает в
@@ -306,9 +326,9 @@ function LandPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="font-back" className="font-back">
+        {/* <section id="font-back" className="font-back">
           <div className="container mt-5">
             <p className="small text-muted">( кратко бэкэнд )</p>
             <h2 className="text-center mb-4">BACKEND - СЕРВЕР</h2>
@@ -322,8 +342,7 @@ function LandPage() {
 
               <div className="col-md-6">
                 <div className="p-3">
-                  {/* <h2 className="text-center">Ключевые моменты:</h2> */}
-                  <p className="p-2">
+                       <p className="p-2">
                     часть сайта которая отвечает за обработку данных,
                     взаимодействие с базой данных. Например, когда пользователь
                     отправляет форму или делает запрос, сервер обрабатывает
@@ -356,14 +375,14 @@ function LandPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* <!-- Frontend --> */}
         <section id="about" className="bg-light py-5 about">
           <div className="container about__container">
             <p className="small text-muted">( инструментарий )</p>
-            <h2 className="text-center mb-4">РАБОТА С FRONTEND</h2>
-            <p className="display-10">Технологии и инструменты</p>
+            <h2 className="text-center mb-4">Технологии FRONTEND</h2>
+            <p className="display-10">инструменты</p>
             <div className="row text-center">
               {/* <!-- Plan 1 --> */}
               <div className="col-md-4">
@@ -482,8 +501,8 @@ function LandPage() {
         <section id="about" className="bg-light py-5 about">
           <div className="container about__container">
             <p className="small text-muted">( инструментарий )</p>
-            <h2 className="text-center mb-4">РАБОТА С BACKEND</h2>
-            <p className="display-10">Технологии и инструменты</p>
+            <h2 className="text-center mb-4">Технологии BACKEND</h2>
+            <p className="display-10">инструменты</p>
             <div className="row text-center">
               {/* <!-- Plan 1 --> */}
               <div className="col-md-4">
