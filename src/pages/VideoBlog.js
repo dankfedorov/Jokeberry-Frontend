@@ -9,10 +9,18 @@ function VidePage() {
 
        <section id="intro" className="text-white text-center video-blog">
         <div className="container container__video  ">
-        
-          <div className="row d-flex align-items-center justify-content-between ">
+        <div className="row d-flex align-items-center justify-content-between">
+
+          <div className="col-md-6">
           <h2 className="mb-2 h2__video">Промо блок</h2>
              <VideoStart/>        
+          </div>
+
+          <div className="col-md-6">
+          <h2 className="mb-2 h2__video">Промо блок</h2>
+             <VideoStart/>        
+          </div>
+          
           </div>
         </div>
       </section>
