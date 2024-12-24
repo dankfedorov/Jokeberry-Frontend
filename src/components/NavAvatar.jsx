@@ -66,7 +66,7 @@ function NavAvatar() {
             <span>Video Blog</span>
           </a>
         </li>
-        <li>
+       
         <li>
           <a href="#" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-question-circle"></i>
