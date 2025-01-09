@@ -1,7 +1,7 @@
 const frontendlink = [
     {
         _id: 1,
-        name: 'Preview Video',
+        name: 'Начало',
         icon: 'bi bi-house-door',
         link: '/dashboard'
     },

@@ -16,9 +16,8 @@ import mongo from "../assets/images/MongoDB.png";
 import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
 import phones from "../assets/images/phones.png";
-import OwlCarousel from "components/OwlCarousel";
-import VideoStart from "components/VideoStart";
 import Snow from "components/Snow";
+
 
 function LandPage() {
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
@@ -43,8 +42,10 @@ function LandPage() {
     <>
       {/* <!-- Hero Section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
+      
         <div className="container container__hero  ">
           <div className="row d-flex align-items-center justify-content-between ">
+            
             <div className="col-md-6 mb-2">
               <img src={phones} alt="jokeberry" />
             </div>
@@ -53,11 +54,11 @@ function LandPage() {
               <h1 className="mb-3 p-2">Технологии для Вашего сайта.</h1>
               <p className="hero__descr mb-2">адаптивная верстка 320*1920px </p>
               <p className="hero__descr mb-4"> HTML, React, Javascript, Nodejs, MongoDB</p>
-
+          
               <a
                 href="https://t.me/JokeBerry_Bot"
                 target="_blank"
-                class="tg-link"
+                className="tg-link"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -71,8 +72,9 @@ function LandPage() {
                 </svg>
                 Telegram
               </a>
+               
             </div>
-
+           
             {/* <div className="col-md-1">
               <img src={robot2} alt="" />
             </div> */}

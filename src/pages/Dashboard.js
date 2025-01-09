@@ -22,7 +22,6 @@ function Dashboard() {
           
           {/* <main class="col-md-8 col-lg-9 px-md-3  ms-sm-auto"> */}
           
-          <VideoStart />
            <Architect/>
            
            

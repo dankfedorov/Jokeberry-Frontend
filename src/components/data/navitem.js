@@ -29,12 +29,7 @@ const navList = [
         icon: 'bi bi-box-arrow-right',
         link: '/'
     },
-    {
-        _id: 6,
-        name: 'Free Design App',
-        icon: 'bi bi bi-image',
-        link: '#'
-    },
+
     
 ];
 export default navList;

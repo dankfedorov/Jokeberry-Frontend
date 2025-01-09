@@ -3,27 +3,23 @@ import architect_img from "../assets/images/architect_img.jpg";
 
 function Architect() {
   return (
-    <section id="architect" className="architect">
+    <section id="front-back" className="front-back">
       <div className=" container__intro">
         <h2 className="text-center mb-4"></h2>
-
-        <div className="row d-flex align-items-center justify-content-between">
-          <img src={architect_img} alt="" />
+        <img src={architect_img} alt="" />
+        <div className="row ">
 
           <div className="col-md-6">
             <div className="p-3">
-              <span className="p-2">
-                <h2 className="mb-4">FRONTEND</h2>
-                <div className="p-3 ">
-                  {/* <h2 className="text-center">Ключевые моменты:</h2> */}
+                <div className="p-3">
+                <h3>Frontend</h3>
                   <p className="p-2">
-                    это все, что видит и с чем{" "}
+                  это все, что видит и с чем{" "}
                     <b>взаимодействует пользователь</b> на сайте. Он включает в
                     себя интерфейс, графику, анимации, элементы управления
                     (кнопки, формы, меню) и т.д. Все эти элементы создаются с
                     использованием таких технологий, как:
                   </p>
-
                   <p className="p-2 ">
                     {" "}
                     <b>HTML</b> (структура страницы)
@@ -36,8 +32,8 @@ function Architect() {
                   </p>
                   <p className="p-2">
                     {" "}
-                    <b>JavaScript</b> (динамическое поведение){" "}
-                    <b> ... ну а тут МАГИЯ</b>
+                    <b>JavaScript</b> ( язык программирования){" "}
+                    <b>Позволяет пользователям взаимодействовать с элементами на странице, например, нажимать кнопки, заполнять формы...</b>
                   </p>
                   <p className="p-2 ">
                     Frontend-разработчик работает над тем, чтобы сайт был
@@ -45,15 +41,12 @@ function Architect() {
                     пользователей.
                   </p>
                 </div>
-              </span>
             </div>
           </div>
           <div className="col-md-6">
             <div className="p-3">
-              <span className="p-2">
-                <h2 className="mb-4">BACKEND</h2>
                 <div className="p-3">
-                  {/* <h2 className="text-center">Ключевые моменты:</h2> */}
+                <h3>Backend</h3>
                   <p className="p-2">
                     часть сайта которая отвечает за обработку данных,
                     взаимодействие с базой данных. Например, когда пользователь
@@ -84,7 +77,6 @@ function Architect() {
                     управляет <b>данными и запросами.</b>
                   </p>
                 </div>
-              </span>
             </div>
           </div>
 

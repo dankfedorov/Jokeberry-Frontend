@@ -19,12 +19,6 @@ const backendlink = [
     },
     {
         _id: 4,
-        name: 'Postman Agent',
-        icon: 'bi bi-robot',
-        link: '/b4'
-    },
-    {
-        _id: 5,
         name: 'Загрузка на сервер',
         icon: 'bi bi-robot',
         link: '/b5'

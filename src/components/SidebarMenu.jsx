@@ -7,6 +7,7 @@ import NavItem from "../components/NavItem";
 
 function SidebarMenu() {
   const username = JSON.parse(localStorage.getItem('username'));
+  const id = JSON.parse(localStorage.getItem('id'));
 
   return (
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse left-block" >
@@ -14,8 +15,10 @@ function SidebarMenu() {
   
       {/* // Формируем списко элементов из json файла */}
       <ul class="nav flex-column">
-        <span className="small text-center">Username:{username}</span>
-        <li className="nav-item ">Frontend</li>
+        <span className="small ">Username:{username}</span>
+        <span className="very-small">ID:{id}</span>
+        <hr></hr>
+        <p className="small ">Frontend</p>
         {frontendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
@@ -23,7 +26,7 @@ function SidebarMenu() {
 
       <ul class="nav flex-column mb-2">
         {/* Pages block */}
-        <li className="nav-item">Backend</li>
+        <p className="small">Backend</p>
         {backendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
@@ -32,7 +35,7 @@ function SidebarMenu() {
 
       <ul class="nav flex-column mb-2">
         {/* Pages block */}
-        <li className="nav-item ">Информация</li>
+        <p className="small">Информация</p>
 
         {navList.map((nav) => (
           <NavItem key={nav._id} nav={nav} />

@@ -140,7 +140,7 @@ ul {
 }
 .hero a {
   position: relative;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .hero__btn:focus {
