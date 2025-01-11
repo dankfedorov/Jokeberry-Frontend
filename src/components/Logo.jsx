@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/logo.css";
-import logo from "../assets/images/logo.png";
-// import logo from "../assets/images/logo-berry.svg";
+// import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo-berry.svg";
 
 function Logo() {
 
