@@ -11,7 +11,7 @@ function Architect() {
         <p className="text-center ">Frontend и Backend</p>
         <div className="row ">
           <div className="col-md-6">
-            <div className="p-3">
+            <div className="">
               <div className="p-3">
                 <h3>Frontend</h3>
                 <p className="p-2">
@@ -48,7 +48,7 @@ function Architect() {
           </div>
 
           <div className="col-md-6">
-            <div className="p-3">
+            <div className="">
               <div className="p-3">
               <img src={robot6} alt="" />
               </div>
@@ -57,7 +57,7 @@ function Architect() {
         </div>
         <div className="row ">
           <div className="col-md-6">
-            <div className="p-3">
+            <div className="">
               <div className="p-3">
               <img src={robot3} alt="" />
               </div>
@@ -65,7 +65,7 @@ function Architect() {
           </div>
 
           <div className="col-md-6">
-            <div className="p-3">
+            <div className="">
               <div className="p-3">
                 <h3>Backend</h3>
                 <p className="p-2">
