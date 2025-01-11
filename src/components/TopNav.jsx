@@ -2,6 +2,8 @@ import React from "react";
 import TestBtn from "../components/TestBtn";
 
 function TopNav() {
+  const username = JSON.parse(localStorage.getItem('username'));
+  const id = JSON.parse(localStorage.getItem('id'));
   return (
     <nav className="header-nav ms-auto">
       <ul className="d-flex align-items-center ">
@@ -22,6 +24,7 @@ function TopNav() {
             <span className="d-none d-md-block ps-3 small ">VIDEO PAGE</span>
           </a>
         </li>
+        <span className="small ">Username:{username}</span>
 
         {/* <li class="nav-item dropdown">
           <a class="nav-link nav-profile d-flex align-items-center pe-0 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -20,11 +20,8 @@ function Dashboard() {
           <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 main__container">
           {/* <Breadcrumbs /> */}
           
-          {/* <main class="col-md-8 col-lg-9 px-md-3  ms-sm-auto"> */}
           
-           <Architect/>
-           
-           
+           <Architect/>         
             
 
           
