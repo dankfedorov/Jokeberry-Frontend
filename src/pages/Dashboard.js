@@ -5,6 +5,8 @@ import Breadcrumbs from "components/Breadcrumbs";
 import Users from "components/Users";
 import SidebarMenu from "components/SidebarMenu";
 import Architect from "components/Architect";
+import RatesAPI from "components/RatesAPI";
+
 import UserList from "components/UserList";
 import VideoStart from "components/VideoStart";
 function Dashboard() {
@@ -19,7 +21,7 @@ function Dashboard() {
           {/* Центральный блок */}
           <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 main__container">
           {/* <Breadcrumbs /> */}
-          
+          <RatesAPI />
           
            <Architect/>         
             

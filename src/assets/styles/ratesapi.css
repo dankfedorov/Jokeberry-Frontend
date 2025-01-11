@@ -1,0 +1,13 @@
+
+.pt{
+    padding-top: 70px;
+}
+.rates{
+    background-color: rgba(248, 248, 248, 0.76);
+    outline: 1px solid rgb(216, 215, 215);
+    padding: 18px;
+    border-radius: 10px;
+    
+    gap: 5px;
+    
+}

@@ -334,8 +334,8 @@ ul {
 .front-back{
   padding-top: 36px;
   padding-bottom: 25px;
-  background-color: #343A40;
-  color: #d3d3d3;
+  /* background-color: #343A40; */
+  /* color: #d3d3d3; */
 }
 
 @media (max-width: 770px) {

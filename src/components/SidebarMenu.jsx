@@ -6,6 +6,7 @@ import backendlink from "../components/data/backendlink";
 import NavItem from "../components/NavItem";
 
 function SidebarMenu() {
+  
   const username = JSON.parse(localStorage.getItem('username'));
   const id = JSON.parse(localStorage.getItem('id'));
 

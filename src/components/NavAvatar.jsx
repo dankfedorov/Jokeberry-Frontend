@@ -4,19 +4,20 @@ import adminicon from "../assets/images/admin.gif";
 import "../assets/styles/nav.css";
 
 function NavAvatar() {
- 
+  const username = JSON.parse(localStorage.getItem('username'));
+  const id = JSON.parse(localStorage.getItem('id'));
 
   return (
     <li className="nav-item dropdown">
       <a
         href="#"
-        className="nav-link nav-profile d-flex align-items-center pe-0"
+        className="nav-link nav-profile d-flex align-items-center pe-0 "
         data-bs-toggle="dropdown"
       >
         {/* <i className="bi bi-box-arrow-in-right"></i> */}
-        {/* <img src={menu} alt="Profile" className='rounded-circle' /> */}
-        <img src={menu} alt="Profile" className="menu-icon" />
-        <span className="d-none d-md-block dropdown-toggle ps-2"> Войти</span>
+        <img src={menu} alt="Profile" className='rounded-circle' />
+        {/* <img src={menu} alt="Profile" className="menu-icon" /> */}
+        {/* <span className="d-none d-md-block dropdown-toggle ps-2"></span> */}
       </a>
 
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
@@ -26,8 +27,9 @@ function NavAvatar() {
             alt="Profile"
             className="admin-img text-center"
           />
-          <h6>user: Гость</h6>
-          <span>ID:*******</span>
+          <h6>Username:{username}</h6>
+          <span>ID:{id}</span>
+
         </li>
         <li>
           <hr className="dropdown-divider" />
@@ -62,7 +64,7 @@ function NavAvatar() {
         <li>
           <a href="/video" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-question-circle"></i>
-            <span>Video Blog</span>
+            <span>Video </span>
           </a>
         </li>
        

@@ -12,7 +12,7 @@ function Nav() {
           {" "}
           <a
             href="/register"
-            className="nav-link nav-profile d-flex align-items-center pe-0"
+            className="nav-link nav-profile d-flex align-items-center pe-0 ps-2"
           >
             <span className="d-none d-md-block ps-2 reg-link">
               {" "}
