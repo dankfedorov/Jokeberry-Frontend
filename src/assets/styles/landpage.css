@@ -53,13 +53,19 @@ ul {
   list-style: none;
 }
 
+.wrap {
+  padding: 0;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
 /* header */
 
 .container {
-  max-width: 1170px;
-  padding: 0 15px;
+  max-width: 1120px;
+  padding: 0;
   margin: 0 auto;
-  width: 100%;
+  
 }
 
 /*Main*/
@@ -326,7 +332,7 @@ ul {
 
 /* front-back */
 .front-back{
-  padding-top: 25px;
+  padding-top: 36px;
   padding-bottom: 25px;
   background-color: #343A40;
   color: #d3d3d3;

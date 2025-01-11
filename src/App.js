@@ -32,7 +32,7 @@ const Home = () => {
   console.log("Авторизация " + status);
 
    return (
-    <div>
+    <div >
       <Header/>
       <LandPage />
       <Footer />
@@ -44,7 +44,7 @@ const Dash = () => {
   // (Protected:)
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <Dashboard />
       <Smallfooter />
     </div>

@@ -51,7 +51,7 @@ function LandPage() {
             </div>
 
             <div className="col-md-6">
-              <h1 className="mb-3 p-2">Технологии для Вашего сайта.</h1>
+              <h1 className="mb-3 p-2">Технологии <br></br>для Вашего сайта.</h1>
               <p className="hero__descr mb-2">адаптивная верстка 320*1920px </p>
               <p className="hero__descr mb-4"> HTML, React, Javascript, Nodejs, MongoDB</p>
           
@@ -103,7 +103,7 @@ function LandPage() {
                     <h2 className="mb-4">Добро пожаловать!</h2>
                     <p className="mb-4">
                       Этот сайт создан, чтобы стать вашим надежным помощником в
-                      работе по созданию <b>собственных проектов/</b>
+                      работе по созданию <b>собственных проектов.</b>
                     </p>
 
                     <p className="mb-4">
