@@ -17,7 +17,7 @@ const MyForm = () => {
     // window.location = "/login";
     e.preventDefault(); // предотвращаем перезагрузку страницы
     try {
-      const response = await fetch("http://localhost:5000/api/registration", {
+      const response = await fetch("https://localhost:5000/api/registration", {
         // const response = await fetch("https://188.130.154.26:5000/api/registration",{ // надо https
         method: "POST",
         headers: {
