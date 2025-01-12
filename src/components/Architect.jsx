@@ -10,6 +10,15 @@ function Architect() {
         <h2 className="text-center mb-0">Архитектура проекта</h2>
         <p className="text-center ">Frontend и Backend</p>
         <div className="row ">
+        
+        <div className="col-md-6">
+            <div className="">
+              <div className="p-3">
+              <img src={robot6} alt="" />
+              </div>
+            </div>
+          </div>
+
           <div className="col-md-6">
             <div className="">
               <div className="p-3">
@@ -47,13 +56,7 @@ function Architect() {
             </div>
           </div>
 
-          <div className="col-md-6">
-            <div className="">
-              <div className="p-3">
-              <img src={robot6} alt="" />
-              </div>
-            </div>
-          </div>
+     
         </div>
         <div className="row ">
           <div className="col-md-6">
