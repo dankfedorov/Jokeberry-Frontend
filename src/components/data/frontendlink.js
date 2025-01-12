@@ -1,7 +1,7 @@
 const frontendlink = [
     {
         _id: 1,
-        name: 'Рабочий стол',
+        name: 'Dashboard',
         icon: 'bi bi-house-door',
         link: '/dashboard'
     },
