@@ -54,12 +54,12 @@ function Architect() {
         <h2 className="text-center mb-0">Frontend</h2>
         <p className="text-center ">сторона клиента</p>
 
-        <div className="row ">
+        {/* <div className="row ">
           <div className="col-md-6">
             <div className="">
               <img src={robot4} alt="" />
             </div>
-          </div>
+          </div> */}
 
           <div className="col-md-6">
             <div className="">
