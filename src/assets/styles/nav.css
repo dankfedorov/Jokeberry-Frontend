@@ -7,21 +7,21 @@
     padding: 0;
   }
     
-  .header-nav .nav-icon {
+  /* .header-nav .nav-icon {
     font-size: 18px;
     color: #012970;
     margin-right: 25px;
     position: relative;
-  }
+  } */
     .header-nav .nav-profile {
-    color: #012970;
+    color: #707070;
   }
   .header-nav .nav-profile img {
     max-height: 36px;
   }
   
   .header-nav .nav-profile span{
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 600;
   }
   

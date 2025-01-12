@@ -1,7 +1,5 @@
 import React from "react";
 import "../assets/styles/dashboard.css";
-
-import Breadcrumbs from "components/Breadcrumbs";
 import Users from "components/Users";
 import SidebarMenu from "components/SidebarMenu";
 import Architect from "components/Architect";

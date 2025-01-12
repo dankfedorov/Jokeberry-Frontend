@@ -1,26 +1,45 @@
 /* header */
 .header {
-    position: fixed;
-    background-color: rgb(243, 243, 243);
-    gap: 3px;
-    transition: all 0.5s;
-    z-index: 998;
-    height: 60px;
-    box-shadow: 0px 2px 20px rgba(33, 1, 73, 0.1);
-   
-    padding-left: 15px;
-    padding-right: 15px;
-    z-index: 999;
-  }
-  /* Search bar */
-  /* Toogle Sidebar button */
-  .header .toggle-sidebar-btn {
-      font-size: 32px;
-      padding-left: 10px;
-      cursor: pointer;
-      color: #012970;
-      outline: 1px solid #00AEEF;
-  }
-  .container__header{
-    flex-direction:row-reverse;
-  }
+  /* padding: 3rem 0; */
+  position: fixed;
+  background-color: rgb(243, 243, 243);
+  gap: 3px;
+  transition: all 0.5s;
+  height: 60px;
+  box-shadow: 0px 2px 20px rgba(33, 1, 73, 0.1);
+
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 999;
+}
+
+/* Search bar */
+/* Toogle Sidebar button */
+.header .toggle-sidebar-btn {
+  font-size: 32px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #012970;
+  outline: 1px solid #00AEEF;
+}
+
+.container__header {
+  flex-direction: row-reverse;
+}
+
+/* header nav link */
+.header-nav__group{
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+.header-nav__link {
+  font-size: 16px;
+  
+}
+
+.header-nav__link a {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: rgb(6, 27, 207);
+}

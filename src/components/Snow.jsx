@@ -1,6 +1,6 @@
 
   // Snow
-  const NUMBER_OF_SNOWFLAKES = 200;
+  const NUMBER_OF_SNOWFLAKES = 100;
   const MAX_SNOWFLAKE_SIZE = 2;
   const MAX_SNOWFLAKE_SPEED = 2;
   const SNOWFLAKE_COLOUR = "#FFFFFF";
