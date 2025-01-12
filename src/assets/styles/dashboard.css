@@ -89,4 +89,8 @@
 .main__container{
   background-color: rgb(236, 236, 236);
 }
-
+/* architect */
+.architect{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
