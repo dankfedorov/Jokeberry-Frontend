@@ -8,7 +8,7 @@ function TopNav() {
       <ul className="header-nav__group">
         <li className="header-nav__link">
           <a
-            href="#"
+            href="/about"
             className="nav-link nav-profile d-flex align-items-center pe-0"
           >
             <span className="d-none d-md-block ps-3 ">О Проекте</span>
