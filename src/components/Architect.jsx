@@ -1,6 +1,6 @@
 import React from "react";
-import robot6 from "../assets/images/robot6.png";
 import robot3 from "../assets/images/robot3.png";
+import robot4 from "../assets/images/robot4.png";
 
 function Architect() {
   return (
@@ -10,16 +10,16 @@ function Architect() {
         <h2 className="text-center mb-0">Архитектура проекта</h2>
         <p className="text-center ">Frontend и Backend</p>
         <div className="row ">
-        
-        <div className="col-md-6">
+
+        <div className="col-md-5">
             <div className="">
               <div className="p-3">
-              <img src={robot6} alt="" />
+              <img src={robot4} alt="" />
               </div>
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="">
               <div className="p-3">
                 <h3>Frontend</h3>
@@ -59,7 +59,7 @@ function Architect() {
      
         </div>
         <div className="row ">
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="">
               <div className="p-3">
               <img src={robot3} alt="" />
@@ -67,7 +67,7 @@ function Architect() {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="">
               <div className="p-3">
                 <h3>Backend</h3>
