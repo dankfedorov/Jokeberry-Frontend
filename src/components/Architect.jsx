@@ -10,11 +10,11 @@ function Architect() {
         <h2 className="text-center mb-0">Архитектура проекта</h2>
         <p className="text-center ">Frontend и Backend</p>
 
-        <div className="row text-center">
+        {/* <div className="row text-center">
           <div className="col-md-12">
             <img src={architect_img} alt="" />
           </div>
-        </div>
+        </div> */}
 
         <div className="row ">
           <div className="col-md-6">
@@ -54,12 +54,12 @@ function Architect() {
         <h2 className="text-center mb-0">Frontend</h2>
         <p className="text-center ">сторона клиента</p>
 
-        {/* <div className="row ">
+        <div className="row ">
           <div className="col-md-6">
             <div className="">
               <img src={robot4} alt="" />
             </div>
-          </div> */}
+          </div>
 
           <div className="col-md-6">
             <div className="">
