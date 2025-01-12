@@ -21,6 +21,7 @@ import RegisterPage from "./pages/RegisterPage";
 import Smallfooter from "components/Smallfooter";
 import VideoStart from "components/VideoStart";
 import VideoBlog from "../src/pages/VideoBlog";
+import AboutProject from "components/AboutProject";
 
 
 
@@ -48,6 +49,7 @@ const About = () => {
    return (
     <div >
       <Header/>
+      <AboutProject />
       <Footer />
       <Smallfooter />
     </div>
