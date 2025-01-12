@@ -49,9 +49,9 @@ function NavAvatar() {
         </li>
 
         <li>
-          <a href="#" className="dropdown-item d-flex align-items-center">
+          <a href="/dashboard" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-person"></i>
-            <span>Профиль</span>
+            <span>О Проекте</span>
           </a>
         </li>
         <li>
