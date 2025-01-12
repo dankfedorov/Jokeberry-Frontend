@@ -49,6 +49,7 @@ const About = () => {
     <div >
       <Header/>
       <Footer />
+      <Smallfooter />
     </div>
   );
 };
