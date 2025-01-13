@@ -1,15 +1,15 @@
 import React from "react";
-import monitor from "../assets/images/Monitor.jpg";
+import monitor from "../assets/images/Monitor.png";
 function CodingHtml() {
   return (
     <>
       <section id="coding" className="coding">
         <div className="container__coding ">
           
-          <div className="row monitor_img">
+          <div className="row ">
             <div className="col-md-12 text-center">
               <p className="p-2">
-                {/* <img src={monitor} alt="" className="" /> */}
+                <img src={monitor} alt="" className="" />
               </p>
             </div>
           </div>

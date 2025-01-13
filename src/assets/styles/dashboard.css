@@ -140,11 +140,11 @@
 .dashboard__container img{
   max-height: 420px;
 }
-.monitor_img{
+/* .monitor_img{
   position: relative;
   background-image: url(../images/Monitor.png);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 450px;
-}
+  min-height: 490px;
+} */
