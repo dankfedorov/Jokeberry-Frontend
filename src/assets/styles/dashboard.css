@@ -106,3 +106,7 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.dashboard__container{}
+.dashboard__container img{
+  max-height: 410px;
+}

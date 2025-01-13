@@ -48,13 +48,14 @@ function Architect() {
         <p className="text-center ">сторона клиента</p>
 
         <div className="row ">
-          <div className="col-md-6">
+
+          <div className="col-md-4 text-center">
             <div className="">
               <img src={robot4} alt="" />
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-8">
             <div className="">
               <div className="p-3">
                 <p className="p-2">
@@ -95,7 +96,7 @@ function Architect() {
         <p className="text-center ">сторона сервера - то что мы не видим</p>
 
         <div className="row ">
-          <div className="col-md-6">
+          <div className="col-md-4 text-center">
             <div className="">
               <div className="p-3">
                 <img src={robot3} alt="" />
@@ -103,7 +104,7 @@ function Architect() {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-8">
             <div className="">
               <div className="p-3">
                 <p className="p-2">

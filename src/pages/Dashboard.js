@@ -13,7 +13,7 @@ import DataGoogle from "components/DataGoogle";
 function Dashboard() {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid dashboard__container">
         <div className="row">
           {/* Левое меню */}
           <SidebarMenu />
