@@ -2,7 +2,7 @@
 .header {
   /* padding: 3rem 0; */
   position: fixed;
-  background-color: rgb(243, 243, 243);
+  background-color: rgba(243, 243, 243, 0.89);
   gap: 3px;
   transition: all 0.5s;
   height: 60px;

@@ -52,9 +52,7 @@ function LandPage() {
                 <h1 className="mb-3 p-2">
                   Соврменные технологии <br></br>для Вашего сайта.
                 </h1>
-                <p className="hero__descr mb-2">
-                  адаптивная верстка 320*1920px{" "}
-                </p>
+               
                 <p className="hero__descr mb-4">
                   {" "}
                   Инструменты: HTML, React, Javascript, Nodejs, MongoDB
