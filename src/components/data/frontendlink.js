@@ -15,31 +15,25 @@ const frontendlink = [
         _id: 3,
         name: 'Дизайн макета',
         icon: 'bi bi-file-text',
-        link: '/f3'
+        link: '#disignmaket'
     },
     {
         _id: 4,
-        name: 'Верстка HTML',
+        name: 'Верстка HTML+CSS',
         icon: 'bi bi-robot',
-        link: '/f4'
+        link: '#coding'
     },
     {
         _id: 5,
-        name: 'Стили CSS',
+        name: 'Интеграция c React',
         icon: 'bi bi-robot',
-        link: '/f5'
+        link: '#'
     },
     {
         _id: 6,
-        name: 'Интеграция React',
-        icon: 'bi bi-robot',
-        link: '/f6'
-    },
-    {
-        _id: 7,
         name: 'NPM Библиотеки',
         icon: 'bi bi-robot',
-        link: '/f7'
+        link: '#'
     },
 
     

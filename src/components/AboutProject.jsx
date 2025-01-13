@@ -21,10 +21,11 @@ function AboutProject() {
             <div className="col-md-6">
               <div className="p-3">
                 <span className="p-2">
-                  <h2 className="mb-4">Приветсвуем вас на нашем сайте!</h2>
+                  <h2 className="mb-4">Добрый день!</h2>
                   <p className="mb-4">
-                    Этот сайт создан, чтобы стать вашим надежным помощником в
-                    работе по созданию <b>собственных проектов.</b>
+                    Этот сайт создан, чтобы стать показать возможноcти 
+                    использования различных инстрментов при работе 
+                    по созданию <b>собственных проектов.</b>
                   </p>
 
                   <p className="mb-4">
@@ -34,14 +35,10 @@ function AboutProject() {
                   </p>
 
                   <p className="mb-4">
-                    Тщательно проработал каждый этап, чтобы сделать
-                    процесс понятным и доступным даже для начинающих.
-                  </p>
-                  <p className="mb-4">
                     Спасибо, что обратили внимание на мой проект — вместе мы добьемся большего!
                   </p>
                   <p className="mb-4">
-                    Для того чтобы получить доступ к материалу, необходимо пройти ваторизацию.
+                    Для того чтобы получить доступ к материалам, необходимо пройти авторизацию.
 
                   </p>
                   <p className='text-center'>
@@ -64,8 +61,8 @@ function AboutProject() {
 
         <div className="container features__container">
           <p className="small text-muted">( кратко о важном )</p>
-          <h2 className="text-center mb-4">Ключевые этапы и технологии</h2>
-          <p className="small">Необходимо разделить все работы на этапы</p>
+          <h2 className="text-center mb-1">Ключевые этапы и технологии</h2>
+          <p className="text-center small mb-4">Необходимо разделить все работы на этапы</p>
           <div className="row">
             {/* <!-- Feature 1 --> */}
             <div className="col-md-4">
