@@ -122,8 +122,9 @@
 }
 
 .dashboard__container{}
+
 .dashboard__container img{
-  max-height: 410px;
+  max-height: 420px;
 }
 .monitor_img{
   position: relative;
