@@ -18,7 +18,6 @@ import deploy from "../assets/images/Deploy.png";
 import phones from "../assets/images/phones.png";
 import Snow from "components/Snow";
 
-
 function LandPage() {
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
   for (let anchor of anchors) {
@@ -35,26 +34,29 @@ function LandPage() {
   // remove all Обнуляем все
   localStorage.clear();
   console.log("ID has been cleared success.");
-  <Snow />
+  <Snow />;
 
   //
   return (
     <>
       {/* <!-- Hero Section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
-      
-        <div className="container container__hero  ">
+        <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between ">
-            
             <div className="col-md-6 mb-2">
               <img src={phones} alt="jokeberry" />
             </div>
 
             <div className="col-md-6">
-              <h1 className="mb-3 p-2">Соврменные технологии <br></br>для Вашего сайта.</h1>
+              <h1 className="mb-3 p-2">
+                Соврменные технологии <br></br>для Вашего сайта.
+              </h1>
               <p className="hero__descr mb-2">адаптивная верстка 320*1920px </p>
-              <p className="hero__descr mb-4"> Инструменты: HTML, React, Javascript, Nodejs, MongoDB</p>
-          
+              <p className="hero__descr mb-4">
+                {" "}
+                Инструменты: HTML, React, Javascript, Nodejs, MongoDB
+              </p>
+
               {/* <a
                 href="https://t.me/JokeBerry_Bot"
                 target="_blank"
@@ -72,21 +74,18 @@ function LandPage() {
                 </svg>
                 Telegram
               </a> */}
-               
             </div>
-           
+
             {/* <div className="col-md-1">
               <img src={robot2} alt="" />
             </div> */}
-
           </div>
         </div>
       </section>
 
       <main>
-
         {/* <!-- Frontend --> */}
-        <section id="about" className="bg-light py-5 about">
+        <section id="about" className="bg-light py-5 about ">
           <div className="container about__container">
             <p className="small text-muted">( инструментарий )</p>
             <h2 className="text-center mb-4">Технологии для FRONTEND</h2>
@@ -321,14 +320,10 @@ function LandPage() {
           </div>
         </section>
 
-                {/* pIC BLOCK */}
-                <section id="nav-block" className="nav-block ">
-          <div className="container ">
+        {/* pIC BLOCK */}
+        <section id="nav-block" className="nav-block bg__girl">
+          <div className="container">
             <div className="row d-flex align-items-center justify-content-center">
-              <div className="col-md-6 text-center ">
-                <span className="nav-block__h2 mb-3">QR переход на сайт</span>
-              </div>
-
               <div className="col-md-6">
                 <ul className="nav-blcok__group">
                   <li className="nav-block__link">
@@ -342,10 +337,13 @@ function LandPage() {
                   </li>
                 </ul>
               </div>
+          
+              <div className="col-md-6 text-center bg__girl">
+                <span className="nav-block__h2 mb-3">QR переход на сайт</span>
+              </div>
             </div>
           </div>
         </section>
-        
       </main>
 
       {/* <!-- Footer Section --> */}

@@ -95,6 +95,17 @@ ul {
   padding-top: 25px;
   padding-right: 10px;
 }
+
+.bg__girl{
+  position: relative;
+  background-image: url(../images/portrait.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0px;
+  padding-top: 300px; 
+  padding-right: 0px;
+}
 .plane__img{
   position: relative;
   background-image: url(../images/plane__img.png);
@@ -106,7 +117,6 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
   z-index: 999;
-
 }
 
 
