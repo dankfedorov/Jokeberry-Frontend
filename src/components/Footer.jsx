@@ -85,7 +85,7 @@ function Footer() {
               </li>
             </ul>
 
-            <img src={robot5} className="" />
+            
           </div>
 
           <div className="row footer__background flex p-3">
@@ -106,7 +106,7 @@ function Footer() {
                 характер и&nbsp;не&nbsp;является публичной офертой.
               </p>
             </div>
-            <div className="col-md-3"> </div>
+            <div className="col-md-3"> <img src={robot5} className="" /></div>
           </div>
         </div>
       </div>
