@@ -341,7 +341,7 @@ function LandPage() {
               </div>
           
               <div className="col-md-6 text-center bg__girl">
-                <span className="nav-block__h2 mb-3">QR переход</span>
+                <span className="nav-block__h2 mb-3">QR переход на сайт</span>
               </div>
             </div>
           </div>

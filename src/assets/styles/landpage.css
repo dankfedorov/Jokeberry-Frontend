@@ -97,14 +97,15 @@ ul {
 }
 
 .bg__girl{
-  position: relative;
+  /* position: relative; */
+  display: flex;
   background-image: url(../images/portrait.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 0px;
-  padding-top: 300px; 
-  padding-right: 0px;
+  padding-left: 20px;
+  padding-top: 320px; 
+  padding-right: 20px;
 }
 .plane__img{
   position: relative;
