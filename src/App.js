@@ -51,7 +51,7 @@ const About = () => {
       <Header/>
       <AboutProject />
       <Footer />
-      <Smallfooter />
+      
     </div>
   );
 };

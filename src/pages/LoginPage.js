@@ -107,7 +107,9 @@ const MyForm = () => {
                   <b> чтобы продолжить.</b>
                 </a>
               </p>
-
+              
+              <p className="small p-2"><i class="bi bi-shield-check"></i> JWT (JSON Web Token) 
+                  шифрование данных</p>
             <p className="mt-0 mb-2 small">JOKEBERRY &copy; 2025</p>
             {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД</a> */}
           </div>
