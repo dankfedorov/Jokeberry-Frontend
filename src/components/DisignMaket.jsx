@@ -6,7 +6,7 @@ function DisignMaket() {
       <section id="disignmaket" className="disignmaket">
         <div className="container__disign">
           <h2 className="text-center mb-0">Дизайн макета в Figma</h2>
-          <p className="text-center ">дизайн интерфейса сайта</p>
+          <p className="text-center mb-4">дизайн интерфейса сайта</p>
 
           <div className="row">
             <div className="col-md-6">

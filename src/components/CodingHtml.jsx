@@ -6,11 +6,11 @@ function CodingHtml() {
       <section id="coding" className="coding">
         <div className="container__coding">
           <h2 className="text-center mb-0">Кодинг & Верстка </h2>
-          <p className="text-center ">дизайн интерфейса сайта / HTML + CSS</p>
+          <p className="text-center mb-4">дизайн интерфейса сайта / HTML + CSS</p>
 
           <div className="row">
 
-            <div className="col-md-6">
+            <div className="col-md-7">
               <p className="p-2">
                 Верстка или кодинг сайта на HTML, CSS и JavaScript — это
                 последовательный и креативный процесс, который превращает
@@ -42,7 +42,7 @@ function CodingHtml() {
               <p className="p-2"></p>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-5">
               <p className="p-2">
                 <img src={monitor} alt="" className="" />
               </p>

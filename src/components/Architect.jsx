@@ -10,7 +10,7 @@ function Architect() {
 
       <div className=" container__architect">
         <h2  className="text-center mb-0">Архитектура проекта</h2>
-        <p className="text-center ">Frontend и Backend</p>
+        <p className="text-center mb-4">Frontend и Backend</p>
 
 
         <div className="row ">
