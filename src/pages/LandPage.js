@@ -41,23 +41,26 @@ function LandPage() {
     <>
       {/* <!-- Hero Section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
-        <div className="container container__hero ">
-          <div className="row d-flex align-items-center justify-content-between ">
-            <div className="col-md-6 mb-2">
-              <img src={phones} alt="jokeberry" />
-            </div>
+        <div className="">
+          <div className="container container__hero ">
+            <div className="row d-flex align-items-center justify-content-between ">
+              <div className="col-md-6 mb-2">
+                <img src={phones} alt="jokeberry" />
+              </div>
 
-            <div className="col-md-6">
-              <h1 className="mb-3 p-2">
-                Соврменные технологии <br></br>для Вашего сайта.
-              </h1>
-              <p className="hero__descr mb-2">адаптивная верстка 320*1920px </p>
-              <p className="hero__descr mb-4">
-                {" "}
-                Инструменты: HTML, React, Javascript, Nodejs, MongoDB
-              </p>
+              <div className="col-md-6">
+                <h1 className="mb-3 p-2">
+                  Соврменные технологии <br></br>для Вашего сайта.
+                </h1>
+                <p className="hero__descr mb-2">
+                  адаптивная верстка 320*1920px{" "}
+                </p>
+                <p className="hero__descr mb-4">
+                  {" "}
+                  Инструменты: HTML, React, Javascript, Nodejs, MongoDB
+                </p>
 
-              {/* <a
+                {/* <a
                 href="https://t.me/JokeBerry_Bot"
                 target="_blank"
                 className="tg-link"
@@ -74,11 +77,12 @@ function LandPage() {
                 </svg>
                 Telegram
               </a> */}
-            </div>
+              </div>
 
-            {/* <div className="col-md-1">
+              {/* <div className="col-md-1">
               <img src={robot2} alt="" />
             </div> */}
+            </div>
           </div>
         </div>
       </section>
@@ -324,10 +328,8 @@ function LandPage() {
         <section id="nav-block" className="nav-block bg__girl">
           <div className="container">
             <div className="row d-flex align-items-center justify-content-center p-3">
-
               <div className="col-md-6 ">
                 <ul className="nav-blcok__group">
-
                   <li className="nav-block__link">
                     <a href="#" className="">
                       <div className="shadow-sm mb-4 ">
@@ -339,7 +341,7 @@ function LandPage() {
                   </li>
                 </ul>
               </div>
-          
+
               <div className="col-md-6 text-center bg__girl">
                 <span className="nav-block__h2 mb-3">QR переход на сайт</span>
               </div>

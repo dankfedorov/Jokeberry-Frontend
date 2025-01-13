@@ -79,7 +79,7 @@ ul {
   background-color: #ffffff;
   padding-top: 55px;
   padding-bottom: 25px;
-  background-image: url(../images/jokeberry.png);
+
 }
 .container__hero {
   padding-top: 10px;
@@ -94,6 +94,14 @@ ul {
   padding-left: 10px;
   padding-top: 25px;
   padding-right: 10px;
+}
+.matrix__img {
+  position: relative;
+  background-image: url(../images/v627-aew-07-technologybackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .bg__girl{
@@ -129,7 +137,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 45px;
-  color: #3e13b6;
+  color: #99D945;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -143,7 +151,7 @@ ul {
   font-weight: 800;
   font-size: 32px;
   line-height: 35px;
-  color: #888888;
+  color:#99D945;
   margin-bottom: 25px;
 }
 
@@ -155,7 +163,7 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
-  color: #2b2b2b;
+  color: #4e8803;
 }
 .hero a {
   position: relative;
@@ -187,6 +195,7 @@ ul {
   outline: 2px solid rgb(50, 5, 172);
   color: #ffffff;
   background-color: #4400ff;
+  
 }
 
 /* intro */
@@ -224,9 +233,11 @@ ul {
   border-radius: 8px;
   outline:1px solid rgba(226, 240, 122, 0.103);
   transition: 0.2s ease-in-out;
+  margin-bottom: 10px;
 }
 .card:hover {
-  outline:1px solid rgb(220, 241, 58);
+  outline:5px solid rgb(220, 241, 58);
+  
   
   border-radius: 5px;
 }
@@ -300,7 +311,7 @@ ul {
   min-height: 460px;
 }
 .nav-block span{
-  background-color: #3d08d2;
+  background-color: #99D945;
   padding: 10px;
 }
 .nav-block__h2{
