@@ -27,8 +27,8 @@ function NavAvatar() {
             alt="Profile"
             className="admin-img text-center"
           />
-          <h6>Username:{username}</h6>
-          <span>ID:{id}</span>
+          <p>Username:<b>{username}</b></p>
+          <p>ID:<b>{id}</b></p>
 
         </li>
         <li>
@@ -50,12 +50,12 @@ function NavAvatar() {
 
         <li>
           <a href="/about" className="dropdown-item d-flex align-items-center">
-            <i className="bi bi-person"></i>
+            <i className="bi bi-terminal-plus"></i>
             <span>О Проекте</span>
           </a>
         </li>
         <li>
-          <hr className="dropdown-divider" />
+          {/* <hr className="dropdown-divider" /> */}
         </li>
 
         <li>
@@ -63,15 +63,15 @@ function NavAvatar() {
         </li>
         <li>
           <a href="/video" className="dropdown-item d-flex align-items-center">
-            <i className="bi bi-question-circle"></i>
+            <i className="bi bi-film"></i>
             <span>Video </span>
           </a>
         </li>
        
         <li>
           <a href="#" className="dropdown-item d-flex align-items-center">
-            <i className="bi bi-question-circle"></i>
-            <span>Нужна помощь ?</span>
+            <i className="bi bi-person-fill"></i>
+            <span>Профиль</span>
           </a>
         </li>
         <li>

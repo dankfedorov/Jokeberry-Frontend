@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/styles/footer.css";
 import robot5 from "../assets/images/robot5.png";
+import pluspic from "../assets/images/16plus.png";
 
 import RatesAPI from "../components/RatesAPI";
 import logo from "../assets/images/logo.png";
@@ -11,34 +12,45 @@ function Footer() {
       <div className="container">
         <div className="row footer__background flex p-3">
           <div className="col-md-3 footer__block">
-          <a href="/Dashboard" className="logo d-flex align-items-center p-1">
-            <img src={logo} />
-            <span className="d-lg-block">JOKEBERRY</span>
+            <a href="/Dashboard" className="logo d-flex align-items-center p-1">
+              <img src={logo} />
+              <span className="d-lg-block">JOKEBERRY</span>
             </a>
           </div>
           <div className="col-md-4 footer__block ">
+            <p className="footer__descr">© 2024–2025, aвтор Федоров Даниил. </p>
             <p className="footer__descr">
-              © 2024–2025 Проект сделан в рамках учебной программы.<br></br>
-              Автор Федоров Даниил.
+              Проект сделан в рамках учебной программы.<br></br>
             </p>
-            <p class="footer__descr ">
-              Представленная на&nbsp;сайте информация носит справочный характер
-              и&nbsp;не&nbsp;является публичной офертой
-            </p>
-          </div>     
+          </div>
           <div className="col-md-2 footer__block">
             <p>Клиентам</p>
             <ul class="footer__block link_box">
-              <li><a href="/"  class="footer-link">Главная</a></li>
-              <li><a href="#intro"  class="footer-link">О проекте</a></li>
-              <li><a href="/dashboard"  class="footer-link">Админ часть</a></li>
-              <li><a href="#"  class="footer-link">Контаты</a></li>
+              <li>
+                <a href="/" class="footer-link">
+                  Главная
+                </a>
+              </li>
+              <li>
+                <a href="#intro" class="footer-link">
+                  О проекте
+                </a>
+              </li>
+              <li>
+                <a href="/dashboard" class="footer-link">
+                  Админ часть
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  Контаты
+                </a>
+              </li>
             </ul>
-           
           </div>
-          <div className="col-md-2 footer__block">
-          <p>Связь с нами</p>
-          <ul class="footer__block right-block">
+          <div className="col-md-3 footer__block">
+            <p>Связь с нами</p>
+            <ul class="footer__block right-block">
               <li>
                 <a
                   href="https://t.me/JokeBerry_Bot"
@@ -72,10 +84,30 @@ function Footer() {
                 </a>
               </li>
             </ul>
- 
+
             <img src={robot5} className="" />
           </div>
-        
+
+          <div className="row footer__background flex p-3">
+            <div className="col-md-3">
+              <img src={pluspic} className="" />
+            </div>
+            <div className="col-md-4">
+              <p class="footer__descr small">
+                Предоставляя свои персональные данные Покупатель даёт согласие
+                на обработку, хранение и использование своих персональных данных
+                на основании ФЗ № 152-ФЗ «О персональных данных» от 27.07.2006
+                г.
+              </p>
+            </div>
+            <div className="col-md-2">
+              <p class="footer__descr small ">
+                Представленная на&nbsp;сайте информация носит справочный
+                характер и&nbsp;не&nbsp;является публичной офертой.
+              </p>
+            </div>
+            <div className="col-md-3"> </div>
+          </div>
         </div>
       </div>
     </footer>
