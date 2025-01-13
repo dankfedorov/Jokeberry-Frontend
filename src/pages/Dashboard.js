@@ -9,6 +9,7 @@ import UserList from "components/UserList";
 import VideoStart from "components/VideoStart";
 import DisignMaket from "components/DisignMaket";
 import CodingHtml from "components/CodingHtml";
+import DataGoogle from "components/DataGoogle";
 function Dashboard() {
   return (
     <div>

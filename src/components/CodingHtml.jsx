@@ -1,19 +1,20 @@
 import React from "react";
-
+import monitor from "../assets/images/Monitor.jpg";
 function CodingHtml() {
   return (
     <>
       <section id="coding" className="coding">
         <div className="container__coding">
-          <h2 className="text-center mb-0">Кодинг & Верстка HTML + CSS</h2>
-          <p className="text-center ">дизайн интерфейса сайта</p>
+          <h2 className="text-center mb-0">Кодинг & Верстка </h2>
+          <p className="text-center ">дизайн интерфейса сайта / HTML + CSS</p>
 
           <div className="row">
+
             <div className="col-md-6">
               <p className="p-2">
-                Верстка или кодинг сайта на HTML, CSS и JavaScript — это последовательный и
-                креативный процесс, который превращает дизайн-макет в
-                интерактивную веб-страницу.
+                Верстка или кодинг сайта на HTML, CSS и JavaScript — это
+                последовательный и креативный процесс, который превращает
+                дизайн-макет в интерактивную веб-страницу.
               </p>
               <p className="p-2">
                 Следующим этапом является стилизация с помощью CSS. Здесь мы
@@ -23,10 +24,7 @@ function CodingHtml() {
                 создания адаптивного дизайна, который будет корректно
                 отображаться на разных устройствах.
               </p>
-             
-            </div>
-            <div className="col-md-6">
-            <p className="p-2">
+              <p className="p-2">
                 После того как внешний вид страницы оформлен, мы переходим к
                 добавлению интерактивности с помощью JavaScript. Этот язык
                 позволяет реагировать на действия пользователя, обрабатывать
@@ -40,9 +38,16 @@ function CodingHtml() {
                 корректно и соответствует ожиданиям. После устранения всех
                 недочетов сайт готов к запуску.
               </p>
-              
+
               <p className="p-2"></p>
             </div>
+
+            <div className="col-md-6">
+              <p className="p-2">
+                <img src={monitor} alt="" className="" />
+              </p>
+            </div>
+
           </div>
         </div>
       </section>

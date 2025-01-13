@@ -19,7 +19,7 @@ const frontendlink = [
     },
     {
         _id: 4,
-        name: 'Верстка HTML+CSS',
+        name: 'Кодинг & Верстка',
         icon: 'bi bi-robot',
         link: '#coding'
     },

@@ -25,6 +25,9 @@ import AboutProject from "components/AboutProject";
 
 
 
+
+
+
 // Компоненты страниц
 const Home = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
@@ -35,7 +38,9 @@ const Home = () => {
    return (
     <div >
       <Header/>
+    
       <LandPage />
+     
       <Footer />
     </div>
   );
