@@ -323,12 +323,14 @@ function LandPage() {
         {/* pIC BLOCK */}
         <section id="nav-block" className="nav-block bg__girl">
           <div className="container">
-            <div className="row d-flex align-items-center justify-content-center">
-              <div className="col-md-6">
+            <div className="row d-flex align-items-center justify-content-center p-3">
+
+              <div className="col-md-6 ">
                 <ul className="nav-blcok__group">
+
                   <li className="nav-block__link">
                     <a href="#" className="">
-                      <div className="shadow-sm mb-4">
+                      <div className="shadow-sm mb-4 ">
                         <div className="card__body">
                           <img src={qr} alt="qr link" />
                         </div>
@@ -339,7 +341,7 @@ function LandPage() {
               </div>
           
               <div className="col-md-6 text-center bg__girl">
-                <span className="nav-block__h2 mb-3">QR переход на сайт</span>
+                <span className="nav-block__h2 mb-3">QR переход</span>
               </div>
             </div>
           </div>

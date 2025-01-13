@@ -3,18 +3,16 @@ import "../assets/styles/footer.css";
 import robot5 from "../assets/images/robot5.png";
 
 import RatesAPI from "../components/RatesAPI";
-// import qr from "../assets/images/qr.png";
-import footerlogo from "../assets/images/footerlogo.png";
+import logo from "../assets/images/logo.png";
 
 function Footer() {
   return (
     <footer id="footer" className="footer section-offset">
       <div className="container">
-        <div className="row footer__background flex">
- 
+        <div className="row footer__background flex p-3">
           <div className="col-md-3 footer__block">
           <a href="/Dashboard" className="logo d-flex align-items-center p-1">
-            <img src={footerlogo} />
+            <img src={logo} />
             <span className="d-lg-block">JOKEBERRY</span>
             </a>
           </div>
