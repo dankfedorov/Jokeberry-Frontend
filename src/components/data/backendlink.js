@@ -19,6 +19,12 @@ const backendlink = [
     },
     {
         _id: 4,
+        name: 'JWT Авторизация',
+        icon: 'bi bi-robot',
+        link: '/b5'
+    },
+    {
+        _id: 4,
         name: 'Загрузка на сервер',
         icon: 'bi bi-robot',
         link: '/b5'
