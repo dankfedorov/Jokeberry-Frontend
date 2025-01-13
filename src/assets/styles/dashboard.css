@@ -125,3 +125,11 @@
 .dashboard__container img{
   max-height: 410px;
 }
+.monitor_img{
+  position: relative;
+  background-image: url(../images/Monitor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 450px;
+}

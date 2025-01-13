@@ -4,12 +4,12 @@ function CodingHtml() {
   return (
     <>
       <section id="coding" className="coding">
-        <div className="container__coding">
+        <div className="container__coding ">
           
-          <div className="row">
+          <div className="row monitor_img">
             <div className="col-md-12 text-center">
               <p className="p-2">
-                <img src={monitor} alt="" className="" />
+                {/* <img src={monitor} alt="" className="" /> */}
               </p>
             </div>
           </div>
@@ -20,7 +20,7 @@ function CodingHtml() {
           </p>
 
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 ">
               <p className="p-2">
                 Верстка или кодинг сайта на HTML, CSS и JavaScript — это
                 последовательный и креативный процесс, который превращает
