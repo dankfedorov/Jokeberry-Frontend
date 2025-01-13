@@ -94,6 +94,11 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.architect h2{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,31,135,1) 100%);
+  color: #eeeeee;
+}
 .front-backend{
   padding-top: 25px;
   padding-bottom: 25px;
@@ -102,10 +107,20 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.disignmaket h2{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(80,31,135,1) 100%);
+  color: #eeeeee;}
 .coding{
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.coding h2{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,31,135,1) 100%);
+  color: #eeeeee;
+}
+
 .dashboard__container{}
 .dashboard__container img{
   max-height: 410px;
