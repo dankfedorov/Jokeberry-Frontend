@@ -8,9 +8,9 @@ html {
 }
 
 :root {
-  --default-color: #0ca031;
-  --hover-color: #25da1f;
-  --focus-color: #0d9c7d;
+  --default-color: #1865f5;
+  --hover-color: #2c83bd;
+  --focus-color: #8999f3;
   --active-color: #0ca719;
   --gray-light-color: #CACACA;
   --grey-color: #666666;
@@ -166,7 +166,7 @@ ul {
   font-weight: 800;
   font-size: 32px;
   line-height: 35px;
-  color:#99D945;
+  color:var(--default-color);
   margin-bottom: 25px;
 }
 
@@ -237,11 +237,13 @@ ul {
   padding-top: 25px;
 }
 .small {
+  font-size: 9;
   color: #f1f1f1;
 }
 
 .card {
   background-color: #fff;
+  padding: 5px;
   /* background-image: linear-gradient(90deg, rgb(226, 240, 122),
     rgba(183, 15, 126, 0.685), rgb(196, 223, 2));  */
   min-height: 350px;
@@ -251,7 +253,7 @@ ul {
   margin-bottom: 10px;
 }
 .card:hover {
-  outline:5px solid rgb(220, 241, 58);
+  outline:5px solid var(--hover-color);
   
   
   border-radius: 5px;
@@ -261,7 +263,7 @@ ul {
   margin-bottom: 10px;
 }
 .green{
-  background-color: #ade267;
+  background-color: #88a068;
 }
 .purple{
   background-color:rgb(183, 15, 127);
@@ -326,7 +328,7 @@ ul {
   min-height: 460px;
 }
 .nav-block span{
-  background-color: #99D945;
+  background-color:var(--hover-color);
   padding: 10px;
 }
 .nav-block__h2{

@@ -2,11 +2,13 @@ import React from "react";
 import "../assets/styles/topnav.css";
 import "../assets/styles/nav.css";
 import NavAvatar from "./NavAvatar";
+// import SwithTheme from "./SwithTheme";
 
 function Nav() {
   return (
     <nav className="header-nav ms-auto">
       <ul className="d-flex align-items-center">
+      
         <NavAvatar />
         <li>
           {" "}

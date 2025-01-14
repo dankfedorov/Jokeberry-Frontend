@@ -3,9 +3,6 @@ import "../assets/styles/footer.css";
 import robot5 from "../assets/images/robot5.png";
 import pluspic from "../assets/images/16plus.png";
 
-import RatesAPI from "../components/RatesAPI";
-import logo from "../assets/images/logo.png";
-
 function Footer() {
   return (
     <footer id="footer" className="footer section-offset">
@@ -13,8 +10,8 @@ function Footer() {
         <div className="row footer__background flex p-3">
           <div className="col-md-3 footer__block">
             <a href="/Dashboard" className="logo d-flex align-items-center p-1">
-              <img src={logo} />
-              <span className="d-lg-block">JOKEBERRY</span>
+              {/* <img src={logo} /> */}
+              <span className="d-lg-block">JOKEBERRY.RU</span>
             </a>
           </div>
           <div className="col-md-4 footer__block ">
@@ -32,7 +29,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#intro" class="footer-link">
+                <a href="/about" class="footer-link">
                   О проекте
                 </a>
               </li>
@@ -42,7 +39,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-link">
+                <a href="/" class="footer-link">
                   Контаты
                 </a>
               </li>
@@ -56,6 +53,7 @@ function Footer() {
                   href="https://t.me/JokeBerry_Bot"
                   target="_blank"
                   class="footer-link"
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +68,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" class="footer-link">
+                <a href="https://t.me/JokeBerry_Bot" target="_blank" rel="noreferrer" class="footer-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="36"
@@ -90,7 +88,7 @@ function Footer() {
 
           <div className="row footer__background flex p-3">
             <div className="col-md-3">
-              <img src={pluspic} className="" />
+              <img src={pluspic} className="" alt=""/>
             </div>
             <div className="col-md-4">
               <p class="footer__descr small">
@@ -106,7 +104,7 @@ function Footer() {
                 характер и&nbsp;не&nbsp;является публичной офертой.
               </p>
             </div>
-            <div className="col-md-3"> <img src={robot5} className="" /></div>
+            <div className="col-md-3"> <img src={robot5} className="" alt=""/></div>
           </div>
         </div>
       </div>

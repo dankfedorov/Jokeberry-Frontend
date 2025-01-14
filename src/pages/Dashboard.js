@@ -1,15 +1,13 @@
 import React from "react";
 import "../assets/styles/dashboard.css";
-import Users from "components/Users";
+
 import SidebarMenu from "components/SidebarMenu";
 import Architect from "components/Architect";
 import RatesAPI from "components/RatesAPI";
 
-import UserList from "components/UserList";
-import VideoStart from "components/VideoStart";
 import DisignMaket from "components/DisignMaket";
 import CodingHtml from "components/CodingHtml";
-import DataGoogle from "components/DataGoogle";
+
 function Dashboard() {
   return (
     <div>

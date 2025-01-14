@@ -10,15 +10,12 @@ function NavAvatar() {
   return (
     <li className="nav-item dropdown">
       <a
-        href="#"
+        href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center pe-0 "
         data-bs-toggle="dropdown"
       >
-        {/* <i className="bi bi-box-arrow-in-right"></i> */}
         <img src={menu} alt="Profile" className='rounded-circle' />
-        {/* <img src={menu} alt="Profile" className="menu-icon" /> */}
-        {/* <span className="d-none d-md-block dropdown-toggle ps-2"></span> */}
-      </a>
+       </a>
 
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
         <li className="dropdown-header ">
@@ -41,6 +38,7 @@ function NavAvatar() {
           </a>
         </li>
         <li>
+          
           <hr className="dropdown-divider" />
         </li>
 
@@ -54,9 +52,7 @@ function NavAvatar() {
             <span>О Проекте</span>
           </a>
         </li>
-        <li>
-          {/* <hr className="dropdown-divider" /> */}
-        </li>
+       
 
         <li>
           <hr className="dropdown-divider" />
@@ -69,7 +65,7 @@ function NavAvatar() {
         </li>
        
         <li>
-          <a href="#" className="dropdown-item d-flex align-items-center">
+          <a href="/dashboard" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-person-fill"></i>
             <span>Профиль</span>
           </a>

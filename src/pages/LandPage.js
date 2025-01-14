@@ -1,9 +1,5 @@
 import React from "react";
 import "../assets/styles/landpage.css";
-import robot1 from "../assets/images/robot1.png";
-import robot2 from "../assets/images/robot2.png";
-import robot3 from "../assets/images/robot3.png";
-import robot4 from "../assets/images/robot4.png";
 import qr from "../assets/images/qr.png";
 import draw from "../assets/images/Drawio.png";
 import figma from "../assets/images/Figma.png";
@@ -50,7 +46,8 @@ function LandPage() {
 
               <div className="col-md-6">
                 <h1 className="mb-3 p-2">
-                  Создай и разверни собсвтенный <br></br> интернет ресурс.
+                Создай свой проект <br></br> 
+                забудьте про границы!
                 </h1>
                
                 <p className="hero__descr mb-4">
@@ -329,7 +326,7 @@ function LandPage() {
               <div className="col-md-6 ">
                 <ul className="nav-blcok__group">
                   <li className="nav-block__link">
-                    <a href="#" className="">
+                    <a href="/dashboard" className="">
                       <div className="shadow-sm mb-4 ">
                         <div className="card__body">
                           <img src={qr} alt="qr link" />

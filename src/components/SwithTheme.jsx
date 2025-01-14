@@ -1,14 +1,17 @@
 import React from "react";
 import "../assets/styles/switchtheme.css";
 
+
+
+
 function SwithTheme() {
+  
   return (
     <div>
-     <i class="bi bi-brightness-high"></i>
-      <label class="switch">
-     
+     <i className="bi bi-brightness-high" ></i>
+      <label className="switch" id="switch">
         <input type="checkbox" />
-        <span class="slider round"></span>
+        <span className="slider round" ></span>
       
       </label>
       

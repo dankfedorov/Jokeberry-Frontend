@@ -58,3 +58,21 @@
     border-radius: 50%;
   }
   
+  /*  Changed theme*/
+  /**/
+
+.switch-on {
+  background-color: #262525;
+  color: var(--color-default);
+}
+
+.switch-on::after {
+  content: "";
+  left: 15px;
+}
+
+.dark-scheme{
+background-color:#000000;
+color: #fff;
+}
+

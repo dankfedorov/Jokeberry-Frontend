@@ -1,4 +1,3 @@
-
 /* General setting  sidebar*/
 .sidebar {
   position: fixed;
@@ -15,7 +14,6 @@
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
   background-color: #fafafa;
-  
 }
 
 .sidebar .nav-link {
@@ -23,7 +21,6 @@
   color: #292929;
   font-size: 14px;
   padding: 5px;
-
 }
 .sidebar ul {
   list-style: none;
@@ -32,14 +29,13 @@
   margin: 0;
   padding: 0;
 }
-.nav-item i{
+.nav-item i {
   margin-right: 10px;
 }
 
-.nav li:hover{
+.nav li:hover {
   transition: 0.3s all;
   background-color: #4a48a88e;
- 
 }
 .nav img {
   max-width: 35px;
@@ -81,7 +77,7 @@
   font-size: 13px;
   color: #676a6c;
 }
-.ibox-content{
+.ibox-content {
   padding-top: 10px;
 }
 
@@ -96,47 +92,49 @@
   font-weight: 100;
   color: #333;
 }
-.smallfooter{
+.smallfooter {
   padding: 5px;
   overflow-x: hidden;
 }
-.main__container{
+.main__container {
   background-color: rgb(236, 236, 236);
 }
 /* architect */
-.architect{
+.architect {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.architect h2{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,31,135,1) 100%);
+.architect h2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%);
   color: #eeeeee;
 }
-.front-backend{
+.front-backend {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.disignmaket{
+.disignmaket {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.disignmaket h2{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(80,31,135,1) 100%);
-  color: #eeeeee;}
-.coding{
+.disignmaket h2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%);
+  color: #eeeeee;
+}
+.coding {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.coding h2{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,31,135,1) 100%);
+.coding h2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%);
   color: #eeeeee;
 }
 
-.dashboard__container{}
+.dashboard__container {
+}
 
-.dashboard__container img{
+.dashboard__container img {
   max-height: 420px;
 }
