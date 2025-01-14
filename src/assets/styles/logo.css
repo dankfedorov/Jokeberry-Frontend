@@ -12,9 +12,9 @@
   }
   
   .logo img {
-    max-width: 50px;
-    max-height: 50px;
-    min-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
     margin-right: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
@@ -22,9 +22,9 @@
   
   .logo span {
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    color: #99D945;
+    color: var(--default-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-right: 5px;

@@ -3,6 +3,21 @@
 *::after {
   box-sizing: inherit;
 }
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --default-color: #0ca031;
+  --hover-color: #25da1f;
+  --focus-color: #0d9c7d;
+  --active-color: #0ca719;
+  --gray-light-color: #CACACA;
+  --grey-color: #666666;
+  --black-color: #000000;
+  --white-color: #ffffff;
+
+}
 
 a,
 button {
@@ -137,7 +152,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 45px;
-  color: #99D945;
+  color: var(--default-color);
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -163,7 +178,7 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
-  color: #4e8803;
+  color: var(--focus-color);
 }
 .hero a {
   position: relative;

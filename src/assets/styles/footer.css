@@ -28,7 +28,7 @@
   /* align-items: center; */
 }
 .footer-link {
-  color:#99D945;
+  color:var(--focus-color);
   animation: loading 1.3s linear infinite;
   transition: 0.3s ease-in-out;
 }

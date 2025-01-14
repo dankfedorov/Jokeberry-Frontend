@@ -24,39 +24,31 @@ import VideoBlog from "../src/pages/VideoBlog";
 import AboutProject from "components/AboutProject";
 
 
-
-
-
-
 // Компоненты страниц
 const Home = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
   const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
   console.log("Авторизация " + status);
-
    return (
     <div >
       <Header/>
-    
-      <LandPage />
-     
+      <LandPage />  
       <Footer />
     </div>
   );
 };
+
 const About = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
   const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
   console.log("Авторизация " + status);
-
    return (
     <div >
       <Header/>
       <AboutProject />
-      <Footer />
-      
+      <Footer />     
     </div>
   );
 };
@@ -101,8 +93,7 @@ const ErrorAuth = () => {
   return (
     <div className="">
       <Header />
-      <h2>Извините, необходимо пройти авторизацию.</h2>
-    
+      <h2>Извините, необходимо пройти авторизацию.</h2> 
     </div>
   );
 };
@@ -125,8 +116,7 @@ const App = () => {
         <Route path="/about" Component={About} />        
         {/* <Route path="/users" Component={Dash} />         */}
         
-      
-       
+             
         <Route
           path="/dashboard"
           element={
@@ -137,7 +127,6 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-       
       </Routes>
     </Router>
   );

@@ -3,6 +3,7 @@ import "../assets/styles/header.css";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import TopNav from "./TopNav";
+import SwithTheme from "./SwithTheme";
 
 
 function Header() {
@@ -11,6 +12,7 @@ function Header() {
       
       <Logo />
       <TopNav />
+      {/* <SwithTheme/> */}
       <Nav />
     </header>
   );
