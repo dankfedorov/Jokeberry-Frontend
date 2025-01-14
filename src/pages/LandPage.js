@@ -13,6 +13,8 @@ import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
 import phones from "../assets/images/phones.png";
 import Snow from "components/Snow";
+import Intro from "components/Intro";
+
 
 function LandPage() {
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
@@ -35,7 +37,7 @@ function LandPage() {
   //
   return (
     <>
-      {/* <!-- Hero Section  vh-100 --> */}
+      {/* <!-- hero section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
         <div className="">
           <div className="container container__hero ">
@@ -46,46 +48,34 @@ function LandPage() {
 
               <div className="col-md-6">
                 <h1 className="mb-3 p-2">
-                Создай свой проект <br></br> 
-                забудьте про границы!
+                  Создай свой сайт <br></br>
+                  забудьте про границы!
                 </h1>
-               
-                <p className="hero__descr mb-4">
+
+                <p className="hero__descr mb-2">
                   {" "}
-                  Инструменты: HTML, React, Javascript, Nodejs, MongoDB
+                  Современная техгология создания сайтов
+                </p>
+                <p className="hero__descr mb-2">
+                  {" "}
+                  HTML, CSS, React, Javascript, Nodejs, MongoDB
                 </p>
 
-                {/* <a
-                href="https://t.me/JokeBerry_Bot"
-                target="_blank"
-                className="tg-link"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="36"
-                  height="36"
-                  fill="currentColor"
-                  class="bi bi-telegram"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
-                </svg>
-                Telegram
-              </a> */}
-              </div>
+                </div>
 
-              {/* <div className="col-md-1">
-              <img src={robot2} alt="" />
-            </div> */}
             </div>
           </div>
         </div>
       </section>
+      
+      
 
       <main>
-        {/* <!-- Frontend --> */}
-        <section id="about" className="bg-light py-5 about ">
-          <div className="container about__container">
+        
+        <Intro />
+
+        <section id="tech" className="bg-light py-5 tech ">
+          <div className="container tech__container">
             <p className="small text-muted">( инструментарий )</p>
             <h2 className="text-center mb-4">Технологии для FRONTEND</h2>
             {/* <p className="display-10">инструменты</p> */}
@@ -289,9 +279,10 @@ function LandPage() {
                       <h5 className="card-title">www.postman.com</h5>
                       <p className="display-6">Postman Agent</p>
                       <ul className="list-unstyled">
-                        <li>инструмент для разработки</li>
-                        <li>тестирования и работа с API</li>
-                        <li>типы запросов: GET, POST, PUT, DELETE</li>
+                       
+                        <li>работа и тестирвоание</li>
+                        <li>взаимодействие с API запросами</li>
+                        <li> GET, POST, PUT, DELETE</li>
                       </ul>
                     </div>
                   </div>
