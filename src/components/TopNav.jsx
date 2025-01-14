@@ -5,7 +5,6 @@ function TopNav() {
   return (
     <nav className="header-nav ms-auto">
       <ul className="header-nav__group">
-
         <li className="header-nav__link">
           <a
             href="/"
@@ -24,9 +23,8 @@ function TopNav() {
             <span className="d-none d-md-block ps-3 ">О нас</span>
           </a>
         </li>
-
         <li className="header-nav__link d-md-block ps-3 ">
-        <SwithTheme />
+          <SwithTheme />
         </li>
       </ul>
     </nav>

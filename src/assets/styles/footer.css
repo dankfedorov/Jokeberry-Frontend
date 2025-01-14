@@ -41,11 +41,21 @@
   max-width: 120px;
 }
 .footer__img {
-
   position: relative;
   background-image: url(../images/16plus.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 250px;
+}
+/* Footer menu */
+.container__footermenu{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:15px;
+  max-height: 50px;
+  background-color: aliceblue;
 }

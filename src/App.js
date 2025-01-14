@@ -22,6 +22,7 @@ import Smallfooter from "components/Smallfooter";
 import VideoStart from "components/VideoStart";
 import VideoBlog from "../src/pages/VideoBlog";
 import AboutProject from "components/AboutProject";
+import FooterMenu from "components/FooterMenu";
 
 
 // Компоненты страниц
@@ -35,6 +36,7 @@ const Home = () => {
       <Header/>
       <LandPage />  
       <Footer />
+      <FooterMenu />
     </div>
   );
 };
