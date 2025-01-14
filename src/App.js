@@ -23,6 +23,7 @@ import VideoStart from "components/VideoStart";
 import VideoBlog from "../src/pages/VideoBlog";
 import AboutProject from "components/Intro";
 import FooterMenu from "components/FooterMenu";
+import UserList from "components/UserList";
 
 
 // Компоненты страниц
@@ -125,10 +126,23 @@ const App = () => {
             <ProtectedRoute isAuthenticated={isAuthenticated}>
                <Header/>
                <Dashboard />
+               {/* <Smallfooter /> */}
+            </ProtectedRoute>
+          }
+        />
+        
+        <Route
+          path="/admin"
+          element={
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
+               <Header/>
+               
+               <UserList/>
                <Smallfooter />
             </ProtectedRoute>
           }
         />
+
       </Routes>
     </Router>
   );

@@ -34,8 +34,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/dashboard" class="footer-link">
-                  Админ часть
+                <a href="/admin" class="footer-link">
+                  Админ панель
                 </a>
               </li>
               <li>

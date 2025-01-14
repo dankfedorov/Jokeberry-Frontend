@@ -29,6 +29,12 @@ const navList = [
         icon: 'bi bi-box-arrow-right',
         link: '/'
     },
+    {
+        _id: 6,
+        name: 'Админ панель',
+        icon: 'bi bi-box-arrow-right',
+        link: '/admin'
+    },
 
     
 ];
