@@ -50,7 +50,7 @@ function LandPage() {
 
               <div className="col-md-6">
                 <h1 className="mb-3 p-2">
-                  Соврменные технологии <br></br>для Вашего сайта.
+                  Создай и разверни собсвтенный <br></br> интернет ресурс.
                 </h1>
                
                 <p className="hero__descr mb-4">
