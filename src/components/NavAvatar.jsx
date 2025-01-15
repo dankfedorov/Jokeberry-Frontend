@@ -42,21 +42,32 @@ function NavAvatar() {
           <hr className="dropdown-divider" />
         </li>
 
-        <li>
-          <hr className="dropdown-divider" />
-        </li>
-
+    
         <li>
           <a href="/about" className="dropdown-item d-flex align-items-center">
-            <i className="bi bi-terminal-plus"></i>
+          <i class="bi bi-house"></i>
+            <span>Главная</span>
+          </a>
+        </li>
+        <li>
+          <a href="/about" className="dropdown-item d-flex align-items-center">
+          <i class="bi bi-info-circle"></i>
             <span>О Проекте</span>
           </a>
         </li>
-       
-
         <li>
-          <hr className="dropdown-divider" />
+          <a href="/dashboard" className="dropdown-item d-flex align-items-center">
+          <i class="bi bi-card-list"></i>
+            <span>Инфо блок</span>
+          </a>
         </li>
+        <li>
+          <a href="/admin" className="dropdown-item d-flex align-items-center">
+          <i class="bi bi-gear"></i>
+            <span>Админ панель</span>
+          </a>
+        </li>
+        
         <li>
           <a href="/video" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-film"></i>
@@ -64,12 +75,6 @@ function NavAvatar() {
           </a>
         </li>
        
-        <li>
-          <a href="/dashboard" className="dropdown-item d-flex align-items-center">
-            <i className="bi bi-person-fill"></i>
-            <span>Профиль</span>
-          </a>
-        </li>
         <li>
           <hr className="dropdown-divider" />
         </li>
