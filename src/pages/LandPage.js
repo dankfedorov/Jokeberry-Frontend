@@ -82,7 +82,7 @@ function LandPage() {
         <section id="tech" className="bg-light py-5 tech ">
           <div className="container tech__container">
             <p className="small text-muted">( инструментарий )</p>
-            <h2 className="text-center mb-4">Технологии для FRONTEND</h2>
+            <h2 className="text-center mb-4">FRONTEND</h2>
             {/* <p className="display-10">инструменты</p> */}
             <div className="row text-center">
               {/* <!-- Plan 1 --> */}
@@ -199,10 +199,10 @@ function LandPage() {
         </section>
 
         {/* <!-- Backend --> */}
-        <section id="about" className="bg-light py-5 about">
-          <div className="container about__container">
+        <section id="tech" className="bg-light py-5 tech">
+          <div className="container tech__container">
             <p className="small text-muted">( инструментарий )</p>
-            <h2 className="text-center mb-4">Технологии для BACKEND</h2>
+            <h2 className="text-center mb-4">BACKEND</h2>
             {/* <p className="display-10">инструменты</p> */}
             <div className="row text-center">
               {/* <!-- Plan 1 --> */}
