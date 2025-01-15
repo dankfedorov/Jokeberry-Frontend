@@ -39,22 +39,27 @@ function LandPage() {
     <>
       {/* <!-- hero section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
-        <div className="">
+        
           <div className="container container__hero ">
             <div className="row d-flex align-items-center justify-content-between ">
-              <div className="col-md-6 mb-2">
+              
+              {/* <div className="col-md-6 mb-2">
                 <img src={phones} alt="jokeberry" />
-              </div>
+              </div> */}
 
-              <div className="col-md-6">
+              <div className="col-md-12">
                 <h1 className="mb-3 p-2">
                   Создай свой сайт <br></br>
-                  забудьте про границы!
+                  забудь про сложности
                 </h1>
 
-                <p className="hero__descr mb-2">
+                <p className="hero__descr mb-1">
                   {" "}
-                  Современная техгология создания сайтов
+                  современная техгология создания сайтов
+                </p>
+                <p className="hero__descr mb-1">
+                  {" "}
+                  быстро, просто и понятно
                 </p>
                 <p className="hero__descr mb-2">
                   {" "}
@@ -65,7 +70,7 @@ function LandPage() {
 
             </div>
           </div>
-        </div>
+        
       </section>
       
       

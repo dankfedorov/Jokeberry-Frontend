@@ -2,17 +2,14 @@
 body {
   /* background: rgb(38,84,98); */
   background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
+}
 
-}
-.container{
-  flex-direction: column;
-}
 .container__login{
   padding-top: 70px;
 }
 .card-block{
   min-width: 320px;
-  background-color:rgba(243, 243, 243, 0.658);
+  background-color:rgba(255, 255, 255, 0.979);
   padding: 15px;
   border-radius: 12px;
   color: rgb(102, 102, 102);

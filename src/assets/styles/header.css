@@ -1,8 +1,8 @@
 /* header */
 .header {
   /* padding: 3rem 0; */
-  position: fixed;
-  background-color: rgb(255, 255, 255);
+  background-color:#f5f5f5;
+  padding: 10px 0;
   gap: 3px;
   transition: all 0.5s;
   height: 60px;
@@ -12,7 +12,6 @@
   z-index: 999;
 }
 
-/* Search bar */
 /* Toogle Sidebar button */
 .header .toggle-sidebar-btn {
   font-size: 32px;
