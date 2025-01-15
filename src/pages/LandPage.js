@@ -13,6 +13,7 @@ import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
 import Snow from "components/Snow";
 import Intro from "components/Intro";
+import PulseTag from "components/PulseTag";
 
 
 function LandPage() {
@@ -64,7 +65,7 @@ function LandPage() {
           </div>
         
       </section>
-      
+      <PulseTag/>
       
 
       <main>
