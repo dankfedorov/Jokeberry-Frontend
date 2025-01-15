@@ -24,6 +24,7 @@ import VideoBlog from "../src/pages/VideoBlog";
 import AboutProject from "components/Intro";
 import FooterMenu from "components/FooterMenu";
 import UserList from "components/UserList";
+import HeaderDash from "components/HeaderDash";
 
 
 // Компоненты страниц
@@ -124,7 +125,8 @@ const App = () => {
           path="/dashboard"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
-               <Header/>
+               {/* <Header/> */}
+               <HeaderDash /> 
                <Dashboard />
                {/* <Smallfooter /> */}
             </ProtectedRoute>
