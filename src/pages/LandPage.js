@@ -49,8 +49,8 @@ function LandPage() {
 
               <div className="col-md-12">
                 <h1 className="mb-3 p-2">
-                  Создай свой сайт <br></br>
-                  забудь про сложности
+                Реализуй свой проект <br></br>
+                вдохновляй, создавай, добивайся успеха!
                 </h1>
 
                 <p className="hero__descr mb-1">
