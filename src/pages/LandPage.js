@@ -11,7 +11,6 @@ import node from "../assets/images/Node.png";
 import mongo from "../assets/images/MongoDB.png";
 import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
-import phones from "../assets/images/phones.png";
 import Snow from "components/Snow";
 import Intro from "components/Intro";
 
@@ -43,11 +42,7 @@ function LandPage() {
           <div className="container container__hero ">
             <div className="row d-flex align-items-center justify-content-between ">
               
-              {/* <div className="col-md-6 mb-2">
-                <img src={phones} alt="jokeberry" />
-              </div> */}
-
-              <div className="col-md-12">
+               <div className="col-md-12">
                 <h1 className="mb-3 p-2">
                 Реализуй свой проект <br></br>
                 вдохновляй, создавай, добивайся успеха!

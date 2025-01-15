@@ -7,7 +7,7 @@ function Intro() {
       <section id="intro" className="intro">
         <div className="container container__intro">
           
-          <h2 className="text-center mb-4">О проекте</h2>
+          {/* <h2 className="mb-2">Основная коцепция</h2> */}
           <div className="row d-flex align-items-center justify-content-between">
             <div className="col-md-8">
               
