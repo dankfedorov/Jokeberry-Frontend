@@ -11,7 +11,7 @@ function Logo() {
       <a href="/" className="logo d-flex align-items-center ">
         <img src={logo} alt="Логотип Аналитика" aria-label="Аналитика" className=""/>
         {/* <span className="d-none d-lg-block">JOKEBERRY</span> */}
-        <span className="d-lg-block ">JOKEBERRY.RU</span>
+        <span className="d-lg-block ">JOKEBERRY</span>
       </a>          
       
     </div>
