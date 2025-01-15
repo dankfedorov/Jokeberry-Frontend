@@ -13,7 +13,7 @@ function PulseTag() {
         
           <button class="pulse__button">
             <a class="pulse__link" href="/login">
-              ЖМАХАЙ
+              НАЧНЕМ
             </a>
           </button>
           
