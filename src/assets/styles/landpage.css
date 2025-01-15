@@ -120,7 +120,7 @@ ul {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   width: 100%;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
@@ -370,10 +370,12 @@ ul {
   }
   .hero__descr {
     font-weight: 600;
+    background-color: #0000002d;
+    padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 14px;
     font-size: 18px;
-    color: var(--default-color);
+    color: var(--white-color);
     padding-bottom: 0px;
 
   }
