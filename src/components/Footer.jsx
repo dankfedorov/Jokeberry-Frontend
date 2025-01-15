@@ -6,7 +6,9 @@ import pluspic from "../assets/images/16plus.png";
 function Footer() {
   return (
     <footer id="footer" className="footer section-offset">
+
       <div className="container">
+        
         <div className="row footer__background flex p-3">
           <div className="col-md-3 footer__block">
             <a href="/Dashboard" className="logo d-flex align-items-center p-1">
@@ -85,6 +87,7 @@ function Footer() {
 
             
           </div>
+          </div>
 
           <div className="row footer__background flex p-3">
             <div className="col-md-3">
@@ -106,7 +109,8 @@ function Footer() {
             </div>
             <div className="col-md-3"> <img src={robot5} className="" alt=""/></div>
           </div>
-        </div>
+
+        
       </div>
     </footer>
   );
