@@ -14,21 +14,22 @@ const MyForm = () => {
   };
 
   const handleSubmit = async (e) => {
-    
     e.preventDefault(); // предотвращаем перезагрузку страницы
 
     try {
-      
-      const response = await fetch("https://dankfedorov-server-9b2d.twc1.net/api/login", {
-      // const response = await fetch("http://localhost:5000/api/login", {
-      // const response = await fetch('https://188.130.154.26:5000/api/login', {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData), // передаем данные формы
-      });
-      
+      const response = await fetch(
+        "https://dankfedorov-server-9b2d.twc1.net/api/login",
+        {
+          // const response = await fetch("http://localhost:5000/api/login", {
+          // const response = await fetch('https://188.130.154.26:5000/api/login', {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData), // передаем данные формы
+        }
+      );
+
       console.log("Отправили");
       if (!response.ok) {
         throw new Error("Ошибка отправки данных");
@@ -36,13 +37,13 @@ const MyForm = () => {
       const result = await response.json();
       console.log("Успех:", result);
 
-      const token = {result};
-      localStorage.setItem('authToken', JSON.stringify(token));
-      
-      const username = JSON.parse(localStorage.getItem('token'));
-      localStorage.setItem('id', JSON.stringify(result.id));
-      localStorage.setItem('username', JSON.stringify(result.username));
-      
+      const token = { result };
+      localStorage.setItem("authToken", JSON.stringify(token));
+
+      const username = JSON.parse(localStorage.getItem("token"));
+      localStorage.setItem("id", JSON.stringify(result.id));
+      localStorage.setItem("username", JSON.stringify(result.username));
+
       setIsSuccess(true); // Успех регистрации -- тут не понятно нужен ли этот вариант
       // console.log(setIsSuccess);
       setTimeout(() => {
@@ -53,53 +54,56 @@ const MyForm = () => {
       }, 100);
     } catch (error) {
       window.location.reload(); // Перезагрузка страницы
-      alert("Авторизоваться не удалось. Некорректный идентификатор доступа.\n Пожалуйста, проверьте ваши данный <<< Имя или пароль >>>");
+      alert(
+        "Авторизоваться не удалось. Некорректный идентификатор доступа.\n Пожалуйста, проверьте ваши данный <<< Имя или пароль >>>"
+      );
     }
   };
 
   return (
-    <div className="container container__login d-flex ">
-      <div className="row text-center">
-        <div className="col-md-4 mb-1 "></div>
+    <div className="container__login d-flex ">
+      
+        <div className="row text-center">
+          <div className="col-md-4 mb-1 "></div>
 
-        <div className="col-md-4 card-block">
-          <div className="p-0">
-            <h4>ВХОД В АККАУНТ</h4>
-            <p className="small mb-1">Введите свои учётные данные<br></br> для доступа к аккаунту.</p>
+          <div className="col-md-4 card-block">
+            <div className="p-0">
+              <h4>ВХОД В АККАУНТ</h4>
+              <p className="small mb-1">
+                Введите свои учётные данные<br></br> для доступа к аккаунту.
+              </p>
 
-            <form onSubmit={handleSubmit}>
-             
+              <form onSubmit={handleSubmit}>
+                <div className="form-floating">
+                  <input
+                    type="text"
+                    name="username"
+                    className="form-control mb-2 text-muted"
+                    placeholder="Ваш логин"
+                    value={formData.username}
+                    onChange={handleChange}
+                  />
+                  <label className="form__label">Имя или email</label>
+                </div>
 
-              <div className="form-floating">
-                <input
-                  type="text"
-                  name="username"
-                  className="form-control mb-2 text-muted"
-                  placeholder="Ваш логин"
-                  value={formData.username}
-                  onChange={handleChange}
-                />
-                <label className="form__label">Имя или email</label>
-              </div>
+                <div className="form-floating">
+                  <input
+                    type="password"
+                    className="form-control mb-2"
+                    name="password"
+                    value={formData.password}
+                    onChange={handleChange}
+                    placeholder="Password"
+                  />
+                  <label className="form__label">Password</label>
+                </div>
 
-              <div className="form-floating">
-                <input
-                  type="password"
-                  className="form-control mb-2"
-                  name="password"
-                  value={formData.password}
-                  onChange={handleChange}
-                  placeholder="Password"
-                />
-                <label className="form__label">Password</label>
-              </div>
+                <button className="w-100 btn mb-1" type="submit">
+                  Войти
+                </button>
+              </form>
 
-              <button className="w-100 btn mb-1" type="submit">
-                Войти
-              </button>
-            </form>
-
-            <p className="mb-0">Нет аккаунта? </p>
+              <p className="mb-0">Нет аккаунта? </p>
               <p className="small mb-1">
                 {" "}
                 Создайте учётную запись,
@@ -107,17 +111,20 @@ const MyForm = () => {
                   <b> чтобы продолжить.</b>
                 </a>
               </p>
-              
-              <p className="small p-2"><i class="bi bi-shield-check"></i> JWT (JSON Web Token) 
-                  шифрование данных</p>
-            <p className="mt-0 mb-2 small">JOKEBERRY &copy; 2025</p>
-            {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД</a> */}
-          </div>
-        </div>
 
-        <div className="col-md-4"></div>
+              <p className="small p-2">
+                <i class="bi bi-shield-check"></i> JSON Web Token
+                шифрование данных
+              </p>
+              <p className="mt-0 mb-2 small">JOKEBERRY &copy; 2025</p>
+              {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД</a> */}
+            </div>
+          </div>
+
+          <div className="col-md-4"></div>
+        </div>
       </div>
-    </div>
+
   );
 };
 

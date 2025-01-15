@@ -1,11 +1,18 @@
 
 body {
-  /* background: rgb(38,84,98); */
-  background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
+ background: rgb(40, 146, 179); 
+ background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
+ 
 }
 
 .container__login{
-  padding-top: 70px;
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgb(25, 28, 34) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/coding-man.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  backdrop-filter: blur(150px);
 }
 .card-block{
   min-width: 320px;
@@ -32,7 +39,6 @@ body {
   background-color: rgba(255, 255, 255, 0.986);
  
 }
-
 .card-block button{
   padding:12px 39px;
   border-radius: 5px;

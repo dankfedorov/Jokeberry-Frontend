@@ -1,5 +1,6 @@
 /* header */
 .header {
+  position: fixed;
   /* padding: 3rem 0; */
   background-color:#f5f5f5;
   padding: 10px 0;
@@ -10,6 +11,7 @@
   padding-left: 15px;
   padding-right: 15px;
   z-index: 999;
+  min-width: 100%;
 }
 
 /* Toogle Sidebar button */
