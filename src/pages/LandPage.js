@@ -52,10 +52,7 @@ function LandPage() {
                   {" "}
                   современная техгология создания сайтов
                 </p>
-                <p className="hero__descr mb-1">
-                  {" "}
-                  быстро, просто и понятно
-                </p>
+               
                 <p className="hero__descr mb-2">
                   {" "}
                   HTML, CSS, React, Javascript, Nodejs, MongoDB
