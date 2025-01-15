@@ -8,7 +8,8 @@ function NavAvatar() {
   const id = JSON.parse(localStorage.getItem('id'));
 
   return (
-    <li className="nav-item dropdown">
+
+    <span className="nav-item dropdown ms-auto">
       <a
         href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center pe-0 "
@@ -86,7 +87,8 @@ function NavAvatar() {
           </a>
         </li>
       </ul>
-    </li>
+
+    </span>
   );
 }
 
