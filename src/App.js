@@ -121,10 +121,8 @@ const App = () => {
         {/* <Route path="/users" Component={Dash} />         */}
         
              
-        <Route
-          path="/dashboard"
-          element={
-            <ProtectedRoute isAuthenticated={isAuthenticated}>
+        <Route path="/dashboard" element={
+          <ProtectedRoute isAuthenticated={isAuthenticated}>
                {/* <Header/> */}
                <HeaderDash /> 
                <Dashboard />
@@ -133,15 +131,12 @@ const App = () => {
           }
         />
         
-        <Route
-          path="/admin"
-          element={
-            <ProtectedRoute isAuthenticated={isAuthenticated}>
-               <Header/>
-               
+        <Route path="/admin" element={
+          <ProtectedRoute isAuthenticated={isAuthenticated}>
+               <Header/>  
                <UserList/>
                <Smallfooter />
-            </ProtectedRoute>
+          </ProtectedRoute>
           }
         />
 

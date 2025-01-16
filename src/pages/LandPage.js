@@ -45,8 +45,7 @@ function LandPage() {
               
                <div className="col-md-12">
                 <h1 className="mb-3 p-2">
-                Реализуй свой проект <br></br>
-                вдохновляй, создавай, добивайся успеха!
+                создай свой <br></br>проект в интернете 
                 </h1>
 
                 <p className="hero__descr mb-1">
@@ -65,7 +64,7 @@ function LandPage() {
           </div>
         
       </section>
-      <PulseTag/>
+      {/* <PulseTag/> */}
       
 
       <main>

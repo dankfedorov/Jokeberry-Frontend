@@ -108,7 +108,7 @@ ul {
   position: relative;
   max-width: 100%;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
   /* line-height: 60px; */
   color: var(--white-color);
