@@ -7,55 +7,55 @@ function Intro() {
       <section id="intro" className="intro">
         <div className="container container__intro">
           
-          {/* <h2 className="mb-2">Основная коцепция</h2> */}
+          <h2 className="mb-0">О проекте</h2>
+
           <div className="row d-flex align-items-center justify-content-between">
             <div className="col-md-8">
-              
-                <span className="p-2">
-                  <h3 className="mb-4">Как сделать свой сайт и с чего лучше начать?</h3>
-                  <p className="mb-4">
+            
+                <span className="p-1">
+                  <h3 className="mb-2">Простой и удобый сайт в интернете</h3>
+                  <p className="mb-2">
                     Данный проект, создан для того чтобы показать возможности
                     использования актуальных инструментов при работе по созданию{" "}
-                    собственных проектов. Сайт создан в формате презентации.
-                  </p>
-                  
-                  <hr></hr>
-                  <p className="mb-1">
-                    Чтобы реализовать данный проект мне пришлось разбить весь
-                    проект на этапы:
-                  </p>
+                    собственных проектов.                   </p>
                   <p className="mb-4">
+                  Разбиваем все работы на этапы:
+
                     <ul>
+                    
                       <span className="small">Frontend</span>
-                      <li>Составить архитектуру сайта</li>
+                      <li>Архитектуру сайта</li>
                       <li>Подготовить и разработать дизайн макет сайта</li>
                       <li>Сделать верстку сайта, подготовить код для браузеров</li>
-                      <li>Разработка адптивности сайта на всех устрйоствах</li>
+                      <li>Разработка адаптивность сайта на всех устрйоствах</li>
                       <li>Интегрировать с React</li>
                       <li>Подключить нужные библиотеки</li>
                      
                       <span className="small">Backend</span>
-                      <li>Сделать серверную часть проекта в Node.js</li>
-                      <li>Подключить нужные библиотеки Express, Cors, и прочие</li>
+                      <li>Серверную часть проекта в Node.js</li>
+                      <li>Требуются библиотеки Express, Cors, и т.д.</li>
                       <li>Подключить и настроить базу данных MongoDB</li>
-                      <li>Разработать авторизацию пользователей и интегрировать с базой данных</li>
-                      <li>Развернуть сервер на хостинге</li>
+                      <li>Создать систему авторизации пользователей и интегрировать с базой данных</li>
+                      <li>Развернуть серверную часть и часть клинта на хостинге(ах)</li>
                       <li>Связать Frontend + Backend</li>
                     </ul>
                     </p>
                     <hr></hr>
                   <p className="mb-4">
                     Далее для того чтобы получить доступ к материалам, Вам
-                    необходимо пройти авторизацию. Простой пример "JWT
+                    необходимо пройти авторизацию. 
+                  </p>
+                  <p className="mb-4">
+                  Простой пример "JWT
                     авторизации" покажет вам возможности работы связок между{" "}
                     <b>frontend и backend</b> частями.
                   </p>
                   <p className="text-center">
                     <a
                       href="/register"
-                      className="nav-link nav-profile d-flex align-items-center "
+                      className="btn"
                     >
-                      <span className="d-none d-md-block ps-2 reg-link hero__btn">
+                      <span className="">
                         {" "}
                         Перейти к материалам
                       </span>

@@ -56,16 +56,26 @@ function LandPage() {
                 {" "}
                 HTML, CSS, React, Javascript, Nodejs, MongoDB
               </p>
+
+            
+            </div>
+            <div className="col-md-12">
+            <button href="/login" className="btn-reset btn mb-4">Подробнее </button>
+            
             </div>
           </div>
 
-          <div className="container__hero__icons ">
+          <div className="container__hero__icons mb-4 py-5">
             <div className="glass_bg"><img src={figma} alt="qr link" /></div>
             <div className=""><img src={reactimg} alt="qr link" /></div>
             <div className=""><img src={vs} alt="qr link" /></div>
             <div className="glass_bg"><img src={node} alt="qr link" /></div>
             <div className=""><img src={mongo} alt="qr link" /></div>
           </div>
+
+         
+
+        
         </div>
       </section>
       {/* <PulseTag/> */}
