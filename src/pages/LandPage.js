@@ -43,12 +43,13 @@ function LandPage() {
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12">
               <h1 className="mb-3 p-2">
-                Создай свое <br></br>приложение 
+                Создай свой проект<br></br>
+                в интеренете 
               </h1>
 
               <p className="hero__descr mb-1">
                 {" "}
-                современная техгология для создания сайтов
+                современный техгологии для создания сайтов и приложений
               </p>
 
               <p className="hero__descr mb-4">
@@ -58,11 +59,11 @@ function LandPage() {
             </div>
           </div>
 
-          <div className="container__hero__icons">
-            <div className=""><img src={figma} alt="qr link" /></div>
+          <div className="container__hero__icons ">
+            <div className="glass_bg"><img src={figma} alt="qr link" /></div>
             <div className=""><img src={reactimg} alt="qr link" /></div>
             <div className=""><img src={vs} alt="qr link" /></div>
-            <div className=""><img src={node} alt="qr link" /></div>
+            <div className="glass_bg"><img src={node} alt="qr link" /></div>
             <div className=""><img src={mongo} alt="qr link" /></div>
           </div>
         </div>

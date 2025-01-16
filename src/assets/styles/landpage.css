@@ -80,10 +80,11 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-
-
 }
-
+.glass_bg{
+  background-color: #d3d0d0a4;
+  border-radius: 15px;
+}
 /*Main*/
 .main {
   padding: 0;
@@ -92,7 +93,7 @@ ul {
 
 /*hero*/
 .hero {
-  background-image: linear-gradient(130deg, rgb(25, 28, 34) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/coding-man.jpg);
+  background-image: linear-gradient(130deg, rgb(25, 28, 34) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/coding-man1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
