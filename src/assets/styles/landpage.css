@@ -74,8 +74,7 @@ ul {
   margin: 0 auto;
   max-width: 1170px;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+
 }
 .container__header{
   display: flex;
@@ -143,6 +142,17 @@ ul {
 .hero__btn:active {
   background-color: var(--active-color);
 }
+.hero img{
+  max-width: 100px;
+}
+.container__hero__icons{
+display: flex;
+flex-direction: row;
+gap:10px;
+
+align-items: center; /* центрирование по горизонту */
+justify-content: center; 
+}
 .bg__img {
   position: relative;
   background-image: url(../images/jokeberry.png);
@@ -153,29 +163,43 @@ ul {
   padding-top: 25px;
   padding-right: 10px;
 }
-.matrix__img {
+.girl__img {
   position: relative;
-  background-image: url(../images/v627-aew-07-technologybackground.jpg);
+  background-image: url(../images/girlpic.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  
+  background-position:10px;
+  /* height: 100vh; */
+  top:0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-.bg__girl{
-  /* position: relative; */
-  display: block;
-  background-image: url(../images/portrait.png);
-  background-size: cover;
+/* qrblock */
+.qrblock{
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+.qr__bg {
+  position: relative;
+  background-image: linear-gradient(130deg, rgb(25, 28, 34) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/girlpic.png);
+  /* background-position: center; */
   background-repeat: no-repeat;
-  background-position: center;
-  padding-left: 0px;
-  padding-top: 320px; 
-  padding-right: 0px;
+  background-size: cover;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  /* height: 100vh; */
 }
-
-
-
+.qrblock__block{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color:var(--default-color);
+}
+.qrblock__block__description{
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
 /* intro */
 .intro {
   background-color: #ffffff;
@@ -274,69 +298,6 @@ ul {
 }
 
 
-/* nav block */
-.nav-block {
-  padding-top: 25px;
-  padding-bottom: 25px; 
-  position: relative;
-  background-image: url(../images/pic2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 460px;
-}
-.nav-block span{
-  background-color:var(--hover-color);
-  padding: 10px;
-}
-.nav-block__h2{
-   color: white;
-  font-size: 34px;
-  font-weight: 800;
-
-}
-.nav-block__group{
-  display: flex;
-  gap: 5px;
-  flex-direction: column
-}
-.nav-blcok__group li{
-  /* outline: 1px solid white; */
-}
-
-.nav-block__link {
-  background-color: rgba(255, 255, 255, 0.411);
-  /* max-width: 60px; */
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 5px;
-  transition:  0.3s all;
-
-}
-.nav-block__link:hover{
-  outline: 5px solid white;
-  background-color: #3d08d2;
-}
-.nav-block__link a{
-  position: relative;
-  font-size: 25px;
-  left: 0;
-  /* color: rgb(255, 255, 255); */
-}
-.bigtext{
-  font-size: 58px;
-  font-weight: 900;
-  
-}
-
-/* front-back */
-.front-back{
-  padding-top: 36px;
-  padding-bottom: 25px;
-  /* background-color: #343A40; */
-  /* color: #d3d3d3; */
-}
-
 @media (max-width: 480px) {
   .nav-item img{
     display: block;
@@ -379,8 +340,9 @@ ul {
     padding-bottom: 0px;
 
   }
+
   .hero img {
-    min-width: 220px;
-    /* background-color: #6f5a9b; */
-  }
+    max-width: 50px;
+     }
+
 }

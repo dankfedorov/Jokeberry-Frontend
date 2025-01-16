@@ -11,10 +11,10 @@ import node from "../assets/images/Node.png";
 import mongo from "../assets/images/MongoDB.png";
 import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
+import monitor__img from "../assets/images/Monitor.png";
 import Snow from "components/Snow";
 import Intro from "components/Intro";
-import PulseTag from "components/PulseTag";
-
+// import PulseTag from "components/PulseTag";
 
 function LandPage() {
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
@@ -39,36 +39,37 @@ function LandPage() {
     <>
       {/* <!-- hero section  vh-100 --> */}
       <section id="hero" className="text-white text-center hero ">
-        
-          <div className="container container__hero ">
-            <div className="row d-flex align-items-center justify-content-between ">
-              
-               <div className="col-md-12">
-                <h1 className="mb-3 p-2">
-                создай свой <br></br>проект в интернете 
-                </h1>
+        <div className="container container__hero ">
+          <div className="row d-flex align-items-center justify-content-between ">
+            <div className="col-md-12">
+              <h1 className="mb-3 p-2">
+                Создай свое <br></br>приложение 
+              </h1>
 
-                <p className="hero__descr mb-1">
-                  {" "}
-                  современная техгология создания сайтов
-                </p>
-               
-                <p className="hero__descr mb-2">
-                  {" "}
-                  HTML, CSS, React, Javascript, Nodejs, MongoDB
-                </p>
+              <p className="hero__descr mb-1">
+                {" "}
+                современная техгология для создания сайтов
+              </p>
 
-                </div>
-
+              <p className="hero__descr mb-4">
+                {" "}
+                HTML, CSS, React, Javascript, Nodejs, MongoDB
+              </p>
             </div>
           </div>
-        
+
+          <div className="container__hero__icons">
+            <div className=""><img src={figma} alt="qr link" /></div>
+            <div className=""><img src={reactimg} alt="qr link" /></div>
+            <div className=""><img src={vs} alt="qr link" /></div>
+            <div className=""><img src={node} alt="qr link" /></div>
+            <div className=""><img src={mongo} alt="qr link" /></div>
+          </div>
+        </div>
       </section>
       {/* <PulseTag/> */}
-      
 
       <main>
-        
         <Intro />
 
         <section id="tech" className="bg-light py-5 tech ">
@@ -276,7 +277,6 @@ function LandPage() {
                       <h5 className="card-title">www.postman.com</h5>
                       <p className="display-6">Postman Agent</p>
                       <ul className="list-unstyled">
-                       
                         <li>работа и тестирвоание</li>
                         <li>взаимодействие с API запросами</li>
                         <li> GET, POST, PUT, DELETE</li>
@@ -307,27 +307,16 @@ function LandPage() {
           </div>
         </section>
 
-        {/* pIC BLOCK */}
-        <section id="nav-block" className="nav-block bg__girl">
+        {/* QR BLOCK */}
+        <section id="qrblock" className="qrblock qr__bg">
           <div className="container">
-            <div className="row d-flex align-items-center justify-content-center p-3">
-              <div className="col-md-6 ">
-                <ul className="nav-blcok__group">
-                  <li className="nav-block__link">
-                    <a href="/dashboard" className="">
-                      <div className="shadow-sm mb-4 ">
-                        <div className="card__body">
-                          <img src={qr} alt="qr link" />
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
+            <div className="row">
+              <div className="col-md-6 text-center">
+                <img src={qr} alt="deploy link" />
+                <h3 className="qrblock__block">QR LINK</h3>
               </div>
 
-              <div className="col-md-6 text-center bg__girl">
-                <span className="nav-block__h2 mb-3">QR переход на сайт</span>
-              </div>
+              <div className="col-md-6 text-center "></div>
             </div>
           </div>
         </section>

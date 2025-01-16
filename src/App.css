@@ -88,14 +88,14 @@ ul {
   list-style: none;
 }
 
-.container {
+/* .container {
   margin: 0 auto;
   max-width: 1870px;
   padding: 0 50px;
   width: 100%;
   padding: 0;
   max-width: 100%;
-}
+} */
 
 /* Overrride some default Bootstrap stylings */
 /* Dropdown menu */
@@ -123,7 +123,7 @@ ul {
   text-decoration: none;
 }
 .dropdown-menu .dropdown-divider {
-  color: #a5c5fe;
+  color: #78a8fc;
   margin: 0;
 }
 .dropdown-menu .dropdown-item {
@@ -137,7 +137,7 @@ ul {
   line-height: 0;
 }
 .dropdown-menu .dropdown-item:hover {
-  background-color: #c7c7c7;
+  background-color: #b6b3b3;
 }
 
 @media (width: 768px) {
@@ -145,7 +145,7 @@ ul {
     content: "";
     width: 13px;
     height: 13px;
-    background: white;
+    background: rgb(102, 102, 102);
     position: absolute;
     top: -7px;
     right: 20px;
