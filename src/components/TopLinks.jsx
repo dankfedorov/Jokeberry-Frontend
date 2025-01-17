@@ -14,7 +14,7 @@ function TopLinks() {
           <a href="#" className="toplink-link">Блог</a>
         </li>
         <li className="toplinks__item">
-          <a href="#" className="toplink-link">Rust</a>
+          <a href="https://moskovshop.gamestore.app/" className="toplink-link">Rust</a>
         </li>
       </ul>
     </div>

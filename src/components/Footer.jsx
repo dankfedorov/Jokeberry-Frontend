@@ -18,12 +18,11 @@ function Footer() {
           </div>
           <div className="col-md-4 footer__block ">
             <p className="footer__descr">© 2024–2025, aвтор Федоров Даниил. </p>
-            <p className="footer__descr">
+            <p className="footer__descr mb-2">
               Проект сделан в рамках учебной программы.<br></br>
             </p>
           </div>
           <div className="col-md-2 footer__block">
-            <p>Клиентам</p>
             <ul class="footer__block link_box">
               <li>
                 <a href="/" class="footer-link">
@@ -35,6 +34,7 @@ function Footer() {
                   О проекте
                 </a>
               </li>
+         
               <li>
                 <a href="/admin" class="footer-link">
                   Админ панель
@@ -43,6 +43,11 @@ function Footer() {
               <li>
                 <a href="/" class="footer-link">
                   Контаты
+                </a>
+              </li>
+              <li>
+                <a href="https://moskovshop.gamestore.app" class="footer-link">
+                  Rust SHOP
                 </a>
               </li>
             </ul>
