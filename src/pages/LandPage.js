@@ -73,10 +73,12 @@ function LandPage() {
           </div>
 
           <div className="col-md-12">
-              <button href="/login" className="btn-reset btn mb-4">
-                Подробнее{" "}
-              </button>
-            </div>
+          <a href="/login" className="btn">
+          
+          <span> Подробнее </span>
+          <i class="bi bi-arrow-up-right-circle"></i>
+          </a>
+              </div>
           
         </div>
       </section>

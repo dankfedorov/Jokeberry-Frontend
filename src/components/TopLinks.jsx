@@ -13,6 +13,9 @@ function TopLinks() {
         <li className="toplinks__item">
           <a href="#" className="toplink-link">Блог</a>
         </li>
+        <li className="toplinks__item">
+          <a href="#" className="toplink-link">Rust</a>
+        </li>
       </ul>
     </div>
   );
