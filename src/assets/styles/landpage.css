@@ -82,8 +82,9 @@ ul {
   align-items: center;
 }
 .glass_bg{
-  background-color: #d3d3d362;
+  background-color: #d3d3d32c;
   border-radius: 15px;
+  padding: 5px;
 }
 /*Main*/
 .main {
