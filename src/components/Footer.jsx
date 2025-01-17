@@ -13,16 +13,16 @@ function Footer() {
           <div className="col-md-3 footer__block">
             <a href="/Dashboard" className="logo d-flex align-items-center p-1">
               {/* <img src={logo} /> */}
-              <span className="d-lg-block">JOKEBERRY.RU</span>
+              <span className="d-lg-block">JOKEBERRY</span>
             </a>
           </div>
           <div className="col-md-4 footer__block ">
-            <p className="footer__descr">© 2024–2025, aвтор Федоров Даниил. </p>
+            <p className="footer__descr">© 2024–2025<br></br> aвтор Федоров Даниил. </p>
             <p className="footer__descr mb-2">
               Проект сделан в рамках учебной программы.<br></br>
             </p>
           </div>
-          <div className="col-md-2 footer__block">
+          <div className="col-md-2 footer__block mb-4">
             <ul class="footer__block link_box">
               <li>
                 <a href="/" class="footer-link">

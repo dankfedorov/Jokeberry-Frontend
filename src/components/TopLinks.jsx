@@ -5,17 +5,18 @@ function TopLinks() {
     <div className="toplink">
       <ul className="d-felx toplink__group">
         <li className="toplink__item">
-          <a href="#" className="toplink-link" >Showcase</a>
+          <a href="/" className="toplink-link" >Главная</a>
+        </li>
+        <li className="toplink__item">
+          <a href="#" className="toplink-link" >Витрина</a>
         </li>
         <li className="toplinks__item">
-          <a href="#" className="toplink-link">Docs</a>
+          <a href="#" className="toplink-link">Докуменация</a>
         </li>
         <li className="toplinks__item">
           <a href="#" className="toplink-link">Блог</a>
         </li>
-        <li className="toplinks__item">
-          <a href="https://moskovshop.gamestore.app/" className="toplink-link">Rust</a>
-        </li>
+       
       </ul>
     </div>
   );
