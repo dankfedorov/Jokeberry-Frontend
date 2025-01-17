@@ -41,12 +41,12 @@ function LandPage() {
       <section id="hero" className="text-white text-center hero ">
         <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between ">
-            <div className="col-md-12">
+            <div className="col-md-12 ">
               <h1 className="mb-3 p-2">
                 Создай свой проект <br></br>в Интеренете
               </h1>
 
-              <p className="hero__descr mb-4">
+              <p className="hero__descr mb-3">
               высококачественные веб-приложения с использованием компонентов React.
               </p>
               <p className="hero__descr mb-4">
@@ -57,7 +57,7 @@ function LandPage() {
        
           </div>
 
-          <div className="container__hero__icons mb-4">
+          <div className="container__hero__icons mb-3">
             <div className="glass_bg">
               <img src={vs} alt="qr link" />
             </div>
