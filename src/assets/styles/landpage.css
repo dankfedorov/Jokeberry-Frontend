@@ -97,7 +97,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 15%;
+  padding-top: 20%;
   padding-bottom: 25px;
   height: 100vh;
   
@@ -107,13 +107,12 @@ ul {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   max-width: 100%;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
   /* line-height: 60px; */
   color: var(--white-color);
   margin-bottom: 15px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .hero__descr {

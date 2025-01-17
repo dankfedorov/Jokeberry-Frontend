@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/header.css";
 import Logo from "./Logo";
 import Nav from "./Nav";
+import TopLinks from "./TopLinks";
 
 
 function Header() {
@@ -9,6 +10,7 @@ function Header() {
     <header id="header" className="header">
       <div className="container container__header">
         <Logo />
+        <TopLinks/>
         <Nav />
       </div>
     </header>

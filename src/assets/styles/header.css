@@ -2,7 +2,7 @@
 .header {
   position: fixed;
   /* padding: 3rem 0; */
-  background-color:#f5f5f5;
+  background-color: #f5f5f5;
   padding-top: 10px;
   /* padding-right: 0px; */
   gap: 3px;
@@ -21,7 +21,7 @@
   padding-left: 10px;
   cursor: pointer;
   color: #012970;
-  outline: 1px solid #00AEEF;
+  outline: 1px solid #00aeef;
 }
 
 .container__header {
@@ -29,18 +29,37 @@
 }
 
 /* header nav link */
-.header-nav__group{
+.header-nav__group {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
 .header-nav__link {
   font-size: 14px;
-  
 }
 
 .header-nav__link a {
   text-transform: uppercase;
   font-size: 24px;
   color: rgb(6, 27, 207);
+}
+
+/* toplinks__group */
+.toplink{
+  margin: auto;
+}
+.toplink__group {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.toplink-link{
+font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .toplink__group{
+    display: none;
+  }
+
 }

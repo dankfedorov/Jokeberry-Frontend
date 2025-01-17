@@ -43,15 +43,11 @@ function LandPage() {
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12">
               <h1 className="mb-3 p-2">
-                Создай свой проект<br></br>
-                в интеренете 
+                Создай свой проект <br></br>
+                в Интеренете 
               </h1>
 
-              <p className="hero__descr mb-1">
-                {" "}
-                современный техгологии для создания сайтов и приложений
-              </p>
-
+              
               <p className="hero__descr mb-4">
                 {" "}
                 HTML, CSS, React, Javascript, Nodejs, MongoDB

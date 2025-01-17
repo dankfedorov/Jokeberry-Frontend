@@ -105,9 +105,9 @@
   padding-bottom: 25px;
 }
 .architect h2 {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%);
-  color: #eeeeee;
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%); */
+  color: #1b1b1b;
 }
 .front-backend {
   padding-top: 25px;
