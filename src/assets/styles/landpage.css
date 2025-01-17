@@ -13,7 +13,7 @@ html {
   --focus-color: #8999f3;
   --active-color: #0ca719;
   --gray-light-color: #CACACA;
-  --grey-color: #666666;
+  --grey-color: #302f2f;
   --black-color: #000000;
   --white-color: #ffffff;
 
@@ -82,7 +82,7 @@ ul {
   align-items: center;
 }
 .glass_bg{
-  background-color: #d3d0d0a4;
+  background-color: #d3d3d362;
   border-radius: 15px;
 }
 /*Main*/
@@ -93,26 +93,28 @@ ul {
 
 /*hero*/
 .hero {
-  background-image: linear-gradient(130deg, rgb(25, 28, 34) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/coding-man1.jpg);
+  /* background-image: linear-gradient(130deg, rgb(5, 7, 124) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/coding-man1.jpg); */
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20%;
+  padding-top: 16%;
   padding-bottom: 25px;
   height: 100vh;
   
 }
 
 .hero h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
   max-width: 100%;
   font-weight: 800;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
   /* line-height: 60px; */
-  color: var(--white-color);
+  color: var(--grey-color);
   margin-bottom: 15px;
   /* text-transform: uppercase; */
+
 }
 
 .hero__descr {
@@ -123,7 +125,8 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  color: #5c5b5b;
 }
 .hero a {
   position: relative;
@@ -158,6 +161,7 @@ ul {
 .hero img{
   max-width: 100px;
 }
+
 .container__hero__icons{
 display: flex;
 flex-direction: row;
@@ -248,33 +252,6 @@ justify-content: center;
   font-size: 9;
   color: #f1f1f1;
 }
-
-.card {
-  background-color: #fff;
-  padding: 5px;
-  min-height: 380px;
-  border-radius: 8px;
-  outline:1px solid rgba(226, 240, 122, 0.103);
-  transition: 0.2s ease-in-out;
-  margin-bottom: 10px;
-}
-.card:hover {
-  outline:5px solid var(--hover-color);  
-  border-radius: 5px;
-}
-.card:last-child {
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.green{
-  background-color: #82c727;
-}
-
-.purple{
-  background-color:rgb(183, 15, 127);
-  color: white;
-}
 .features {
   background-color: rgb(240, 240, 240);
   padding-bottom: 25px;
@@ -341,15 +318,16 @@ justify-content: center;
     text-align: center;
     margin-bottom: 15px;
     text-transform: uppercase;
+    color: var(--black-color);
   }
   .hero__descr {
     font-weight: 600;
-    background-color: #0000002d;
+    /* background-color: #0000002d; */
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 14px;
     font-size: 18px;
-    color: var(--white-color);
+    color: var(--black-color);
     padding-bottom: 0px;
 
   }
@@ -357,5 +335,28 @@ justify-content: center;
   .hero img {
     max-width: 50px;
      }
+}
+/* features */
+.features__group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.card{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 15px;
+  outline: 1px solid rgba(0, 0, 0, 0.164);
+  width: 100%;
+  min-height: 260px;
+   padding: 25px;
+
+}
+.card:hover{
+  outline: 1px solid rgb(0, 0, 0);
 
 }

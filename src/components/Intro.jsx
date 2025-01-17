@@ -5,15 +5,14 @@ function Intro() {
   return (
     <div>
       <section id="intro" className="intro">
-        <div className="container container__intro">
-          
-          <h2 className="mb-0">О проекте</h2>
+        <div className="container container__intro">       
+          <h3 className="mb-0"><b>Что дальше?</b> Все что Вам требуется это построить отличный проект для Web.</h3>
 
           <div className="row d-flex align-items-center justify-content-between">
             <div className="col-md-8">
             
                 <span className="p-1">
-                  <h3 className="mb-2">Простой и удобый сайт в интернете</h3>
+                  <h3 className="mb-2">О проекте</h3>
                   <p className="mb-2">
                     Данный проект, создан для того чтобы показать возможности
                     использования актуальных инструментов при работе по созданию{" "}
