@@ -21,15 +21,18 @@ body {
 .card-block {
   padding-top: 25px;
   max-width: 320px;
+  font-weight: 800;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid #ffffffa2;
   border-radius: 15px;
-  color: white;
+  color: rgb(39, 38, 38);
 background-color: #e4e4e46c;
 }
 .login__descr {
-  color: #303030;
+  font-size: 12px;
+  font-weight: 800;
+  color: #bbbbbb;
 }
 .block {
   background-color: rgb(226, 226, 226);
