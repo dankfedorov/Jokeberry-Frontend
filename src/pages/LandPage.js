@@ -47,44 +47,40 @@ function LandPage() {
               </h1>
 
               <p className="hero__descr mb-3">
-              высококачественные веб-приложения с использованием компонентов React.
+                высококачественные веб-приложения <br></br> с использованием компонентов
+                React.
               </p>
               <p className="hero__descr mb-4">
                 {" "}
-                HTML, CSS, React, Javascript, Nodejs, MongoDB
+                HTML, CSS, React, Javascript,<br></br> Nodejs, MongoDB
               </p>
             </div>
-       
           </div>
 
-          <div className="container__hero__icons mb-3">
-            <div className="glass_bg">
+          <div className="row container__hero__icons mb-4">
+            <div className="col-md-2 col-2">
               <img src={vs} alt="qr link" />
             </div>
-            <div className="glass_bg">
+            <div className="col-md-2 col-2">
               <img src={reactimg} alt="qr link" />
             </div>
-            <div className="glass_bg">
+            <div className="col-md-2 col-2">
               <img src={node} alt="qr link" />
             </div>
-            <div className="glass_bg">
+            <div className="col-md-2 col-2">
               <img src={mongo} alt="qr link" />
             </div>
+            
+            
           </div>
 
-          <div className="col-md-12">
-          <a href="/login" className="btn">
           
-          <span> Подробнее </span>
-          <i class="bi bi-arrow-up-right-circle"></i>
-          </a>
-              </div>
-          
+
         </div>
       </section>
 
       <main>
-        <section id="features" className="bg-light py-5 features">
+        <section id="features" className="features">
           <div className="container container__features">
             <b>What's in Next?</b> Все что Вам нужно это построить отличный
             проект для Web.

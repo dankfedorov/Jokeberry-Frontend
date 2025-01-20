@@ -94,14 +94,15 @@ ul {
 
 /*hero*/
 .hero {
-  /* background-image: linear-gradient(130deg, rgb(5, 7, 124) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/coding-man1.jpg); */
-  background-color: white;
-  background-position: center;
+  background-image: linear-gradient(130deg, rgb(13, 83, 124) 10.9%, rgba(27, 27, 27, 0) 65.7%), url(../images/girlpic.png);
+  /* background-color: rgb(18, 62, 63); */
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 16%;
-  padding-bottom: 25px;
-  height: 100vh;
+  padding-bottom: 50px;
+min-height: 450px;
+  /* height: 100vh; */
   
 }
 
@@ -112,7 +113,7 @@ ul {
   font-weight: 800;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
   /* line-height: 60px; */
-  color: var(--grey-color);
+  color: var(--white-color);
   margin-bottom: 15px;
   /* text-transform: uppercase; */
 
@@ -126,8 +127,8 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
-  /* color: var(--white-color); */
-  color: #5c5b5b;
+  color: var(--white-color);
+  /* color: #5c5b5b; */
 }
 .hero a {
   position: relative;
@@ -199,13 +200,13 @@ justify-content: center;
 }
 .qr__bg {
   position: relative;
-  background-image: linear-gradient(130deg, rgb(25, 28, 34) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/girlpic.png);
+  background-image: linear-gradient(130deg, rgb(25, 28, 34) 10.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/person-scanning-qr-code.png);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 55px;
-  padding-bottom: 25px;
-  /* height: 100vh; */
+  padding-bottom: 25px; 
+  height: 100vh; 
 }
 .qrblock__block{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -230,23 +231,9 @@ justify-content: center;
     rgba(255, 255, 255, 0.685), rgb(250, 250, 250));  */
   border-radius: 32px;
 }
-.intor p {
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-}
-.intro h2 {
-  color: rgb(44, 43, 43);
-}
-
-.intro ul{
-  text-decoration: dashed;
-}
-.intro li{
-  text-decoration: dotted;
-}
 
 /* features */
-.features__container {
+.container__features {
   padding-top: 25px;
 }
 .small {
@@ -319,17 +306,16 @@ justify-content: center;
     text-align: center;
     margin-bottom: 15px;
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--white-color);
   }
   .hero__descr {
     font-weight: 600;
-    /* background-color: #0000002d; */
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 14px;
     font-size: 18px;
-    color: var(--black-color);
-    padding-bottom: 0px;
+    color: var(--white-color);
+    margin-bottom: 25px;
 
   }
 
