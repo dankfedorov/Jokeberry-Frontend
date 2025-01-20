@@ -17,6 +17,7 @@ html {
   --black-color: #000000;
   --white-color: #ffffff;
 
+
 }
 
 a,
@@ -248,8 +249,14 @@ justify-content: center;
 
 .about {
   padding-top: 60px;
-  background-color: rgb(240, 240, 240);
-  
+  background-color: rgb(240, 240, 240); 
+}
+.bluebold{
+  color: var(--default-color);
+  font-weight: 800;
+  background-color: var(--white-color);
+  padding: 3px;
+  border-radius: 5px;
 }
 
 .tech a {
