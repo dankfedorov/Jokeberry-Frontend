@@ -29,6 +29,9 @@ body {
   color: rgb(39, 38, 38);
 background-color: #e4e4e46c;
 }
+.container__login__h4{
+  color: #ffffff;
+}
 .login__descr {
   font-size: 12px;
   font-weight: 800;

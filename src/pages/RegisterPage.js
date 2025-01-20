@@ -50,7 +50,7 @@ const MyForm = () => {
         <div className="card-block">
           
           <div className="p-3">
-            <h4>РЕГИСТРАЦИЯ</h4>
+            <h4 className="container__login__h4">РЕГИСТРАЦИЯ</h4>
             <p className="login__descr mb-1">Создайте учётную запись, чтобы продолжить.
             </p>
 

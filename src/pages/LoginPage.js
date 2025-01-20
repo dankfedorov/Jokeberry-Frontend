@@ -67,7 +67,7 @@ const MyForm = () => {
         <div className="card-block">
           
           <div className="p-3">
-            <h4>ВХОД В СИСТЕМУ</h4>
+            <h4 className="container__login__h4">ВХОД В СИСТЕМУ</h4>
             <p className="login__descr mb-1">Если у вас нет учетной запсии, 
               вы можете создать ее, чтобы продолжить.
             </p>
