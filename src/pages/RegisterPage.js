@@ -45,10 +45,9 @@ const MyForm = () => {
 
   return (
     <div className="container__login d-flex ">
-      <div className="row text-center">
-        <div className="col-md-4 mb-1 "></div>
-
-        <div className="col-md-4 card-block">
+      <div className="text-center">
+        
+        <div className="card-block">
           
           <div className="p-0">
             <h4>РЕГИСТРАЦИЯ</h4>
@@ -87,24 +86,12 @@ const MyForm = () => {
               </button>
              
             </form>
-            <p className="mb-0">Есть аккаунта? </p>
-              <p className="small mb-2">
-                {" "}
-                Вы можете
-                <a href="/login">
-                  <b> войти на сайт.</b>
-                </a>
-              </p>
-              <p className="small p-2">
-                <i class="bi bi-shield-check"></i> JSON Web Token
-                шифрование данных
-              </p>
-            <p className="mt-0 mb-2 small">JOKEBERRY &copy; 2025</p>
+           
             {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД </a> */}
           </div>
         </div>
 
-        <div className="col-md-4"></div>
+       
       </div>
     </div>
   );

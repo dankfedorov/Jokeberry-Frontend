@@ -1,83 +1,91 @@
-
 body {
- background: rgb(40, 146, 179); 
- background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
- 
+  background: rgb(40, 146, 179);
+  background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
 }
 
-.container__login{
+.container__login {
   justify-content: center;
-  background-image: linear-gradient(90deg, rgba(198, 220, 252, 0.507) -2.9%, rgba(198, 220, 252, 0.623) 65.7%), url(../images/coding-man.jpg);
+  align-items: center;
+  background-image: linear-gradient(
+      90deg,
+      rgba(198, 220, 252, 0.658) -2.9%,
+      rgba(198, 220, 252, 0.623) 65.7%
+    ),
+    url(../images/coding-man.jpg);
   /* background-image: url(../images/coding-man.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  
 }
-.card-block{
-  min-width: 320px;
-  background-color:rgba(255, 255, 255, 0.979);
-  padding: 15px;
-  border-radius: 12px;
-  color: rgb(102, 102, 102);
-  
+.card-block {
+  padding-top: 25px;
+  max-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ffffffa2;
+  border-radius: 15px;
+  color: white;
+background-color: #2e7eb357;
 }
-.block{
-  background-color:rgb(226, 226, 226);
+.login__descr {
+  color: #d4d4d4;
+}
+.block {
+  background-color: rgb(226, 226, 226);
   text-align: center;
   border-radius: 8px;
   border-color: rgb(51, 51, 51);
   font-size: 14px;
   /* max-width: 320px;  */
-  width: 100%; 
+  width: 100%;
 }
-.card-block input{
+.card-block input {
   background-color: rgba(255, 255, 255, 0.849);
   border-color: rgba(112, 112, 112, 0.534);
   transition: 0.3s;
 }
-.card-block input:focus{
+.card-block input:focus {
   background-color: rgba(255, 255, 255, 0.986);
- 
 }
-.card-block button{
-  padding:12px 39px;
+.card-block button {
+  padding: 12px 39px;
   border-radius: 5px;
-  border-color: #00AEEF;
-  color:  #00AEEF;
+  border-color: #d1d1d1;
+  color: #c9c9c952;
   transition: 0.3s;
-  min-width: 220px; }
-
-.card-block button:hover{
-  background-color:#00AEEF;
-  color: #ffffff;
-}
-.card-block__btn-link{
-  outline: 1px solid #00AEEF;
-  padding:12px 39px;
   min-width: 220px;
-  color: #00AEEF;
 }
-.card-block__btn-link:hover{
-  background: #00AEEF;
-  padding:12px 39px;
+
+.card-block button:hover {
+  background-color: #00aeef;
   color: #ffffff;
 }
-.form-floating label{
+.card-block__btn-link {
+  outline: 1px solid #00aeef;
+  padding: 12px 39px;
+  min-width: 220px;
+  color: #00aeef;
+}
+.card-block__btn-link:hover {
+  background: #00aeef;
+  padding: 12px 39px;
+  color: #ffffff;
+}
+.form-floating label {
   font-size: 0;
   font-size: 14px;
   min-width: 50px;
   color: rgb(44, 43, 43);
 }
-.form-floating label:focus{
+.form-floating label:focus {
   font-size: 12px;
   color: blue;
 }
-.form__label{
+.form__label {
   text-transform: uppercase;
 }
-.small{
+.small {
   font-size: 14px;
   color: rgb(122, 122, 122);
 }

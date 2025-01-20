@@ -34,6 +34,7 @@
 }
 .footer-link:hover {
   animation: rotate 2s infinite;
+  animation: rotate 2s infinite;
   color: rgb(96, 98, 100);
 }
 
@@ -48,6 +49,23 @@
   background-position: center;
   min-height: 250px;
 }
+
+.element {
+  animation: rotate 3s infinite;
+  
+ 
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-180deg)
+  }
+  100% {
+    transform: rotate(180deg)
+  }
+  
+}
+
 /* Footer menu */
 .container__footermenu{
   display: flex;
