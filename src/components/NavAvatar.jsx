@@ -19,15 +19,15 @@ function NavAvatar() {
        </a>
 
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-        <li className="dropdown-header ">
+        <li className="dropdown-header">
           <img
             src={adminicon}
             alt="Profile"
             className="admin-img text-center"
-          />
-          <p>Username:<b>{username}</b></p>
-          <p>ID:<b>{id}</b></p>
-
+         />
+          <p className="small">Username:<b>{username}</b></p>
+          <p className="small">ID:<b>{id}</b></p>
+         
         </li>
         <li>
           <hr className="dropdown-divider" />
@@ -40,7 +40,7 @@ function NavAvatar() {
         </li>
         <li>
           
-          <hr className="dropdown-divider" />
+          
         </li>
 
     

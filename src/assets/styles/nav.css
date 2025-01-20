@@ -113,18 +113,19 @@
     /* outline: 1px solid rgb(34, 7, 109); */
     min-width: 260px;
     padding-bottom: 0;
-    top: 30px !important;
+    top: 5px !important;
   }
   .header-nav .profile .dropdown-header h6 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
     font-weight: 700;
     color: #444444;
   }
   .header-nav .profile a {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 10px;
     margin-bottom: 0;
-    font-weight: 400;
+    font-weight: 500;
     color: #020202;
   }
 /* SideBar Nav */
