@@ -84,7 +84,7 @@ const MyForm = () => {
                   value={formData.username}
                   onChange={handleChange}
                 />
-                <label className="form__label">Имя или email</label>
+                <label className="form__label">ВАШЕ ИМЯ</label>
               </div>
 
               <div className="form-floating">
