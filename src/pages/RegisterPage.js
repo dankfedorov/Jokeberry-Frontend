@@ -92,7 +92,7 @@ const MyForm = () => {
         </div>
 
         <a href="/login" className="mb-1 small" type="submit">
-          <span className="">Вход в систему.</span>
+          <span className="">Вход в систему</span>
         </a>
       </div>
     </div>
