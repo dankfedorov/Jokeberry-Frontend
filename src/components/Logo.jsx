@@ -13,7 +13,7 @@ function Logo() {
         {/* <span className="d-none d-lg-block">JOKEBERRY</span> */}
         <span className="d-lg-block ">JOKEBERRY</span>
       </a>          
-      
+       
     </div>
   );
 }

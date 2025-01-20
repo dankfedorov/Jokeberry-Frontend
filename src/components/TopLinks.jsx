@@ -11,9 +11,6 @@ function TopLinks() {
           <a href="#" className="toplink-link" >Витрина</a>
         </li>
         <li className="toplinks__item">
-          <a href="#" className="toplink-link">Докуменация</a>
-        </li>
-        <li className="toplinks__item">
           <a href="#" className="toplink-link">Блог</a>
         </li>
        

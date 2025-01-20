@@ -57,7 +57,7 @@
 font-size: 14px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .toplink__group{
     display: none;
   }
