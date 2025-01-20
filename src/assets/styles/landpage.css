@@ -206,7 +206,7 @@ justify-content: center;
   background-size: cover;
   padding-top: 55px;
   padding-bottom: 25px; 
-  height: 100vh; 
+  /* height: 100vh;  */
 }
 .qrblock__block{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
