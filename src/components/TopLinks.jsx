@@ -8,10 +8,10 @@ function TopLinks() {
           <a href="/" className="toplink-link" >Главная</a>
         </li>
         <li className="toplink__item">
-          <a href="#" className="toplink-link" >Витрина</a>
+          <a href="/about" className="toplink-link" >О проекте</a>
         </li>
         <li className="toplinks__item">
-          <a href="#" className="toplink-link">Блог</a>
+          <a href="#" className="toplink-link">TelegramBot</a>
         </li>
        
       </ul>

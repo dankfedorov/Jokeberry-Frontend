@@ -21,7 +21,7 @@ import RegisterPage from "./pages/RegisterPage";
 import Smallfooter from "components/Smallfooter";
 import VideoStart from "components/VideoStart";
 import VideoBlog from "../src/pages/VideoBlog";
-import AboutProject from "components/Intro";
+import AboutProject from "components/About";
 import FooterMenu from "components/FooterMenu";
 import UserList from "components/UserList";
 import HeaderDash from "components/HeaderDash";

@@ -12,7 +12,7 @@ import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
 import monitor__img from "../assets/images/Monitor.png";
 import Snow from "components/Snow";
-import Intro from "components/Intro";
+import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 // import PulseTag from "components/PulseTag";
 
@@ -80,7 +80,7 @@ function LandPage() {
       </section>
 
       <main>
-        
+
         <section id="features" className="features">
           <div className="container container__features">
             <b>What's in Next?</b> Все что Вам нужно это построить отличный
