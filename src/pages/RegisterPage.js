@@ -49,9 +49,9 @@ const MyForm = () => {
         
         <div className="card-block">
           
-          <div className="p-0">
+          <div className="p-3">
             <h4>РЕГИСТРАЦИЯ</h4>
-            <p className="small mb-1">Создайте учётную запись, чтобы продолжить.
+            <p className="login__descr mb-1">Создайте учётную запись, чтобы продолжить.
             </p>
 
             <form onSubmit={handleSubmit}>
@@ -81,7 +81,7 @@ const MyForm = () => {
                 <label className="form__label">Password</label>
               </div>
 
-              <button id="submitBtn" className="w-100 btn mb-2" type="submit">
+              <button id="submitBtn" className="btn-reset w-100 btn mb-2" type="submit">
                 Регистрация
               </button>
              
@@ -91,7 +91,9 @@ const MyForm = () => {
           </div>
         </div>
 
-       
+        <a href="/login" className="mb-1 small" type="submit">
+          <span className="">Вход в систему.</span>
+        </a>
       </div>
     </div>
   );

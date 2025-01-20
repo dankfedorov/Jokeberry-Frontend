@@ -62,53 +62,58 @@ const MyForm = () => {
 
   return (
     <div className="container__login d-flex ">
-      
-        <div className="text-center card-block">
+      <div className="text-center">
+        
+        <div className="card-block">
+          
+          <div className="p-3">
+            <h4>ВХОД В СИСТЕМУ</h4>
+            <p className="login__descr mb-1">Если у вас нет учетной запсии, 
+              вы можете создать ее, чтобы продолжить.
+            </p>
 
-          <div className="">
-            <div className="p-3">
-              <h4>ВХОД В АККАУНТ</h4>
-              <p className="login__descr mb-1">
-                Введите свои учётные данные<br></br> для доступа к аккаунту.
-              </p>
+            <form onSubmit={handleSubmit}>
+             
 
-              <form onSubmit={handleSubmit}>
-                <div className="form-floating">
-                  <input
-                    type="text"
-                    name="username"
-                    className="form-control mb-2 text-muted"
-                    placeholder="Ваш логин"
-                    value={formData.username}
-                    onChange={handleChange}
-                  />
-                  <label className="form__label">Имя или email</label>
-                </div>
+              <div className="form-floating">
+                <input
+                  type="text"
+                  name="username"
+                  className="form-control mb-2 text-muted"
+                  placeholder="Ваш логин"
+                  value={formData.username}
+                  onChange={handleChange}
+                />
+                <label className="form__label">Имя или email</label>
+              </div>
 
-                <div className="form-floating">
-                  <input
-                    type="password"
-                    className="form-control mb-2"
-                    name="password"
-                    value={formData.password}
-                    onChange={handleChange}
-                    placeholder="Password"
-                  />
-                  <label className="form__label">Password</label>
-                </div>
+              <div className="form-floating">
+                <input
+                  type="password"
+                  className="form-control mb-2"
+                  name="password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  placeholder="Password"
+                />
+                <label className="form__label">Password</label>
+              </div>
 
-                <button className="w-100 btn mb-1" type="submit">
-                  Войти
-                </button>
-              </form>
-              
-              {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД</a> */}
-            </div>
+              <button id="submitBtn" className="w-100 btn mb-2" type="submit">
+               Вход в симтему                
+              </button>
+             
+            </form>
+           
+            {/* <a className="btn card-block__btn-link" href="/admin">ДЕМО ВХОД </a> */}
           </div>
-
         </div>
-      </div>
 
+        <a href="/register" className="mb-1 small" type="submit">
+          <span className="">Регистрации.</span>
+        </a>
+      </div>
+    </div>
   );
 };
 
