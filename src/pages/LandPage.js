@@ -80,6 +80,7 @@ function LandPage() {
       </section>
 
       <main>
+        
         <section id="features" className="features">
           <div className="container container__features">
             <b>What's in Next?</b> Все что Вам нужно это построить отличный
@@ -88,6 +89,7 @@ function LandPage() {
         </section>
 
         <QrBlock />
+      
       </main>
 
       {/* <!-- Footer Section --> */}
