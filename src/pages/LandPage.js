@@ -83,12 +83,11 @@ function LandPage() {
 
         <section id="features" className="features text-center">
           <div className="container container__features ">
-            <span className="p-2"><b>Что делать дальше ? </b> Все что Вам нужно это построить отличный проект для Web
+            <span className="p-2"><b>Что делать дальше ? </b> Все что Вам нужно это придумать отличный проект для Web
             </span> 
             <a href="/Video" className=""> 
             <button className="btn-reset btn"><i class="bi bi-play-fill p-1"></i>Live Preview</button>
            </a>
-
           </div>          
         </section>
 

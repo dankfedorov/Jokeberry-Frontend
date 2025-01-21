@@ -68,7 +68,7 @@ const MyForm = () => {
           
           <div className="p-3">
             <h4 className="container__login__h4">ВХОД В СИСТЕМУ</h4>
-            <p className="login__descr mb-1">Если у вас нет учетной запсии, 
+            <p className="login__descr mb-1">Если у вас нет учетной запиcи, 
               вы можете создать ее, чтобы продолжить.
             </p>
 
