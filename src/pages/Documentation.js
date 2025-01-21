@@ -8,7 +8,7 @@ import RatesAPI from "components/RatesAPI";
 import DisignMaket from "components/DisignMaket";
 import CodingHtml from "components/CodingHtml";
 
-function Dashboard() {
+function Documentation() {
   return (
     <div>
       <div className="container-fluid dashboard__container">
@@ -19,7 +19,7 @@ function Dashboard() {
           {/* Центральный блок */}
           <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 main__container">
             
-          <RatesAPI />
+            
             
 
 
@@ -30,4 +30,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Documentation;

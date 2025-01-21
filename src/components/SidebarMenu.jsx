@@ -13,36 +13,35 @@ function SidebarMenu() {
   return (
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse left-block" >
     <div class="position-sticky pt-3">
-  
-      {/* // Формируем списко элементов из json файла */}
-      <ul class="nav flex-column">
-        <span className="small ">Username:{username}</span>
-        <span className="very-small">ID:{id}</span>
+    <ul class="nav flex-column">
+    <span className="very-small">Username:{username}</span>
+    <span className="very-small">ID: {id}</span>
+    </ul>
+    
+       {/* <ul class="nav flex-column">
+        
         <hr></hr>
-        <p className="small ">Frontend</p>
+        <p className="very-small">Frontend</p>
         {frontendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
       </ul>
 
-      <ul class="nav flex-column mb-2">
-        {/* Pages block */}
-        <p className="small">Backend</p>
+      <ul class="nav flex-column mb-1">
+         <p className="very-small">Backend</p>
         {backendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
-        {/* Page block end */}
+       
       </ul>
 
-      <ul class="nav flex-column mb-2">
-        {/* Pages block */}
-        <p className="small">Информация</p>
-
+      <ul class="nav flex-column mb-1">
+        <p className="very-small">Информация</p>
         {navList.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
-        {/* Page block end */}
-      </ul>
+      </ul> */}
+
     </div>
   </nav>
   )

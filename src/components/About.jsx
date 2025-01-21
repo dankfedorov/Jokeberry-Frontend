@@ -4,9 +4,9 @@ import robot2 from "../assets/images/robot2.png";
 function Intro() {
   return (
     <div>
-      <section id="About" className="about">
+      <section id="About" className="about ">
         <div className="container container__about">
-          <div className="row d-flex align-items-center justify-content-between">
+          <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-8">
               <span className="p-1">
                 <h3 className="mb-2">О проекте</h3>

@@ -25,6 +25,7 @@ import AboutProject from "components/About";
 import FooterMenu from "components/FooterMenu";
 import UserList from "components/UserList";
 import HeaderDash from "components/HeaderDash";
+import Documentation from "pages/Documentation";
 
 
 // Компоненты страниц
@@ -126,6 +127,15 @@ const App = () => {
                {/* <Header/> */}
                <HeaderDash /> 
                <Dashboard />
+               {/* <Smallfooter /> */}
+            </ProtectedRoute>
+          }
+        />
+        <Route path="/documentation" element={
+          <ProtectedRoute isAuthenticated={isAuthenticated}>
+               {/* <Header/> */}
+               <HeaderDash /> 
+               <Documentation />
                {/* <Smallfooter /> */}
             </ProtectedRoute>
           }

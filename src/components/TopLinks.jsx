@@ -5,18 +5,23 @@ function TopLinks() {
     <div className="toplink">
       <ul className="d-felx toplink__group">
         <li className="toplink__item">
-          <a href="/" className="toplink-link" >Главная</a>
+          <a href="/" className="toplink-link" >Home</a>
+        </li>
+
+        <li className="toplink__item">
+          <a href="/about" className="toplink-link" target="_blank">Dashboard</a>
         </li>
         <li className="toplink__item">
-          <a href="/about" className="toplink-link" >О проекте</a>
+          <a href="/Documentation" className="toplink-link" target="_blank">Documentation</a>
         </li>
+
         <li>
                 <a
                   href="https://t.me/JokeBerry_Bot"
                   target="_blank"
                   class="footer-link "
                   rel="noreferrer"
-                > Telegram Bot <svg
+                > <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="25"

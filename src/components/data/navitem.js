@@ -1,30 +1,48 @@
 const navList = [
     {
         _id: 1,
-        name: 'Профиль',
+        name: 'Home',
         icon: 'bi bi-person',
-        link: '/user-profile.html'
+        link: '/'
     },
     {
         _id: 2,
-        name: 'Пользователи',
-        icon: 'bi bi-box-arrow-right',
-        link: '#users'
+        name: 'О Проекте',
+        icon: 'bi bi-bookmark-check',
+        link: '/about'
     },
     {
         _id: 3,
+        name: 'Документация',
+        icon: 'bi bi-blockquote-right',
+        link: '/documents'
+    },
+    {
+        _id: 4,
+        name: 'Dashboard',
+        icon: 'bi bi-speedometer2',
+        link: '/dashboard'
+    },
+    {
+        _id: 5,
+        name: '',
+        icon: 'dropdown-divider',
+        link: '/dashboard'
+    },
+    {
+        _id: 6,
+        name: 'Login',
+        icon: 'bi bi-door-closed',
+        link: '/login'
+    },
+    {
+        _id: 7,
         name: 'Регистрация',
         icon: 'bi bi-card-list',
         link: '/register'
     },
     {
-        _id: 4,
-        name: 'Login',
-        icon: 'bi bi-box-arrow-in-right',
-        link: '/login'
-    },
-    {
-        _id: 5,
+        _id: 8,
         name: 'Выход',
         icon: 'bi bi-box-arrow-right',
         link: '/'

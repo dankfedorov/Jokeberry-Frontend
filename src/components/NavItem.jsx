@@ -2,10 +2,10 @@ import React from "react";
 
 function NavItem({ nav }) {
   return (
-    <li className="nav-item">
-      <a href={nav.link} className="nav-link collapsed">
+    <li className="nav-link">
+      <a href={nav.link} className="dropdown-item d-flex align-items-center">
         <i className={nav.icon}></i>
-        <span>{nav.name}</span>
+        <span className=""> {nav.name}</span>
       </a>
     </li>
   );
