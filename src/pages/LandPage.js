@@ -82,10 +82,14 @@ function LandPage() {
       <main>
 
         <section id="features" className="features">
-          <div className="container container__features">
-            <b>What's in Next?</b> Все что Вам нужно это построить отличный
-            проект для Web.
-          </div>
+          <div className="container container__features text-center">
+            <span className="p-2"><b>Что делать дальше ? </b> Все что Вам нужно это построить отличный проект для Web
+            </span> 
+            <a href="/login" className=""> 
+            <button className="btn-reset btn">Получить доступ</button>
+           </a>
+
+          </div>          
         </section>
 
         <QrBlock />

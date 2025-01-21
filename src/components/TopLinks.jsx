@@ -5,14 +5,14 @@ function TopLinks() {
     <div className="toplink">
       <ul className="d-felx toplink__group">
         <li className="toplink__item">
-          <a href="/" className="toplink-link" >Home</a>
+          <a href="/" className="toplink-link" >Главная</a>
         </li>
 
         <li className="toplink__item">
-          <a href="/about" className="toplink-link" target="_blank">Dashboard</a>
+          <a href="/about" className="toplink-link" >О проекте</a>
         </li>
         <li className="toplink__item">
-          <a href="/Documentation" className="toplink-link" target="_blank">Documentation</a>
+          <a href="/Documentation" className="toplink-link" target="_blank">Документация</a>
         </li>
 
         <li>

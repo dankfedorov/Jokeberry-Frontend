@@ -94,6 +94,8 @@ const MyForm = () => {
         <a href="/login" className="mb-1 small" type="submit">
           <span className="">Вход в систему</span>
         </a>
+        <p className="very-small">2025 JOKEBERRY.RU </p>
+      
       </div>
     </div>
   );
