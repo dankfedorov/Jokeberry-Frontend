@@ -91,6 +91,7 @@ function LandPage() {
            </a>
           </div>          
         </section>
+
         <EasyDev />
         <QrBlock />
       
