@@ -81,8 +81,8 @@ function LandPage() {
 
       <main>
 
-        <section id="features" className="features">
-          <div className="container container__features text-center">
+        <section id="features" className="features text-center">
+          <div className="container container__features ">
             <span className="p-2"><b>Что делать дальше ? </b> Все что Вам нужно это построить отличный проект для Web
             </span> 
             <a href="/Video" className=""> 
