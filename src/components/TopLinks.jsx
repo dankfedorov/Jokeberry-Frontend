@@ -12,7 +12,7 @@ function TopLinks() {
           <a href="/about" className="toplink-link" >О проекте</a>
         </li>
         <li className="toplink__item">
-          <a href="/Documentation" className="toplink-link" target="_blank">Документация</a>
+          <a href="/Documentation" className="toplink-link" target="_blank">Docs</a>
         </li>
 
         <li>
