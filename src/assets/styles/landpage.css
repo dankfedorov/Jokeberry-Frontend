@@ -236,6 +236,28 @@ justify-content: center;
 .features__container h2 {
   color: #302f2f;
 }
+/* easydev */
+.easydev{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #ffffff;
+}
+.container__easydev{
+  padding: 15px;
+}
+.easydev__group{
+  display: flex;
+  flex-direction: column; 
+}
+.easydev__group i{
+  margin-right: 15px;
+  color: #1865f5;
+}
+.easydev__group li{
+  padding: 10px 0px;
+  
+}
+
 /* Frontend Backend */
 .font-back {
   padding-top: 25px;

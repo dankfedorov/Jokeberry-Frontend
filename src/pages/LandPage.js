@@ -14,6 +14,7 @@ import monitor__img from "../assets/images/Monitor.png";
 import Snow from "components/Snow";
 import Intro from "components/About";
 import QrBlock from "components/QrBlock";
+import EasyDev from "components/EasyDev";
 // import PulseTag from "components/PulseTag";
 
 function LandPage() {
@@ -90,7 +91,7 @@ function LandPage() {
            </a>
           </div>          
         </section>
-
+        <EasyDev />
         <QrBlock />
       
       </main>
