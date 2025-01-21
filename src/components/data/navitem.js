@@ -15,7 +15,7 @@ const navList = [
         _id: 3,
         name: 'Документация',
         icon: 'bi bi-blockquote-right',
-        link: '/documents'
+        link: '/documentation'
     },
     {
         _id: 4,
