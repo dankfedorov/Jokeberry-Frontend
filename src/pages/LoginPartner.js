@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import "../assets/styles/sendform.css";
+// import "../assets/styles/sendform.css";
+import "../assets/styles/loginpartner.css";
 
 const MyForm = () => {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
+    encryption: "",
   });
   const [isSuccess, setIsSuccess] = useState(false);
 
@@ -68,6 +70,7 @@ const MyForm = () => {
           
           <div className="p-3">
             <h4 className="container__login__h4">PERSONAL ONLY</h4>
+            <h4 className="container__login__h4">ВХОД ДЛЯ СВОИХ</h4>
             <p className="login__descr mb-1">Извините, система с ограниченным доступом и каскадным шифрованием.
             </p>
 
@@ -98,8 +101,20 @@ const MyForm = () => {
                 <label className="form__label">Password</label>
               </div>
 
+              <div className="form-floating">
+                <input
+                  type="password"
+                  className="form-control mb-2"
+                  name="encryption"
+                  value={formData.encryption}
+                  onChange={handleChange}
+                  placeholder="encryption"
+                />
+                <label className="form__label">Multiple encryption</label>
+              </div>
+
               <button id="submitBtn" className="w-100 btn mb-2" type="submit">
-              Authentication                
+              SECURE ENTER            
               </button>
              
             </form>
@@ -109,7 +124,7 @@ const MyForm = () => {
         </div>
 
         <a href="/" className="mb-1 small" type="submit">
-          <span className="">ВНИМАНИЕ ДОСТУП ОГРАНИЧЕН </span>
+          <span className="">ВЕРНУТЬСЯ НАЗАД </span>
         </a>
         <p className="very-small">2025 JOKEBERRY.RU </p>
       </div>
