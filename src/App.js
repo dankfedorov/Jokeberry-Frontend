@@ -26,6 +26,11 @@ import FooterMenu from "components/FooterMenu";
 import UserList from "components/UserList";
 import HeaderDash from "components/HeaderDash";
 import Documentation from "pages/Documentation";
+import SidebarMenu from "components/SidebarMenu";
+import TableView from "components/TableView";
+import Architect from "components/Architect";
+import MainPage from "components/MainPage";
+
 
 
 // Компоненты страниц
@@ -44,17 +49,12 @@ const Home = () => {
   );
 };
 
-const Documentation = () => {
-  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
-  // Тернарный оператор
-  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
-  console.log("Авторизация " + status);
+const Docs = () => {
    return (
     <div >
-      <Header/>
-      <LandPage />  
-      <Footer />
-      <FooterMenu />
+     <Header />
+     <MainPage />
+     
     </div>
   );
 };
@@ -134,7 +134,7 @@ const App = () => {
         <Route path="/register" Component={Register} />
         <Route path="/video" Component={VideoPage} />        
         <Route path="/about" Component={About} />        
-        <Route path="/documentation" Component={Documentation} />        
+        <Route path="/docs" Component={Docs} />        
     
         
              

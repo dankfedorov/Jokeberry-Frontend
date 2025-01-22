@@ -15,18 +15,18 @@ const navList = [
         _id: 3,
         name: 'Документация',
         icon: 'bi bi-blockquote-right',
-        link: '/documentation'
+        link: '/docs'
     },
     {
         _id: 4,
-        name: 'Dashboard',
-        icon: 'bi bi-speedometer2',
-        link: '/dashboard'
+        name: '',
+        icon: '',
+        link: '/'
     },
     {
         _id: 5,
-        name: '',
-        icon: 'dropdown-divider',
+        name: 'Dashboard',
+        icon: 'bi bi-speedometer2',
         link: '/dashboard'
     },
     {

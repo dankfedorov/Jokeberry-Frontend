@@ -18,7 +18,7 @@ function SidebarMenu() {
     <span className="very-small">ID: {id}</span>
     </ul>
     
-       {/* <ul class="nav flex-column">
+       <ul class="nav flex-column">
         
         <hr></hr>
         <p className="very-small">Frontend</p>
@@ -35,7 +35,7 @@ function SidebarMenu() {
        
       </ul>
 
-      <ul class="nav flex-column mb-1">
+      {/* <ul class="nav flex-column mb-1">
         <p className="very-small">Информация</p>
         {navList.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
