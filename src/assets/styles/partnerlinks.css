@@ -1,0 +1,11 @@
+.partnerlinks img{
+    max-width: 24px;
+}
+.partnerlinks img:hover{
+    max-width: 24px;
+    outline: 1px solid gray;
+}
+.container__partnerlinks{
+    display: flex;
+    gap: 10px;
+}

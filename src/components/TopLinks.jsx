@@ -1,4 +1,5 @@
 import React from "react";
+import person from "../assets/images/person.png";
 
 function TopLinks() {
   return (
@@ -35,7 +36,7 @@ function TopLinks() {
                   
                 </a>
         </li>
-       
+
       </ul>
     </div>
   );

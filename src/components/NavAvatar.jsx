@@ -13,11 +13,7 @@ function NavAvatar() {
 
   return (
     <span className="nav-item dropdown ms-auto menu">
-      
-          <a href="/partner" className="toplink-link menu__icon " >
-          <img src={person} alt="Profile" className="" title="only partners" />
-          </a>
-         
+              
       <a
         href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center  pe-0 "

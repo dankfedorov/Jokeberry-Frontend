@@ -3,6 +3,7 @@ import "../assets/styles/header.css";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import TopLinks from "./TopLinks";
+import PartnerLinks from "./PartnerLinks";
 
 
 function Header() {
@@ -11,6 +12,7 @@ function Header() {
       <div className="container container__header">
         <Logo />
         <TopLinks/>
+        <PartnerLinks />
         <Nav />
       </div>
     </header>
