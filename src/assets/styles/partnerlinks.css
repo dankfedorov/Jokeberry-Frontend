@@ -1,12 +1,9 @@
 .partnerlinks{
-    position: fixed;
-      transform-origin: bottom right;
-      top: 12%;
-      left: 10%;
-      min-height: 100vh;
-      justify-content: start;
-      align-items: center;
-      z-index: 9999999;
+    position: absolute;
+    /* min-height: 100vh; */
+    justify-content: center;
+    align-items: center;
+     z-index: 9999999;  
 }
 
 .partnerlinks img{
@@ -26,7 +23,10 @@
 }
 .container__partnerlinks{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Pulse */
