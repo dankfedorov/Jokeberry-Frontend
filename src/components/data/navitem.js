@@ -41,13 +41,6 @@ const navList = [
         icon: 'bi bi-box-arrow-right',
         link: '/'
     },
-    {
-        _id: 8,
-        name: 'Партнерам',
-        icon: 'bi bi-incognito',
-        link: '/'
-    },
-
     
 ];
 export default navList;

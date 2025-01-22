@@ -7,18 +7,21 @@ function PartnerLinks() {
   return (
     <div>
       <section className="partnerlinks">
-        <ul className="container__partnerlinks">
+        <ul className="container__partnerlinks pulse">
+          <li className="partnerlinks-item ">
           
-          <li className="partnerlinks-item">
-            <a href="/partner" className="toplink-link menu__icon ">
+            <a href="/partner" className="toplink-link menu__icon">
+              
               <img src={person} alt="Profile" className="" title="only partners"/>
-            </a>
-          </li>
-          <li className="partnerlinks-item">
+              
+               </a>
+           </li>
+
+          {/* <li className="partnerlinks-item">
             <a href="/partner" className="toplink-link menu__icon ">
-              <img src={basket} alt="Profile" className="" title="basket"/>
+              <img src={basket} alt="Profile" className="" title="catalog"/>
             </a>
-          </li>
+          </li> */}
 
         </ul>
 
