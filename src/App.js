@@ -14,9 +14,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LandPage from "pages/LandPage";
 import LoginPage from "pages/LoginPage";
+import LoginPartner from "pages/LoginPartner";
 import Dashboard from "pages/Dashboard";
+import PartnerPage from "pages/PartnerPage";
 
 import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedPartner from "./components/ProtectedPartner";
+
 import RegisterPage from "./pages/RegisterPage";
 import Smallfooter from "components/Smallfooter";
 import VideoStart from "components/VideoStart";
@@ -77,15 +81,13 @@ const About = () => {
 const Partner = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
-  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
-  console.log("Авторизация " + status);
+  const status = (isAuthenticated === true) ? "пройдена >>> Отлично партнер в системе." : "не пройдена >>> ВНИМАНИЕ !!! Начинаем отчет блокировки 30s";
+  console.log("<<< Авторизация " + status  );
 
    return (
     <div >
       <HeaderDash/>
-      
-      <FooterMenu/>
-     
+      <PartnerPage />
     </div>
   );
 };
@@ -110,6 +112,15 @@ const Login = () => {
     </div>
   );
 };
+const Loginpartner = () => {
+  return (
+    <div>
+      <Header/>
+      <LoginPartner />
+      </div>
+  );
+};
+
 const Register = () => {
   return (
     <div>
@@ -150,10 +161,12 @@ const App = () => {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/login" Component={Login} />
+        <Route path="/loginpartner" Component={Loginpartner} />
         <Route path="/register" Component={Register} />
         <Route path="/video" Component={VideoPage} />        
         <Route path="/about" Component={About} />        
         <Route path="/docs" Component={Docs} />        
+        {/* <Route path="/partner" Component={Partner} />         */}
     
         
              
@@ -169,9 +182,10 @@ const App = () => {
       
         
         <Route path="/partner" element={
-          <ProtectedRoute isAuthenticated={isAuthenticated}>
-               <Partner/>
-          </ProtectedRoute>
+          <ProtectedPartner isAuthenticated={isAuthenticated}>
+               <HeaderDash /> 
+               <Dashboard />
+          </ProtectedPartner>
           }
         />
 

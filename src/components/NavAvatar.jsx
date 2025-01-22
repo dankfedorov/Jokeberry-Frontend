@@ -14,16 +14,16 @@ function NavAvatar() {
   return (
     <span className="nav-item dropdown ms-auto menu">
       
-          <a href="/partner" className="toplink-link menu__icon" >
-          <img src={person} alt="Profile" className="rounded" />
+          <a href="/partner" className="toplink-link menu__icon " >
+          <img src={person} alt="Profile" className="" title="only partners" />
           </a>
          
       <a
         href="/dashboard"
-        className="nav-link nav-profile d-flex align-items-center pe-0 "
+        className="nav-link nav-profile d-flex align-items-center  pe-0 "
         data-bs-toggle="dropdown"
       >
-        <img src={menu} alt="Profile" className="rounded-circle" />
+        <img src={menu} alt="Profile" className="rounded-circle" title="menu" />
       </a>
 
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">

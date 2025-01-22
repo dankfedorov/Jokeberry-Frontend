@@ -37,19 +37,20 @@
   font-size: 14px;
 }
 
-.menu{
+.menu {
   display: flex;
-  flex-direction: row;
+  gap: 8px;
+}
+.menu__icon {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-}
-.menu a{
-  padding: 5px 5px 0 0;
-  margin-right: 15px;
-}
-.menu__icon i{
-  min-width: 50px !important;
-  height: 50px;
-}
+   }
+.menu__icon p{
+  /* padding-top: 2px; */
+  font-size: 8px;
+  }
+
 .header-nav__link a {
   text-transform: uppercase;
   font-size: 24px;
@@ -57,7 +58,7 @@
 }
 
 /* toplinks__group */
-.toplink{
+.toplink {
   margin: auto;
 }
 .toplink__group {
@@ -65,13 +66,12 @@
   flex-direction: row;
   gap: 32px;
 }
-.toplink-link{
-font-size: 14px;
+.toplink-link {
+  font-size: 14px;
 }
 
 @media (max-width: 480px) {
-  .toplink__group{
+  .toplink__group {
     display: none;
   }
-
 }
