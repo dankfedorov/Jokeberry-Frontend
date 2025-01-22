@@ -5,9 +5,9 @@ function QrBlock() {
   return (
     <div>
         {/* QR BLOCK */}
-                <section id="qrblock" className="qrblock qr__bg p-2">
+                <section id="qrblock" className="qrblock qr__bg">
                   <div className="container">
-                    <div className="row">
+                    <div className="row p-2">
                       <div className="col-md-6 text-center mb-4">
                         <img src={qr} alt="deploy link" />
                         

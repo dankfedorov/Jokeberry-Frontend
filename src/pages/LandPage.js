@@ -39,7 +39,7 @@ function LandPage() {
   return (
     <>
       {/* <!-- hero section  vh-100 --> */}
-      <section id="hero" className="text-white text-center hero p-2">
+      <section id="hero" className="text-white text-center hero ">
         <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">

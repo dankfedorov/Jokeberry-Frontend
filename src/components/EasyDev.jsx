@@ -6,8 +6,8 @@ function EasyDev() {
   return (
     <div>
       <section id="easydev" className="easydev">
-        <div className="container container__easydev">
-          <div className="row d-flex">
+        <div className="container container__easydev ">
+          <div className="row d-flex p-2">
             <div className="col-md-6">
               <img src={monitor__img} alt="qr link" />
             </div>
@@ -49,7 +49,7 @@ function EasyDev() {
             </div>
           </div>
 <hr></hr>
-          <div className="row d-flex">
+          <div className="row d-flex p-2">
             <div className="col-md-6">
               <h3>BACKEND</h3>
               <p className="very-small">сторона сервера</p>

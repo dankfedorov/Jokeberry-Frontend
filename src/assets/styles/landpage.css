@@ -117,6 +117,7 @@ min-height: 450px;
   /* line-height: 60px; */
   color: var(--white-color);
   margin-bottom: 15px;
+  
   /* text-transform: uppercase; */
 
 }
@@ -294,7 +295,14 @@ justify-content: center;
 .tech img{
   max-width: 190px;
 }
-
+@media (max-width: 1441px){
+  .container {
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+   
+  }
+}
 
 @media (max-width: 480px) {
   .nav-item img{
