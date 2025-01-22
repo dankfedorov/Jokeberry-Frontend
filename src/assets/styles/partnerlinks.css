@@ -13,13 +13,13 @@
     max-width: 36px;
 }
 .partnerlinks img:hover{
-    max-width: 24px;
+    max-width: 38px;
     outline: 1px solid gray;
     border-radius: 2px;
     padding: 1px;
 }
 .partnerlinks img:active{
-    max-width: 24px;
+    max-width: 36px;
     outline: 1px solid rgb(25, 58, 241);
     border-radius: 2px;
     padding: 1px;
