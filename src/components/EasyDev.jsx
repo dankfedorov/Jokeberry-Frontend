@@ -62,7 +62,7 @@ function EasyDev() {
               <ul className="easydev__group">
                 <li className="nav-link">
                   <i class="bi bi-check-circle"></i>
-                  Подготовить Node.js
+                  Создание сервера Node.js
                 </li>
                 <li className="nav-link">
                   <i class="bi bi-check-circle"></i>
@@ -86,7 +86,7 @@ function EasyDev() {
                 </li>
                 <li className="nav-link">
                   <i class="bi bi-check-circle"></i>
-                  <span className="">Корректиро́вка/исправление ошибок.</span>
+                  <span className="">Корректиро́вка ошибок.</span>
                 </li>
               </ul>
             </div>
