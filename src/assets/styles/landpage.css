@@ -330,13 +330,14 @@ justify-content: center;
     color: var(--white-color);
   }
   .hero__descr {
-    font-weight: 600;
+    font-weight: 500;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 14px;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--white-color);
     margin-bottom: 25px;
+    background-color: #00000023;
 
   }
 

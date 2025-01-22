@@ -43,12 +43,12 @@ function LandPage() {
         <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
-              <h1 className="mb-3 p-2">
+              <h1 className="mb-2 p-1">
                 Создай свой проект <br></br>в Интеренете
               </h1>
 
-              <p className="hero__descr mb-3">
-                высококачественные веб-приложения <br></br> с использованием компонентов
+              <p className="hero__descr mb-2">
+                высококачественное веб-приложение <br></br> с использованием компонентов
                 React.
               </p>
               <p className="hero__descr mb-4">
