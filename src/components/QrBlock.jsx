@@ -5,7 +5,7 @@ function QrBlock() {
   return (
     <div>
         {/* QR BLOCK */}
-                <section id="qrblock" className="qrblock qr__bg">
+                <section id="qrblock" className="qrblock qr__bg p-2">
                   <div className="container">
                     <div className="row">
                       <div className="col-md-6 text-center mb-4">
