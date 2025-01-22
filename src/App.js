@@ -29,7 +29,7 @@ import Documentation from "pages/Documentation";
 import SidebarMenu from "components/SidebarMenu";
 import TableView from "components/TableView";
 import Architect from "components/Architect";
-import MainPage from "components/MainPage";
+
 
 
 
@@ -53,8 +53,7 @@ const Docs = () => {
    return (
     <div >
      <Header />
-     <MainPage />
-     
+    
     </div>
   );
 };

@@ -12,7 +12,7 @@ function SidebarMenu() {
 
   return (
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse left-block" >
-    <div class="position-sticky pt-3">
+    <div class="position-sticky pt-0">
     <ul class="nav flex-column">
     <span className="very-small">Username:{username}</span>
     <span className="very-small">ID: {id}</span>
@@ -35,12 +35,12 @@ function SidebarMenu() {
        
       </ul>
 
-      {/* <ul class="nav flex-column mb-1">
+      <ul class="nav flex-column mb-1">
         <p className="very-small">Информация</p>
         {navList.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
-      </ul> */}
+      </ul>
 
     </div>
   </nav>

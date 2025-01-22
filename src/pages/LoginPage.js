@@ -50,7 +50,7 @@ const MyForm = () => {
         window.location.reload(); // Перезагрузка страницы
         // alert("Авторизация прошла успешно! Спасибо.");
         // window.location = "/dashboard";
-        window.location = "/documentation";
+        window.location = "/dashboard";
       }, 100);
     } catch (error) {
       window.location.reload(); // Перезагрузка страницы
