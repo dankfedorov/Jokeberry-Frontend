@@ -44,6 +44,21 @@ const Home = () => {
   );
 };
 
+const Documentation = () => {
+  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
+  // Тернарный оператор
+  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  console.log("Авторизация " + status);
+   return (
+    <div >
+      <Header/>
+      <LandPage />  
+      <Footer />
+      <FooterMenu />
+    </div>
+  );
+};
+
 const About = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
@@ -119,7 +134,8 @@ const App = () => {
         <Route path="/register" Component={Register} />
         <Route path="/video" Component={VideoPage} />        
         <Route path="/about" Component={About} />        
-        {/* <Route path="/users" Component={Dash} />         */}
+        <Route path="/documentation" Component={Documentation} />        
+    
         
              
         <Route path="/dashboard" element={
@@ -131,15 +147,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-        <Route path="/documentation" element={
-          <ProtectedRoute isAuthenticated={isAuthenticated}>
-               {/* <Header/> */}
-               <HeaderDash /> 
-               <Documentation />
-               {/* <Smallfooter /> */}
-            </ProtectedRoute>
-          }
-        />
+      
         
         <Route path="/admin" element={
           <ProtectedRoute isAuthenticated={isAuthenticated}>
