@@ -14,7 +14,7 @@
 }
 .partnerlinks img:hover{
     max-width: 38px;
-    outline: 1px solid gray;
+    /* outline: 1px solid gray; */
     border-radius: 2px;
     padding: 1px;
 }
