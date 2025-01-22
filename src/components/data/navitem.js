@@ -19,32 +19,32 @@ const navList = [
     },
     {
         _id: 4,
-        name: '',
-        icon: '',
-        link: '/'
-    },
-    {
-        _id: 5,
         name: 'Dashboard',
         icon: 'bi bi-speedometer2',
         link: '/dashboard'
     },
     {
-        _id: 6,
+        _id: 5,
         name: 'Login',
         icon: 'bi bi-door-closed',
         link: '/login'
     },
     {
-        _id: 7,
+        _id: 6,
         name: 'Регистрация',
         icon: 'bi bi-card-list',
         link: '/register'
     },
     {
-        _id: 8,
+        _id: 7,
         name: 'Выход',
         icon: 'bi bi-box-arrow-right',
+        link: '/'
+    },
+    {
+        _id: 8,
+        name: 'Партнерам',
+        icon: 'bi bi-incognito',
         link: '/'
     },
 

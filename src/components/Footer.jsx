@@ -37,18 +37,13 @@ function Footer() {
               </li>
          
               <li>
-                <a href="/admin" class="footer-link">
-                  Админ панель
+                <a href="/docs" class="footer-link">
+                  Документация
                 </a>
               </li>
               <li>
-                <a href="/" class="footer-link">
-                  Контаты
-                </a>
-              </li>
-              <li>
-                <a href="https://moskovshop.gamestore.app" class="footer-link">
-                  Rust SHOP
+                <a href="/partner" class="footer-link">
+                  Партнерам
                 </a>
               </li>
             </ul>

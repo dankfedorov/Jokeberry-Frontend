@@ -1,5 +1,6 @@
 import React from "react";
 import menu from "../assets/images/menu.png";
+import person from "../assets/images/person.png";
 import adminicon from "../assets/images/admin.gif";
 import "../assets/styles/nav.css";
 
@@ -11,7 +12,12 @@ function NavAvatar() {
   const id = JSON.parse(localStorage.getItem("id"));
 
   return (
-    <span className="nav-item dropdown ms-auto">
+    <span className="nav-item dropdown ms-auto menu">
+      
+          <a href="/partner" className="toplink-link menu__icon" >
+          <img src={person} alt="Profile" className="rounded" />
+          </a>
+         
       <a
         href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center pe-0 "

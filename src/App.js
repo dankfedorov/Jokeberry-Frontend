@@ -29,6 +29,8 @@ import Documentation from "pages/Documentation";
 import SidebarMenu from "components/SidebarMenu";
 import TableView from "components/TableView";
 import Architect from "components/Architect";
+import UserData from "components/UserData";
+import Users from "components/Users";
 
 
 
@@ -71,6 +73,24 @@ const About = () => {
     </div>
   );
 };
+
+const Partner = () => {
+  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
+  // Тернарный оператор
+  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  console.log("Авторизация " + status);
+
+   return (
+    <div >
+      <HeaderDash/>
+      
+      <FooterMenu/>
+     
+    </div>
+  );
+};
+
+
 
 const Dash = () => {
   // (Protected:)
@@ -148,11 +168,9 @@ const App = () => {
         />
       
         
-        <Route path="/admin" element={
+        <Route path="/partner" element={
           <ProtectedRoute isAuthenticated={isAuthenticated}>
-               <Header/>  
-               <UserList/>
-               <Smallfooter />
+               <Partner/>
           </ProtectedRoute>
           }
         />

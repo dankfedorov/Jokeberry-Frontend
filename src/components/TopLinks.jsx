@@ -11,9 +11,10 @@ function TopLinks() {
         <li className="toplink__item">
           <a href="/about" className="toplink-link" >О проекте</a>
         </li>
-        <li className="toplink__item">
+        {/* <li className="toplink__item">
           <a href="/docs" className="toplink-link" >Docs</a>
-        </li>
+        </li> */}
+        
         {/* target="_blank" */}
         <li>
                 <a
@@ -33,7 +34,7 @@ function TopLinks() {
               </svg> 
                   
                 </a>
-              </li>
+        </li>
        
       </ul>
     </div>
