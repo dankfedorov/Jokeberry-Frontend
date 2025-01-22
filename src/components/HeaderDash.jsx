@@ -7,7 +7,7 @@ import NavAvatar from "./NavAvatar";
 
 function HeaderDash() {
   return (
-    <header id="header" className="header">
+    <header id="header" className="header p-2">
       <div className="container__header">
         <Logo />
         <NavAvatar />

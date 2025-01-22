@@ -44,7 +44,7 @@ const MyForm = () => {
   };
 
   return (
-    <div className="container__login d-flex ">
+    <div className="container__login d-flex p-2">
       <div className="text-center">
         
         <div className="card-block">
