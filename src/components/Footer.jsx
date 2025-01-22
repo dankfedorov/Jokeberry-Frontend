@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/footer.css";
 import robot5 from "../assets/images/robot5.png";
 import pluspic from "../assets/images/16plus.png";
+import "../assets/styles/pulsetag.css";
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
 
       <div className="container">
         
-        <div className="row footer__background flex p-3">
+        <div className="row footer__background flex p-2">
           <div className="col-md-3 footer__block">
             <a href="/Dashboard" className="logo d-flex align-items-center p-1">
               {/* <img src={logo} /> */}
@@ -95,8 +96,10 @@ function Footer() {
           </div>
 
           <div className="row footer__background flex p-3">
-            <div className="col-md-3">
+            <div className="col-md-3 ">
+              
               <img src={pluspic} className="" alt=""/>
+              
             </div>
             <div className="col-md-4">
               <p class="footer__descr small">

@@ -15,6 +15,7 @@ import Snow from "components/Snow";
 import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 import EasyDev from "components/EasyDev";
+
 // import PulseTag from "components/PulseTag";
 
 function LandPage() {
@@ -48,8 +49,8 @@ function LandPage() {
               </h1>
 
               <p className="hero__descr mb-2">
-                высококачественное веб-приложение <br></br> с использованием компонентов
-                React.
+                высококачественное веб-приложение <br></br> с использованием
+                компонентов React.
               </p>
               <p className="hero__descr mb-4">
                 {" "}
@@ -58,9 +59,26 @@ function LandPage() {
             </div>
           </div>
 
-          <div className="row container__hero__icons mb-4">
-            <div className="col-md-2 col-2">
+          {/* <div className="pulse__block">
+            <div className="pulse">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <button class="pulse__button">
+                <a class="pulse__link" href="/login">
+                  НАЧНЕМ
+                </a>
+              </button>
+            </div>
+          </div> */}
+
+          <div className="row container__hero__icons mb-4 ">
+            <div className="col-md-2 col-2 ">
+              
               <img src={vs} alt="qr link" />
+              
             </div>
             <div className="col-md-2 col-2">
               <img src={reactimg} alt="qr link" />
@@ -71,30 +89,28 @@ function LandPage() {
             <div className="col-md-2 col-2">
               <img src={mongo} alt="qr link" />
             </div>
-            
-            
           </div>
-
-          
-
         </div>
       </section>
 
       <main>
-
         <section id="features" className="features text-center">
           <div className="container container__features ">
-            <span className="p-2"><b>Что делать дальше ? </b> Все что Вам нужно это придумать отличный проект для Web
-            </span> 
-            <a href="/Video" className=""> 
-            <button className="btn-reset btn"><i class="bi bi-play-fill p-1"></i>Live Preview</button>
-           </a>
-          </div>          
+            <span className="p-2">
+              <b>Что делать дальше ? </b> Все что Вам нужно это придумать
+              отличный проект для Web
+            </span>
+            <a href="/Video" className="">
+              
+              <button className="btn-reset btn">
+                <i class="bi bi-play-fill p-1"></i>Live Preview
+              </button>
+              </a>
+          </div>
         </section>
 
         <EasyDev />
         <QrBlock />
-      
       </main>
 
       {/* <!-- Footer Section --> */}

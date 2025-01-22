@@ -171,10 +171,21 @@ min-height: 450px;
 display: flex;
 flex-direction: row;
 gap:10px;
-
+margin: 0 auto;
 align-items: center; /* центрирование по горизонту */
 justify-content: center; 
+
+
 }
+.container__hero__icons img{
+  transform: scale(1);
+  transition: 3s;
+}
+.container__hero__icons img:hover{
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
 .bg__img {
   position: relative;
   background-image: url(../images/jokeberry.png);
