@@ -63,14 +63,13 @@ const MyForm = () => {
   };
 
   return (
-    <div className="container__login d-flex p-2">
+    <div className="container__loginparner d-flex p-2">
       <div className="text-center ">
         
-        <div className="card-block">
+        <div className="card-block-partner">
           
           <div className="p-3">
-            <h4 className="container__login__h4">PERSONAL ONLY</h4>
-            <h4 className="container__login__h4">ВХОД ДЛЯ СВОИХ</h4>
+            <h4 className="container__login__h4">  PERSONAL ONLY  </h4>
             <p className="login__descr mb-1">Извините, система с ограниченным доступом и каскадным шифрованием.
             </p>
 
