@@ -20,20 +20,20 @@ function SidebarMenu() {
           <span className="very-small">Username:{username}</span>
           <span className="very-small">ID: {id}</span>
         </ul>
-
+{/* 
       <ul class="nav flex-column">
         <p className="very-small">Frontend</p>
         {frontendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
-      </ul>
-
+      </ul> */}
+{/* 
       <ul class="nav flex-column mb-1">
         <p className="very-small">Backend</p>
         {backendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
-      </ul>
+      </ul> */}
       
         <ul class="nav flex-column mb-1">
           <p className="very-small">Разделы сайта</p>
