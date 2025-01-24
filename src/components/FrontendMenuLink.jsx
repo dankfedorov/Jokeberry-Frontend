@@ -1,6 +1,6 @@
 import React from "react";
-import NavItem from "../components/NavItem";
-import frontendlink from "../components/data/frontendlink";
+import NavItem from "./NavItem";
+import frontendlink from "./data/frontendlink";
 
 
 function FrontenMenudLink() {

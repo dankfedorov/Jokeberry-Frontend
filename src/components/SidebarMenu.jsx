@@ -4,7 +4,7 @@ import navList from "../components/data/navitem";
 // import frontendlink from "../components/data/frontendlink";
 // import backendlink from "../components/data/backendlink";
 import NavItem from "../components/NavItem";
-import FrontenMenudLink from "./FrontenMenudLink";
+import FrontenMenudLink from "./FrontendMenuLink";
 import BackendMenudLink from "./BackendMenudLink";
 
 function SidebarMenu() {
