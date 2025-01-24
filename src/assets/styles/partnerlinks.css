@@ -6,16 +6,16 @@
      /* z-index: 9999999;   */
 }
 .partnerlinks img{
-    max-width: 36px;
+    max-width: 32px;
 }
 .partnerlinks img:hover{
-    max-width: 36px;
+    max-width: 32px;
     /* outline: 1px solid gray; */
     border-radius: 2px;
     padding: 1px;
 }
 .partnerlinks img:active{
-    max-width: 36px;
+    max-width: 32px;
     outline: 1px solid rgb(25, 58, 241);
     border-radius: 2px;
     padding: 1px;
