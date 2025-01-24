@@ -1,11 +1,10 @@
 import React from "react";
 import navList from "../components/data/navitem";
-// import navLink from "../components/data/navlink";
-// import frontendlink from "../components/data/frontendlink";
-// import backendlink from "../components/data/backendlink";
+
+import frontendlink from "../components/data/frontendlink";
+import backendlink from "../components/data/backendlink";
 import NavItem from "../components/NavItem";
-import FrontenMenudLink from "./FrontendMenuLink";
-import BackendMenudLink from "./BackendMenudLink";
+
 
 function SidebarMenu() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -22,10 +21,20 @@ function SidebarMenu() {
           <span className="very-small">ID: {id}</span>
         </ul>
 
-        {/* <FrontenMenudLink /> */}
-        {/* <BackendMenudLink /> */}
+      <ul class="nav flex-column">
+        <p className="very-small">Frontend</p>
+        {frontendlink.map((nav) => (
+          <NavItem key={nav._id} nav={nav} />
+        ))}
+      </ul>
 
-        <hr></hr>
+      <ul class="nav flex-column mb-1">
+        <p className="very-small">Backend</p>
+        {backendlink.map((nav) => (
+          <NavItem key={nav._id} nav={nav} />
+        ))}
+      </ul>
+      
         <ul class="nav flex-column mb-1">
           <p className="very-small">Разделы сайта</p>
           {navList.map((nav) => (
