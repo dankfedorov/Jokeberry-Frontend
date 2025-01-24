@@ -8,7 +8,6 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
-
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -37,18 +36,19 @@ import UserData from "components/UserData";
 import Users from "components/Users";
 
 
-
-
 // Компоненты страниц
 const Home = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
-  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  const status =
+    isAuthenticated === true
+      ? "пройдена.Клиент в системе."
+      : "не пройдена.Клиент не в системе.";
   console.log("Авторизация " + status);
-   return (
-    <div >
-      <Header/>
-      <LandPage />  
+  return (
+    <div>
+      <Header />
+      <LandPage />
       <Footer />
       <FooterMenu />
     </div>
@@ -56,10 +56,10 @@ const Home = () => {
 };
 
 const Docs = () => {
-   return (
-    <div >
-     <Header />
-    
+  return (
+    <div>
+      <Header />
+      <SidebarMenu />
     </div>
   );
 };
@@ -67,13 +67,16 @@ const Docs = () => {
 const About = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
-  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  const status =
+    isAuthenticated === true
+      ? "пройдена.Клиент в системе."
+      : "не пройдена.Клиент не в системе.";
   console.log("Авторизация " + status);
-   return (
-    <div >
-      <Header/>
+  return (
+    <div>
+      <Header />
       <AboutProject />
-      <Footer />     
+      <Footer />
     </div>
   );
 };
@@ -81,18 +84,19 @@ const About = () => {
 const Partner = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // Тернарный оператор
-  const status = (isAuthenticated === true) ? "пройдена >>> Отлично партнер в системе." : "не пройдена >>> ВНИМАНИЕ !!! Начинаем отчет блокировки 30s";
-  console.log("<<< Авторизация " + status  );
+  const status =
+    isAuthenticated === true
+      ? "пройдена >>> Отлично партнер в системе."
+      : "не пройдена >>> ВНИМАНИЕ !!! Начинаем отчет блокировки 30s";
+  console.log("<<< Авторизация " + status);
 
-   return (
-    <div >
-      <HeaderDash/>
+  return (
+    <div>
+      <HeaderDash />
       <PartnerPage />
     </div>
   );
 };
-
-
 
 const Dash = () => {
   // (Protected:)
@@ -107,7 +111,7 @@ const Dash = () => {
 const Login = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <LoginPage />
     </div>
   );
@@ -115,16 +119,16 @@ const Login = () => {
 const Loginpartner = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <LoginPartner />
-      </div>
+    </div>
   );
 };
 
 const Register = () => {
   return (
     <div>
-       <Header/>
+      <Header />
       <RegisterPage />
     </div>
   );
@@ -132,9 +136,8 @@ const Register = () => {
 const VideoPage = () => {
   return (
     <div>
-       <Header/>
-       <VideoBlog />
-      
+      <Header />
+      <VideoBlog />
     </div>
   );
 };
@@ -143,19 +146,21 @@ const ErrorAuth = () => {
   return (
     <div className="">
       <Header />
-      <h2>Извините, необходимо пройти авторизацию.</h2> 
+      <h2>Извините, необходимо пройти авторизацию.</h2>
     </div>
   );
 };
-
 
 const App = () => {
   const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
   // console.log("Авторизирация:", isAuthenticated);
   // Тернарный оператор
-  const status = (isAuthenticated === true) ? "пройдена.Клиент в системе." : "не пройдена.Клиент не в системе.";
+  const status =
+    isAuthenticated === true
+      ? "пройдена.Клиент в системе."
+      : "не пройдена.Клиент не в системе.";
   console.log("Авторизация " + status);
-  
+
   return (
     <Router>
       <Routes>
@@ -163,32 +168,32 @@ const App = () => {
         <Route path="/login" Component={Login} />
         <Route path="/loginpartner" Component={Loginpartner} />
         <Route path="/register" Component={Register} />
-        <Route path="/video" Component={VideoPage} />        
-        <Route path="/about" Component={About} />        
-        <Route path="/docs" Component={Docs} />        
+        <Route path="/video" Component={VideoPage} />
+        <Route path="/about" Component={About} />
+        <Route path="/docs" Component={Docs} />
         {/* <Route path="/partner" Component={Partner} />         */}
-    
-        
-             
-        <Route path="/dashboard" element={
-          <ProtectedRoute isAuthenticated={isAuthenticated}>
-               {/* <Header/> */}
-               <HeaderDash /> 
-               <Dashboard />
-               {/* <Smallfooter /> */}
+
+        <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
+              {/* <Header/> */}
+              <HeaderDash />
+              <Dashboard />
+              {/* <Smallfooter /> */}
             </ProtectedRoute>
           }
         />
-      
-        
-        <Route path="/partner" element={
-          <ProtectedPartner isAuthenticated={isAuthenticated}>
-               <HeaderDash /> 
-               <Dashboard />
-          </ProtectedPartner>
+
+        <Route
+          path="/partner"
+          element={
+            <ProtectedPartner isAuthenticated={isAuthenticated}>
+              <HeaderDash />
+              <Dashboard />
+            </ProtectedPartner>
           }
         />
-
       </Routes>
     </Router>
   );
