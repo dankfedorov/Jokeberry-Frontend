@@ -15,27 +15,7 @@ function PartnerLinks() {
                </a>
            </li>
 
-          <li className="partnerlinks-item">
-            <a href="/partner" className="toplink-link menu__icon ">
-              <img src={basket} alt="Profile" className="" title="catalog"/>
-            </a>
-          </li>
-          <li className="partnerlinks-item">
-            <a href="/partner" className="toplink-link menu__icon ">
-              <img src={basket} alt="Profile" className="" title="catalog"/>
-            </a>
-          </li>
-          <li className="partnerlinks-item">
-            <a href="/partner" className="toplink-link menu__icon ">
-              <img src={basket} alt="Profile" className="" title="catalog"/>
-            </a>
-          </li>
-          <li className="partnerlinks-item">
-            <a href="/partner" className="toplink-link menu__icon ">
-              <img src={basket} alt="Profile" className="" title="catalog"/>
-            </a>
-          </li>
-
+            
         </ul>
 
       </section>

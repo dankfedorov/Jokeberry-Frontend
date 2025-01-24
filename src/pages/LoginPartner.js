@@ -69,7 +69,7 @@ const MyForm = () => {
         <div className="card-block-partner">
           
           <div className="p-3">
-            <h4 className="container__login__h4">  PERSONAL ONLY  </h4>
+            <h4 className="container__login__h4">Вход для партнёра</h4>
             <p className="login__descr mb-1">Извините, система с ограниченным доступом и каскадным шифрованием.
             </p>
 
@@ -113,7 +113,7 @@ const MyForm = () => {
               </div>
 
               <button id="submitBtn" className="w-100 btn mb-2" type="submit">
-              SECURE ENTER            
+              Войти           
               </button>
              
             </form>

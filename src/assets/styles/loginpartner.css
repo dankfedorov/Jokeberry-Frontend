@@ -27,7 +27,7 @@ body {
   border: 1px solid #ffffffa2;
   border-radius: 15px;
   color: rgb(39, 38, 38);
-  background-color: #dd1515;
+  background-image: url(../images/hirobby.png);
 }
 .container__login__h4 {
   color: #ffffff;
