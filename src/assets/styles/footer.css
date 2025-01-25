@@ -89,7 +89,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap:15px;
+  gap:7px;
   min-height: 70px;
   background-color: rgba(22, 112, 190, 0.829);
   color: aliceblue;

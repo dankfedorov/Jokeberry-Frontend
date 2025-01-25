@@ -8,7 +8,7 @@ function FooterMenu() {
          
     
           <li className="li__block">
-            <a href="#">
+            <a href="/">
               <i class="bi bi-house"></i>
             </a>
             <span>Главная</span>
@@ -30,12 +30,12 @@ function FooterMenu() {
           
   
           
-          <li className="li__block ">
+          {/* <li className="li__block ">
             <a href="/login">
             <i class="bi bi-door-closed"></i>
             </a>
             <span>Вход</span>
-          </li>
+          </li> */}
           
           <li className="li__block">
             
@@ -43,6 +43,13 @@ function FooterMenu() {
             <i class="bi bi-bootstrap-reboot"></i>
             </a>
             <span>Регистрация</span>
+          </li>
+          <li className="li__block">
+            
+            <a href="/partner">
+            <i class="bi bi-person-vcard-fill"></i>
+            </a>
+            <span>Партнерам</span>
           </li>
 
 
