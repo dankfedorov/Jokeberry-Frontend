@@ -1,24 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-html {
-  box-sizing: border-box;
-}
 
-:root {
-  --default-color: #1865f5;
-  --hover-color: #2c83bd;
-  --focus-color: #8999f3;
-  --active-color: #0ca719;
-  --gray-light-color: #CACACA;
-  --grey-color: #302f2f;
-  --black-color: #000000;
-  --white-color: #ffffff;
-
-
-}
 
 a,
 button {
@@ -96,15 +76,15 @@ ul {
 
 /*hero*/
 .hero {
-  background-image: linear-gradient(130deg, rgb(13, 83, 124) 10.9%, rgba(27, 27, 27, 0) 65.7%), url(../images/girlpic.png);
+  background-image: linear-gradient(130deg, rgb(13, 83, 124) 10.9%, rgba(27, 27, 27, 0.103) 65.7%), url(../images/girlpic.png);
   /* background-color: rgb(18, 62, 63); */
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 16%;
   padding-bottom: 50px;
-min-height: 450px;
-  /* height: 100vh; */
+/* min-height: 480px; */
+  height: 100vh;
   
 }
 

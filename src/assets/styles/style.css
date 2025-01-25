@@ -23,12 +23,37 @@
     letter-spacing: 1px;
  }
  body {
-    font-family: 'Open Sans', arial, sans-serif;
-    font-size: 14px;
-    line-height: 1;
-    color: #373737;
-    background: #f7f7f7;
+   background: url('https://img.freepik.com/premium-photo/abstract-blurred-sky-colorful_40299-26.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
  }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --default-color: #1865f5;
+  --hover-color: #2c83bd;
+  --focus-color: #8999f3;
+  --active-color: #0ca719;
+  --gray-light-color: #CACACA;
+  --grey-color: #302f2f;
+  --black-color: #000000;
+  --white-color: #ffffff;
+
+
+}
+
  /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
  header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
     content: "";

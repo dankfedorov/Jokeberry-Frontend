@@ -5,6 +5,8 @@ import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
+import "./assets/styles/style.css";
+
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
@@ -58,27 +60,9 @@ const Home = () => {
 const Docs = () => {
   return (
     <div>
-     
       <HeaderDash />
       <SidebarMenu />
       <FooterMenu />
-    </div>
-  );
-};
-
-const About = () => {
-  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
-  // Тернарный оператор
-  const status =
-    isAuthenticated === true
-      ? "пройдена.Клиент в системе."
-      : "не пройдена.Клиент не в системе.";
-  console.log("Авторизация " + status);
-  return (
-    <div>
-      <Header />
-      <HeaderDash />
-      <Footer />
     </div>
   );
 };
@@ -110,6 +94,18 @@ const Dash = () => {
     </div>
   );
 };
+
+const About = () => {
+  // (Protected:)
+  return (
+    <div>
+      <Header/>
+      
+      {/* <Footer /> */}
+    </div>
+  );
+};
+
 const Login = () => {
   return (
     <div>
@@ -171,7 +167,7 @@ const App = () => {
         <Route path="/loginpartner" Component={Loginpartner} />
         <Route path="/register" Component={Register} />
         <Route path="/video" Component={VideoPage} />
-        <Route path="/about" Component={About} />
+        <Route path="/about" Component={About}/>
         <Route path="/docs" Component={Docs} />
         {/* <Route path="/partner" Component={Partner} />         */}
 
@@ -179,10 +175,8 @@ const App = () => {
           path="/dashboard"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
-              {/* <Header/> */}
               <HeaderDash />
               <Dashboard />
-              {/* <Smallfooter /> */}
             </ProtectedRoute>
           }
         />

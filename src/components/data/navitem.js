@@ -12,6 +12,12 @@ const navList = [
         link: '/about'
     },
     {
+        _id: 2,
+        name: 'Вход',
+        icon: 'bi bi-door-closed',
+        link: '/login'
+    },
+    {
         _id: 3,
         name: 'Документация',
         icon: 'bi bi-blockquote-right',

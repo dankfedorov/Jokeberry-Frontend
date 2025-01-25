@@ -3,6 +3,7 @@ import "../assets/styles/dashboard.css";
 
 import SidebarMenu from "components/SidebarMenu";
 import Architect from "components/Architect";
+import About from "components/About";
 import RatesAPI from "components/RatesAPI";
 
 import DisignMaket from "components/DisignMaket";
@@ -18,7 +19,7 @@ function Documentation() {
 
           {/* Центральный блок */}
           <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 main__container">
-            
+           <About />
             
             
 

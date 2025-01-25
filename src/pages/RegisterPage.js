@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../assets/styles/sendform.css";
+import PopUp from "components/PopUp";
 
 const MyForm = () => {
   const [formData, setFormData] = useState({
@@ -37,7 +38,9 @@ const MyForm = () => {
       
       setIsSuccess(true); // Успех регистрации
       alert("Здравствуйте: " + `${formData.username}\n `  + "Регистрация прошла успешно. Спасибо.\n Вы будете перенаправлены на страницу входа.");
+      
       window.location = "/login";
+      
     } catch (error) {
       console.log(error);
     }

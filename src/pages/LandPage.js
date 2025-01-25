@@ -15,6 +15,7 @@ import Snow from "components/Snow";
 import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 import EasyDev from "components/EasyDev";
+import PopUp from "components/PopUp";
 
 import Typewriter from "typewriter-effect";
 
@@ -56,10 +57,11 @@ function LandPage() {
                 }}
               />
               </h1>
+              
 
               
               <p className="hero__descr mb-2">
-                высококачественное веб-приложение  с использованием
+                веб-приложение  с использованием
                 компонентов React.
               </p>
               <p className="hero__descr mb-4">
@@ -67,6 +69,7 @@ function LandPage() {
                 HTML, CSS, React, Javascript,<br></br> Nodejs, MongoDB
               </p>
             </div>
+            <PopUp/>
           </div>
 
           {/* <div className="pulse__block">
@@ -118,6 +121,7 @@ function LandPage() {
 
         <EasyDev />
         <QrBlock />
+        
       </main>
 
       {/* <!-- Footer Section --> */}

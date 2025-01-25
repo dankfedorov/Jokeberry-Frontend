@@ -1,7 +1,7 @@
-body {
+/* body {
   background: rgb(40, 146, 179);
   background: radial-gradient(circle, #d8d8d8 5%, rgb(180, 180, 180) 100%);
-}
+} */
 
 .container__login {
   justify-content: center;

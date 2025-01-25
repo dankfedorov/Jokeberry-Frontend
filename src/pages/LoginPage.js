@@ -114,6 +114,7 @@ const MyForm = () => {
         </a>
         <p className="very-small">2025 JOKEBERRY.RU </p>
       </div>
+
     </div>
   );
 };
