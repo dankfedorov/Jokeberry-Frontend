@@ -16,6 +16,8 @@ import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 import EasyDev from "components/EasyDev";
 
+import Typewriter from "typewriter-effect";
+
 // import PulseTag from "components/PulseTag";
 
 function LandPage() {
@@ -44,12 +46,20 @@ function LandPage() {
         <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
+              
               <h1 className="mb-2 p-1">
-                Создай свой проект <br></br>в Интеренете
+              <Typewriter
+                options={{
+                  strings: ["Создайте свой сайт", "Реализуй свой проект"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
               </h1>
 
+              
               <p className="hero__descr mb-2">
-                высококачественное веб-приложение <br></br> с использованием
+                высококачественное веб-приложение  с использованием
                 компонентов React.
               </p>
               <p className="hero__descr mb-4">
@@ -76,9 +86,7 @@ function LandPage() {
 
           <div className="row container__hero__icons mb-4 ">
             <div className="col-md-2 col-2 ">
-              
               <img src={vs} alt="qr link" />
-              
             </div>
             <div className="col-md-2 col-2">
               <img src={reactimg} alt="qr link" />
@@ -101,11 +109,10 @@ function LandPage() {
               отличный проект для Web
             </span>
             <a href="/Video" className="">
-              
               <button className="btn-reset btn">
                 <i class="bi bi-play-fill p-1"></i>Live Preview
               </button>
-              </a>
+            </a>
           </div>
         </section>
 

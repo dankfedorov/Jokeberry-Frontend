@@ -58,8 +58,10 @@ const Home = () => {
 const Docs = () => {
   return (
     <div>
-      <Header />
+     
+      <HeaderDash />
       <SidebarMenu />
+      <FooterMenu />
     </div>
   );
 };
@@ -75,7 +77,7 @@ const About = () => {
   return (
     <div>
       <Header />
-      <AboutProject />
+      <HeaderDash />
       <Footer />
     </div>
   );
