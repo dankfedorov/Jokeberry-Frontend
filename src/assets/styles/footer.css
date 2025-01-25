@@ -66,6 +66,12 @@
   
 }
 
+@media (min-width: 481px) {
+/* Footer menu */
+.footermenu{
+  display: none;
+}
+}
 @media (max-width: 480px) {
 /* Footer menu */
 .footermenu{
