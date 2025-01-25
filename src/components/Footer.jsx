@@ -3,6 +3,8 @@ import "../assets/styles/footer.css";
 import robot5 from "../assets/images/robot5.png";
 import pluspic from "../assets/images/16plus.png";
 import "../assets/styles/pulsetag.css";
+import ParnterPage from "pages/PartnerPage";
+import PartnerLinks from "./PartnerLinks";
 
 function Footer() {
   return (
@@ -46,6 +48,11 @@ function Footer() {
                   Партнерам
                 </a>
               </li>
+              <li>
+                <a href="/partner" class="footer-link">
+                  <PartnerLinks />
+                  </a>
+              </li>
             </ul>
           </div>
           <div className="col-md-3 footer__block">
@@ -84,6 +91,7 @@ function Footer() {
                   </svg>
                 </a>
               </li>
+         
             </ul>
 
             

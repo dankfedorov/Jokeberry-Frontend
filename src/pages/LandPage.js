@@ -37,7 +37,7 @@ function LandPage() {
   // remove all Обнуляем все
   localStorage.clear();
   console.log("ID has been cleared success.");
-  <Snow />;
+  // <Snow />;
 
   //
   return (
@@ -69,7 +69,7 @@ function LandPage() {
                 HTML, CSS, React, Javascript,<br></br> Nodejs, MongoDB
               </p>
             </div>
-            <PopUp/>
+            {/* <PopUp/> */}
           </div>
 
           {/* <div className="pulse__block">

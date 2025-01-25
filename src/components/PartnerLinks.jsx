@@ -1,6 +1,5 @@
 import React from "react";
 import person from "../assets/images/person.png";
-import basket from "../assets/images/basket.png";
 import "../assets/styles/partnerlinks.css";
 
 function PartnerLinks() {

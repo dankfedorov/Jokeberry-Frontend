@@ -36,6 +36,7 @@ import TableView from "components/TableView";
 import Architect from "components/Architect";
 import UserData from "components/UserData";
 import Users from "components/Users";
+import ErrorPage from "pages/ErrorPage";
 
 
 // Компоненты страниц
@@ -61,7 +62,8 @@ const Docs = () => {
   return (
     <div>
       <HeaderDash />
-      <SidebarMenu />
+      <Documentation />
+ 
       <FooterMenu />
     </div>
   );
@@ -100,8 +102,8 @@ const About = () => {
   return (
     <div>
       <Header/>
-      
-      {/* <Footer /> */}
+      <AboutProject />
+      <Footer/>
     </div>
   );
 };
@@ -140,12 +142,12 @@ const VideoPage = () => {
   );
 };
 
-const ErrorAuth = () => {
+const Errorpage = () => {
   return (
-    <div className="">
+    <div >
       <Header />
-      <h2>Извините, необходимо пройти авторизацию.</h2>
-    </div>
+     <ErrorPage />
+      </div>
   );
 };
 
@@ -169,6 +171,7 @@ const App = () => {
         <Route path="/video" Component={VideoPage} />
         <Route path="/about" Component={About}/>
         <Route path="/docs" Component={Docs} />
+        <Route path="/error" Component={Errorpage} />
         {/* <Route path="/partner" Component={Partner} />         */}
 
         <Route
