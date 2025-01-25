@@ -21,8 +21,8 @@ function FooterMenu() {
             <span>Аналитика</span>
           </li>
 
-          <li className="li__block">
-            <a href="#">
+          <li className="li__block bg_circle">
+            <a href="#" className="">
             <i class="bi bi-headset"></i>
             </a>
             <span>Контакты</span>
@@ -30,9 +30,9 @@ function FooterMenu() {
           
   
           
-          <li className="li__block">
+          <li className="li__block ">
             <a href="/login">
-            <i class="bi bi-bookmark-plus-fill"></i>
+            <i class="bi bi-door-closed"></i>
             </a>
             <span>Вход</span>
           </li>
