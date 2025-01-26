@@ -1,6 +1,5 @@
 import React from "react";
 import menu from "../assets/images/menu.png";
-import person from "../assets/images/person.png";
 import adminicon from "../assets/images/admin.gif";
 import "../assets/styles/nav.css";
 
@@ -13,7 +12,6 @@ function NavAvatar() {
 
   return (
     <span className="nav-item dropdown ms-auto menu">
-              
       <a
         href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center  pe-0 "
@@ -36,21 +34,17 @@ function NavAvatar() {
             User ID:<b>{id}</b>
           </p>
         </li>
-        
+
         <li>
           <hr className="dropdown-divider" />
         </li>
-       
+
         <span>
-        {navList.map((nav) => (
-          <NavItem key={nav._id} nav={nav} />
-        ))}
+          {navList.map((nav) => (
+            <NavItem key={nav._id} nav={nav} />
+          ))}
         </span>
-        
       </ul>
-
-
-      
     </span>
   );
 }
