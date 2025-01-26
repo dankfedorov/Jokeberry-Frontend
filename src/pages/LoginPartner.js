@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import "../assets/styles/sendform.css";
 import "../assets/styles/loginpartner.css";
+import { ToastContainer, toast } from 'react-toastify';
 
 const MyForm = () => {
   const [formData, setFormData] = useState({
@@ -45,6 +46,7 @@ const MyForm = () => {
       const username = JSON.parse(localStorage.getItem("token"));
       localStorage.setItem("id", JSON.stringify(result.id));
       localStorage.setItem("username", JSON.stringify(result.username));
+
 
       setIsSuccess(true); // Успех регистрации -- тут не понятно нужен ли этот вариант
       // console.log(setIsSuccess);

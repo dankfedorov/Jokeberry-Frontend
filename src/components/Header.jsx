@@ -3,7 +3,6 @@ import "../assets/styles/header.css";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import TopLinks from "./TopLinks";
-import Toastify from "../components/Toastify";
 // import PartnerLinks from "./PartnerLinks";
 
 
@@ -15,7 +14,6 @@ function Header() {
         <Logo />
         <TopLinks/>
         <Nav />
-        <Toastify />
         
       </div>
     </header>

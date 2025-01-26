@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+
+
 import "../assets/styles/sendform.css";
-import PopUp from "components/PopUp";
+
 
 const MyForm = () => {
   const [formData, setFormData] = useState({

@@ -37,6 +37,7 @@ import Architect from "components/Architect";
 import UserData from "components/UserData";
 import Users from "components/Users";
 import ErrorPage from "pages/ErrorPage";
+import Toastify from "./components/Toastify";
 
 
 // Компоненты страниц

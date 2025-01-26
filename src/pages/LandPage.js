@@ -16,8 +16,10 @@ import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 import EasyDev from "components/EasyDev";
 import PopUp from "components/PopUp";
+import Toastify from "../components/Toastify";
 
 import Typewriter from "typewriter-effect";
+
 
 // import PulseTag from "components/PulseTag";
 
@@ -57,7 +59,7 @@ function LandPage() {
                 }}
               />
               </h1>
-              
+            
 
               
               <p className="hero__descr mb-2">
@@ -68,6 +70,7 @@ function LandPage() {
                 {" "}
                 HTML, CSS, React, Javascript,<br></br> Nodejs, MongoDB
               </p>
+        
             </div>
             {/* <PopUp/> */}
           </div>
@@ -101,9 +104,11 @@ function LandPage() {
               <img src={mongo} alt="qr link" />
             </div>
           </div>
+          
         </div>
       </section>
 
+  
       <main>
         <section id="features" className="features text-center">
           <div className="container container__features ">
@@ -115,13 +120,15 @@ function LandPage() {
               <button className="btn-reset btn">
                 <i class="bi bi-play-fill p-1"></i>Live Preview
               </button>
+              
             </a>
           </div>
+        
         </section>
 
         <EasyDev />
         <QrBlock />
-        <Toast
+        
         
       </main>
 

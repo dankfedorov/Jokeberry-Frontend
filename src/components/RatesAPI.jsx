@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../assets/styles/ratesapi.css";
+import Toastify from "components/Toastify";
 
 const RatesDisplay = () => {
   // Состояние для хранения данных и состояния загрузки
@@ -25,6 +26,7 @@ const RatesDisplay = () => {
   const array = [object];
   console.log("Data recived");
 
+
   // Условный рендеринг в зависимости от состояния загрузки или ошибки
   if (loading) {
     return <div>Загрузка...</div>;
@@ -41,8 +43,9 @@ const RatesDisplay = () => {
 
   return (
     <div className="container_rates">
-      <div className="row pt text-center">
-      <p className="text-center mb-1 small">Курсы валют / данные получены по API ЦБ РФ</p>
+      <div className="row pt">
+       <p className="text-center very-small">Курсы валют / данные получены по API ЦБ РФ</p>
+       <p className="very-small"><Toastify/></p>
         <div className="col-md-3 ">
           {array.map((item) => (
             <div className="rates" key={item.id}>
@@ -72,6 +75,8 @@ const RatesDisplay = () => {
           ))}
         </div>
       </div>
+      
+      
     </div>
   );
 };
