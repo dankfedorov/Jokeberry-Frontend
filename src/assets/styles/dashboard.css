@@ -118,18 +118,18 @@
   padding-bottom: 25px;
 }
 .disignmaket h2 {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%);
-  color: #eeeeee;
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%); */
+  color: #2c2c2c;
 }
 .coding {
   padding-top: 60px;
   padding-bottom: 25px;
 }
 .coding h2 {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%);
-  color: #eeeeee;
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%); */
+  color: #2c2c2c;
 }
 
 .dashboard__container {
