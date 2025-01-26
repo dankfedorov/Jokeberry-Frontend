@@ -8,7 +8,7 @@ function TopLinks() {
         href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center "
         data-bs-toggle="dropdown"
-      >Наш проект 
+      >переход 
         <i class="bi bi-caret-down-fill very-small p-1"></i>
       </a>
 
