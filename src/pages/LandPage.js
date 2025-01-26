@@ -121,6 +121,7 @@ function LandPage() {
 
         <EasyDev />
         <QrBlock />
+        <Toast
         
       </main>
 
