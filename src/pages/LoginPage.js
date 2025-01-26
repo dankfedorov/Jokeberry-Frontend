@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../assets/styles/sendform.css";
-import { ToastContainer, toast } from 'react-toastify';
 
 
 const MyForm = () => {
@@ -47,12 +46,8 @@ const MyForm = () => {
       localStorage.setItem("username", JSON.stringify(result.username));
 
       setIsSuccess(true); // Успех регистрации -- тут не понятно нужен ли этот вариант
-      const topRight = () => {
-        toast.success('Hey 👋!', {
-          position: 'top-right',
-        });
-      };
 
+    
       setTimeout(() => {
         window.location.reload(); // Перезагрузка страницы
         // alert("Авторизация прошла успешно! Спасибо.");
@@ -111,7 +106,7 @@ const MyForm = () => {
 
                           
               </button> 
-             
+                          
              
             </form>
            

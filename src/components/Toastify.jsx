@@ -1,35 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 
-function Toastify() {
-  const username = JSON.parse(localStorage.getItem("username"));
-  const id = JSON.parse(localStorage.getItem("id"));
+const username = JSON.parse(localStorage.getItem("username"));
+const id = JSON.parse(localStorage.getItem("id"));
 
-  const notify = () => toast(username +", пожалуйста ожидайте...");
-  // <span className="very-small">Username:{username}</span>
+function MyComponent() {
+  useEffect(() => {
+    toast.success(username +', добро пожаловать на сайт!', {}); 
+    toast.info('Ваш id:' + id ,  {}); 
+  },[]);
 
- 
-  return (
-    <div>
+    return (
       <div>
-        {/* <span>{notify}</span> */}
-        <button  onClick={notify} className=''>обновить<i class="bi bi-arrow-clockwise "></i></button> 
+     
         <ToastContainer
-position="top-right"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick={false}
-rtl={false}
-// pauseOnFocusLoss
-draggable
-// pauseOnHover
-theme="light"
-/>
-        
+        autoClose={10000}
+        newestOnTop={false}
+        pauseOnHover
+        />
       </div>
-    </div>
-  );
-}
-
-export default Toastify;
+    );
+  };
+  
+export default MyComponent;
