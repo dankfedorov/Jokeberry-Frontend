@@ -4,6 +4,7 @@ import navList from "../components/data/navitem";
 import frontendlink from "../components/data/frontendlink";
 import backendlink from "../components/data/backendlink";
 import NavItem from "../components/NavItem";
+import TopLinks from "./TopLinks";
 
 
 function SidebarMenu() {
@@ -34,6 +35,7 @@ function SidebarMenu() {
           <NavItem key={nav._id} nav={nav} />
         ))}
       </ul> */}
+      <TopLinks/>
       
         <ul class="nav flex-column mb-1">
           <p className="very-small">Разделы сайта</p>

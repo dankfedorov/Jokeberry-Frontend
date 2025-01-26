@@ -8,7 +8,7 @@ function TopLinks() {
         href="/dashboard"
         className="nav-link nav-profile d-flex align-items-center "
         data-bs-toggle="dropdown"
-      >переход 
+      >Категории
         <i class="bi bi-caret-down-fill very-small p-1"></i>
       </a>
 
@@ -27,13 +27,15 @@ function TopLinks() {
         </li>
         <li className="toplink__item dropdown-header">
           <a href="/docs" className="toplink-link">
-            Возможности
+            Документация
           </a>
         </li>
 
         {/* target="_blank" */}
       </ul>
     </span>
+
+
   );
 }
 

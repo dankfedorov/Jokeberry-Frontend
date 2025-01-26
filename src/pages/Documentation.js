@@ -8,6 +8,7 @@ import RatesAPI from "components/RatesAPI";
 
 import DisignMaket from "components/DisignMaket";
 import CodingHtml from "components/CodingHtml";
+import EasyDev from "components/EasyDev";
 
 function Documentation() {
   return (
@@ -19,9 +20,10 @@ function Documentation() {
 
           {/* Центральный блок */}
           <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 main__container">
-           <About />
-            
-            
+           
+           <Architect/> 
+           <DisignMaket/>
+           <CodingHtml/> 
 
 
           </main>
