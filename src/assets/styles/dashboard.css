@@ -98,6 +98,7 @@
 }
 .main__container {
   background-color: rgb(236, 236, 236);
+  max-width: 1440px;
 }
 /* architect */
 .architect {
@@ -130,6 +131,9 @@
   /* background: rgb(2, 0, 36); */
   /* background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, var(--default-color) 50%); */
   color: #2c2c2c;
+}
+.coding img{
+  max-width: 800px;
 }
 
 .dashboard__container {
