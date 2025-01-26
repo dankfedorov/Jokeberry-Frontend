@@ -40,13 +40,12 @@ const MyForm = () => {
 
       const token = { result };
       localStorage.setItem("authToken", JSON.stringify(token));
-
-      const username = JSON.parse(localStorage.getItem("token"));
+      // const username = JSON.parse(localStorage.getItem("token"));
       localStorage.setItem("id", JSON.stringify(result.id));
       localStorage.setItem("username", JSON.stringify(result.username));
+      localStorage.setItem("roles", JSON.stringify(result.roles));
 
       setIsSuccess(true); // Успех регистрации -- тут не понятно нужен ли этот вариант
-
     
       setTimeout(() => {
         window.location.reload(); // Перезагрузка страницы
