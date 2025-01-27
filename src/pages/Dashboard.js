@@ -2,8 +2,8 @@ import React from "react";
 import "../assets/styles/dashboard.css";
 import SidebarMenu from "components/SidebarMenu";
 import RatesAPI from "components/RatesAPI";
-import Toastify from "components/Toastify";
-import GetCourseApi from "components/GetCourseApi";
+// import Toastify from "components/Toastify";
+
 
 function Dashboard() {
 
@@ -20,10 +20,7 @@ function Dashboard() {
           <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
           
           <RatesAPI />
-          <GetCourseApi/>
-          
-            
-
+       
 
           </main>
         </div>

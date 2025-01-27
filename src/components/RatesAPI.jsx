@@ -25,8 +25,6 @@ const RatesDisplay = () => {
   // Преобразуем объект в массив
   const array = [object];
   console.log("Data recived");
-
-
   // Условный рендеринг в зависимости от состояния загрузки или ошибки
   if (loading) {
     return <div>Загрузка...</div>;
