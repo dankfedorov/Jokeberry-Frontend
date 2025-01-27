@@ -66,14 +66,14 @@ function LandPage() {
                 веб-приложение  с использованием
                 компонентов React.
               </p> */}
-              <p className="hero__descr mb-4">
+              <p className="hero__descr mb-2">
                 {" "}
                 HTML, CSS, React, Javascript<br></br> Nodejs, MongoDB
                 
               </p>
         
             </div>
-            {/* <PopUp/> */}
+           
           </div>
 
           {/* <div className="pulse__block">

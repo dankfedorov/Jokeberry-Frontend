@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 function TelegramLink() {
   return (
     <div>
-      <ul className="ms-auto p-3">
+      <ul className="ms-auto p-2">
         <li className="text-center">
           <a
             href="https://t.me/JokeBerry_Bot"
