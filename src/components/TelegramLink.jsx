@@ -3,7 +3,7 @@ import React from "react";
 function TelegramLink() {
   return (
     <div>
-      <ul className="ms-auto p-1">
+      <ul className="ms-auto p-3">
         <li className="text-center">
           <a
             href="https://t.me/JokeBerry_Bot"
