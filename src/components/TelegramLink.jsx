@@ -3,7 +3,7 @@ import React from "react";
 function TelegramLink() {
   return (
     <div>
-      <ul className="ms-auto p-0">
+      <ul className="ms-auto p-1">
         <li className="text-center">
           <a
             href="https://t.me/JokeBerry_Bot"
@@ -11,8 +11,7 @@ function TelegramLink() {
             class="footer-link "
             rel="noreferrer"
           >
-            <button>
-              Telegram Bot
+            <button> Bot
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
