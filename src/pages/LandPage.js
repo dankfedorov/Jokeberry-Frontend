@@ -21,7 +21,6 @@ import Toastify from "../components/Toastify";
 import Typewriter from "typewriter-effect";
 import TelegramLink from "components/TelegramLink";
 
-
 // import PulseTag from "components/PulseTag";
 
 function LandPage() {
@@ -50,10 +49,9 @@ function LandPage() {
         <div className="container container__hero ">
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
-              
               <h1 className="mb-2 p-0">
-              Создай свой проект<br></br> в интеренете
-              {/* <Typewriter
+                Создай свой проект<br></br> в интеренете
+                {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
                   autoStart: true,
@@ -61,7 +59,7 @@ function LandPage() {
                 }}
               /> */}
               </h1>
-                          
+
               {/* <p className="hero__descr mb-2">
                 веб-приложение  с использованием
                 компонентов React.
@@ -69,11 +67,8 @@ function LandPage() {
               <p className="hero__descr mb-2">
                 {" "}
                 HTML, CSS, React, Javascript<br></br> Nodejs, MongoDB
-                
               </p>
-        
             </div>
-           
           </div>
 
           {/* <div className="pulse__block">
@@ -105,43 +100,40 @@ function LandPage() {
               <img src={mongo} alt="qr link" />
             </div>
           </div>
-          
         </div>
         <TelegramLink />
       </section>
 
-  
       <main>
         <section id="features" className="features text-center">
           <div className="container container__features ">
-            <span className="p-2">
-            <b>Что делать дальше ? </b> 
-
-            <Typewriter
+            <span className="p-0">
+              <b>Как это работает? </b>
+              <Typewriter
                 options={{
-                  strings: ["Отличный проект...", "Все что Вам нужно это придумать отличный проект для Web !!!"],
+                  strings: [
+                    "Интересный проект",
+                    "Замечательный проект, но есть возможность сделать его еще более привлекательным.",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
-                />
-
+              />
               {/* <b>Что делать дальше ? </b> Все что Вам нужно это придумать
               отличный проект для Web */}
             </span>
-            <a href="/Video" className="">
-              <button className="btn-reset btn">
-                <i class="bi bi-play-fill p-1"></i>Live Preview
-              </button>
-              
-            </a>
           </div>
-        
         </section>
+        {/* <section className="text-center p-1 ">
+          <a href="/Video" className="btn-reset">
+            <button className="btn-reset btn">
+              <i class="bi bi-play-fill p-1"></i>Live Preview
+            </button>
+          </a>
+        </section> */}
 
         <EasyDev />
         <QrBlock />
-        
-        
       </main>
 
       {/* <!-- Footer Section --> */}
