@@ -52,7 +52,7 @@ function LandPage() {
             <div className="col-md-12 ">
               
               <h1 className="mb-2 p-0">
-              Реализуй свой проект в интеренете
+              Реализуй свой проект<br></br> в интеренете
               {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
@@ -61,13 +61,11 @@ function LandPage() {
                 }}
               /> */}
               </h1>
-            
-
-              
-              <p className="hero__descr mb-2">
+                          
+              {/* <p className="hero__descr mb-2">
                 веб-приложение  с использованием
                 компонентов React.
-              </p>
+              </p> */}
               <p className="hero__descr mb-4">
                 {" "}
                 HTML, CSS, React, Javascript<br></br> Nodejs, MongoDB
@@ -93,7 +91,7 @@ function LandPage() {
             </div>
           </div> */}
 
-          <div className="row container__hero__icons mb-4 ">
+          <div className="row container__hero__icons mb-2 ">
             <div className="col-md-2 col-2 ">
               <img src={vs} alt="qr link" />
             </div>
@@ -118,7 +116,7 @@ function LandPage() {
           <div className="container container__features ">
             <span className="p-2">
             <b>Что делать дальше ? </b> 
-            
+
             <Typewriter
                 options={{
                   strings: ["Отличный проект...", "Все что Вам нужно это придумать отличный проект для Web !!!"],
