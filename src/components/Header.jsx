@@ -14,7 +14,7 @@ function Header() {
       
         <Logo />
         <TopLinks/>
-        <TelegramLink />
+      
         
         <Nav />
         

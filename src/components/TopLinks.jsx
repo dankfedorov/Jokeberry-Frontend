@@ -17,11 +17,11 @@ function TopLinks() {
             О проекте
           </a>
         </li>
-        {/* <li className="toplink__item ">
+        <li className="toplink__item ">
           <a href="/docs" className="toplink-link">
             Документация
           </a>
-        </li> */}
+        </li>
         
         {/* target="_blank" */}
       </ul>

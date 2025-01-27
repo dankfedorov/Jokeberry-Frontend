@@ -11,7 +11,7 @@ function TelegramLink() {
             class="footer-link "
             rel="noreferrer"
           >
-            <button> Bot
+            <button className="btn"> Telegram Bot
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"

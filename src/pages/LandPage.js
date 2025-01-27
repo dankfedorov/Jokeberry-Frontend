@@ -19,6 +19,7 @@ import PopUp from "components/PopUp";
 import Toastify from "../components/Toastify";
 
 import Typewriter from "typewriter-effect";
+import TelegramLink from "components/TelegramLink";
 
 
 // import PulseTag from "components/PulseTag";
@@ -106,6 +107,7 @@ function LandPage() {
           </div>
           
         </div>
+        <TelegramLink />
       </section>
 
   
