@@ -240,6 +240,7 @@ ul {
 .features {
   background-color: rgb(240, 240, 240);
   padding-bottom: 25px;
+  min-height: 180px;
 }
 
 .features__container h2 {

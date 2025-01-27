@@ -52,13 +52,14 @@ function LandPage() {
             <div className="col-md-12 ">
               
               <h1 className="mb-2 p-0">
-              <Typewriter
+              Реализуй свой проект в интеренете
+              {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
                   autoStart: true,
                   loop: true,
                 }}
-              />
+              /> */}
               </h1>
             
 
@@ -69,7 +70,8 @@ function LandPage() {
               </p>
               <p className="hero__descr mb-4">
                 {" "}
-                HTML, CSS, React, Javascript,<br></br> Nodejs, MongoDB
+                HTML, CSS, React, Javascript<br></br> Nodejs, MongoDB
+                
               </p>
         
             </div>
@@ -115,8 +117,18 @@ function LandPage() {
         <section id="features" className="features text-center">
           <div className="container container__features ">
             <span className="p-2">
-              <b>Что делать дальше ? </b> Все что Вам нужно это придумать
-              отличный проект для Web
+            <b>Что делать дальше ? </b> 
+            
+            <Typewriter
+                options={{
+                  strings: ["Отличный проект...", "Все что Вам нужно это придумать отличный проект для Web !!!"],
+                  autoStart: true,
+                  loop: true,
+                }}
+                />
+
+              {/* <b>Что делать дальше ? </b> Все что Вам нужно это придумать
+              отличный проект для Web */}
             </span>
             <a href="/Video" className="">
               <button className="btn-reset btn">
