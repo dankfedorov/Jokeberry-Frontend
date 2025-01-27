@@ -52,7 +52,7 @@ function LandPage() {
             <div className="col-md-12 ">
               
               <h1 className="mb-2 p-0">
-              Реализуй свой проект<br></br> в интеренете
+              Создай свой проект<br></br> в интеренете
               {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
