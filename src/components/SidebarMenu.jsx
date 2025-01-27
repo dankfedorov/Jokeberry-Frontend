@@ -37,7 +37,7 @@ function SidebarMenu() {
           <NavItem key={nav._id} nav={nav} />
         ))}
       </ul>
-      <TopLinks/>
+      {/* <TopLinks/> */}
 
         <ul class="nav flex-column mb-1">
           <p className="very-small">Разделы сайта</p>
