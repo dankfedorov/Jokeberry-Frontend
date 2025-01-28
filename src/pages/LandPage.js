@@ -20,6 +20,7 @@ import Toastify from "../components/Toastify";
 
 import Typewriter from "typewriter-effect";
 import TelegramLink from "components/TelegramLink";
+import AboutProject from "components/About";
 
 // import PulseTag from "components/PulseTag";
 
@@ -131,7 +132,7 @@ function LandPage() {
             </button>
           </a>
         </section> */}
-
+<AboutProject />
         <EasyDev />
         <QrBlock />
       </main>
