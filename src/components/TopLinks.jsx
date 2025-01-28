@@ -19,7 +19,7 @@ function TopLinks() {
         </li>
         <li className="toplink__item ">
           <a href="/docs" className="toplink-link">
-            Документация
+            Презентация
           </a>
         </li>
         

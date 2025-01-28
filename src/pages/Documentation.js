@@ -13,10 +13,10 @@ import EasyDev from "components/EasyDev";
 function Documentation() {
   return (
     <div>
-      <div className="container-fluid dashboard__container">
+      <div className="container-fluid dashboard__container container">
         <div className="row">
           {/* Левое меню */}
-          <SidebarMenu />
+          {/* <SidebarMenu /> */}
 
           {/* Центральный блок */}
           <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
