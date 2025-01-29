@@ -112,7 +112,7 @@ function LandPage() {
             
             <div className="row">
               <div className="col-md-12">
-                <h2>Как работает наш проект? </h2>
+                <h2 className="features__h2">Как работает наш проект? </h2>
                 <Typewriter
                   options={{
                     strings: [
@@ -130,16 +130,17 @@ function LandPage() {
           
           </div>
         </section>
-        {/* <section className="text-center p-1 ">
+     
+        <AboutProject />
+        <EasyDev />
+        <QrBlock />
+        <section className="text-center p-1 ">
           <a href="/Video" className="btn-reset">
             <button className="btn-reset btn">
               <i class="bi bi-play-fill p-1"></i>Live Preview
             </button>
           </a>
-        </section> */}
-        <AboutProject />
-        <EasyDev />
-        <QrBlock />
+        </section>
       </main>
 
       {/* <!-- Footer Section --> */}
