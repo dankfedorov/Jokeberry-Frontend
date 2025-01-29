@@ -13,12 +13,12 @@ function Nav() {
         <li>
           {" "}
           <a
-            href="/register"
+            href="/login"
             className="nav-link nav-profile d-flex align-items-center pe-0 ps-2"
           >
             <span className="d-none d-md-block ps-2 reg-link">
               {" "}
-              Регистрация
+              Вход
             </span>
           </a>
         </li>

@@ -55,7 +55,7 @@
     background-color: rgba(80, 22, 189, 0.24);
   }
   .reg-link{
-    outline: 1px solid gray;
+    /* outline: 1px solid gray; */
     padding: 5px 8px;
     border-radius: 5px;
   }
