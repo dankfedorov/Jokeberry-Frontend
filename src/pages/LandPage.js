@@ -22,7 +22,7 @@ import Typewriter from "typewriter-effect";
 import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
 
-document.body.style.background = '#fff'; // сделать фон красным
+document.body.style.background = '#d2d2d2'; // сделать фон красным
 setTimeout(() => document.body.style.background = '', 1000); // вернуть назад
 
 function LandPage() {
