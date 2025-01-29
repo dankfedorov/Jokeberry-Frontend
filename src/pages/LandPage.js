@@ -22,7 +22,8 @@ import Typewriter from "typewriter-effect";
 import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
 
-// import PulseTag from "components/PulseTag";
+document.body.style.background = '#0D537C'; // сделать фон красным
+setTimeout(() => document.body.style.background = '', 3000); // вернуть назад
 
 function LandPage() {
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
