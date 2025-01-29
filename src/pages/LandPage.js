@@ -11,7 +11,7 @@ import mongo from "../assets/images/MongoDB.png";
 import postman from "../assets/images/Postman.png";
 import deploy from "../assets/images/Deploy.png";
 import monitor__img from "../assets/images/Monitor.png";
-import Snow from "components/Snow";
+// import Snow from "components/Snow";
 import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 import EasyDev from "components/EasyDev";
@@ -23,9 +23,10 @@ import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
 
 document.body.style.background = '#0D537C'; // сделать фон красным
-setTimeout(() => document.body.style.background = '', 3000); // вернуть назад
+setTimeout(() => document.body.style.background = '', 2000); // вернуть назад
 
 function LandPage() {
+
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
   for (let anchor of anchors) {
     anchor.addEventListener("click", function (e) {
@@ -41,8 +42,7 @@ function LandPage() {
   // remove all Обнуляем все
   localStorage.clear();
   console.log("ID has been cleared success.");
-  // <Snow />;
-
+  
   //
   return (
     <>
