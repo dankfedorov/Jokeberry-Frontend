@@ -23,11 +23,10 @@ import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
 
 // Color body changed
-document.body.style.background = '#d2d2d2'; // сделать фон красным
-setTimeout(() => document.body.style.background = '', 1000); // вернуть назад
+document.body.style.background = "#d2d2d2"; // сделать фон красным
+setTimeout(() => (document.body.style.background = ""), 1000); // вернуть назад
 
 function LandPage() {
-
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
   for (let anchor of anchors) {
     anchor.addEventListener("click", function (e) {
@@ -43,7 +42,7 @@ function LandPage() {
   // remove all Обнуляем все
   localStorage.clear();
   console.log("ID has been cleared success.");
-  
+
   //
   return (
     <>
@@ -110,21 +109,25 @@ function LandPage() {
       <main>
         <section id="features" className="features text-center">
           <div className="container container__features ">
-            <span className="p-0">
-              <b>Как это работает? </b>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Интересный проект",
-                    "Замечательный проект, но с вами есть возможность сделать его еще более привлекательным.",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-              {/* <b>Что делать дальше ? </b> Все что Вам нужно это придумать
+            
+            <div className="row">
+              <div className="col-md-12">
+                <h2>Как работает наш проект? </h2>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Интересный проект",
+                      "Замечательный проект, но с вами есть возможность сделать его еще более привлекательным.",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+                {/* <b>Что делать дальше ? </b> Все что Вам нужно это придумать
               отличный проект для Web */}
-            </span>
+              </div>
+            </div>
+          
           </div>
         </section>
         {/* <section className="text-center p-1 ">
@@ -134,7 +137,7 @@ function LandPage() {
             </button>
           </a>
         </section> */}
-<AboutProject />
+        <AboutProject />
         <EasyDev />
         <QrBlock />
       </main>

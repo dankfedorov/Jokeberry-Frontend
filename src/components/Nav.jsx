@@ -16,7 +16,7 @@ function Nav() {
             href="/login"
             className="nav-link nav-profile d-flex align-items-center pe-0 ps-2"
           >
-            <span className="d-none d-md-block ps-2 reg-link">
+            <span className="d-none d-md-block ps-2 ">
               {" "}
               Вход
             </span>

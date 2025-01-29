@@ -238,10 +238,17 @@ ul {
 }
 
 .features {
-  background-color: rgb(240, 240, 240);
+  background-color: #8998F1;
+  padding-top: 25px;
   padding-bottom: 25px;
   min-height: 120px;
 }
+
+/* .container__features{
+display: flex;
+align-items: center;
+justify-content: center;
+} */
 
 .features__container h2 {
   color: #302f2f;
