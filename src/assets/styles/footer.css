@@ -11,8 +11,8 @@
 }
 
 .footer__block span {
-  padding: 6px;
-  background-color: aliceblue;
+  /* padding: 1px; */
+  /* background-color: aliceblue; */
 }
 
 .footer_desc {
@@ -30,7 +30,7 @@
   gap: 15px;
   font-size: 14px;
   flex-direction: row;
-  /* align-items: center; */
+  
 }
 
 .footer-link {

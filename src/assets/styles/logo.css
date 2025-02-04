@@ -2,12 +2,10 @@
 .logo {
     line-height: 1;
     text-decoration: none;
-    /* display: block; */
-    /* float: left; */
   }
   .logo span {
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;   
     color: var(--default-color);
@@ -32,17 +30,12 @@
   
   .logo span {
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    color: var(--default-color);
     font-family: 'Roboto', sans-serif;   
-     height: 30px;
     line-height: 30px;
-    /* border-radius: 50%; */
     margin: 5px 0;
     text-align: center;
-    margin-right: 5px;
-    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .4); */
   }
   .logo__menu{
     padding: 2px;
@@ -68,7 +61,6 @@
       margin: 5px 0;
       text-align: center;
       margin-right: 5px;
-      /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .4); */
     }
     
    
