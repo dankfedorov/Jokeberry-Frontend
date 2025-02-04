@@ -9,6 +9,7 @@ import RatesAPI from "components/RatesAPI";
 import DisignMaket from "components/DisignMaket";
 import CodingHtml from "components/CodingHtml";
 import EasyDev from "components/EasyDev";
+import Footer from "components/Footer";
 
 function Documentation() {
   return (
@@ -18,8 +19,9 @@ function Documentation() {
           {/* Левое меню */}
           {/* <SidebarMenu /> */}
 
-          {/* Центральный блок */}
-          <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
+          
+          {/* <main className="col-md-12 col-lg-10 ms-sm-auto px-md-4 "> */}
+          <main className="ms-sm-auto px-md-4 ">
            
            <Architect/> 
            <DisignMaket/>
@@ -28,7 +30,9 @@ function Documentation() {
 
           </main>
         </div>
+        
       </div>
+      <Footer/>
     </div>
   );
 }

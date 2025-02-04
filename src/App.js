@@ -64,25 +64,17 @@ const Docs = () => {
     <div>
       <Header />
       <Documentation />
- 
       <FooterMenu />
     </div>
   );
 };
 
-const Partner = () => {
-  const isAuthenticated = Boolean(localStorage.getItem("authToken")); // Пример проверки
-  // Тернарный оператор
-  const status =
-    isAuthenticated === true
-      ? "пройдена >>> Отлично партнер в системе."
-      : "не пройдена >>> ВНИМАНИЕ !!! Начинаем отчет блокировки 30s";
-  console.log("<<< Авторизация " + status);
-
+const CodeGenerator = () => {
   return (
     <div>
-      <HeaderDash />
-      <PartnerPage />
+      <HeaderDash/>
+      <Dashboard />
+      
     </div>
   );
 };
@@ -173,7 +165,13 @@ const App = () => {
         <Route path="/about" Component={About}/>
         <Route path="/docs" Component={Docs} />
         <Route path="/error" Component={Errorpage} />
-        {/* <Route path="/partner" Component={Partner} />         */}
+
+        
+
+        <Route path="/dashboard/workspace" element={<ErrorPage/>} />
+        <Route path="/dashboard/codegenerator" Component={CodeGenerator} />
+
+
 
         <Route
           path="/dashboard"

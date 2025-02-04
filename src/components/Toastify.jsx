@@ -8,17 +8,17 @@ const role = JSON.parse(localStorage.getItem("roles"));
 function MyComponent() {
   useEffect(() => {
     // toast.success(username  + ' (ID:'+ id + '),  обновление данных...', {position: "top-right"}); 
-    toast.success(username  + ' (ID:'+ id + '),  обновление данных...', {position: "top-left"}); 
-    // toast(<div className='very-small'>Ваш ID: {id}, {role} </div>); 
+    toast.success(username  + ' (ID:'+ id + '),  обновление данных...', {position: "top-right"}); 
+    toast.info(<div className='very-small'>Ваш ID: {id}, {role} </div>); 
    },[]);
 
     return (
       <div>
      
         <ToastContainer
-        autoClose={5000}
+        autoClose={3000}
         newestOnTop={false}
-        pauseOnHover
+        pauseOnHover={false}
         />
       </div>
     );

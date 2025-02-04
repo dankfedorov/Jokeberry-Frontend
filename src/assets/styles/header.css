@@ -63,7 +63,7 @@
 .toplink__group {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
   font-weight: 600;
   text-transform: uppercase;
 }

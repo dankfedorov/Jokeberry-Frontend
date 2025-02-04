@@ -13,8 +13,8 @@ function TopLinks() {
         </li>
 
         <li className="toplink__item ">
-          <a href="/about" className="toplink-link">
-            О проекте
+          <a href="#" className="toplink-link">
+          Инструкция
           </a>
         </li>
         <li className="toplink__item ">

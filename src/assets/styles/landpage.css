@@ -54,8 +54,6 @@ ul {
   margin: 0 auto;
   max-width: 1170px;
   width: 100%;
-
-
 }
 
 .container__header {
@@ -64,11 +62,7 @@ ul {
   align-items: center;
 }
 
-.glass_bg {
-  background-color: #d3d3d32c;
-  border-radius: 15px;
-  padding: 5px;
-}
+/* s */
 
 /*Main*/
 .main {
@@ -96,11 +90,9 @@ ul {
   max-width: 100%;
   font-weight: 800;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
-  /* line-height: 60px; */
+
   color: var(--white-color);
   margin-bottom: 15px;
-
-  /* text-transform: uppercase; */
 
 }
 
