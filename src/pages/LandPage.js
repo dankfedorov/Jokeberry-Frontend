@@ -15,10 +15,11 @@ import AboutProject from "components/About";
 
 
 // Color body changed
-document.body.style.background = "#d2d2d2"; // сделать фон красным
-setTimeout(() => (document.body.style.background = ""), 1000); // вернуть назад
+document.body.style.background = "#fff"; // сделать фон красным
+setTimeout(() => (document.body.style.background = ""), 2000); // вернуть назад
 
 function LandPage() {
+
   const anchors = document.querySelectorAll('.link_box a[href*="#"]');
   for (let anchor of anchors) {
     anchor.addEventListener("click", function (e) {
@@ -44,7 +45,7 @@ function LandPage() {
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
               <h1 className="mb-2 p-0">
-                Создай свой проект<br></br> в интеренете
+                Первый проект<br></br> в интеренете
                 {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
