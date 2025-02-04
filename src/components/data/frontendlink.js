@@ -1,7 +1,7 @@
 const frontendlink = 
 [   {
         _id: 1,
-        name: 'Каталог',
+        name: 'Работа с изображением',
         icon: 'bi bi-file-text',
         link: '#disignmaket'
     },
