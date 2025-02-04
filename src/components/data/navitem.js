@@ -1,6 +1,18 @@
 const navList = [
     {
         _id: 1,
+        name: 'Главная',
+        icon: 'bi bi-house-door',
+        link: '/'
+    },
+    {
+        _id: 1,
+        name: 'Презентация',
+        icon: 'bi bi-info-circle',
+        link: '/docs'
+    },
+    {
+        _id: 1,
         name: 'Профиль',
         icon: 'bi bi-person',
         link: '#'
