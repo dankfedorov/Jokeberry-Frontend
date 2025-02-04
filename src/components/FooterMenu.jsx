@@ -27,16 +27,8 @@ function FooterMenu() {
             </a>
             <span>Контакты</span>
           </li>
-          
-  
-          
-          {/* <li className="li__block ">
-            <a href="/login">
-            <i class="bi bi-door-closed"></i>
-            </a>
-            <span>Вход</span>
-          </li> */}
-          
+              
+        
           <li className="li__block">
             
             <a href="/register">

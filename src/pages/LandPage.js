@@ -1,26 +1,18 @@
 import React from "react";
 import "../assets/styles/landpage.css";
-import draw from "../assets/images/Drawio.png";
-import figma from "../assets/images/Figma.png";
 import vs from "../assets/images/VS.png";
-import bootst from "../assets/images/Bootstrap.png";
 import reactimg from "../assets/images/React.png";
-import npmimg from "../assets/images/Npm.png";
 import node from "../assets/images/Node.png";
 import mongo from "../assets/images/MongoDB.png";
-import postman from "../assets/images/Postman.png";
-import deploy from "../assets/images/Deploy.png";
-import monitor__img from "../assets/images/Monitor.png";
 // import Snow from "components/Snow";
-import Intro from "components/About";
 import QrBlock from "components/QrBlock";
 import EasyDev from "components/EasyDev";
-import PopUp from "components/PopUp";
-import Toastify from "../components/Toastify";
+
 
 import Typewriter from "typewriter-effect";
 import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
+
 
 // Color body changed
 document.body.style.background = "#d2d2d2"; // сделать фон красным
@@ -112,12 +104,12 @@ function LandPage() {
             
             <div className="row">
               <div className="col-md-12">
-                <h2 className="features__h2">Как работает наш проект? </h2>
+                <h2 className="features__h2">Создавай интерфейсы быстрее, проще, мощнее!  </h2>
                 <Typewriter
                   options={{
                     strings: [
-                      "Интересный проект",
-                      "Замечательный проект, но с вами есть возможность сделать его еще более привлекательным.",
+                      "React был сделан,",
+                      "React был создан, чтобы решить проблемы масштабирования больших приложений.Которые остаются предсказуемыми и управляемыми даже при росте сложности.",
                     ],
                     autoStart: true,
                     loop: true,
@@ -131,9 +123,10 @@ function LandPage() {
           </div>
         </section>
      
-        <AboutProject />
+        
         <EasyDev />
         <QrBlock />
+      
         <section className="text-center p-1 ">
           <a href="/Video" className="btn-reset">
             <button className="btn-reset btn">

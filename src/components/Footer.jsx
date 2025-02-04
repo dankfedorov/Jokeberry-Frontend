@@ -39,19 +39,16 @@ function Footer() {
               </li>
          
               <li>
-                <a href="/docs" class="footer-link">
-                  Документация
+                <a href="/dashboard" class="footer-link">
+                  Dashboard
                 </a>
               </li>
+             
               <li>
                 <a href="/partner" class="footer-link">
-                  Партнерам
+                   Партнерам
                 </a>
-              </li>
-              <li>
-                <a href="/partner" class="footer-link">
-                  <PartnerLinks />
-                  </a>
+
               </li>
             </ul>
           </div>

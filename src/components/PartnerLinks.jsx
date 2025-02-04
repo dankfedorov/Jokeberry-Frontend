@@ -9,9 +9,11 @@ function PartnerLinks() {
         <ul className="container__partnerlinks ">
   
           <li className="partnerlinks-item ">
-            <a href="/partner" className="toplink-link menu__icon">         
+            <a href="/partner" className="toplink-link menu__icon very-small">         
               <img src={person} alt="Profile" className="" title="only partners"/>
+              партнерам
                </a>
+               
            </li>
 
             
