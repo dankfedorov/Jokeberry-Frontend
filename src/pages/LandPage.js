@@ -126,14 +126,8 @@ function LandPage() {
         
         <EasyDev />
         <QrBlock />
-      
-        <section className="text-center p-1 ">
-          <a href="/Video" className="btn-reset">
-            <button className="btn-reset btn">
-              <i class="bi bi-play-fill p-1"></i>Live Preview
-            </button>
-          </a>
-        </section>
+
+
       </main>
 
       {/* <!-- Footer Section --> */}

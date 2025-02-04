@@ -199,7 +199,7 @@ ul {
 
 /* qrblock */
 .qrblock {
-  padding-top: 60px;
+  padding-top: 25px;
   padding-bottom: 25px;
 }
 
@@ -280,6 +280,9 @@ justify-content: center;
   padding: 10px 0px;
 
 }
+
+/* qrblock */
+/* .qrblock{padding-top: 25px;} */
 
 /* Frontend Backend */
 .font-back {

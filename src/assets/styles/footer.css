@@ -46,7 +46,7 @@
 }
 
 .footer img {
-  max-width: 120px;
+  max-width: 100px;
 }
 
 .footer__img {
@@ -55,7 +55,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 250px;
 }
 
 .element {
