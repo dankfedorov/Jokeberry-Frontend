@@ -55,8 +55,8 @@ const MyForm = () => {
         <div className="card-block">
           
           <div className="p-3">
-            <h4 className="container__login__h4">РЕГИСТРАЦИЯ</h4>
-            <p className="login__descr mb-1">Создайте учётную запись, чтобы продолжить.
+            <h4 className="container__login__h4">Создайте свою учетную запись</h4>
+            <p className="login__descr mb-1">Пройдите регистрацию, чтобы продолжить.
             </p>
 
             <form onSubmit={handleSubmit}>
@@ -97,7 +97,8 @@ const MyForm = () => {
         </div>
 
         <a href="/login" className="mb-1 small" type="submit">
-          <span className="">Вход в систему</span>
+        <i class="bi bi-info-circle"></i>
+          <span className=""> Есть аккааунт? Вход в систему</span>
         </a>
         <p className="very-small">2025 JOKEBERRY.RU </p>
       
