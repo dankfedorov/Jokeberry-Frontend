@@ -45,7 +45,7 @@ function Footer() {
               </li>
              
               <li>
-                <a href="/partner" class="footer-link">
+                <a href="/sklad" class="footer-link">
                    Партнерам
                 </a>
 

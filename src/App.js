@@ -38,6 +38,7 @@ import UserData from "components/UserData";
 import Users from "components/Users";
 import ErrorPage from "pages/ErrorPage";
 import Toastify from "./components/Toastify";
+import ShowRoom from "pages/ShowRoom";
 
 
 // Компоненты страниц
@@ -126,6 +127,15 @@ const Register = () => {
     </div>
   );
 };
+
+// const Sklad = () => {
+//   return (
+//     <div>
+//       <Sklad />
+//       </div>
+//   );
+// };
+
 const VideoPage = () => {
   return (
     <div>
@@ -179,16 +189,19 @@ const App = () => {
             <ProtectedRoute isAuthenticated={isAuthenticated}>
               <HeaderDash />
               <Dashboard />
+             
             </ProtectedRoute>
           }
         />
 
         <Route
-          path="/partner"
+          path="/sklad"
           element={
             <ProtectedPartner isAuthenticated={isAuthenticated}>
-              <HeaderDash />
-              <Dashboard />
+             <HeaderDash />
+              <ShowRoom />
+             
+              <FooterMenu />
             </ProtectedPartner>
           }
         />

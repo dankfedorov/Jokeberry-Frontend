@@ -8,7 +8,7 @@ function FromApi() {
   // Получение данных с сервера
   useEffect(() => {
     // axios.get("http://localhost:5000/api/items")
-    axios.get("https://dankfedorov-server-9b2d.twc1.net/api/items")
+    axios.get("https://dankfedorov-server-9b2d.twc1.net/api/sklad")
       .then((response) => {
         setItems(response.data);
       })
