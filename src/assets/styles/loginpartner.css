@@ -31,6 +31,7 @@
 }
 .container__login__h4 {
   color: #ffffff;
+  text-transform: uppercase;
 }
 .login__descr {
   font-size: 12px;

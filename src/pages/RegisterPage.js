@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-
-
 import "../assets/styles/sendform.css";
-
 
 const MyForm = () => {
   const [formData, setFormData] = useState({
@@ -55,7 +52,7 @@ const MyForm = () => {
         <div className="card-block">
           
           <div className="p-3">
-            <h4 className="container__login__h4">Создайте свою учетную запись</h4>
+            <h4 className="container__login__h4">Регистрация</h4>
             <p className="login__descr mb-1">Пройдите регистрацию, чтобы продолжить.
             </p>
 
