@@ -1,5 +1,6 @@
 import FromApi from "components/FromApi";
 import FromSklad from "components/FromSklad";
+import Header from "components/Header";
 import SidebarMenu from "components/SidebarMenu";
 import React from "react";
 
@@ -77,6 +78,7 @@ function ShowRoom() {
 
           {/* Центральный блок */}
           <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
+            
             <FromSklad />
             {/* <FromApi /> */}
           

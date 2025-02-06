@@ -199,9 +199,8 @@ const App = () => {
           element={
             <ProtectedPartner isAuthenticated={isAuthenticated}>
              <HeaderDash />
-              <ShowRoom />
-             
-              <FooterMenu />
+             <ShowRoom />
+             <FooterMenu />
             </ProtectedPartner>
           }
         />

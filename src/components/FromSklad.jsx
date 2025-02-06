@@ -18,25 +18,33 @@ function FromApi() {
   }, []);
 
   return (
-    <div className="table-responsive small">
-      <p></p>
-      <table class="table table-striped table-sm">
+    <div className="table-responsive small ">
+      <p className="m-3">Таблица</p>
+      <p className="m-3">Склад</p>
+      <table class="table table-striped table-sm very-small">
         <thead>
           <tr>
-            <th scope="col">user name</th>
-            <th scope="col"># id</th>
-            <th scope="col">hash password</th>
-            <th scope="col">status</th>
+            <th scope="col">номер</th>
+            <th scope="col">описание</th>
+            <th scope="col">дата записи</th>
+            {/* <th scope="col">фоторафия</th> */}
+            <th scope="col">pricein</th>
+            <th scope="col">priceout</th>
+            <th scope="col">cтатус</th>
           </tr>
         </thead>
         <tbody>
   
          {items.map((item) => (
           <tr key={item._id}>
-            <td>{item.username}</td>
-            <td>{item._id}</td>
-            <td className="very-small">{item.password}</td>
-            <td>{item.roles}</td>
+
+            <td>{item.id_item}</td>
+            <td>{item.description}</td>
+            <td>{item.createdAt}</td>
+            {/* <td >{item.photos}</td> */}
+            <td>{item.pricein}</td>
+            <td>{item.priceout}</td>
+            <td>{item.status}</td>
           </tr>
         ))}
     
