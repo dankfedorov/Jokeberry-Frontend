@@ -63,7 +63,7 @@ const Home = () => {
 const Docs = () => {
   return (
     <div>
-      <Header />
+      <HeaderDash />
       <Documentation />
       <FooterMenu />
 

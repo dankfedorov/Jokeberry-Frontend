@@ -24,7 +24,7 @@ function UserList() {
         <thead>
           <tr>
             {/* <th scope="col"># id</th> */}
-            <th scope="col">Список пользователей</th>
+            <th scope="col" className="very-small">Users:</th>
             {/* <th scope="col">hash password</th> */}
             {/* <th scope="col">status</th> */}
           </tr>
@@ -41,12 +41,7 @@ function UserList() {
         </tbody>
       </table>
     </div>
-    // <div className="small">
-    //   <span>Получаем данные:</span>
-    // {items.map((item) => (
-    //   <p key={item._id}>Имя:{item.username} status:{item.roles}</p>
-    // ))}
-    // </div>
+   
   );
 }
 

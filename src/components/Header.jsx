@@ -13,9 +13,7 @@ function Header() {
       <div className="container container__header ">
       
         <Logo />
-        <TopLinks/>
-      
-        
+        <TopLinks/>        
         <Nav />
         
       </div>

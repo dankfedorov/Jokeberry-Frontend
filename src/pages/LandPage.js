@@ -125,7 +125,7 @@ function LandPage() {
         </section>
      
         <AboutProject/>
-        <EasyDev />
+        {/* <EasyDev /> */}
         <QrBlock />
         
 

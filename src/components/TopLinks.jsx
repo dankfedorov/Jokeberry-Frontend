@@ -12,11 +12,11 @@ function TopLinks() {
           </a>
         </li>
 
-        <li className="toplink__item ">
+        {/* <li className="toplink__item ">
           <a href="#" className="toplink-link">
           Инструкция
           </a>
-        </li>
+        </li> */}
         <li className="toplink__item ">
           <a href="/docs" className="toplink-link">
             Презентация
