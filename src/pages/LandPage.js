@@ -45,7 +45,7 @@ function LandPage() {
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
               <h1 className="mb-2 p-0">
-                Первый проект<br></br> в интеренете
+                Мой первый проект<br></br> в интеренете
                 {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],

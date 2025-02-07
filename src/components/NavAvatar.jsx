@@ -21,8 +21,8 @@ function NavAvatar() {
         {/* <i class="bi bi-person-circle"></i> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
+          width="20"
+          height="20"
           fill="currentColor"
           class="bi bi-person-circle"
           viewBox="0 0 16 16"

@@ -39,6 +39,7 @@ import Users from "components/Users";
 import ErrorPage from "pages/ErrorPage";
 import Toastify from "./components/Toastify";
 import ShowRoom from "pages/ShowRoom";
+import SwitchSlider from "components/SwithTheme";
 
 
 // Компоненты страниц
@@ -63,8 +64,10 @@ const Home = () => {
 const Docs = () => {
   return (
     <div>
-      <HeaderDash />
+     <Header />
+     <SwitchSlider/>
       <Documentation />
+      <Footer />
       <FooterMenu />
 
     </div>
@@ -107,7 +110,7 @@ const About = () => {
 const Login = () => {
   return (
     <div>
-        <HeaderDash />
+        <Header />
       <LoginPage />
       <FooterMenu />
     </div>
@@ -116,7 +119,7 @@ const Login = () => {
 const Loginpartner = () => {
   return (
     <div>
-      <HeaderDash />
+      <Header />
       <LoginPartner />
       <FooterMenu />
     </div>
@@ -126,7 +129,7 @@ const Loginpartner = () => {
 const Register = () => {
   return (
     <div>
-      <HeaderDash />
+      <Header />
       <RegisterPage />
       <FooterMenu />
     </div>

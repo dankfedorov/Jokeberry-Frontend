@@ -16,14 +16,16 @@
 /* Toogle Sidebar button */
 .header .toggle-sidebar-btn {
   font-size: 32px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   cursor: pointer;
   color: #012970;
   outline: 1px solid #00aeef;
 }
 
 .container__header {
-  flex-direction: row-reverse;
+  flex-direction: row;
+  padding: 0 20px;
+
 }
 
 /* header nav link */
