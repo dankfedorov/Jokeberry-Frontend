@@ -146,6 +146,7 @@ const VideoPage = () => {
     <div>
       <Header />
       <VideoBlog />
+      <FooterMenu />
     </div>
   );
 };
