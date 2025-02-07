@@ -19,12 +19,12 @@ function UserList() {
 
   return (
     <div className="table-responsive very-small paddtop">
-      <p className="very-small">Список пользователей</p>
+      {/* <p className="very-small">Список пользователей</p> */}
       <table class="table table-striped table-sm ">
         <thead>
           <tr>
             {/* <th scope="col"># id</th> */}
-            <th scope="col">username</th>
+            <th scope="col">Список пользователей</th>
             {/* <th scope="col">hash password</th> */}
             {/* <th scope="col">status</th> */}
           </tr>
