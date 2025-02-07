@@ -116,7 +116,7 @@ const Login = () => {
 const Loginpartner = () => {
   return (
     <div>
-      <Header />
+      <HeaderDash />
       <LoginPartner />
       <FooterMenu />
     </div>
