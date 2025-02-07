@@ -24,7 +24,7 @@ function FooterMenu() {
 
           <li className="li__block bg_circle">
             <a href="#">
-            {/* <i class="bi bi-bar-chart"></i> */}
+            <i class="bi bi-menu-down"></i>
             </a>
             <span>MENU</span>
           </li>              
