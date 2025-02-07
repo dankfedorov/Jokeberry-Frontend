@@ -107,7 +107,7 @@ const About = () => {
 const Login = () => {
   return (
     <div>
-      <Header />
+        <HeaderDash />
       <LoginPage />
       <FooterMenu />
     </div>
@@ -126,7 +126,7 @@ const Loginpartner = () => {
 const Register = () => {
   return (
     <div>
-      <Header />
+      <HeaderDash />
       <RegisterPage />
       <FooterMenu />
     </div>

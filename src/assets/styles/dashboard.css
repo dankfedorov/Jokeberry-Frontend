@@ -174,7 +174,7 @@
 .side-menu {
   width: 250px;
   height: 100vh;
-  background-color: #8e8f92;
+  background-color: #05050596;
   position: fixed;
   top: 0;
   left: -250px;
@@ -187,7 +187,7 @@
 
 .side-menu ul {
   list-style: none;
-  padding: 20px;
+  padding: 10px;
 }
 
 .side-menu ul li {
