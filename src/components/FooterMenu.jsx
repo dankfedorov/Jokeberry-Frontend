@@ -23,10 +23,10 @@ function FooterMenu() {
           </li>
 
           <li className="li__block bg_circle">
-            <a href="#">
+            <a href="/register">
             <i class="bi bi-menu-down"></i>
             </a>
-            <span>MENU</span>
+            <span>REGISTRATION</span>
           </li>              
         
           <li className="li__block">
