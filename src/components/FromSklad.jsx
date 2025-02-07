@@ -27,13 +27,13 @@ function FromApi() {
       <table class="table table-striped table-sm very-small">
         <thead>
           <tr>
-            <th scope="col" className="col-md-1">номер</th>
-            <th scope="col" className="col-md-2">описание</th>
-            <th scope="col" className="col-md-1">дата записи</th>
-            <th scope="col" className="col-md-1">фоторафия</th>
-            <th scope="col" className="col-md-1">pricein</th>
-            <th scope="col" className="col-md-1">priceout</th>
-            <th scope="col" className="col-md-1">cтатус</th>
+            <th scope="col" className="col-md-1">№</th>
+            <th scope="col" className="col-md-3">Наименование</th>
+            {/* <th scope="col" className="col-md-1">дата записи</th> */}
+            <th scope="col" className="col-md-1">Image</th>
+            <th scope="col" className="col-md-1">Pricein</th>
+            <th scope="col" className="col-md-1">Priceout</th>
+            <th scope="col" className="col-md-1 ">Status</th>
           </tr>
         </thead>
         <tbody>
@@ -41,8 +41,8 @@ function FromApi() {
          {items.map((item) => (
           <tr key={item._id}>
             <td className="col-md-1">{item.id_item}</td>
-            <td className="col-md-2">{item.description}</td>
-            <td className="col-md-1">{item.createdAt}</td>
+            <td className="col-md-3">{item.description}</td>
+            {/* <td className="col-md-1">{item.createdAt}</td> */}
             <td className="col-md-1">{item.photos}</td>
             <td className="col-md-1">{item.pricein}</td>
             <td className="col-md-1">{item.priceout}</td>

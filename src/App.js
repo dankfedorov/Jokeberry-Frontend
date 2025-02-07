@@ -184,9 +184,7 @@ const App = () => {
 
         
 
-        <Route path="/dashboard/workspace" element={<ErrorPage/>} />
-        <Route path="/dashboard/codegenerator" Component={CodeGenerator} />
-
+        
 
 
         <Route

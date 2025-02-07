@@ -1,8 +1,7 @@
-import FromApi from "components/FromApi";
 import FromSklad from "components/FromSklad";
-import Header from "components/Header";
-import SidebarMenu from "components/SidebarMenu";
 import React from "react";
+import NavItem from "../components/NavItem";
+import navList from "../components/data/navitem";
 
 function LeftMenu() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -10,6 +9,7 @@ function LeftMenu() {
   const role = JSON.parse(localStorage.getItem("roles"));
 
   return (
+
     <nav
       id="sidebarMenu"
       class="col-md-3 col-lg-2 d-md-block sidebar collapse left-block"
@@ -17,8 +17,8 @@ function LeftMenu() {
       <div class="position-sticky pt-0">
         <ul class="nav flex-column">
           <span className="very-small">Пользователь:{username}</span>
-          {/* <span className="very-small">ID: {id}</span> */}
-          {/* <span className="very-small">Статус: {role}</span> */}
+          <span className="very-small">ID: {id}</span>
+          <span className="very-small">Статус: {role}</span>
         </ul>
 
         <ul class="nav flex-column">
@@ -28,19 +28,7 @@ function LeftMenu() {
           <li className="nav-link">
             <a href="#" className="d-flex align-items-center">
               <i className="bi bi-0-square"></i>
-              <span className="">Добавить / Изменить </span>
-            </a>
-          </li>
-          <li className="nav-link">
-            <a href="#" className="d-flex align-items-center">
-              <i className="bi bi-1-square"></i>
-              <span className="">Общий список</span>
-            </a>
-          </li>
-          <li className="nav-link">
-            <a href="#" className=" d-flex align-items-center">
-              <i className="bi bi-2-square"></i>
-              <span className="">Аналитика</span>
+              <span className="">Добавить + </span>
             </a>
           </li>
           <li className="nav-link">
@@ -62,6 +50,14 @@ function LeftMenu() {
             </a>
           </li>
 
+        </ul>
+        <hr></hr>
+        
+        <ul class="nav flex-column mb-1">
+          <p className="very-small">Разделы сайта</p>
+          {navList.map((nav) => (
+            <NavItem key={nav._id} nav={nav} />
+          ))}
         </ul>
       </div>
     </nav>
