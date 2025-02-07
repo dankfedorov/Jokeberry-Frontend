@@ -69,6 +69,9 @@
   justify-content: space-between;
   /* gap:0px; */
 }
+.paddtop{
+  padding-top: 80px;
+}
 .ibox {
   clear: both;
   margin-bottom: 5px;
@@ -102,7 +105,7 @@
 }
 /* architect */
 .architect {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 25px;
 }
 .architect h2 {

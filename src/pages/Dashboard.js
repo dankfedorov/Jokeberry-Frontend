@@ -33,6 +33,7 @@ function Dashboard() {
             <ImgBlcok />
             <FromApi />
           </main>
+          
         </div>
       </div>
     </div>
