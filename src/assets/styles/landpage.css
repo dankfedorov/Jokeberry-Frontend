@@ -230,10 +230,10 @@ ul {
 }
 
 .features {
-  background-color: #8998F1;
+  background-color: #dbdbdb;
   padding-top: 25px;
   padding-bottom: 25px;
-  min-height: 120px;
+  min-height: 150px;
 }
 
 /* .container__features{
