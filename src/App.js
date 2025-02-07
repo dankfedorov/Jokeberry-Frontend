@@ -66,6 +66,7 @@ const Docs = () => {
       <Header />
       <Documentation />
       <FooterMenu />
+
     </div>
   );
 };
@@ -86,6 +87,7 @@ const Dash = () => {
     <div>
       {/* <Header/> */}
       <Dashboard />
+      <FooterMenu />
       <Smallfooter />
     </div>
   );
@@ -107,6 +109,7 @@ const Login = () => {
     <div>
       <Header />
       <LoginPage />
+      <FooterMenu />
     </div>
   );
 };
@@ -115,6 +118,7 @@ const Loginpartner = () => {
     <div>
       <Header />
       <LoginPartner />
+      <FooterMenu />
     </div>
   );
 };
@@ -124,6 +128,7 @@ const Register = () => {
     <div>
       <Header />
       <RegisterPage />
+      <FooterMenu />
     </div>
   );
 };

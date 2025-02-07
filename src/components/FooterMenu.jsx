@@ -18,14 +18,14 @@ function FooterMenu() {
             <a href="/dashboard">
             <i class="bi bi-bar-chart"></i>
             </a>
-            <span>Аналитика</span>
+            <span>Dashboard</span>
           </li>
 
           <li className="li__block bg_circle">
-            <a href="#" className="">
-            <i class="bi bi-headset"></i>
+            <a href="/docs" className="">
+            <i class="bi bi-info-circle"></i>
             </a>
-            <span>Контакты</span>
+            <span>ИНФО</span>
           </li>
               
         
@@ -38,8 +38,8 @@ function FooterMenu() {
           </li>
           <li className="li__block">
             
-            <a href="/partner">
-            <i class="bi bi-person-vcard-fill"></i>
+            <a href="/sklad">
+            <i class="bi bi-person-bounding-box"></i>
             </a>
             <span>Партнерам</span>
           </li>
