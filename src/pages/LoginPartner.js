@@ -71,10 +71,10 @@ const MyForm = () => {
         <div className="card-block-partner">
           
           <div className="p-3">
-            <h4 className="container__login__h4">Вход для партнёра</h4>
-            <p className="login__descr mb-1">Извините, система с ограниченным доступом и каскадным шифрованием.
-            </p>
-
+            <h4 className="container__login__h4">Вход для клиентов.</h4>
+            <p className="login__descr mb-1">Customer Relationship Management</p>
+            <p className="login__descr mb-1">Система управления взаимоотношениями с клиентами</p>
+            
             <form onSubmit={handleSubmit}>
              
 
@@ -102,7 +102,7 @@ const MyForm = () => {
                 <label className="form__label">Password</label>
               </div>
 
-              <div className="form-floating">
+              {/* <div className="form-floating">
                 <input
                   type="password"
                   className="form-control mb-2"
@@ -112,7 +112,7 @@ const MyForm = () => {
                   placeholder="encryption"
                 />
                 <label className="form__label">Multiple encryption</label>
-              </div>
+              </div> */}
 
               <button id="submitBtn" className="w-100 btn mb-2" type="submit">
               Войти           

@@ -6,25 +6,25 @@ const navList = [
         link: '/'
     },
     {
-        _id: 1,
+        _id: 2,
         name: 'Презентация',
         icon: 'bi bi-info-circle',
         link: '/docs'
     },
     {
-        _id: 1,
-        name: 'Профиль',
-        icon: 'bi bi-person',
-        link: '#'
-    },
-    {
-        _id: 2,
-        name: 'Регистрация',
-        icon: 'bi bi-bookmark-check',
-        link: '/register'
-    },
-    {
         _id: 3,
+        name: 'Video',
+        icon: 'bi bi-camera-video',
+        link: '/video'
+    },
+    {
+        _id: 4,
+        name: 'УПРАВЕЛНИЕ СКЛАДОМ CRM',
+        icon: 'bi bi-bookmark-check',
+        link: '/sklad'
+    },
+    {
+        _id: 5,
         name: 'Выход ',
         icon: 'bi bi-box-arrow-left',
         link: '/'
