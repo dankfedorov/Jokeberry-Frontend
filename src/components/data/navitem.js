@@ -19,7 +19,7 @@ const navList = [
     },
     {
         _id: 4,
-        name: 'УПРАВЕЛНИЕ СКЛАДОМ CRM',
+        name: 'CRM СКЛАД',
         icon: 'bi bi-bookmark-check',
         link: '/sklad'
     },
