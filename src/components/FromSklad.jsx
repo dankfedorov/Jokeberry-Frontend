@@ -5,6 +5,7 @@ import axios from "axios";
 function FromApi() {
   const [items, setItems] = useState([]);
 
+
   // Получение данных с сервера
   useEffect(() => {
     // axios.get("http://localhost:5000/api/items")
@@ -14,8 +15,10 @@ function FromApi() {
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
-      });
+      });     
   }, []);
+
+ 
 
   return (
     <div className="table-responsive small ">
