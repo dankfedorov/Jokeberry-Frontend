@@ -11,37 +11,37 @@ function FooterMenu() {
             <a href="/">
               <i class="bi bi-house"></i>
             </a>
-            <span>Главная</span>
+            <span>HOME</span>
           </li>
 
-          <li className="li__block">
-            <a href="/dashboard">
-            <i class="bi bi-bar-chart"></i>
-            </a>
-            <span>Dashboard</span>
-          </li>
 
-          <li className="li__block bg_circle">
+          <li className="li__block ">
             <a href="/docs" className="">
             <i class="bi bi-info-circle"></i>
             </a>
-            <span>ИНФО</span>
+            <span>INFO</span>
           </li>
-              
+
+          <li className="li__block bg_circle">
+            <a href="#">
+            {/* <i class="bi bi-bar-chart"></i> */}
+            </a>
+            <span>MENU</span>
+          </li>              
         
           <li className="li__block">
             
-            <a href="/register">
-            <i class="bi bi-bootstrap-reboot"></i>
+            <a href="/video">
+            <i class="bi bi-camera-video"></i>
             </a>
-            <span>Регистрация</span>
+            <span>VIDEO</span>
           </li>
           <li className="li__block">
             
             <a href="/sklad">
             <i class="bi bi-person-bounding-box"></i>
             </a>
-            <span>Партнерам</span>
+            <span>CRM</span>
           </li>
 
 
