@@ -68,12 +68,12 @@ const MyForm = () => {
     <div className="container__loginparner d-flex p-2">
       <div className="text-center ">
         
-        <div className="card-block-partner">
+        <div className="card-block-partner bg-gradient">
           
-          <div className="p-3">
-            <h4 className="container__login__h4">Вход для клиентов.</h4>
-            <p className="login__descr mb-1">Customer Relationship Management</p>
-            <p className="login__descr mb-1">Система управления взаимоотношениями с клиентами</p>
+          <div className="p-3 ">
+            <h4 className="container__login__h4">Вход для клиентов</h4>
+            <p className="login__descr mb-1 ">Customer Relationship Management</p>
+            <p className="login__descr mb-1 ">Система управления с клиентами</p>
             
             <form onSubmit={handleSubmit}>
              
