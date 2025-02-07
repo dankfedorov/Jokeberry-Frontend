@@ -39,11 +39,7 @@ function NavAvatar() {
           <hr className="dropdown-divider" />
         </li>
 
-        <span>
-          {navList.map((nav) => (
-            <NavItem key={nav._id} nav={nav} />
-          ))}
-        </span>
+  
       </ul>
     </span>
   );

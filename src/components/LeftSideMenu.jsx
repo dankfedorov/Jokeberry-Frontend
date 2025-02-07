@@ -11,7 +11,7 @@ function LeftSideMenu() {
     <div>
       <nav
         id="sidebarMenu"
-        class="col-md-3 col-lg-2 d-md-block sidebar collapse left-block"
+        class=""
       >
         <div class="">
             <ul class="">

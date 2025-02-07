@@ -18,7 +18,7 @@ function Documentation() {
       <div className="container-fluid container">
         <div className="row">
           <div className="col-md-2">
-            <LeftSideMenu />
+          
           </div>
 
           <div className="col-md-8 ">

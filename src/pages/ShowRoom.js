@@ -28,25 +28,31 @@ function LeftMenu() {
           <li className="nav-link">
             <a href="#" className="d-flex align-items-center">
               <i className="bi bi-0-square"></i>
-              <span className="">Добавить + </span>
+              <span className="">Add items + </span>
             </a>
           </li>
-          <li className="nav-link">
+          <li className="nav-link bg-gradient">
             <a href="#" className=" d-flex align-items-center">
-              <i className="bi bi-3-square"></i>
-              <span className="">Поиск</span>
+              <i className="bi bi-3-square "></i>
+              <span className="">Edit</span>
             </a>
           </li>
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
               <i className="bi bi-4-square"></i>
-              <span className="">Заметки</span>
+              <span className="">Notes</span>
             </a>
           </li>
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
               <i className="bi bi-5-square"></i>
-              <span className="">Отчет</span>
+              <span className="">Фин Отчет</span>
+            </a>
+          </li>
+          <li className="nav-link">
+            <a href="#" className=" d-flex align-items-center">
+              <i className="bi bi-5-square"></i>
+              <span className="">Фотографии</span>
             </a>
           </li>
 
