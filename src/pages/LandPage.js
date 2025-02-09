@@ -123,7 +123,8 @@ function LandPage() {
           </div>
         </div>
         {/* <TelegramLink /> */}
-        <p className="p-1">Динамика популярности библиотек</p>
+        <p className="p-0">Динамика популярности библиотек. * Google Trends</p>
+        <p className="p-1 very-small"><strong className="green">SPA (Single Page Application)</strong> — это одностраничное веб-приложение.</p>
       
         <ul className="row container ">
           <li className="col-md-4 hero__block">
@@ -138,7 +139,7 @@ function LandPage() {
             <div className="hero__block__text">
               <span>25 %</span>
               <h2>VUE</h2>
-              <p className="small">Прогрессивный JavaScript-фреймворк для создания UI и SPA. </p>
+              <p className="small">Прогрессивный JavaScript-фреймворк для создания UI и приложений (SPA). </p>
               <p className="small">Плюсы: Легкость изучения, гибкость, высокая производительность. </p>
             </div>
           </li>
