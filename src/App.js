@@ -30,7 +30,7 @@ import AboutProject from "components/About";
 import FooterMenu from "components/FooterMenu";
 import UserList from "components/UserList";
 import HeaderDash from "components/HeaderDash";
-import Documentation from "pages/Documentation";
+import Documentation from "pages/PresentPage";
 import SidebarMenu from "components/SidebarMenu";
 import TableView from "components/TableView";
 import Architect from "components/Architect";
@@ -61,11 +61,11 @@ const Home = () => {
   );
 };
 
-const Docs = () => {
+const Present = () => {
   return (
     <div>
      <Header />
-     <SwitchSlider/>
+      {/* <SwitchSlider/> */}
       <Documentation />
       <Footer />
       <FooterMenu />
@@ -74,27 +74,6 @@ const Docs = () => {
   );
 };
 
-const CodeGenerator = () => {
-  return (
-    <div>
-      <HeaderDash/>
-      <Dashboard />
-      
-    </div>
-  );
-};
-
-const Dash = () => {
-  // (Protected:)
-  return (
-    <div>
-      {/* <Header/> */}
-      <Dashboard />
-      <FooterMenu />
-      <Smallfooter />
-    </div>
-  );
-};
 
 const About = () => {
   // (Protected:)
@@ -110,7 +89,7 @@ const About = () => {
 const Login = () => {
   return (
     <div>
-        <Header />
+      <Header />
       <LoginPage />
       <FooterMenu />
     </div>
@@ -136,13 +115,6 @@ const Register = () => {
   );
 };
 
-// const Sklad = () => {
-//   return (
-//     <div>
-//       <Sklad />
-//       </div>
-//   );
-// };
 
 const VideoPage = () => {
   return (
@@ -157,7 +129,7 @@ const VideoPage = () => {
 const Errorpage = () => {
   return (
     <div >
-      <Header />
+    <Header />
      <ErrorPage />
       </div>
   );
@@ -182,7 +154,7 @@ const App = () => {
         <Route path="/register" Component={Register} />
         <Route path="/video" Component={VideoPage} />
         <Route path="/about" Component={About}/>
-        <Route path="/docs" Component={Docs} />
+        <Route path="/present" Component={Present} />
         <Route path="/error" Component={Errorpage} />
 
         
@@ -190,7 +162,7 @@ const App = () => {
         
 
 
-        <Route
+        {/* <Route
           path="/dashboard"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
@@ -199,7 +171,7 @@ const App = () => {
              
             </ProtectedRoute>
           }
-        />
+        /> */}
 
         <Route
           path="/sklad"

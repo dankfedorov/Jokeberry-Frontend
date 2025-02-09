@@ -24,7 +24,7 @@ function UserList() {
         <thead>
           <tr>
             {/* <th scope="col"># id</th> */}
-            <th scope="col" className="very-small">Users:</th>
+            {/* <th scope="col" className="very-small">Users:</th> */}
             {/* <th scope="col">hash password</th> */}
             {/* <th scope="col">status</th> */}
           </tr>
@@ -33,7 +33,7 @@ function UserList() {
           {items.map((item) => (
             <tr key={item._id}>
               {/* <td>{item._id}</td> */}
-              <td>{item.username}</td>
+              {/* <td>{item.username}</td> */}
               {/* <td className="very-small">{item.password}</td> */}
               {/* <td>{item.roles}</td> */}
             </tr>

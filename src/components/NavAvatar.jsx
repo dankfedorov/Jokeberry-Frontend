@@ -62,17 +62,17 @@ function NavAvatar() {
         </li>
 
         <li className="nav-link">
-          <a href="/login" className="dropdown-item d-flex align-items-center">
+          <a href="/register" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-door-open"></i>
-            <span className="">Login</span>
+            <span className="">Login / Registration</span>
           </a>
         </li>
-        <li className="nav-link">
+        {/* <li className="nav-link">
           <a href="/about" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-blockquote-left"></i>
             <span className="">О проекте</span>
           </a>
-        </li>
+        </li> */}
         <li className="nav-link">
           <a href="/" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-box-arrow-left"></i>

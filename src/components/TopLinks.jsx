@@ -18,8 +18,14 @@ function TopLinks() {
           </a>
         </li> */}
         <li className="toplink__item ">
-          <a href="/docs" className="toplink-link">
+          <a href="/present" className="toplink-link">
             Презентация
+          </a>
+        </li>
+        
+        <li className="toplink__item ">
+          <a href="/sklad" className="toplink-link">
+            Склад
           </a>
         </li>
         

@@ -16,10 +16,10 @@ function FooterMenu() {
 
 
           <li className="li__block ">
-            <a href="/docs" className="">
+            <a href="/present" className="">
             <i class="bi bi-info-circle"></i>
             </a>
-            <span>INFO</span>
+            <span>Present</span>
           </li>
 
           <li className="li__block bg_circle">

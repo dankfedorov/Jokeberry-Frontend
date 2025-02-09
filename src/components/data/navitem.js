@@ -9,7 +9,7 @@ const navList = [
         _id: 2,
         name: 'Презентация',
         icon: 'bi bi-info-circle',
-        link: '/docs'
+        link: '/present'
     },
     {
         _id: 3,
@@ -19,7 +19,7 @@ const navList = [
     },
     {
         _id: 4,
-        name: 'CRM СКЛАД',
+        name: 'СКЛАД',
         icon: 'bi bi-bookmark-check',
         link: '/sklad'
     },

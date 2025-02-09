@@ -8,7 +8,7 @@ import LeftSideMenu from "components/LeftSideMenu";
 import UserList from "components/UserList";
 import EasyDev from "components/EasyDev";
 
-function Documentation() {
+function PresentPage() {
   const username = JSON.parse(localStorage.getItem("username"));
   const id = JSON.parse(localStorage.getItem("id"));
   const role = JSON.parse(localStorage.getItem("roles"));
@@ -35,8 +35,7 @@ function Documentation() {
               <span className="very-small">ID:{id}</span>
               <span className="very-small">Статус: {role}</span>
             </ul>
-
-                      
+                     
           
           </div>
         </div>
@@ -45,4 +44,4 @@ function Documentation() {
   );
 }
 
-export default Documentation;
+export default PresentPage;
