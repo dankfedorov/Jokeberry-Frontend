@@ -92,7 +92,7 @@ ul {
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
 
   color: var(--white-color);
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 
 }
 
@@ -105,6 +105,8 @@ ul {
   text-transform: uppercase;
   line-height: 29px;
   color: var(--white-color);
+  margin-bottom: 25px;
+
   /* color: #5c5b5b; */
 }
 
