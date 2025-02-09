@@ -125,8 +125,8 @@ function LandPage() {
 
         <div className="row">
           <div className="col-md-12"></div>
-          <p className="p-2 so-small">
-            <strong className="green">SPA (Single Page Application)</strong> —
+          <p className="container p-2 so-small">
+            <strong className="green">SPA (Single Page Application)</strong> <br></br> —
             это одностраничное веб-приложение.
           </p>
         </div>
@@ -134,8 +134,9 @@ function LandPage() {
 
       <section className="promo">
         <div className="row">
-          <div className="col-md-12">
-            <ul className="row container ">
+          <div className="col-md-12 ">
+             <ul className="row container ">
+            
               <li className="col-md-4 hero__block">
                 <div className="hero__block__text">
                   <span>61 %</span>
@@ -180,6 +181,7 @@ function LandPage() {
                 </div>
               </li>
             </ul>
+         
           </div>
         </div>
       </section>
