@@ -23,6 +23,7 @@ function PresentPage() {
 
           <div className="col-md-8 ">
             <Architect />
+          
             <DisignMaket />
             <CodingHtml />
           </div>

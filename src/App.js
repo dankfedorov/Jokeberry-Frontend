@@ -39,6 +39,7 @@ import ErrorPage from "pages/ErrorPage";
 import Toastify from "./components/Toastify";
 import Sklad from "pages/Sklad";
 import SwitchSlider from "components/SwithTheme";
+import EasyDev from "components/EasyDev";
 
 
 // Компоненты страниц
@@ -54,6 +55,7 @@ const Home = () => {
     <div>
       <Header />
       <LandPage />
+      <EasyDev/>
       <Footer />
       <FooterMenu />
     </div>
