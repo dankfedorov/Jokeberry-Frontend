@@ -124,7 +124,7 @@ function LandPage() {
         </div>
         {/* <TelegramLink /> */}
         <p className="p-0">Динамика популярности библиотек. * Google Trends</p>
-        <p className="p-1 very-small"><strong className="green">SPA (Single Page Application)</strong> — это одностраничное веб-приложение.</p>
+        <p className="p-1 so-small"><strong className="green">SPA (Single Page Application)</strong> — это одностраничное веб-приложение.</p>
       
         <ul className="row container ">
           <li className="col-md-4 hero__block">

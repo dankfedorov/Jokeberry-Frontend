@@ -130,7 +130,12 @@
   }
 /* SideBar Nav */
   .very-small{
-    font-size: 14px;
+    font-size: 12px;
     color: #050404;
   }
+  .so-small{
+    font-size: 14px;
+    color: #ffffff;
+  }
+
   
