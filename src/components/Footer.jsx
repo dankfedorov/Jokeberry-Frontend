@@ -96,7 +96,7 @@ function Footer() {
               
             </div>
             <div className="col-md-4">
-              <p class="footer__descr very-small">
+              <p class="footer__descr so-small">
                 Предоставляя свои персональные данные пользователь даёт согласие
                 на обработку, хранение и использование своих персональных данных
                 на основании ФЗ № 152-ФЗ «О персональных данных» от 27.07.2006
@@ -104,7 +104,7 @@ function Footer() {
               </p>
             </div>
             <div className="col-md-2">
-              <p class="footer__descr very-small ">
+              <p class="footer__descr so-small ">
                 Представленная на&nbsp;сайте информация носит справочный
                 характер и&nbsp;не&nbsp;является публичной офертой.
               </p>
