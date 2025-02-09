@@ -213,7 +213,12 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+/* promo */
+.promo{
+  background-color: #343A40;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 /* qrblock */
 .qrblock {
   padding-top: 25px;

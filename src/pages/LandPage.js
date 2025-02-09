@@ -12,7 +12,6 @@ import Typewriter from "typewriter-effect";
 // import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
 
-
 // Color body changed
 // document.body.style.background = "#fff"; // сделать фон красным
 // setTimeout(() => (document.body.style.background = ""), 2000); // вернуть назад
@@ -123,39 +122,65 @@ function LandPage() {
           </div>
         </div>
         {/* <TelegramLink /> */}
-        <p className="p-0">Динамика популярности библиотек. * Google Trends</p>
-        <p className="p-1 so-small"><strong className="green">SPA (Single Page Application)</strong> — это одностраничное веб-приложение.</p>
-      
-        <ul className="row container ">
-          <li className="col-md-4 hero__block">
-            <div className="hero__block__text">
-              <span>61 %</span>
-              <h2>REACT</h2>
-              <p className="small">JavaScript-библиотека для создания пользовательских интерфейсов (UI). </p>
-              <p className="small">Плюсы: Высокая производительность, большое сообщество, гибкость. </p>
-            </div>
-          </li>
-          <li className=" col-md-4 hero__block">
-            <div className="hero__block__text">
-              <span>25 %</span>
-              <h2>VUE</h2>
-              <p className="small">Прогрессивный JavaScript-фреймворк для создания UI и приложений (SPA). </p>
-              <p className="small">Плюсы: Легкость изучения, гибкость, высокая производительность. </p>
-            </div>
-          </li>
-
-          <li className="col-md-4  hero__block">
-            <div className="hero__block__text">
-              <span>14 %</span>
-              <h2>ANGULAR</h2>
-              <p className="small">Полноценный JavaScript-фреймворк для создания веб-приложений.</p>
-              <p className="small">Плюсы: Полноценный фреймворк, поддержка TypeScript, подходит для крупных проектов. </p>
-            </div>
-          </li>
-        </ul>
 
         <div className="row">
           <div className="col-md-12"></div>
+          <p className="p-2 so-small">
+            <strong className="green">SPA (Single Page Application)</strong> —
+            это одностраничное веб-приложение.
+          </p>
+        </div>
+      </section>
+
+      <section className="promo">
+        <div className="row">
+          <div className="col-md-12">
+            <ul className="row container ">
+              <li className="col-md-4 hero__block">
+                <div className="hero__block__text">
+                  <span>61 %</span>
+                  <h2>REACT</h2>
+                  <p className="small">
+                    JavaScript-библиотека для создания пользовательских
+                    интерфейсов (UI).{" "}
+                  </p>
+                  <p className="small">
+                    Плюсы: Высокая производительность, большое сообщество,
+                    гибкость.{" "}
+                  </p>
+                </div>
+              </li>
+              <li className=" col-md-4 hero__block">
+                <div className="hero__block__text">
+                  <span>25 %</span>
+                  <h2>VUE</h2>
+                  <p className="small">
+                    Прогрессивный JavaScript-фреймворк для создания UI и
+                    приложений (SPA).{" "}
+                  </p>
+                  <p className="small">
+                    Плюсы: Легкость изучения, гибкость, высокая
+                    производительность.{" "}
+                  </p>
+                </div>
+              </li>
+
+              <li className="col-md-4  hero__block">
+                <div className="hero__block__text">
+                  <span>14 %</span>
+                  <h2>ANGULAR</h2>
+                  <p className="small">
+                    Полноценный JavaScript-фреймворк для создания
+                    веб-приложений.
+                  </p>
+                  <p className="small">
+                    Плюсы: Полноценный фреймворк, поддержка TypeScript, подходит
+                    для крупных проектов.{" "}
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
