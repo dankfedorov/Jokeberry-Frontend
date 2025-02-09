@@ -150,7 +150,7 @@
 
 
 .slider {
-  width: 50px;
+  width: 40px;
   height: 40px;
   background-color: #fcfcfc25;
   outline: 1px solid rgba(27, 15, 68, 0.616);
@@ -162,19 +162,18 @@
   top: 10px;
   left: 260px;
   border-radius: 5px;
-  transition: 0.3ms color;
+  transition: 0.1ms color;
 }
 .slider:hover {
- 
-  outline: 1px solid gray;
-  color: rgb(255, 255, 255);
+   outline: 1px solid gray;
+  color: rgb(40, 18, 238);
  
 }
 
 .side-menu {
   width: 250px;
   height: 100vh;
-  background-color: #062f3b;
+  background-color: #013036;
   position: fixed;
   top: 0;
   left: -250px;
@@ -187,10 +186,13 @@
 
 .side-menu ul {
   list-style: none;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .side-menu ul li {
-  color: white;
+  padding: 0;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+  cursor: auto;
   /* margin-bottom: 10px; */
 }
