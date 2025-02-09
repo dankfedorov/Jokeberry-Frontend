@@ -2,6 +2,8 @@ import FromSklad from "components/FromSklad";
 import React from "react";
 import NavItem from "../components/NavItem";
 import navList from "../components/data/navitem";
+import Calendar from "react-calendar";
+import 'react-calendar/dist/Calendar.css';
 
 function LeftMenu() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -47,12 +49,19 @@ function LeftMenu() {
         </ul>
         <hr></hr>
         
-        <ul class="nav flex-column mb-1">
+        
+        <ul class="nav flex-column mb-2">
           <p className="very-small">Разделы сайта</p>
           {navList.map((nav) => (
             <NavItem key={nav._id} nav={nav} />
           ))}
         </ul>
+        <hr></hr>
+        <ul class="nav flex-column mb-1 very-small">
+         <Calendar/>
+        </ul>
+        <hr></hr>
+
       </div>
     </nav>
   );

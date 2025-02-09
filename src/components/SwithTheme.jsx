@@ -4,6 +4,8 @@ import navList from "../components/data/navitem";
 import frontendlink from "../components/data/frontendlink";
 import backendlink from "../components/data/backendlink";
 
+
+
 const SwitchSlider = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -50,6 +52,7 @@ const SwitchSlider = () => {
             <NavItem key={nav._id} nav={nav} />
           ))}
         </ul>
+        
       </div>
     </div>
   );

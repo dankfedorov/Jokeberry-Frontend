@@ -197,3 +197,12 @@
   cursor: auto;
   /* margin-bottom: 10px; */
 }
+
+.react-calendar__navigation button {
+  min-width: 32px !important;
+  background: transparent !important;
+}
+.react-calendar {
+  background: rgba(209, 209, 209, 0) !important;
+  border: 0px solid #a0a096 !important;
+}
