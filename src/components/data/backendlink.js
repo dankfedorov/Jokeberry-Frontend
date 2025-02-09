@@ -24,6 +24,12 @@ const backendlink = [
         link: '/b5'
     },
     {
+        _id: 5,
+        name: 'Взаимосвязь',
+        icon: 'bi bi-robot',
+        link: '/b5'
+    },
+    {
         _id: 4,
         name: 'Загрузка на сервер',
         icon: 'bi bi-robot',

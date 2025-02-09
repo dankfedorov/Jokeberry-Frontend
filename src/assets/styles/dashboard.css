@@ -153,7 +153,7 @@
   width: 50px;
   height: 40px;
   background-color: #fcfcfc25;
-  outline: 1px solid rgba(128, 128, 128, 0.281);
+  outline: 1px solid rgba(27, 15, 68, 0.616);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,7 +174,7 @@
 .side-menu {
   width: 250px;
   height: 100vh;
-  background-color: #05050596;
+  background-color: #062f3b;
   position: fixed;
   top: 0;
   left: -250px;

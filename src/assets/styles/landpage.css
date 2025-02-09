@@ -317,7 +317,7 @@ justify-content: center;
 @media (max-width: 1441px) {
   .container {
     margin: 0 auto;
-    max-width: 980px;
+    max-width: 1170px;
     width: 100%;
 
   }

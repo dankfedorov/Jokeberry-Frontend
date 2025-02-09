@@ -1,34 +1,27 @@
 const frontendlink = 
 [   {
         _id: 1,
-        name: 'Рабочий стол',
+        name: 'Архитектура сайта',
         icon: 'bi bi-file-text',
-        link: '/dashboard/workspace'
+        link: '#'
     },
     {
         _id: 2,
-        name: 'Генератор EAN128',
+        name: 'Дизайн макета',
         icon: 'bi bi-upc-scan',
-        link: '/dashboard/codegenerator'
+        link: '#'
     },
     {
         _id: 3,
-        name: 'Генератор QR code',
+        name: 'Верстка макета',
         icon: 'bi bi-qr-code-scan',
-        link: '/dashboard/codegenerator'
+        link: '#'
     },
     {
         _id: 3,
-        name: 'Пользователи',
+        name: 'Интеграция с React',
         icon: 'bi bi-people-fill',
-        link: '/dashboard/codegenerator'
-    },
-    {
-        _id: 4,
-        name: 'Text to PDF',
-        icon: 'bi bi-filetype-pdf',
-        link: '#coding'
-    },
-    
+        link: '#'
+    }    
 ];
 export default frontendlink;

@@ -16,8 +16,7 @@ import Footer from "./components/Footer";
 import LandPage from "pages/LandPage";
 import LoginPage from "pages/LoginPage";
 import LoginPartner from "pages/LoginPartner";
-import Dashboard from "pages/Dashboard";
-import PartnerPage from "pages/PartnerPage";
+
 
 import ProtectedRoute from "./components/ProtectedRoute";
 import ProtectedPartner from "./components/ProtectedPartner";
@@ -38,7 +37,7 @@ import UserData from "components/UserData";
 import Users from "components/Users";
 import ErrorPage from "pages/ErrorPage";
 import Toastify from "./components/Toastify";
-import ShowRoom from "pages/ShowRoom";
+import Sklad from "pages/Sklad";
 import SwitchSlider from "components/SwithTheme";
 
 
@@ -64,8 +63,7 @@ const Home = () => {
 const Present = () => {
   return (
     <div>
-     <Header />
-      {/* <SwitchSlider/> */}
+     <HeaderDash />
       <Documentation />
       <Footer />
       <FooterMenu />
@@ -82,6 +80,7 @@ const About = () => {
       <Header/>
       <AboutProject />
       <Footer/>
+      <FooterMenu />
     </div>
   );
 };
@@ -157,28 +156,13 @@ const App = () => {
         <Route path="/present" Component={Present} />
         <Route path="/error" Component={Errorpage} />
 
-        
-
-        
-
-
-        {/* <Route
-          path="/dashboard"
-          element={
-            <ProtectedRoute isAuthenticated={isAuthenticated}>
-              <HeaderDash />
-              <Dashboard />
-             
-            </ProtectedRoute>
-          }
-        /> */}
 
         <Route
           path="/sklad"
           element={
             <ProtectedPartner isAuthenticated={isAuthenticated}>
              <HeaderDash />
-             <ShowRoom />
+             <Sklad />
              <FooterMenu />
             </ProtectedPartner>
           }

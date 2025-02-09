@@ -24,6 +24,14 @@ function SidebarMenu() {
           <span className="very-small">Статус: {role}</span>
         </ul>
 
+{/* 
+        <ul class="nav flex-column">
+        <p className="very-small">Frontend</p>
+        {frontendlink.map((nav) => (
+          <NavItem key={nav._id} nav={nav} />
+        ))}
+      </ul>
+      
       <ul class="nav flex-column">
         <p className="very-small">Frontend</p>
         {frontendlink.map((nav) => (
@@ -36,15 +44,10 @@ function SidebarMenu() {
         {backendlink.map((nav) => (
           <NavItem key={nav._id} nav={nav} />
         ))}
-      </ul>
+      </ul> */}
       {/* <TopLinks/> */}
 
-        <ul class="nav flex-column mb-1">
-          <p className="very-small">Разделы сайта</p>
-          {navList.map((nav) => (
-            <NavItem key={nav._id} nav={nav} />
-          ))}
-        </ul>
+   
 
       </div>
     </nav>

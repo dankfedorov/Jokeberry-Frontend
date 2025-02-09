@@ -12,9 +12,9 @@ function TelegramLink() {
             class="footer-link "
             rel="noreferrer"
           >
-            <button className="btn p-2"> Tekegram Bot
-                
-                
+            <button className="btn p-2">
+              {" "}
+              Tekegram Bot
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
