@@ -9,7 +9,7 @@ import TelegramLink from "./TelegramLink";
 
 function Header() {
   return (
-    <header id="header" className="header">
+    <header id="header" className="header p-3">
       <div className="container container__header ">
       
         <Logo />

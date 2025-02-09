@@ -9,7 +9,7 @@ import SwithTheme from "./SwithTheme";
 function HeaderDash() {
   return (
     <header id="header" className="header p-3">
-      <div className="container__header">
+      <div className="container container__header">
         <Logo />
         <SwithTheme/>
         <NavAvatar />
