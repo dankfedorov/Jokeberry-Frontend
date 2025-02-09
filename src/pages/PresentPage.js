@@ -7,6 +7,7 @@ import Footer from "components/Footer";
 import LeftSideMenu from "components/LeftSideMenu";
 import UserList from "components/UserList";
 import EasyDev from "components/EasyDev";
+import Calendar from "react-calendar";
 
 function PresentPage() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -18,6 +19,7 @@ function PresentPage() {
       <div className="container-fluid container">
         <div className="row">
           <div className="col-md-2">
+            
           
           </div>
 
@@ -30,6 +32,7 @@ function PresentPage() {
 
           <div className="col-md-2 ">
           <UserList />
+          <Calendar/>
           <p className="very-small">Пользователь:</p>
             <ul class="nav flex-column">
               <span className="very-small">Username:{username}</span>
