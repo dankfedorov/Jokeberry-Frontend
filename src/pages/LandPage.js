@@ -83,20 +83,48 @@ function LandPage() {
 
           <div className="row container__hero__icons mb-2 ">
             <div className="col-md-2 col-2 ">
-              <img src={vs} alt="qr link" />
+            <a
+            href="https://visualstudio.microsoft.com/ru/"
+            target="_blank"
+            class="footer-link "
+            rel="noreferrer"
+          >
+              <img src={vs} alt="vs code link" />
+           </a>
             </div>
             <div className="col-md-2 col-2">
-              <img src={reactimg} alt="qr link" />
+            <a
+            href="https://react.dev/"
+            target="_blank"
+            class="footer-link "
+            rel="noreferrer"
+          >
+              <img src={reactimg} alt="react link" />
+              </a>
             </div>
             <div className="col-md-2 col-2">
-              <img src={node} alt="qr link" />
+            <a
+            href="https://nodejs.org/en"
+            target="_blank"
+            class="footer-link "
+            rel="noreferrer"
+          >
+              <img src={node} alt="node link" />
+              </a>
             </div>
             <div className="col-md-2 col-2">
-              <img src={mongo} alt="qr link" />
+            <a
+            href="https://www.mongodb.com/"
+            target="_blank"
+            class="footer-link "
+            rel="noreferrer"
+          >
+              <img src={mongo} alt="mongoDB link" />
+              </a>
             </div>
           </div>
         </div>
-        <TelegramLink />
+        {/* <TelegramLink /> */}
       </section>
 
       <main>
