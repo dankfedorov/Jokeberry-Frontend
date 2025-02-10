@@ -22,8 +22,8 @@ function FromApi() {
 
   return (
     <div className="table-responsive small ">
-      <p className="m-3">Таблица</p>
-      <p className="m-3">Склад</p>
+      {/* <p className="m-3">Таблица</p>
+      <p className="m-3">Склад</p> */}
       <table class="table table-striped table-sm very-small">
         <thead>
           <tr>

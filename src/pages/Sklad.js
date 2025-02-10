@@ -4,6 +4,8 @@ import NavItem from "../components/NavItem";
 import navList from "../components/data/navitem";
 import Calendar from "react-calendar";
 import 'react-calendar/dist/Calendar.css';
+import CardInputBlock from "components/CardInputBlock";
+import "../assets/styles/cardinputblock.css";
 
 function LeftMenu() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -72,7 +74,7 @@ function ShowRoom() {
 
           {/* Центральный блок */}
           <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
-            
+            <CardInputBlock />
             <FromSklad />
             {/* <FromApi /> */}
           
