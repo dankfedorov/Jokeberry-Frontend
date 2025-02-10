@@ -70,11 +70,11 @@ const CardInputBlock = () => {
   
           <tr >
             <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="id_item" value={ItemData.id_item} onChange={handleChange}/></td>
-            <td className="col-md-3"><input type="text" name="id_item" className="" placeholder="название" value={ItemData.id_item} onChange={handleChange}/></td>
-            <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="фотография" value={ItemData.id_item} onChange={handleChange}/></td>
-            <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="pricein" value={ItemData.id_item} onChange={handleChange}/></td>
-            <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="priceout" value={ItemData.id_item} onChange={handleChange}/></td>
-            <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="status" value={ItemData.id_item} onChange={handleChange}/></td>
+            <td className="col-md-3"><input type="text" name="description" className="" placeholder="название" value={ItemData.description} onChange={handleChange}/></td>
+            <td className="col-md-1"><input type="text" name="photos" className="" placeholder="фотография" value={ItemData.photos} onChange={handleChange}/></td>
+            <td className="col-md-1"><input type="text" name="createdAt" className="" placeholder="pricein" value={ItemData.createdAt} onChange={handleChange}/></td>
+            <td className="col-md-1"><input type="text" name="pricein" className="" placeholder="priceout" value={ItemData.pricein} onChange={handleChange}/></td>
+            <td className="col-md-1"><input type="text" name="priceout" className="" placeholder="status" value={ItemData.priceout} onChange={handleChange}/></td>
            
           </tr>
           </tbody>
