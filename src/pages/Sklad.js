@@ -25,7 +25,7 @@ function LeftMenu() {
 
         <ul class="nav flex-column">
           <hr></hr>
-          <p className="very-small">Рабочий стол</p>
+          <p className="so-text">Рабочий стол</p>
           
           <li className="nav-link">
             <a href="#" className="d-flex align-items-center">
@@ -57,7 +57,7 @@ function LeftMenu() {
           ))}
         </ul>
         <hr></hr>
-        <ul class="nav flex-column mb-1 very-small">
+        <ul class="nav flex-column mb-1 small">
          <Calendar/>
         </ul>
         <hr></hr>

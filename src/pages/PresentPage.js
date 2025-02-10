@@ -7,6 +7,7 @@ import "react-calendar/dist/Calendar.css";
 
 import ReactInfo from "components/ReactInfo";
 import UserInfo from "components/UserInfo";
+import NodeInfo from "components/NodeInfo";
 
 function PresentPage() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -24,6 +25,7 @@ function PresentPage() {
             <DisignMaket />
             <CodingHtml />
             <ReactInfo />
+            <NodeInfo/>
           </div>
 
           <div className="col-md-1 ">
