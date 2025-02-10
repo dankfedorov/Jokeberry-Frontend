@@ -129,8 +129,8 @@ function LandPage() {
              
               
               <strong className="hero__descr__short green">
-                 SPA (Single Page Application)
-              </strong>{" "}
+                 Single Page Application
+              </strong> (SPA){" "}
               <br></br>
               это одностраничное веб-приложение.
             </h2>
@@ -142,7 +142,7 @@ function LandPage() {
         <div className="row">
           <div className="col-md-12 container">
           <h3 className="container__promo ">
-                  React, Vue и Angular <br></br>это три популярные библиотеки и
+          <strong className="hero__descr__short green">React, Vue и Angular</strong> <br></br>это три популярные библиотеки и
                   фреймворки для разработки веб-приложений.
                 </h3>
             <ul className="row container ">
@@ -196,6 +196,7 @@ function LandPage() {
       </section>
 
       <main>
+        
         <section id="features" className="features text-center">
           <div className="container container__features ">
             <div className="row">

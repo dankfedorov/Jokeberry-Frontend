@@ -16,30 +16,18 @@ import Footer from "./components/Footer";
 import LandPage from "pages/LandPage";
 import LoginPage from "pages/LoginPage";
 import LoginPartner from "pages/LoginPartner";
-
-
 import ProtectedRoute from "./components/ProtectedRoute";
-import ProtectedPartner from "./components/ProtectedPartner";
-
 import RegisterPage from "./pages/RegisterPage";
-import Smallfooter from "components/Smallfooter";
-import VideoStart from "components/VideoStart";
 import VideoBlog from "../src/pages/VideoBlog";
 import AboutProject from "components/About";
 import FooterMenu from "components/FooterMenu";
-import UserList from "components/UserList";
 import HeaderDash from "components/HeaderDash";
 import Documentation from "pages/PresentPage";
-import SidebarMenu from "components/SidebarMenu";
-import TableView from "components/TableView";
-import Architect from "components/Architect";
-import UserData from "components/UserData";
-import Users from "components/Users";
 import ErrorPage from "pages/ErrorPage";
-import Toastify from "./components/Toastify";
 import Sklad from "pages/Sklad";
-import SwitchSlider from "components/SwithTheme";
+
 import EasyDev from "components/EasyDev";
+import Breadcrumbs from '../src/components/Breadcrumbs';
 
 
 // Компоненты страниц
@@ -163,13 +151,14 @@ const App = () => {
         <Route
           path="/sklad"
           element={
-            <ProtectedPartner isAuthenticated={isAuthenticated}>
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
              <HeaderDash />
              <Sklad />
              <FooterMenu />
-            </ProtectedPartner>
+            </ProtectedRoute>
           }
         />
+
       </Routes>
     </Router>
   );

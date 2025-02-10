@@ -260,10 +260,10 @@ ul {
 }
 
 .features {
-  background-color: #ffffff;
+  background-color: #bdbbbb;
   padding-top: 25px;
   padding-bottom: 25px;
-  min-height: 150px;
+  min-height: 270px;
 }
 
 /* .container__features{
@@ -355,8 +355,8 @@ justify-content: center;
 
 @media (max-width: 480px) {
   .hero{
-    padding-top: 100px;
-    margin-bottom: 50px;
+    padding-top: 140px;
+    margin-bottom: 0px;
   }
   .nav-item img {
     display: block;

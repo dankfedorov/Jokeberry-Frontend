@@ -3,8 +3,7 @@ import NavItem from "../components/NavItem";
 import navList from "../components/data/navitem";
 import frontendlink from "../components/data/frontendlink";
 import backendlink from "../components/data/backendlink";
-
-
+import UserInfo from "./UserInfo";
 
 const SwitchSlider = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -19,8 +18,8 @@ const SwitchSlider = () => {
         {/* <i className="bi bi-badge-ar"></i> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
+          width="28"
+          height="28"
           fill="currentColor"
           class="bi bi-list"
           viewBox="0 0 16 16"
@@ -31,14 +30,19 @@ const SwitchSlider = () => {
           />
         </svg>
       </div>
+
       <div className={`side-menu ${isMenuOpen ? "open" : ""}`}>
+        <ul class="nav flex-column mb-1">
+          <UserInfo />
+        </ul>
+        <hr></hr>
+
         <ul class="nav flex-column mb-1">
           <p className="very-small">Дополнительное меню сайта</p>
           {navList.map((nav) => (
             <NavItem key={nav._id} nav={nav} />
           ))}
         </ul>
-        <hr></hr>
 
         <ul class="nav flex-column">
           <p className="very-small">Frontend</p>
@@ -52,7 +56,6 @@ const SwitchSlider = () => {
             <NavItem key={nav._id} nav={nav} />
           ))}
         </ul>
-        
       </div>
     </div>
   );

@@ -106,7 +106,7 @@
 /* architect */
 .architect {
   padding-top: 80px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 .architect h2 {
   /* background: rgb(2, 0, 36); */
@@ -115,11 +115,12 @@
 }
 .front-backend {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 .disignmaket {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  /* background-color: #676a6c; */
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 .disignmaket h2 {
   /* background: rgb(2, 0, 36); */
@@ -127,8 +128,8 @@
   color: #2c2c2c;
 }
 .coding {
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 .coding h2 {
   /* background: rgb(2, 0, 36); */
@@ -146,23 +147,29 @@
   max-height: 420px;
 }
 
+/* reactinfo */
+.reactinfo{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 /*  */
 
 
 .slider {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background-color: #fcfcfc25;
-  outline: 1px solid rgba(27, 15, 68, 0.616);
+  outline: 1px solid rgba(7, 94, 72, 0.616);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   position: absolute;
-  top: 10px;
+  top: 15px;
   left: 240px;
   border-radius: 5px;
   transition: 0.1ms color;
+  margin-right: 5px;
 }
 .slider:hover {
    outline: 1px solid gray;
@@ -171,7 +178,7 @@
 }
 
 .side-menu {
-  width: 250px;
+  width: 245px;
   height: 100vh;
   /* background-color: #013036; */
   background-image: linear-gradient(130deg, rgb(13, 53, 78) 10.9%, rgba(2, 70, 116, 0.952) 65.7%), url(../images/header-profile.png);
@@ -179,6 +186,7 @@
   top: 0;
   left: -250px;
   transition: left 0.3s ease-in-out;
+  z-index: 999;
 }
 
 .side-menu.open {
@@ -187,7 +195,7 @@
 
 .side-menu ul {
   list-style: none;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .side-menu ul li {
@@ -205,4 +213,19 @@
 .react-calendar {
   background: rgba(209, 209, 209, 0) !important;
   border: 0px solid #a0a096 !important;
+}
+/* container_breadcrumbs */
+.container_breadcrumbs{
+  padding-top: 0px;
+}
+
+.presentpage__rigth-block{
+  padding-top: 20px;
+  /* background-color: #eeeeee; */
+}
+.presentpage{}
+
+.text-small12{
+  color: #1b1b1b;
+  font-size: 12px;
 }
