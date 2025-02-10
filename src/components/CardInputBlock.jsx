@@ -75,11 +75,15 @@ const CardInputBlock = () => {
             <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="pricein" value={ItemData.id_item} onChange={handleChange}/></td>
             <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="priceout" value={ItemData.id_item} onChange={handleChange}/></td>
             <td className="col-md-1"><input type="text" name="id_item" className="" placeholder="status" value={ItemData.id_item} onChange={handleChange}/></td>
-             
+           
           </tr>
-            
-        </tbody>
+          </tbody>
+        
       </table>
+      <div className="btn-block">
+        <button id="submitBtn" className="btn btn-success " type="submit">Отправить данные</button> 
+        <button id="delBtn" className="btn btn-danger" type="del">Удалить запись</button> 
+        </div>
     </div>
     </div>
 

@@ -2,7 +2,16 @@
 .container__cardinputblock {
     padding-top: 80px;
 }
+.container__cardinputblock input {
+    width: 100%;
+    border: 0;
+}
 .small {
     font-size: 12px;
     color: rgb(255, 255, 255);
+}
+.btn-block{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
