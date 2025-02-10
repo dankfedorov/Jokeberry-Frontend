@@ -3,25 +3,25 @@ const backendlink = [
         _id: 1,
         name: 'Node.js',
         icon: 'bi bi-robot',
-        link: '/b1'
+        link: '#nodeinfo'
     },
     {
         _id: 2,
         name: 'База данных',
         icon: 'bi bi-robot',
-        link: '/b2'
+        link: '#mongodbinfo'
     },
     {
         _id: 3,
         name: 'NPM Библиотеки',
         icon: 'bi bi-robot',
-        link: '/b3'
+        link: '#npminfo'
     },
     {
         _id: 4,
         name: 'JWT Авторизация',
         icon: 'bi bi-robot',
-        link: '/b5'
+        link: '#jwtauth'
     },
     {
         _id: 5,

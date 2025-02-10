@@ -3,8 +3,8 @@ import React from 'react'
 function NodeInfo() {
   return (
     <div>
-    <section id="reactinfo" className="reactinfo">
-      <div className=" container__reactinfo">
+    <section id="nodeinfo" className="nodeinfo">
+      <div className=" container__nodeinfo">
         <h2 className="text-center mb-0">Создание серверной части Node.js</h2>
         <p className="text-center mb-4">backend часть  </p>
 

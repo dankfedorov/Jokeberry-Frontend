@@ -8,6 +8,10 @@ import "react-calendar/dist/Calendar.css";
 import ReactInfo from "components/ReactInfo";
 import UserInfo from "components/UserInfo";
 import NodeInfo from "components/NodeInfo";
+import MongodbInfo from "components/MongodbInfo";
+import NpmInfo from "components/NpmInfo";
+import JwtAuth from "components/JwtAuth";
+import IntroInfo from "components/IntroInfo";
 
 function PresentPage() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -15,20 +19,25 @@ function PresentPage() {
   const role = JSON.parse(localStorage.getItem("roles"));
 
   return (
-    <div className="presentpage">
+    <div className="presentpage ">
       <div className="container">
         <div className="row">
-          <div className="col-md-1"></div>
+          <div className="col-md-2"></div>
 
-          <div className="col-md-9 ">
+          <div className="col-md-8 ">
+            <IntroInfo/>
             <Architect />
             <DisignMaket />
             <CodingHtml />
             <ReactInfo />
+
             <NodeInfo/>
+            <MongodbInfo/>
+            <NpmInfo/>
+            <JwtAuth/>
           </div>
 
-          <div className="col-md-1 ">
+          <div className="col-md-2 ">
             {/* <UserInfo /> */}
           </div>
 
