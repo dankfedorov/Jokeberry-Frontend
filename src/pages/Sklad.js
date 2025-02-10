@@ -18,27 +18,22 @@ function LeftMenu() {
     >
       <div class="position-sticky pt-0">
         <ul class="nav flex-column">
-          <span className="very-small">Пользователь:{username}</span>
-          <span className="very-small">ID: {id}</span>
-          <span className="very-small">Статус: {role}</span>
+          <span className="text-small12">Пользователь:{username}</span>
+          <span className="text-small12">ID: {id}</span>
+          <span className="text-small12">Статус: {role}</span>
         </ul>
 
         <ul class="nav flex-column">
           <hr></hr>
-          <p className="so-text">Рабочий стол</p>
+          <p className="text-small12">Рабочий стол</p>
           
           <li className="nav-link">
             <a href="#" className="d-flex align-items-center">
               <i className="bi bi-0-square"></i>
-              <span className="">Добавить позици </span>
+              <span className="">Работа с картчоками </span>
             </a>
           </li>
-          <li className="nav-link bg-gradient">
-            <a href="#" className=" d-flex align-items-center">
-              <i className="bi bi-3-square "></i>
-              <span className="">Редактирвоать</span>
-            </a>
-          </li>
+       
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
               <i className="bi bi-4-square"></i>
@@ -51,13 +46,13 @@ function LeftMenu() {
         
         
         <ul class="nav flex-column mb-2">
-          <p className="very-small">Разделы сайта</p>
+          <p className="text-small12">Разделы сайта</p>
           {navList.map((nav) => (
             <NavItem key={nav._id} nav={nav} />
           ))}
         </ul>
         <hr></hr>
-        <ul class="nav flex-column mb-1 small">
+        <ul class="nav flex-column mb-1 text-small12">
          <Calendar/>
         </ul>
         <hr></hr>
