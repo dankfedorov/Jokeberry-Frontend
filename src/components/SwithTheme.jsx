@@ -37,12 +37,6 @@ const SwitchSlider = () => {
         </ul>
         <hr></hr>
 
-        <ul class="nav flex-column mb-1">
-          <p className="very-small">Дополнительное меню сайта</p>
-          {navList.map((nav) => (
-            <NavItem key={nav._id} nav={nav} />
-          ))}
-        </ul>
 
         <ul class="nav flex-column">
           <p className="very-small">Frontend</p>
@@ -53,6 +47,13 @@ const SwitchSlider = () => {
         <ul class="nav flex-column mb-1">
           <p className="very-small">Backend</p>
           {backendlink.map((nav) => (
+            <NavItem key={nav._id} nav={nav} />
+          ))}
+        </ul>
+        
+        <ul class="nav flex-column mb-1">
+          <p className="very-small">Дополнительное меню сайта</p>
+          {navList.map((nav) => (
             <NavItem key={nav._id} nav={nav} />
           ))}
         </ul>

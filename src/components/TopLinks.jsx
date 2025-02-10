@@ -26,7 +26,7 @@ function TopLinks() {
 
       <li className="toplink__item ">
         <a href="/sklad" className="toplink-link">
-          Вход
+          Авторизация
         </a>
       </li>
 

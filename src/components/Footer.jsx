@@ -40,7 +40,7 @@ function Footer() {
                    
               <li>
                 <a href="/sklad" class="footer-link">
-                   Склад
+                Авторизация
                 </a>
 
               </li>

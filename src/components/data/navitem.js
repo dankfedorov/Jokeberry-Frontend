@@ -19,7 +19,7 @@ const navList = [
     },
     {
         _id: 4,
-        name: 'СКЛАД',
+        name: 'Автоизация',
         icon: 'bi bi-bookmark-check',
         link: '/sklad'
     },
