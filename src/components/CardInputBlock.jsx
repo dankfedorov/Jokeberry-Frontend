@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import "../assets/styles/sendform.css";
+import "../assets/styles/cardinputblock.css";
 
 const CardInputBlock = () => {
   const [ItemData, setFormData] = useState({
     id_item: "",
     description: "",
-    photos: "",
-    createdAt: "",
+    // photos: "",
+    // createdAt: "",
     pricein: "",
     priceout: "",
-    status: "",
+    // status: "",
   });
   const [isSuccess, setIsSuccess] = useState(false);
 
@@ -32,7 +32,7 @@ const CardInputBlock = () => {
           body: JSON.stringify(ItemData), // передаем данные формы
         }
       );
-      console.log("Отправили");
+      console.log(ItemData + "Отправили");
       if (!response.ok) {
         throw new Error("Ошибка отправки данных");
       }
