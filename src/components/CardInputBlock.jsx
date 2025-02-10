@@ -80,45 +80,14 @@ const CardInputBlock = () => {
           </tbody>
         
       </table>
-      <div className="btn-block">
-        <button id="submitBtn" className="btn btn-success " type="submit">Отправить данные</button> 
+      <div className="btn-block p-1">
+        <button id="submitBtn" className="btn btn-success " type="submit">Добавить запись</button> 
         <button id="delBtn" className="btn btn-danger" type="del">Удалить запись</button> 
         </div>
     </div>
     </div>
 
-    // <div className="container__cardinputblock ">
-      
-
-    //     <form onSubmit={handleSubmit}>
-          
-    //       <div className="text-small12">
-
-    //         <input type="text" name="id_item" className="" placeholder="id_item" value={ItemData.id_item}
-    //           onChange={handleChange}
-    //         />
-    //         <input type="text" name="id_item" className="" placeholder="description" value={ItemData.id_item}
-    //           onChange={handleChange}
-    //         />
-    //         <input type="text" name="image" className="" placeholder="image" value={ItemData.photos}
-    //           onChange={handleChange}
-    //         />
-    //         <input type="text" name="pricein" className="" placeholder="pricein" value={ItemData.id_item}
-    //           onChange={handleChange}
-    //         />
-    //         <input type="text" name="priceout" className="" placeholder="priceout" value={ItemData.id_item}
-    //           onChange={handleChange}
-    //         />
-    //       </div>
-
-          
-    //       <button id="submitBtn" className="w-100 btn mb-2" type="submit">
-    //         Отправить данные
-    //       </button>
-    //     </form>
-
-      
-    // </div>
+    
   );
 };
 
