@@ -32,14 +32,26 @@ function LeftMenu() {
           <li className="nav-link">
             <a href="#" className="d-flex align-items-center">
               <i className="bi bi-0-square"></i>
-              <span className="">Работа с картчоками </span>
+              <span className="">Рейтинг игроков </span>
             </a>
           </li>
        
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
               <i className="bi bi-4-square"></i>
-              <span className="">Заметки</span>
+              <span className="">Список участников</span>
+            </a>
+          </li>
+          <li className="nav-link">
+            <a href="#" className=" d-flex align-items-center">
+              <i className="bi bi-4-square"></i>
+              <span className="">Таймер игры</span>
+            </a>
+          </li>
+          <li className="nav-link">
+            <a href="#" className=" d-flex align-items-center">
+              <i className="bi bi-4-square"></i>
+              <span className="">Правила проведения</span>
             </a>
           </li>
   
