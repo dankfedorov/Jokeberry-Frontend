@@ -11,7 +11,7 @@ function HeaderDash() {
     <header id="header" className="header p-3">
       <div className="container container__header">
         <Logo />
-        <SwithTheme/>
+        {/* <SwithTheme/> */}
         <NavAvatar />
         {/* <Nav /> */}
       </div>

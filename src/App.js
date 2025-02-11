@@ -108,7 +108,7 @@ const Register = () => {
 const VideoPage = () => {
   return (
     <div>
-      <Header />
+      <HeaderDash />
       <VideoBlog />
       <Footer/>
       <FooterMenu />
