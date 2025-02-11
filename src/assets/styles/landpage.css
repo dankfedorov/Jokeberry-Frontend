@@ -72,8 +72,9 @@ ul {
 
 /*hero*/
 .hero {
-  background-image: linear-gradient(130deg, rgb(3, 43, 66) 10.9%, rgba(1, 22, 46, 0.459) 65.7%), url(../images/girlpic.png);
+  /* background-image: linear-gradient(130deg, rgb(3, 43, 66) 10.9%, rgba(1, 22, 46, 0.459) 65.7%), url(../images/girlpic.png); */
   /* background-color: rgb(18, 62, 63); */
+  background-image: url(../images/girlpic.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,8 +92,7 @@ ul {
   max-width: 100%;
   font-weight: 800;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
-
-  color: var(--white-color);
+  color: #161616;
   margin-bottom: 25px;
 
 }
@@ -105,7 +105,7 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
-  color: var(--white-color);
+  color: #343A40;
   margin-bottom: 25px;
 
   /* color: #5c5b5b; */
@@ -114,6 +114,9 @@ ul {
 .hero a {
   position: relative;
   /* z-index: 999; */
+}
+.hero__descr__short{
+  
 }
 
 .hero__block{

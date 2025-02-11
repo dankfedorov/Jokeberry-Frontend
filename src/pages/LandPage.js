@@ -123,20 +123,9 @@ function LandPage() {
         </div>
         {/* <TelegramLink /> */}
 
-        <div className="row">
-          <div className="col-md-12 container">
-            <h2 className=" p-2 ">
-             
-              
-              <strong className="hero__descr__short green">
-                 Single Page Application
-              </strong> (SPA){" "}
-              <br></br>
-              это одностраничное веб-приложение.
-            </h2>
-          </div>
-        </div>
+        
       </section>
+      
 
       <section className="promo">
         <div className="row">

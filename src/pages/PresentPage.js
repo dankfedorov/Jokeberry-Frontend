@@ -12,6 +12,7 @@ import MongodbInfo from "components/MongodbInfo";
 import NpmInfo from "components/NpmInfo";
 import JwtAuth from "components/JwtAuth";
 import IntroInfo from "components/IntroInfo";
+import EasyDev from "components/EasyDev";
 
 function PresentPage() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -22,9 +23,9 @@ function PresentPage() {
     <div className="presentpage ">
       <div className="container">
         <div className="row">
-          <div className="col-md-2"></div>
+          {/* <div className="col-md-2"></div> */}
 
-          <div className="col-md-8 ">
+          <div className="col-md-10 ">
             <IntroInfo/>
             <Architect />
             <DisignMaket />
@@ -35,6 +36,7 @@ function PresentPage() {
             <MongodbInfo/>
             <NpmInfo/>
             <JwtAuth/>
+            
           </div>
 
           <div className="col-md-2 ">

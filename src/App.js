@@ -22,7 +22,7 @@ import VideoBlog from "../src/pages/VideoBlog";
 import AboutProject from "components/About";
 import FooterMenu from "components/FooterMenu";
 import HeaderDash from "components/HeaderDash";
-import Documentation from "pages/PresentPage";
+import PresentPage from "pages/PresentPage";
 import ErrorPage from "pages/ErrorPage";
 import Sklad from "pages/Sklad";
 
@@ -53,8 +53,8 @@ const Home = () => {
 const Present = () => {
   return (
     <div>
-     <HeaderDash />
-      <Documentation />
+     <Header />
+      <PresentPage />
       <Footer />
       <FooterMenu />
 
@@ -69,7 +69,7 @@ const About = () => {
     <div>
       <Header/>
       <AboutProject />
-      <Footer/>
+      <Footer />
       <FooterMenu />
     </div>
   );
@@ -108,7 +108,7 @@ const Register = () => {
 const VideoPage = () => {
   return (
     <div>
-      <HeaderDash />
+      <Header />
       <VideoBlog />
       <Footer/>
       <FooterMenu />
@@ -148,6 +148,7 @@ const App = () => {
         <Route path="/error" Component={Errorpage} />
 
 
+{/* Ограничение доступа */}
         <Route
           path="/sklad"
           element={
