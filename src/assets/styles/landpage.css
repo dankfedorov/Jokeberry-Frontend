@@ -116,7 +116,7 @@ ul {
   /* z-index: 999; */
 }
 .hero__descr__short{
-  
+  color: #161616;
 }
 
 .hero__block{
@@ -391,7 +391,7 @@ justify-content: center;
     text-align: center;
     margin-bottom: 15px;
     text-transform: uppercase;
-    color: var(--white-color);
+    color: #302f2f
   }
 
   .hero__descr {
@@ -400,7 +400,7 @@ justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 14px;
     font-size: 20px;
-    color: var(--white-color);
+    color: #343A40;
     margin-bottom: 25px;
     background-color: #00000023;
 

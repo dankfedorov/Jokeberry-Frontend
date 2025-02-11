@@ -11,7 +11,7 @@ function FooterMenu() {
             <a href="/">
               <i class="bi bi-house"></i>
             </a>
-            <span>ГЛАВНАЯ</span>
+            <span>HOME</span>
           </li>
 
 
@@ -19,14 +19,14 @@ function FooterMenu() {
             <a href="/present" className="">
             <i class="bi bi-info-circle"></i>
             </a>
-            <span>О нас</span>
+            <span>PRE</span>
           </li>
 
           <li className="li__block bg_circle">
             <a href="/register">
             <i class="bi bi-menu-down"></i>
             </a>
-            <span>ЖМИ</span>
+            <span>REG</span>
           </li>              
         
           <li className="li__block">
@@ -41,7 +41,7 @@ function FooterMenu() {
             <a href="/sklad">
             <i class="bi bi-person-bounding-box"></i>
             </a>
-            <span>ВХОД</span>
+            <span>LOGIN</span>
           </li>
 
 
