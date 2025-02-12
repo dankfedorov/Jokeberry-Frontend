@@ -3,7 +3,7 @@ import React from "react";
 import NavItem from "../components/NavItem";
 import navList from "../components/data/navitem";
 import Calendar from "react-calendar";
-import 'react-calendar/dist/Calendar.css';
+import "react-calendar/dist/Calendar.css";
 import CardInputBlock from "components/CardInputBlock";
 import "../assets/styles/cardinputblock.css";
 
@@ -13,11 +13,25 @@ function LeftMenu() {
   const role = JSON.parse(localStorage.getItem("roles"));
 
   return (
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+      
+      <span className="text-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="62"
+          height="62"
+          fill="currentColor"
+          class="bi bi-person-circle"
+          viewBox="0 0 16 16"
+        >
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+          <path
+            fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+          />
+        </svg>
+      </span>
 
-    <nav
-      id="sidebarMenu"
-      class="col-md-3 col-lg-2 d-md-block sidebar collapse left-block"
-    >
       <div class="position-sticky pt-0">
         <ul class="nav flex-column">
           <span className="text-small12">Пользователь:{username}</span>
@@ -28,37 +42,35 @@ function LeftMenu() {
         <ul class="nav flex-column">
           <hr></hr>
           <p className="text-small12">Рабочий стол</p>
-          
+
           <li className="nav-link">
             <a href="#" className="d-flex align-items-center">
-              <i className="bi bi-0-square"></i>
+              <i className="bi bi-clipboard2-pulse"></i>
               <span className="">Рейтинг игроков </span>
             </a>
           </li>
-       
+
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
-              <i className="bi bi-4-square"></i>
+              <i className="bi bi-people-fill"></i>
               <span className="">Список участников</span>
             </a>
           </li>
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
-              <i className="bi bi-4-square"></i>
+              <i className="bi bi-alarm-fill"></i>
               <span className="">Таймер игры</span>
             </a>
           </li>
           <li className="nav-link">
             <a href="#" className=" d-flex align-items-center">
-              <i className="bi bi-4-square"></i>
-              <span className="">Правила проведения</span>
+              <i className="bi bi-blockquote-left"></i>
+              <span className="">Правила розыгрыша</span>
             </a>
           </li>
-  
         </ul>
         <hr></hr>
-        
-        
+
         <ul class="nav flex-column mb-2">
           <p className="text-small12">Разделы сайта</p>
           {navList.map((nav) => (
@@ -67,10 +79,9 @@ function LeftMenu() {
         </ul>
         <hr></hr>
         <ul class="nav flex-column mb-1 text-small12">
-         <Calendar/>
+          <Calendar />
         </ul>
         <hr></hr>
-
       </div>
     </nav>
   );
@@ -89,7 +100,6 @@ function ShowRoom() {
             <CardInputBlock />
             <FromSklad />
             {/* <FromApi /> */}
-          
           </main>
         </div>
       </div>

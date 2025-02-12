@@ -13,18 +13,19 @@
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fafafa;
+  background-color: #2A3F54;
 }
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: #292929;
+  color: #c5c5c5;
   font-size: 14px;
   padding: 5px;
 }
 
 .sidebar ul {
   list-style: none;
+ 
 }
 
 .sidebar>li {
@@ -181,7 +182,7 @@
 .slider {
   width: 35px;
   height: 35px;
-  background-color: #fcfcfc25;
+  background-color: #2A3F54;
   outline: 1px solid rgba(7, 94, 72, 0.616);
   display: flex;
   align-items: center;
@@ -253,7 +254,7 @@
 .presentpage {}
 
 .text-small12 {
-  color: #1b1b1b;
+  color: #e7e7e7;
   font-size: 12px;
 }
 
@@ -293,3 +294,5 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.react-calendar__tile--now {
+  background: #616161b6 !important;}
