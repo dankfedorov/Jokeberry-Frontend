@@ -21,11 +21,11 @@ function NavAvatar() {
         {/* <i class="bi bi-person-circle"></i> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width="24"
+          height="24"
           fill="currentColor"
           class="bi bi-person-circle"
-          viewBox="0 0 16 16"
+          viewBox="0 0 20 20"
         >
           <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
           <path
@@ -55,9 +55,9 @@ function NavAvatar() {
         </li>
 
         <li className="nav-link">
-          <a href="#" className="dropdown-item d-flex align-items-center">
+          <a href="/present" className="dropdown-item d-flex align-items-center">
             <i className="bi bi-person"></i>
-            <span className="">Профиль</span>
+            <span className="">Презентация</span>
           </a>
         </li>
 

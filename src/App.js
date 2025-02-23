@@ -150,10 +150,10 @@ const App = () => {
 
 {/* Ограничение доступа */}
         <Route
-          path="/sklad"
+          path="/dashboard"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
-             <HeaderDash />
+             <Header />
              <Sklad />
              <FooterMenu />
             </ProtectedRoute>

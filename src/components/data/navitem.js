@@ -21,7 +21,7 @@ const navList = [
         _id: 4,
         name: 'Выход',
         icon: 'bi bi-bookmark-check',
-        link: '#'
+        link: '/'
     },
     
 

@@ -18,6 +18,7 @@ function TopLinks() {
           Инструкция
           </a>
         </li> */}
+        
       <li className="toplink__item ">
         <a href="/present" className="toplink-link">
           Презентация
@@ -25,7 +26,7 @@ function TopLinks() {
       </li>
 
       <li className="toplink__item ">
-        <a href="/sklad" className="toplink-link">
+        <a href="/dashboard" className="toplink-link">
           Авторизация
         </a>
       </li>
