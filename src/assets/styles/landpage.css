@@ -72,9 +72,9 @@ ul {
 
 /*hero*/
 .hero {
-  /* background-image: linear-gradient(130deg, rgb(3, 43, 66) 10.9%, rgba(1, 22, 46, 0.459) 65.7%), url(../images/girlpic.png); */
+  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.589) 10.9%, rgba(255, 255, 255, 0.158) 65.7%), url(../images/girlpic.png);
   /* background-color: rgb(18, 62, 63); */
-  background-image: url(../images/girlpic.png);
+  /* background-image: url(../images/girlpic.png); */
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
