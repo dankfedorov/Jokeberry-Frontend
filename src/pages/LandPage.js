@@ -4,13 +4,14 @@ import vs from "../assets/images/VS.png";
 import reactimg from "../assets/images/React.png";
 import node from "../assets/images/Node.png";
 import mongo from "../assets/images/MongoDB.png";
-// import Snow from "components/Snow";
+import Snow from "components/Snow";
 import QrBlock from "components/QrBlock";
 // import EasyDev from "components/EasyDev";
 
 import Typewriter from "typewriter-effect";
 // import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
+
 
 // Color body changed
 // document.body.style.background = "#fff"; // сделать фон красным
@@ -32,7 +33,7 @@ function LandPage() {
   // remove all Обнуляем все
   localStorage.clear();
   console.log("ID has been cleared success.");
-
+<Snow/>
   //
   return (
     <>
