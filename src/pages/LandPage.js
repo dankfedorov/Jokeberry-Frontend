@@ -42,7 +42,7 @@ function LandPage() {
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
               <h1 className="mb-2 p-0">
-                Свой проект<br></br> в интеренете
+                Создай свой проект<br></br> в интеренете
                 {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
@@ -52,10 +52,10 @@ function LandPage() {
               /> */}
               </h1>
 
-              {/* <p className="hero__descr mb-2">
+              <p className="hero__descr mb-2">
                 веб-приложение  с использованием
                 компонентов React.
-              </p> */}
+              </p>
               <p className="hero__descr mb-2">
                 {" "}
                 HTML, CSS, React, Javascript<br></br> Nodejs, MongoDB
@@ -72,7 +72,7 @@ function LandPage() {
 
               <button class="pulse__button">
                 <a class="pulse__link" href="/login">
-                  НАЧНЕМ
+                  ВХОД
                 </a>
               </button>
             </div>

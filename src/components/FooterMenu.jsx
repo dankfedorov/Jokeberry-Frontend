@@ -38,7 +38,7 @@ function FooterMenu() {
           </li>
           <li className="li__block">
             
-            <a href="/sklad">
+            <a href="/dashboard">
             <i class="bi bi-person-bounding-box"></i>
             </a>
             <span>LOGIN</span>
