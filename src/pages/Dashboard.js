@@ -7,6 +7,7 @@ import "react-calendar/dist/Calendar.css";
 import CardInputBlock from "components/CardInputBlock";
 import "../assets/styles/cardinputblock.css";
 import FromApi from "components/FromApi";
+import PaddingSpaceTop from "components/PaddingSpaceTop";
 
 function LeftMenu() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -80,7 +81,8 @@ function ShowRoom() {
 
           {/* Центральный блок */}
           <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
-            <CardInputBlock />
+            <PaddingSpaceTop/>
+    
             {/* <FromSklad /> */}
             <FromApi/>
             {/* <FromApi /> */}
