@@ -24,10 +24,10 @@ import FooterMenu from "components/FooterMenu";
 import HeaderDash from "components/HeaderDash";
 import PresentPage from "pages/PresentPage";
 import ErrorPage from "pages/ErrorPage";
-import Sklad from "pages/Sklad";
+
 
 import EasyDev from "components/EasyDev";
-import Breadcrumbs from '../src/components/Breadcrumbs';
+import Dashboard from "pages/Dashboard";
 
 
 // Компоненты страниц
@@ -84,15 +84,7 @@ const Login = () => {
     </div>
   );
 };
-const Loginpartner = () => {
-  return (
-    <div>
-      <Header />
-      <LoginPartner />
-      <FooterMenu />
-    </div>
-  );
-};
+
 
 const Register = () => {
   return (
@@ -140,7 +132,7 @@ const App = () => {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/login" Component={Login} />
-        <Route path="/loginpartner" Component={Loginpartner} />
+        
         <Route path="/register" Component={Register} />
         <Route path="/video" Component={VideoPage} />
         <Route path="/about" Component={About}/>
@@ -154,7 +146,7 @@ const App = () => {
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
              <Header />
-             <Sklad />
+             <Dashboard/>
              <FooterMenu />
             </ProtectedRoute>
           }

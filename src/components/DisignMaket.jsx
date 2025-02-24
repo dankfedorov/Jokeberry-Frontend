@@ -43,17 +43,7 @@ function DisignMaket() {
         </div>
       </section>
 
-      {/* <section id="disignmaket" className="disign">
-        <div className="container__disign">
-          <h2 className="text-center mb-0">Дизайн макета</h2>
-          <p className="text-center ">дизайн интерфейса сайта</p>
-
-          <div className="row">
-            <div className="col-md-6"></div>
-            <div className="col-md-6"></div>
-          </div>
-        </div>
-      </section> */}
+     
     </>
   );
 }
