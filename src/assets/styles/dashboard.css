@@ -312,3 +312,12 @@
   margin: 0;
   outline: 1px solid gray;
 }
+
+.text-black{
+  color: #2c2c2c;
+  font-size: 12px;
+}
+.text-white{
+  color: #fdfdfd;
+  font-size: 12px;
+}

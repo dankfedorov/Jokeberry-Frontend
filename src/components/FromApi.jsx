@@ -18,24 +18,25 @@ function FromApi() {
   }, []);
 
   return (
+    <div>
     <div className="table-responsive small">
-      <p className="very-small">Список пользователей</p>
+      {/* <p className="text-black">Список пользователей</p> */}
       <table class="table table-striped table-sm ">
         <thead>
           <tr>
-            <th scope="col" ># id</th>
             <th scope="col" >username</th>
-            {/* <th scope="col">hash password</th> */}
-            <th scope="col" >status</th>
+            <th scope="col" ># id</th>
+             <th scope="col" >status</th>
           </tr>
         </thead>
         <tbody>
   
          {items.map((item) => (
           <tr key={item._id}>
-              <td>{item._id}</td>
               <td>{item.username}</td>
-            {/* <td className="very-small">{item.password}</td> */}
+            
+              <td>{item._id}</td>
+              {/* <td className="very-small">{item.password}</td> */}
             <td>{item.roles}</td>
           
           </tr>
@@ -44,12 +45,14 @@ function FromApi() {
         </tbody>
       </table>
     </div>
-    // <div className="small">
-    //   <span>Получаем данные:</span>
-        // {items.map((item) => (
-        //   <p key={item._id}>Имя:{item.username} status:{item.roles}</p>
-        // ))}
-    // </div>
+
+    <div className="">
+      <span className="text-black">Все данные о пользователях получаем из базы данных MonogDB по API.</span>
+      <p className="text-black">BACKEND сервер транслирует данные в формате JSON и расположен по адресу:</p>
+      <a className="text-black" target="_blank" href="https://dankfedorov-server-9b2d.twc1.net/api/users"><b> https://dankfedorov-server-9b2d.twc1.net/api/users</b> </a>
+        
+    </div>
+    </div>
   );
 }
 

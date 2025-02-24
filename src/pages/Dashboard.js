@@ -8,6 +8,7 @@ import CardInputBlock from "components/CardInputBlock";
 import "../assets/styles/cardinputblock.css";
 import FromApi from "components/FromApi";
 import PaddingSpaceTop from "components/PaddingSpaceTop";
+import Footer from "components/Footer";
 
 function LeftMenu() {
   const username = JSON.parse(localStorage.getItem("username"));
@@ -51,6 +52,12 @@ function LeftMenu() {
               <span className="">Пользователи</span>
             </a>
           </li>
+          <li className="nav-link">
+            <a href="#" className="d-flex align-items-center">
+              <i className="bi bi-clipboard2-pulse"></i>
+              <span className="">API Сервера</span>
+            </a>
+          </li>
      
         </ul>
         <hr></hr>
@@ -83,12 +90,13 @@ function ShowRoom() {
           <main className="col-md-9 col-lg-10 ms-sm-auto px-md-4 ">
             <PaddingSpaceTop/>
     
-            {/* <FromSklad /> */}
             <FromApi/>
             {/* <FromApi /> */}
           </main>
         </div>
+        
       </div>
+      
     </div>
   );
 }

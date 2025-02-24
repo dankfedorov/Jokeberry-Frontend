@@ -4,7 +4,7 @@ function PaddingSpaceTop() {
   return (
     <div className="container__cardinputblock">
     <div className="table-responsive small ">
-      <p className="text__black">Данные о пользователях из базы данных MongoDB.</p>
+      <p className="text-black"></p>
     </div>
     </div>
   )
