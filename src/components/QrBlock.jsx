@@ -14,12 +14,12 @@ function QrBlock() {
 
             <div className="col-md-6 ">
               <h2 className="qrblock__block mb-4">QR Переход </h2>
-              <p className=" mb-4">
+              <p className=" mb-4 qrblock__block__description">
                 Использование QR-кодов позволяет упростить доступ к информации,
                 заменяя длинные URL-адреса удобным изображением.{" "}
               </p>
             
-              <p className=" mb-4">
+              <p className=" mb-4 qrblock__block__description">
                 Это отличный способ увеличить трафик на сайте, особенно на
                 мероприятиях, в маркетинговых материалах или на упаковке
                 продуктов.
