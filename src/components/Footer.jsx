@@ -19,8 +19,8 @@ function Footer() {
             </a>
           </div>
           <div className="col-md-4 footer__block ">
-            <p className="footer__descr">© 2024–2025<br></br> aвтор Федоров Даниил. </p>
-            <p className="footer__descr mb-2">
+            <p className="footer__descr so-small">© 2024–2025<br></br> aвтор Федоров Даниил. </p>
+            <p className="footer__descr mb-2 so-small">
               Проект сделан в рамках учебной программы.<br></br>
             </p>
           </div>
@@ -47,7 +47,7 @@ function Footer() {
             </ul>
           </div>
           <div className="col-md-3 footer__block">
-            <p>Связь с нами</p>
+            <p className="so-small">Связь с нами</p>
             <ul class="footer__block right-block">
               <li>
                 <a
