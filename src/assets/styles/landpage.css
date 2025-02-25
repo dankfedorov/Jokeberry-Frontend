@@ -72,13 +72,13 @@ ul {
 
 /*hero*/
 .hero {
-  background-image: linear-gradient(130deg, rgb(255, 255, 255) 10.9%, rgb(255, 255, 255) 65.7%), url(../images/girlpic.png);
-  /* background-color: rgb(18, 62, 63); */
+  /* background-image: linear-gradient(130deg, rgb(255, 255, 255) 10.9%, rgb(255, 255, 255) 65.7%), url(../images/girlpic.png); */
+  /* background-color: rgba(29, 5, 134, 0.76); */
+  background-color: #473C7C;
   background-image: url(../images/girlpic.png);
-  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 14%;
+  padding-top: 18%;
   padding-bottom: 50px;
   /* min-height: 480px; */
   height: 100vh;
@@ -92,7 +92,7 @@ ul {
   max-width: 100%;
   font-weight: 800;
   font-size: clamp(1.75rem, .964rem + 3.93vw, 4.5rem);
-  color: #161616;
+  color: #ffffff;
   margin-bottom: 25px;
 
 }
@@ -101,11 +101,11 @@ ul {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   width: 100%;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
   line-height: 29px;
-  color: #343A40;
+  color: #ffffff;
   margin-bottom: 25px;
 
   /* color: #5c5b5b; */
@@ -169,7 +169,7 @@ ul {
 }
 
 .hero img {
-  max-width: 100px;
+  max-width: 130px;
 }
 
 .container__hero__icons {

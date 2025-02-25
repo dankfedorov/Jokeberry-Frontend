@@ -43,7 +43,6 @@ const Home = () => {
     <div>
       <Header />
       <LandPage />
-      <EasyDev/>
       <Footer />
       <FooterMenu />
     </div>

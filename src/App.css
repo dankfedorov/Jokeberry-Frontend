@@ -47,8 +47,8 @@ img {
 
 body {
   font-family: "Robot", sans-serif;
-  color: rgb(19, 18, 18);
-  background: #f3f3f4;
+  color: rgb(78, 78, 78);
+  background:rgba(235, 235, 235, 0.877);
   font-size: 18px;
 
   /* overflow-x:hidden; */

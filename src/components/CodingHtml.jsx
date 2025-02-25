@@ -15,7 +15,7 @@ function CodingHtml() {
           </div>
 
           <h2 className="text-center mb-0">Кодинг & Верстка </h2>
-          <p className="text-center mb-4">
+          <p className="text-center mb-4">                           
             дизайн интерфейса сайта / HTML + CSS
           </p>
 

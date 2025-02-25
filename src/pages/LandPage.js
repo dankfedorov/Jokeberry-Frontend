@@ -38,7 +38,7 @@ function LandPage() {
   return (
     <>
       {/* <!-- hero section  vh-100 --> */}
-      <section id="hero" className="text-white text-center hero ">
+      <section id="hero" className="text-white hero ">
         <div className="container container__hero p-2">
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
@@ -187,7 +187,7 @@ function LandPage() {
 
       <main>
         
-        <section id="features" className="features text-center">
+        {/* <section id="features" className="features text-center">
           <div className="container container__features ">
             <div className="row">
               <div className="col-md-12">
@@ -204,12 +204,11 @@ function LandPage() {
                     loop: true,
                   }}
                 />
-                {/* <b>Что делать дальше ? </b> Все что Вам нужно это придумать
-              отличный проект для Web */}
+ 
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <AboutProject />
      
