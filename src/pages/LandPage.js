@@ -49,7 +49,7 @@ function LandPage() {
             <div className="col-md-12 ">
             
               <h1 className="mb-2 p-0">
-              Начни свое <br></br>путешествие  в мир кода!
+              БЕСПЛАТНАЯ <br></br> Школа айтишника 
                 {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
@@ -61,8 +61,7 @@ function LandPage() {
       
 
               <p className="hero__descr mb-2">
-                веб-приложение  с использованием
-                компонентов React.
+                большое путешествие в мир кода!
               </p>
               <p className="hero__descr mb-2">
                 {" "}
