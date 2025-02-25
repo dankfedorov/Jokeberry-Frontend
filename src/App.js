@@ -15,7 +15,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LandPage from "pages/LandPage";
 import LoginPage from "pages/LoginPage";
-import LoginPartner from "pages/LoginPartner";
+
 import ProtectedRoute from "./components/ProtectedRoute";
 import RegisterPage from "./pages/RegisterPage";
 import VideoBlog from "../src/pages/VideoBlog";
@@ -24,9 +24,6 @@ import FooterMenu from "components/FooterMenu";
 import HeaderDash from "components/HeaderDash";
 import PresentPage from "pages/PresentPage";
 import ErrorPage from "pages/ErrorPage";
-
-
-import EasyDev from "components/EasyDev";
 import Dashboard from "pages/Dashboard";
 
 
@@ -146,7 +143,7 @@ const App = () => {
             <ProtectedRoute isAuthenticated={isAuthenticated}>
              <Header />
              <Dashboard/>
-             <FooterMenu />
+             {/* <FooterMenu /> */}
             </ProtectedRoute>
           }
         />

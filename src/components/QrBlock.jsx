@@ -1,6 +1,6 @@
 import React from "react";
 import qr from "../assets/images/qr.png";
-import FloatingBackground from "./FloatingBackground";
+
 
 function QrBlock() {
   return (

@@ -7,7 +7,7 @@ import mongo from "../assets/images/MongoDB.png";
 import Snow from "components/Snow";
 import QrBlock from "components/QrBlock";
 // import EasyDev from "components/EasyDev";
-import FloatingBackground from "../components/FloatingBackground.jsx";
+
 
 
 
@@ -49,7 +49,7 @@ function LandPage() {
             <div className="col-md-12 ">
             
               <h1 className="mb-2 p-0">
-                Создай свой проект<br></br> в интеренете
+              Начни свое <br></br>путешествие  в мир кода!
                 {/* <Typewriter
                 options={{
                   strings: ["Создайте свой сайт", "Реализуй свой проект"],
@@ -139,7 +139,7 @@ function LandPage() {
         <div className="row">
           <div className="col-md-12 container">
           <h3 className="container__promo ">
-          <strong className="hero__descr__short green">React, Vue и Angular</strong> <br></br>это три популярные библиотеки и
+          <strong className="hero__descr__short green">React, Vue и Angular</strong>это три популярные библиотеки и
                   фреймворки для разработки веб-приложений.
                 </h3>
             <ul className="row container ">

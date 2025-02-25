@@ -12,27 +12,31 @@ function TopLinks() {
           Главная
         </a>
       </li>
-
-      {/* <li className="toplink__item ">
-          <a href="#" className="toplink-link">
-          Инструкция
-          </a>
-        </li> */}
         
       <li className="toplink__item ">
         <a href="/present" className="toplink-link">
-          Презентация
+          О Проекте
         </a>
       </li>
 
       <li className="toplink__item ">
-        <a href="/dashboard" className="toplink-link">
-          Авторизация
+        <a href="#" className="toplink-link">
+        Проекты и идеи
+        </a>
+      </li>
+      <li className="toplink__item ">
+        <a href="#" className="toplink-link">
+        Новости
+        </a>
+      </li>
+      <li className="toplink__item ">
+        <a href="#" className="toplink-link">
+        Контакты
         </a>
       </li>
 
-      {/* target="_blank" */}
-    </ul>
+
+     </ul>
   );
 }
 
