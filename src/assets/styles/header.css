@@ -2,15 +2,17 @@
 .header {
   position: fixed;
   /* padding: 3rem 0; */
-  background-color: #f5f5f5;
+  background-color:#dbdbdb;
+  color: rgb(37, 37, 37);
   padding-top: 10px;
   gap: 3px;
   transition: all 0.5s;
   height: 60px;
   box-shadow: 0px 2px 20px rgba(33, 1, 73, 0.1);
-
   z-index: 999;
   min-width: 100%;
+ 
+  
 }
 
 /* Toogle Sidebar button */
