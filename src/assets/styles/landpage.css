@@ -376,24 +376,20 @@ justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* padding-top: 20%; */
-    /* padding-left: 10px;
-    padding-right: 10px; */
-    /* padding-bottom: 5px; */
+
   }
 
   .hero h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 32px;
-    /* padding-top: 18%; */
    
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 15px;
     text-transform: uppercase;
-    color: #302f2f
+    color: #dbdbdb
   }
 
   .hero__descr {
@@ -402,7 +398,7 @@ justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 14px;
     font-size: 20px;
-    color: #343A40;
+    color: #dddddd;
     margin-bottom: 25px;
     background-color: #00000023;
 
