@@ -360,7 +360,7 @@ justify-content: center;
 
 @media (max-width: 480px) {
   .hero{
-    padding-top: 140px;
+    padding-top: 100px;
     margin-bottom: 0px;
   }
   .nav-item img {
@@ -383,7 +383,7 @@ justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 32px;
    
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 0em;
     text-align: center;
