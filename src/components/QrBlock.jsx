@@ -1,5 +1,6 @@
 import React from "react";
 import qr from "../assets/images/qr.png";
+import FloatingBackground from "./FloatingBackground";
 
 function QrBlock() {
   return (
@@ -10,6 +11,7 @@ function QrBlock() {
           <div className="row p-2">
             <div className="col-md-6 text-center mb-4">
               <img src={qr} alt="deploy link" />
+           
             </div>
 
             <div className="col-md-6 ">
@@ -34,7 +36,9 @@ function QrBlock() {
               <i class="bi bi-play-fill p-1"></i>Live Preview
             </button>
           </a>
+          
         </div>
+       
 
       </section>
     </div>

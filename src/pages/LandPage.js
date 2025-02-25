@@ -7,8 +7,11 @@ import mongo from "../assets/images/MongoDB.png";
 import Snow from "components/Snow";
 import QrBlock from "components/QrBlock";
 // import EasyDev from "components/EasyDev";
+import FloatingBackground from "../components/FloatingBackground.jsx";
 
-import Typewriter from "typewriter-effect";
+
+
+// import Typewriter from "typewriter-effect";
 // import TelegramLink from "components/TelegramLink";
 import AboutProject from "components/About";
 
@@ -34,14 +37,17 @@ function LandPage() {
   localStorage.clear();
   console.log("ID has been cleared success.");
 <Snow/>
+
   //
   return (
     <>
       {/* <!-- hero section  vh-100 --> */}
       <section id="hero" className="text-white hero ">
+       
         <div className="container container__hero p-2">
           <div className="row d-flex align-items-center justify-content-between ">
             <div className="col-md-12 ">
+            
               <h1 className="mb-2 p-0">
                 Создай свой проект<br></br> в интеренете
                 {/* <Typewriter
@@ -52,6 +58,7 @@ function LandPage() {
                 }}
               /> */}
               </h1>
+      
 
               <p className="hero__descr mb-2">
                 веб-приложение  с использованием
@@ -62,8 +69,9 @@ function LandPage() {
                 HTML, CSS, React, Javascript<br></br> Nodejs, MongoDB
               </p>
             </div>
+           
           </div>
-
+ 
           {/* <div className="pulse__block">
             <div className="pulse">
               <span></span>
@@ -123,8 +131,7 @@ function LandPage() {
           </div>
         </div>
         {/* <TelegramLink /> */}
-
-        
+            
       </section>
       
 
@@ -211,6 +218,7 @@ function LandPage() {
         </section> */}
 
         <AboutProject />
+       
      
         <QrBlock />
       </main>

@@ -1,0 +1,14 @@
+.floating-background {
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../images/coding-man.jpg'); /* Замените на ваш фон */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-position 0.3s ease-out; /* Плавное движение фона */
+  }
