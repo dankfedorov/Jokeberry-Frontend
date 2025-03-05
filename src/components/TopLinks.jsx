@@ -4,41 +4,136 @@ import React from "react";
 
 function TopLinks() {
   return (
+    <>
+    <ul className="">
+   
+    <li className="nav-link" >
+    <a href="/" className="nav-link" >Главная</a>
+    </li>
 
-    
-      <ul className="d-felx toplink__group ms-auto">
-        <li className="toplink__item ">
+    </ul>
+
+    <span className="nav-item dropdown menu">
+    <a
+      href="/dashboard"
+      className="nav-link nav-profile d-flex align-items-center  pe-0 "
+      data-bs-toggle="dropdown"
+    > Frontend
+    {/* <i class="bi bi-caret-down"></i> */}
+    </a>
+
+      <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow ">
+        <li className="nav-link" >
           <a href="/" className="toplink-link dropdown">
-            Главная
+            Ахитектура проекта
           </a>
-          {/*  */}
-          
-          {/*  */}
         </li>
 
-        <li className="toplink__item ">
+        <li className="nav-link ">
           <a href="/present" className="toplink-link">
-            О Проекте
+           Дизайн макета
           </a>
         </li>
 
-        <li className="toplink__item ">
+        <li className="nav-link ">
           <a href="#" className="toplink-link">
-            Проекты и идеи
+           Кодинг HTML CSS 
           </a>
         </li>
-        <li className="toplink__item ">
+        <li className="nav-link ">
           <a href="#" className="toplink-link">
-            Новости
+            Интеграция с React
           </a>
         </li>
-        <li className="toplink__item ">
+        <li className="nav-link">
           <a href="#" className="toplink-link">
-            Контакты
+            Работа с Хостингом
           </a>
         </li>
       </ul>
-   
+    </span>
+
+    <span className="nav-item dropdown menu">
+    <a
+      href="#"
+      className="nav-link nav-profile d-flex align-items-center  pe-0 "
+      data-bs-toggle="dropdown"
+    > Backend
+    {/* <i class="bi bi-caret-down"></i> */}
+    </a>
+
+      <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow ">
+        <li className="nav-link " >
+          <a href="/" className="toplink-link dropdown">
+            Работа с Node.js
+          </a>
+        </li>
+
+        <li className="nav-link ">
+          <a href="/present" className="toplink-link">
+           Подключение Express
+          </a>
+        </li>
+
+        <li className="nav-link ">
+          <a href="#" className="toplink-link">
+           JSON Авторизация
+          </a>
+        </li>
+        <li className="nav-link ">
+          <a href="#" className="toplink-link ">
+            Подключение MongoDB
+          </a>
+        </li>
+        <li className="nav-link ">
+          <a href="#" className="toplink-link">
+           Настройка хостинга
+          </a>
+        </li>
+      </ul>
+    </span>
+    
+    <span className="nav-item dropdown menu">
+    <a
+      href="#"
+      className="nav-link nav-profile d-flex align-items-center  pe-0 "
+      data-bs-toggle="dropdown"
+    > Хостинг
+    {/* <i class="bi bi-caret-down"></i> */}
+    </a>
+
+      <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow ">
+        <li className="nav-link " >
+          <a href="/" className="toplink-link dropdown">
+            Работа с Node.js
+          </a>
+        </li>
+
+        <li className="nav-link ">
+          <a href="/present" className="toplink-link">
+           Подключение Express
+          </a>
+        </li>
+
+        <li className="nav-link ">
+          <a href="#" className="toplink-link">
+           JSON Авторизация
+          </a>
+        </li>
+        <li className="nav-link ">
+          <a href="#" className="toplink-link ">
+            Подключение MongoDB
+          </a>
+        </li>
+        <li className="nav-link ">
+          <a href="#" className="toplink-link">
+           Настройка хостинга
+          </a>
+        </li>
+      </ul>
+    </span>
+      
+      </>
   );
 }
 
