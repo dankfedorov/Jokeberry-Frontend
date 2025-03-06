@@ -61,21 +61,20 @@
 }
 
 /* toplinks__group */
-.toplink {
-  margin: auto;
-}
+
 .toplink__group {
   display: flex;
   flex-direction: row;
   gap: 20px;
   font-weight: 600;
   text-transform: uppercase;
+  margin: auto;
 }
 .toplink-link {
   font-size: 12px;
 }
 
-@media (max-width: 481px) {
+@media (max-width: 768px) {
   .toplink__group {
     display: none;
   }

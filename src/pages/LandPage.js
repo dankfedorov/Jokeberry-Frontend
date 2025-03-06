@@ -134,7 +134,7 @@ function LandPage() {
       </section>
       
 
-      <section className="promo">
+      {/* <section className="promo">
         <div className="row">
           <div className="col-md-12 container">
           <h3 className="container__promo ">
@@ -189,7 +189,7 @@ function LandPage() {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <main>
         
